@@ -18,3 +18,8 @@ Let's create a new plant app! Should we track the plants we have? Track when the
 8. Submit a pull request to the ServiceNowNextExperience/hacktoberfest22-recipes
  `main` branch
 
+## Contribution ideas
+- Automate task creation for watering, fertilizing, etc
+- Create an experience to be able to manage your plants
+- Bring in plant data from other sources
+- Create a way to track plant progress over time
