@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="due_date" label="Due date" language="en" table="x_snc_plants_db_tasks">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <help/>
+            <hint/>
+            <label>Due date</label>
+            <language>en</language>
+            <name>x_snc_plants_db_tasks</name>
+            <plural>Due dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>paige</sys_created_by>
+            <sys_created_on>2022-10-03 15:37:02</sys_created_on>
+            <sys_id>b6a7e3f58792d510ab680f65dabb352a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Due date</sys_name>
+            <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_plants_db_tasks_due_date_en</sys_update_name>
+            <sys_updated_by>paige</sys_updated_by>
+            <sys_updated_on>2022-10-03 15:37:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
