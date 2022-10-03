@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource">
+    <sys_ux_composite_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <encoded_query_script/>
+        <name>My requests - task dataset</name>
+        <sort_by>number</sort_by>
+        <sys_class_name>sys_ux_composite_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>fdf3acc62292dd1040fa474ce0432841</sys_id>
+        <sys_name>My requests - task dataset</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_fdf3acc62292dd1040fa474ce0432841</sys_update_name>
+        <table>task</table>
+    </sys_ux_composite_datasource>
+</record_update>

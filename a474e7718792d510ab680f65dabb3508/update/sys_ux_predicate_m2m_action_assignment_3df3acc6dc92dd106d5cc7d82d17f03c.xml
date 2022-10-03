@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="reject">fdf3acc6f392dd10b658026882c74e4c</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">39f3acc6ed92dd10b9923789074d8e3f</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:32</sys_created_on>
+        <sys_id>3df3acc6dc92dd106d5cc7d82d17f03c</sys_id>
+        <sys_name/>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_3df3acc6dc92dd106d5cc7d82d17f03c</sys_update_name>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

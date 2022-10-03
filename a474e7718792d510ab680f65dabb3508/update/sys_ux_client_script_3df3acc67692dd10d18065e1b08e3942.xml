@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search Page">79f3acc66192dd104620574b872a4c44</macroponent>
+        <name>Search result clicked</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    const ACTION_NAME = event.payload.action.actionDispatch;
+    var route = 'landing';
+    if (ACTION_NAME == 'NAVIGATION_CATALOG_KB_ARTICLE' || ACTION_NAME == 'GENIUS_NAVIGATION_CATALOG_KB_ARTICLE') {
+        route = "article";
+        const fields = {
+            "sysId": event.payload.action.actionPayload.sysId
+        };
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields
+        });
+    } else if (ACTION_NAME == 'NAVIGATION' && event.payload.action.actionPayload.url !== "") {
+        api.emit('NAV_ITEM_SELECTED', {
+            external: {
+                "url": event.payload.action.actionPayload.url
+            }
+        });
+    } else if (ACTION_NAME == 'NAVIGATION') {
+        var table = event.payload.action.actionPayload.table;
+        if (table == "kb_knowledge") {
+            route = "article";
+        } else if (table == "sc_cat_item" && event.payload.action.actionPayload.url == "") {
+            route = "catalog";
+        }
+        const fields = {
+            "sysId": event.payload.action.actionPayload.sysId
+        };
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields
+        });
+    } else if (ACTION_NAME == 'GENIUS_NAVIGATION_CATALOG_EXTERNAL') {
+        api.emit('NAV_ITEM_SELECTED', {
+            external: {
+                "url": event.payload.action.actionPayload.url
+            }
+        });
+    } else return;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>3df3acc67692dd10d18065e1b08e3942</sys_id>
+        <sys_name>Search result clicked</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_client_script_3df3acc67692dd10d18065e1b08e3942</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

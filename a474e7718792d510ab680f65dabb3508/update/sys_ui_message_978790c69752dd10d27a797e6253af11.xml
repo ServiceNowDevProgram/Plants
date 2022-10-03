@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code/>
+        <commented_message/>
+        <key>Deleting the '{0}' table will also delete all of its associated forms and may affect other applications in unforeseen ways. This action can’t be undone.</key>
+        <language>en</language>
+        <message>Deleting the '{0}' table will also delete all of its associated forms and may affect other applications in unforeseen ways. This action can’t be undone.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2022-10-03 19:06:15</sys_created_on>
+        <sys_id>978790c69752dd10d27a797e6253af11</sys_id>
+        <sys_name>Deleting the '{0}' table will also delete all of its associated forms and may affect other applications in unforeseen ways. This action can’t be undone.</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ui_message_978790c69752dd10d27a797e6253af11</sys_update_name>
+    </sys_ui_message>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="bdf3acc6bb92dd10878e9ad7dc0ae348" sys_domain="global" table="sys_user" version="3" view="custom_portal_settings_x_snc_plants_db">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+            <sys_id>f1f3acc6f592dd10ace6d1b824296449</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="71f3acc65c92dd1034cad82944e14849">bdf3acc6bb92dd10878e9ad7dc0ae348</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-10-03 20:00:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+            <sys_id>3df3acc6e592dd1079f54896a17fbd48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="71f3acc65c92dd1034cad82944e14849">bdf3acc6bb92dd10878e9ad7dc0ae348</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-10-03 20:00:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preferred_language</element>
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+            <sys_id>fdf3acc68292dd10646cdf8e4744df48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="71f3acc65c92dd1034cad82944e14849">bdf3acc6bb92dd10878e9ad7dc0ae348</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2022-10-03 20:00:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdf3acc6bb92dd10878e9ad7dc0ae348</sys_id>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_update_name>sys_ui_section_bdf3acc6bb92dd10878e9ad7dc0ae348</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal settings (x_snc_plants_db)" name="custom_portal_settings_x_snc_plants_db">71f3acc65c92dd1034cad82944e14849</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

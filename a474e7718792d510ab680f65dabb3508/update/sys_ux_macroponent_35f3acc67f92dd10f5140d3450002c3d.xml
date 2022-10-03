@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "activity_stream_compose_1",
+  "elementLabel" : "Activity Stream Compose 1",
+  "propertyValues" : {
+    "title" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Compose",
+        "comment" : ""
+      }
+    },
+    "table" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "table" ],
+        "category" : "props"
+      }
+    },
+    "sysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "isNewRecord" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "fields" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "comments" : {
+          "name" : "comments",
+          "label" : "Additional comments (Customer Visible)",
+          "sys_readonly" : false,
+          "readonly" : false,
+          "visible" : true,
+          "type" : "journal_input",
+          "maxLength" : 1000
+        }
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Row 1",
+  "definition" : {
+    "id" : "77cb9632116e67049295c7c35d6a6147",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "activity_stream_1",
+  "elementLabel" : "Activity Stream 1",
+  "propertyValues" : {
+    "title" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Activity",
+        "comment" : ""
+      }
+    },
+    "table" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "table" ],
+        "category" : "props"
+      }
+    },
+    "sysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "isNewRecord" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "showConversationFilter" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "showTileAvatars" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "showTileIcons" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "view" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "events" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "supplemental" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "ambChannels" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "userReferences" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "filterOptions" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "timestamp" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Row 1",
+  "definition" : {
+    "id" : "821dfc11da1d0fb007579ccb53738fd5",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "margin-top" : "1.5rem"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events/>
+        <events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"display":"flex","flex-direction":"column","margin-top":"1.5rem"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"2fr","grid-template-columns":"100%","grid-template-areas":"\"row1\"","height":"100%"},
+    "styles" : null,
+    "templateId" : "1afa9dc153c31010e6bcddeeff7b1280",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Activity</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "table",
+  "label" : "table",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+} ]</props>
+        <required_translations>[{"message":"Compose","comment":""},{"message":"Activity","comment":""},{"message":"Additional comments (Customer Visible)","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+        <sys_id>35f3acc67f92dd10f5140d3450002c3d</sys_id>
+        <sys_name>Activity</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_macroponent_35f3acc67f92dd10f5140d3450002c3d</sys_update_name>
+    </sys_ux_macroponent>
+</record_update>

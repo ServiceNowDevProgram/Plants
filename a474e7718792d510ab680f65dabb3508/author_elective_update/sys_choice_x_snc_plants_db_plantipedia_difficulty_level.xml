@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="difficulty_level" table="x_snc_plants_db_plantipedia" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>difficulty_level</element>
+            <name>x_snc_plants_db_plantipedia</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:52:40</sys_created_on>
+            <sys_name>difficulty_level</sys_name>
+            <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_update_name>sys_choice_x_snc_plants_db_plantipedia_difficulty_level</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>difficulty_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Beginner</label>
+            <language>en</language>
+            <name>x_snc_plants_db_plantipedia</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>beginner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>difficulty_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Advanced</label>
+            <language>en</language>
+            <name>x_snc_plants_db_plantipedia</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>advanced</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>difficulty_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expert</label>
+            <language>en</language>
+            <name>x_snc_plants_db_plantipedia</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>expert</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_composite">
+    <sys_ux_data_broker_composite action="INSERT_OR_UPDATE">
+        <api_name>x_snc_plants_db.EVAM data API with catalogId parameter binding</api_name>
+        <data_drivers>{&#13;
+  "compositeQueryMeta": {&#13;
+    "definition" : {&#13;
+      "id" : "83b97b30773300108d070d74c81061f7",&#13;
+      "type" : "GRAPHQL"&#13;
+    },&#13;
+    "elementId" : "compositeQueryMeta",&#13;
+    "inputValues" : {&#13;
+      "evamDefinitionId" : {&#13;
+        "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "evamDefinitionId"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Metadata defining the EVAM Definition"&#13;
+  },&#13;
+  "compositeMetaWithCatalogParameterBinding": {&#13;
+    "definition" : {&#13;
+        "id" : "b5f3acc6c192dd1094f8d53b35b3054b",&#13;
+        "type" : "TRANSFORM"&#13;
+      },&#13;
+      "elementId" : "compositeMetaWithCatalogParameterBinding",&#13;
+      "inputValues" : {&#13;
+        "graphqlData" : {&#13;
+          "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "compositeQueryMeta",&#13;
+              "output"&#13;
+            ]&#13;
+          }&#13;
+        },&#13;
+        "catalogSysId": {&#13;
+            "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+            "binding": {&#13;
+              "address": [&#13;
+                "catalogSysId"&#13;
+              ]&#13;
+            }&#13;
+        }&#13;
+      },&#13;
+      "elementLabel" : "Composite Data as View objects"      &#13;
+  },&#13;
+  "compositeDataEntities": {&#13;
+    "definition" : {&#13;
+      "id" : "eaafa603773300108d070d74c81061b6",&#13;
+      "type" : "GRAPHQL"&#13;
+    },&#13;
+    "elementId" : "compositeDataEntities",&#13;
+    "inputValues" : {&#13;
+      "evamMetadata" : {&#13;
+        "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "compositeMetaWithCatalogParameterBinding",&#13;
+            "output"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+      "pageNumber" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "pageNumber"&#13;
+            ]&#13;
+          }&#13;
+      },&#13;
+      "pageSize" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "pageSize"&#13;
+            ]&#13;
+          }&#13;
+      },&#13;
+      "pageCursor" : {&#13;
+          "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+          "binding": {&#13;
+            "address": [&#13;
+              "pageCursor"&#13;
+            ]&#13;
+          }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Collated records from EVAM Definition"&#13;
+  },&#13;
+  "compositeDataViews": {&#13;
+    "definition" : {&#13;
+      "id" : "7b652701773300108d070d74c81061b8",&#13;
+      "type" : "TRANSFORM"&#13;
+    },&#13;
+    "elementId" : "compositeDataViews",&#13;
+    "inputValues" : {&#13;
+      "graphqlData" : {&#13;
+        "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "compositeDataEntities",&#13;
+            "output"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "elementLabel" : "Composite Data as View objects"&#13;
+  }&#13;
+}</data_drivers>
+        <description>This databroker is similar to "EVAM Data Resource" with an additional capability of dynamic catalogId parmeter binding support. This is a temporary workaround for Quebec (only for related catalog items usecase) and eventually will go away when EVAM supports more generic dynamic paramters binding (to support all usecases) in future release.</description>
+        <name>EVAM data API with catalogId parameter binding</name>
+        <operations/>
+        <output_properties>[&#13;
+ {&#13;
+    "name": "compositeDataViews",&#13;
+    "label": "Composite Data",&#13;
+    "description": "Stream of data objects from composite sources",&#13;
+    "origin": {&#13;
+       "type": "data",&#13;
+       "id": "compositeDataViews"&#13;
+    }&#13;
+  }&#13;
+]</output_properties>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+  "name": "evamDefinitionId",&#13;
+  "label": "EVAM Definition",&#13;
+  "description": "EVAM definition",&#13;
+"readOnly": false,&#13;
+"fieldType": "reference",&#13;
+  "mandatory": true,&#13;
+  "typeMetadata": {&#13;
+      "reference": "sys_ux_composite_data"&#13;
+    }&#13;
+},&#13;
+{&#13;
+    "name": "catalogSysId",&#13;
+    "label": "Catalog Sys Id",&#13;
+    "description": "Pass the sys_id of catalog to pull related catalogs for",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true,&#13;
+    "defaultValue": ""&#13;
+},&#13;
+{&#13;
+  "name": "pageCursor",&#13;
+  "label": "Page Cursor",&#13;
+  "description": "Page cursor for EVAM pagination",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+},&#13;
+{&#13;
+  "name": "pageSize",&#13;
+  "label": "Page Size",&#13;
+  "description": "Page size for EVAM pagination",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": "20"&#13;
+},&#13;
+{&#13;
+  "name": "pageNumber",&#13;
+  "label": "Page Number",&#13;
+  "description": "Page number for EVAM pagination",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": "0"&#13;
+}&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_composite</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+        <sys_id>b1f3acc61492dd103cf3186bec27cf3f</sys_id>
+        <sys_name>EVAM data API with catalogId parameter binding</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_composite_b1f3acc61492dd103cf3186bec27cf3f</sys_update_name>
+    </sys_ux_data_broker_composite>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9c28140a9752dd10d27a797e6253af52" label="Plantipedia" max_length="40" name="x_snc_plants_db_plantipedia" type="collection">
+        <element label="Characteristics" max_length="40" name="characteristics" type="html"/>
+        <element choice="1" label="Difficulty level" max_length="40" name="difficulty_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Beginner" sequence="0" value="beginner"/>
+                <element inactive_on_update="false" label="Advanced" sequence="1" value="advanced"/>
+                <element inactive_on_update="false" label="Expert" sequence="2" value="expert"/>
+            </choice>
+        </element>
+        <element label="Environment" max_length="40" name="environment" type="html"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Light requirements" max_length="40" name="light_requirements" type="html"/>
+        <element display="true" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Other" max_length="40" name="other" type="html"/>
+        <element label="Pet safe?" max_length="40" name="pet_safe" type="html"/>
+        <element label="Growth rate" max_length="40" name="potting" type="html"/>
+        <element label="Potting mix" max_length="40" name="potting_mix" type="html"/>
+        <element label="Propagation" max_length="40" name="propagation" type="html"/>
+        <element label="Water" max_length="40" name="water" type="html"/>
+    </element>
+</database>

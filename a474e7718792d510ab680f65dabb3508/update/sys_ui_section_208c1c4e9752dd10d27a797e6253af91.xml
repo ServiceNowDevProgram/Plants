@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Information" section_id="208c1c4e9752dd10d27a797e6253af91" sys_domain="global" table="x_snc_plants_db_plantipedia" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>characteristics</element>
+            <position>0</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:47:08</sys_created_on>
+            <sys_id>d2e0a8c29792dd10d27a797e6253afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:47:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>light_requirements</element>
+            <position>1</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:47:08</sys_created_on>
+            <sys_id>d6e0a8c29792dd10d27a797e6253afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:47:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>water</element>
+            <position>2</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:47:08</sys_created_on>
+            <sys_id>dae0a8c29792dd10d27a797e6253afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:47:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>environment</element>
+            <position>3</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:47:08</sys_created_on>
+            <sys_id>dee0a8c29792dd10d27a797e6253afbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:47:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>potting_mix</element>
+            <position>4</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:47:08</sys_created_on>
+            <sys_id>d2e0a8c29792dd10d27a797e6253afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:47:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>propagation</element>
+            <position>5</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:47:08</sys_created_on>
+            <sys_id>d6e0a8c29792dd10d27a797e6253afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:47:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>potting</element>
+            <position>6</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:47:08</sys_created_on>
+            <sys_id>dae0a8c29792dd10d27a797e6253afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:47:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pet_safe</element>
+            <position>7</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:47:08</sys_created_on>
+            <sys_id>dee0a8c29792dd10d27a797e6253afbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:47:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other</element>
+            <position>8</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:47:08</sys_created_on>
+            <sys_id>d2e0a8c29792dd10d27a797e6253afc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:47:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Information</caption>
+            <header>false</header>
+            <name>x_snc_plants_db_plantipedia</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:27:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>208c1c4e9752dd10d27a797e6253af91</sys_id>
+            <sys_name>x_snc_plants_db_plantipedia</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_update_name>sys_ui_section_208c1c4e9752dd10d27a797e6253af91</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

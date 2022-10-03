@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>GLIDE_FORM_1_SET_MANDATORY_RELAY_31f3acc62092dd101bd04d94c4100b3f</event_name>
+        <interfaces/>
+        <label>Glide Form 1 SET_MANDATORY Relay (Tasks Default)</label>
+        <props>[{"name":"fieldName","fieldType":"string","label":"Field Name"},{"name":"mandatory","fieldType":"boolean","label":"Mandatory"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>f5f3acc6aa92dd10005cfd193f0daf3e</sys_id>
+        <sys_name>Glide Form 1 SET_MANDATORY Relay (Tasks Default)</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_event_f5f3acc6aa92dd10005cfd193f0daf3e</sys_update_name>
+    </sys_ux_event>
+</record_update>

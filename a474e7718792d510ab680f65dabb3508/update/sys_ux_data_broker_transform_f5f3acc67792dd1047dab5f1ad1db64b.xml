@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_plants_db.StringUtils</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>StringUtils</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+  "name": "string",&#13;
+  "label": "String",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": true,&#13;
+  "defaultValue": ""&#13;
+},{&#13;
+  "name": "prepend",&#13;
+  "label": "Prepend",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+},{&#13;
+  "name": "append",&#13;
+  "label": "Append",&#13;
+  "description": "",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+}&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var prepend = input.prepend || '';
+    var append = input.append || '';
+	var string = input.string || '...';
+	
+    return prepend + string + append;
+}
+]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:32</sys_created_on>
+        <sys_id>f5f3acc67792dd1047dab5f1ad1db64b</sys_id>
+        <sys_name>StringUtils</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_f5f3acc67792dd1047dab5f1ad1db64b</sys_update_name>
+    </sys_ux_data_broker_transform>
+</record_update>

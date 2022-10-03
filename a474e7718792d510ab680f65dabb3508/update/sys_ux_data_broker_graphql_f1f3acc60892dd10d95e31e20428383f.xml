@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_graphql">
+    <sys_ux_data_broker_graphql action="INSERT_OR_UPDATE">
+        <api_name>x_snc_plants_db.Fetch catalog item variables</api_name>
+        <description>Used to fetch the 'variables' of a particular catalog item</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Fetch catalog item variables</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+  "name": "sysId",&#13;
+  "label": "Cat Item id",&#13;
+  "description": "Get variables for catalog item",&#13;
+  "readOnly": false,&#13;
+  "fieldType": "string",&#13;
+  "mandatory": false,&#13;
+  "defaultValue": ""&#13;
+}&#13;
+]</props>
+        <query>query($sysId: String) {&#13;
+  GlideRecord_Query {&#13;
+    sc_req_item(queryConditions: $sysId) {&#13;
+      _results {&#13;
+        sys_id {&#13;
+          value&#13;
+        }&#13;
+        variables {&#13;
+          variables {&#13;
+            variableLabel&#13;
+            variableDisplayValue&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+  }&#13;
+}</query>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[(function buildQuery(query, inputs) { 
+         var qb = new GraphQLQueryBuilder(query, inputs);
+   // return appropriate query here
+    return qb; 
+   })(query, inputs);]]></script>
+        <sys_class_name>sys_ux_data_broker_graphql</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+        <sys_id>f1f3acc60892dd10d95e31e20428383f</sys_id>
+        <sys_name>Fetch catalog item variables</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_graphql_f1f3acc60892dd10d95e31e20428383f</sys_update_name>
+        <type>query</type>
+        <use_record_domain>false</use_record_domain>
+    </sys_ux_data_broker_graphql>
+</record_update>

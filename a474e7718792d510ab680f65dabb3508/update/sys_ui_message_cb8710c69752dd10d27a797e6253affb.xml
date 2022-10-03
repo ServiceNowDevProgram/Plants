@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code/>
+        <commented_message/>
+        <key>You can select one of the fields on a related table (known as “related fields”) by dot-walking from a reference field. Dot-walking involves going from a reference field to the referenced table for that field. Then, you can select a field from either the r</key>
+        <language>en</language>
+        <message>You can select one of the fields on a related table (known as “related fields”) by dot-walking from a reference field. Dot-walking involves going from a reference field to the referenced table for that field. Then, you can select a field from either the referenced table or a related table.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2022-10-03 19:06:14</sys_created_on>
+        <sys_id>cb8710c69752dd10d27a797e6253affb</sys_id>
+        <sys_name>You can select one of the fields on a related table (known as “related fields”) by dot-walking from a reference field. Dot-walking involves going from a reference field to the referenced table for that field. Then, you can select a field from either the r</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ui_message_cb8710c69752dd10d27a797e6253affb</sys_update_name>
+    </sys_ui_message>
+</record_update>

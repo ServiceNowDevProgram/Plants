@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">f9f3acc6bf92dd102786e4cc24bea948</macroponent>
+        <name>My Tasks - Set sysID inside modal</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+        api.setState("cardID",event.payload.sysId);
+    } 
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>39f3acc63192dd10b14b33b964cd3b44</sys_id>
+        <sys_name>My Tasks - Set sysID inside modal</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_client_script_39f3acc63192dd10b14b33b964cd3b44</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

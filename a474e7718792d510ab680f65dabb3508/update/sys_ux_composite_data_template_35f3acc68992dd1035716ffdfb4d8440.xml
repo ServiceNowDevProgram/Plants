@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Custom Portal Landing - Popular Articles</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>35f3acc68992dd1035716ffdfb4d8440</sys_id>
+        <sys_name>Custom Portal Landing - Popular Articles</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_35f3acc68992dd1035716ffdfb4d8440</sys_update_name>
+        <template>{&#13;
+	"component": "now-card-evam-record",&#13;
+	"staticValues": {&#13;
+        "showLabelIcon": {&#13;
+			"translatable": false,&#13;
+			"key": "true"&#13;
+		},&#13;
+		"labelIcon": {&#13;
+			"translatable": false,&#13;
+			"key": "building-outline"&#13;
+		},&#13;
+		"labelBkgColor": {&#13;
+			"translatable": false,&#13;
+			"key": "warning"&#13;
+		},&#13;
+		"mainContentSubtitleDisplayIconName": {&#13;
+			"translatable": false,&#13;
+			"key": "calendar-fill"&#13;
+		},&#13;
+		"mainContentDisplayType": {&#13;
+			"translatable": false,&#13;
+			"key": "text"&#13;
+		},&#13;
+		"mainContentSubtitleDisplayType": {&#13;
+			"translatable": false,&#13;
+			"key": "text"&#13;
+		},&#13;
+		"keyOne": {&#13;
+			"translatable": false,&#13;
+			"key": "Updated"&#13;
+		},&#13;
+		"displayIconNameOne": {&#13;
+			"translatable": false,&#13;
+			"key": "calendar-fill"&#13;
+		},&#13;
+		"keyTwo": {&#13;
+			"translatable": false,&#13;
+			"key": "Views"&#13;
+		},&#13;
+		"keyThree": {&#13;
+			"translatable": false,&#13;
+			"key": ""&#13;
+		}&#13;
+	},&#13;
+	"mappings": {&#13;
+		"labelText": "topic",&#13;
+		"cardType": "sys_view_count",&#13;
+		"mainContentTitle": "short_description",&#13;
+		"mainContentDisplayImageURL": "picture",&#13;
+		"mainContentSubtitle": "",&#13;
+		"mainContentSubtitleDisplayImageURL": "",&#13;
+		"valueOne": "sys_updated_on",&#13;
+		"valueTwo": "",&#13;
+		"valueThree": "rating"&#13;
+	}&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>
