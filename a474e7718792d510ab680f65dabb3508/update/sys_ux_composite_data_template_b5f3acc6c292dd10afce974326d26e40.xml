@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Item produced template</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>b5f3acc6c292dd10afce974326d26e40</sys_id>
+        <sys_name>Item produced template</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_b5f3acc6c292dd10afce974326d26e40</sys_update_name>
+        <template>{&#13;
+	"component": "now-card-evam-record",&#13;
+	"staticValues": {&#13;
+		"highlightedHeaderIcon": {&#13;
+            "translatable": false,&#13;
+            "key": "clock-outline"&#13;
+        },&#13;
+        "highlightedHeaderBkgColor": {&#13;
+            "translatable": false,&#13;
+            "key": "positive"&#13;
+        },&#13;
+        "detailLabelOne": {&#13;
+            "translatable": true,&#13;
+            "key": "State"&#13;
+        },&#13;
+        "detailLabelTwo": {&#13;
+            "translatable": true,&#13;
+            "key": "Number"&#13;
+        }&#13;
+	},&#13;
+	"mappings": {&#13;
+		"highlightedHeaderLabel": "due_date",&#13;
+        "titleLabel": "short_description",&#13;
+        "detailValueOne": "state",&#13;
+        "detailValueTwo": "number" &#13;
+	},&#13;
+	"actionMappings": {&#13;
+		"clickAction": "navigation"&#13;
+	}&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

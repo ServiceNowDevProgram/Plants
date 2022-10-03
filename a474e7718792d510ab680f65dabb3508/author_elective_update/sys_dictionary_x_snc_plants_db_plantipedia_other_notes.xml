@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="other_notes" table="x_snc_plants_db_plantipedia">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Other notes</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>other_notes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_snc_plants_db_plantipedia</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2022-10-03 19:43:22</sys_created_on>
+        <sys_id>4300e4829792dd10d27a797e6253afc5</sys_id>
+        <sys_name>Other notes</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_plants_db_plantipedia_other_notes</sys_update_name>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2022-10-03 19:43:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>3016e420db2a578052e3f70fbf96191d</instance_id>
+        <instance_name>dev60428</instance_name>
+        <name>sys_dictionary_x_snc_plants_db_plantipedia_other_notes</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="other_notes" table="x_snc_plants_db_plantipedia"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Other notes</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>other_notes</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_plants_db_plantipedia</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>MGOPW</sys_created_by><sys_created_on>2022-10-03 19:43:22</sys_created_on><sys_id>4300e4829792dd10d27a797e6253afc5</sys_id><sys_name>Other notes</sys_name><sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package><sys_policy/><sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope><sys_update_name>sys_dictionary_x_snc_plants_db_plantipedia_other_notes</sys_update_name><sys_updated_by>MGOPW</sys_updated_by><sys_updated_on>2022-10-03 19:43:23</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1433057921</payload_hash>
+        <record_name>Plantipedia.Other notes</record_name>
+        <reverted_from/>
+        <source>f3cf88869712dd10d27a797e6253afcd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2022-10-03 19:43:23</sys_created_on>
+        <sys_id>530028829792dd10d27a797e6253af3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1839f5fdd1d0000001</sys_recorded_at>
+        <sys_updated_by>MGOPW</sys_updated_by>
+        <sys_updated_on>2022-10-03 19:43:23</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>1b002882d592dd105a38e7d26cfa953c</update_guid>
+        <update_guid_history>1b002882d592dd105a38e7d26cfa953c:1433057921,cf00e482a792dd10fada10b2b8acb9f9:-1893157378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>MGOPW</sys_created_by>
+        <sys_created_on>2022-10-03 19:46:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>97d95bfd4457451dbf04128d46b1fb79</sys_id>
+        <sys_metadata>4300e4829792dd10d27a797e6253afc5</sys_metadata>
+        <sys_name>Other notes</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent display_value="Plantipedia">9c28140a9752dd10d27a797e6253af52</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_snc_plants_db_plantipedia_other_notes</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_plants_db_plantipedia_other_notes">530028829792dd10d27a797e6253af3d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

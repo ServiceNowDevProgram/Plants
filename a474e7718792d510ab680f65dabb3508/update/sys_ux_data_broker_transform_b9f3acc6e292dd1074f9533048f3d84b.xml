@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_plants_db.Get approver sysId</api_name>
+        <description>Used to fetch sysId from sysapproval_approver table for relevant task record</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Get approver sysId</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "number",&#13;
+    "label": "Number on record",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  },&#13;
+ {&#13;
+    "name": "user",&#13;
+    "label": "SysID of the logged in user",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input){
+	try{
+		var user_id = input.user;
+		var record_id = input.number;
+		var target = new GlideRecord("sysapproval_approver");
+		target.addQuery("sysapproval",record_id);
+		target.addQuery("approver", user_id);
+		target.query(); 
+		if (target.next()) { 
+			return target.getUniqueValue();
+		}
+	}catch(e){}
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>b9f3acc6e292dd1074f9533048f3d84b</sys_id>
+        <sys_name>Get approver sysId</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_b9f3acc6e292dd1074f9533048f3d84b</sys_update_name>
+    </sys_ux_data_broker_transform>
+</record_update>

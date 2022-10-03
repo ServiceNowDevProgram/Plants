@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:39</sys_created_on>
+        <sys_id>1804640a9792dd10d27a797e6253af65</sys_id>
+        <sys_name>.x_snc_plants_db.plantipedia_user</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_security_acl/>
+        <sys_update_name>sys_security_acl_role_1804640a9792dd10d27a797e6253af65</sys_update_name>
+        <sys_user_role display_value="x_snc_plants_db.plantipedia_user" name="x_snc_plants_db.plantipedia_user">8748d40a9752dd10d27a797e6253afb8</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

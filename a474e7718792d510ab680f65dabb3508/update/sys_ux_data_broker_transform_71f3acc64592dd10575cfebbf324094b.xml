@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_plants_db.Catalog item variables transform</api_name>
+        <description>Used to convert the catalog item variables in label/value pairs</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Catalog item variables transform</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "catBroker",&#13;
+    "label": "catalog item broker",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  },&#13;
+ {&#13;
+        "name": "sysId",&#13;
+        "label": "Catalog Sys Id",&#13;
+        "description": "Pass the sys_id of catalog to pull related variables for",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "string",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+    }&#13;
+]</props>
+        <required_translations>[{"message":"Pass the sys_id of catalog to pull related variables for","comment":""},{"message":"Catalog Sys Id","comment":""},{"message":"Graphql Query Output","comment":""},{"message":"catalog item broker","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	var modelArray = [];
+    var modelData = input.catBroker.data.GlideRecord_Query.sc_req_item;
+	function block(label,type,value){
+		var out = {};
+		out.label = label;
+		var outval = {};
+		outval.type = type;
+		outval.value = value;
+		out.value = outval;
+		return out;
+	}
+	for(var i = 0; i < modelData._results.length; i++){
+		if(modelData._results[i].sys_id.value == input.sysId){
+			var modelVariableArray = modelData._results[i].variables;
+			for(var x = 0; x < modelVariableArray.variables.length; x++){
+				var name =  modelVariableArray.variables[x].variableLabel;
+				modelArray.push(block(name, "string", modelVariableArray.variables[x].variableDisplayValue));
+			}
+		}
+	}
+	if(modelArray.length > 0)
+		return modelArray;
+	else{
+		var emptylabel = gs.getMessage("No additional details at this time.");
+		var emptyvalue = "";
+		modelArray.push(block(emptylabel, "string", emptyvalue));
+		return modelArray;
+	}
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>71f3acc64592dd10575cfebbf324094b</sys_id>
+        <sys_name>Catalog item variables transform</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_71f3acc64592dd10575cfebbf324094b</sys_update_name>
+    </sys_ux_data_broker_transform>
+</record_update>

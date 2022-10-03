@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_plants_db.Request Item Data Broker</api_name>
+        <description>Data broker that returns the request itemfrom the request</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Request Item Data Broker</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "sysId",&#13;
+    "label": "Sys Id",&#13;
+    "fieldType": "string",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Sys Id of sc_request table"&#13;
+  }&#13;
+]</props>
+        <required_translations>[{"message":"Sys Id of sc_request table","comment":""},{"message":"Sys Id","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var requestSysId = input.sysId || "";
+    if (requestSysId !== "") {
+        var request = new GlideRecord("sc_req_item");
+        request.addQuery('request', requestSysId);
+        request.query();
+        if (request.next()) {
+            return {
+				"table" : "sc_req_item",
+				"sysId" : request.getUniqueValue(),
+				"number" : request.getValue("number")
+			};
+        }
+    }
+    return;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>3df3acc65b92dd1084eeaf7252299a4b</sys_id>
+        <sys_name>Request Item Data Broker</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_3df3acc65b92dd1084eeaf7252299a4b</sys_update_name>
+    </sys_ux_data_broker_transform>
+</record_update>

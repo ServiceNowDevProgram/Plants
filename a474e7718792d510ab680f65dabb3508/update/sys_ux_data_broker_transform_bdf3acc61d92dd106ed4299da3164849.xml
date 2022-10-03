@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_plants_db.Display value block transform</api_name>
+        <description>This is used to transform the server fetched data into label value pairs to be displayed by the 'display value block' component</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Display value block transform</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "catBroker",&#13;
+    "label": "catalog item broker",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  },&#13;
+ {&#13;
+    "name": "table",&#13;
+    "label": "Table",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  },&#13;
+ {&#13;
+    "name": "user",&#13;
+    "label": "Logged in user",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  },&#13;
+ {&#13;
+    "name": "requested",&#13;
+    "label": "Requested For",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  }&#13;
+]</props>
+        <required_translations>[{"message":"Table","comment":""},{"message":"Requested For","comment":""},{"message":"Logged in user","comment":""},{"message":"Graphql Query Output","comment":""},{"message":"catalog item broker","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var modelArray = [];
+    var modelData = input.catBroker;
+    var table = input.table;
+    var user = input.user;
+    var requestedFor = input.requested;
+    function block(label, type, value) {
+        var out = {};
+		var labelNew = gs.getMessage("{0}", label);
+		out.label = labelNew;
+		var outval = {};
+		outval.type = type;
+		outval.value = value;
+		out.value = outval;
+		return out;
+	}
+    function getDate(item) {
+        if (item != undefined && item.displayValue != "" && item.displayValue != null) {
+            var itemDate = new GlideDate();
+            itemDate.setValue(item.displayValue);
+			item.displayValue = itemDate.getValue();
+            return item;
+        }
+    }
+    function addToModel(item, label) {
+        if (item != undefined && item.displayValue != "" && item.displayValue != null) {
+            modelArray.push(block(label, "string", item.displayValue));
+        }
+    }
+    if (table === 'sc_req_item') {
+        addToModel(modelData.state, "State");
+        addToModel(modelData.stage, "Stage");
+        addToModel(getDate(modelData.due_date), "Due date");
+        if (requestedFor != undefined && requestedFor != null && requestedFor != user) {
+            modelArray.push(block("Requested for", "string", requestedFor));
+        }
+        addToModel(modelData.number, "Request number");
+        addToModel(modelData.quantity, "Quantity");
+        addToModel(modelData.price, "Price");
+        var recurringPrice = modelData.recurring_price || {};
+        if (recurringPrice.displayValue && recurringPrice.displayValue.substring(1) !== "0.00") {
+            modelArray.push(block("Recurring price", "string", recurringPrice.displayValue));
+        }
+        addToModel(modelData.recurring_frequency, "Recurring frequency");
+    } else if (table === 'incident') {
+        addToModel(modelData.state, "State");
+        addToModel(getDate(modelData.due_date), "Due date");
+        addToModel(modelData.number, "Request number");
+        addToModel(modelData.caller_id, "Caller");
+        addToModel(modelData.urgency, "Urgency");
+        addToModel(modelData.cmdb_ci, "Configuration item");
+        addToModel(modelData.assigned_to, "Assigned to");
+    } else {
+        addToModel(modelData.state, "State");
+        addToModel(getDate(modelData.due_date), "Due date");
+        addToModel(modelData.number, "Request number");
+    }
+
+	addToModel(getDate(modelData.sys_created_on), "Creation date");
+    addToModel(getDate(modelData.sys_updated_on), "Last update");
+    return modelArray;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:30</sys_created_on>
+        <sys_id>bdf3acc61d92dd106ed4299da3164849</sys_id>
+        <sys_name>Display value block transform</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_bdf3acc61d92dd106ed4299da3164849</sys_update_name>
+    </sys_ux_data_broker_transform>
+</record_update>

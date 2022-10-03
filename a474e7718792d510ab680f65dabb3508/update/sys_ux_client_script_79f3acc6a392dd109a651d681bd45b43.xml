@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Article page">71f3acc63b92dd10b15f363217bf7d45</macroponent>
+        <name>Update comments</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "Comment deleted.",
+  "comment" : ""
+}, {
+  "code" : null,
+  "message" : "Comment posted.",
+  "comment" : ""
+}, {
+  "code" : null,
+  "message" : "You have reached the daily limit for feedback posted by a user.",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    let done = false;
+    let itemPath = [];
+
+    const getPath = (items, pid, level) => {
+        for (let i = 0; i < items.length; i++) {
+            if (!done) {
+                itemPath.length = level;
+
+                if (items[i].id == pid) {
+                    itemPath.push(i);
+                    done = true;
+                    return;
+                } else {
+                    if (items[i].children && items[i].children.length > 0) {
+                        itemPath.push(i);
+                        getPath(items[i].children, pid, level + 1);
+                    }
+                }
+            } else return;
+        }
+    };
+
+    const getStringPath = (path, key) => {
+        let actualPath = "";
+
+        for (let i = 0; i < path.length - 1; i++) {
+            actualPath += `[${path[i]}].children`;
+        }
+
+        if (path.length != 0 && key)
+            actualPath += `[${path[path.length - 1]}].${key}`;
+        else if (path.length != 0)
+            actualPath += `[${path[path.length - 1]}]`;
+
+        return actualPath;
+    };
+
+    /**
+     * Alternative method to lodash _.get()
+     */
+    const get = (obj, path) => {
+        if (!path)
+            return undefined;
+
+        const pathArray = Array.isArray(path) ? path : path.match(/([^[.\]])+/g);
+
+        return (
+            pathArray.reduce((prevObj, key) => prevObj && prevObj[key], obj)
+        );
+    };
+
+    /**
+     * Alternative method to lodash _.set()
+     */
+    const set = (obj, path, value) => {
+        const pathArray = Array.isArray(path) ? path : path.match(/([^[.\]])+/g);
+
+        pathArray.reduce((acc, key, i) => {
+            if (acc[key] === undefined) acc[key] = {};
+            if (i === pathArray.length - 1) acc[key] = value;
+            return acc[key];
+        }, obj);
+    };
+
+    /**
+     * Alternative method to lodash _.unset()
+     */
+    const unset = (obj, path) => {
+        const pathArray = Array.isArray(path) ? path : path.match(/([^[.\]])+/g);
+
+        pathArray.reduce((acc, key, i) => {
+            if (i === pathArray.length - 1) {
+                acc.splice(key, 1);
+            }
+            return acc[key];
+        }, obj);
+    };
+
+    const put = function(obj, path, val) {
+        var stringToPath = function(path) {
+            if (typeof path !== 'string')
+                return path;
+
+            var output = [];
+
+            path.split('.').forEach(function(item, index) {
+                item.split(/\[([^}]+)\]/g).forEach(function(key) {
+                    if (key.length > 0) {
+                        output.push(key);
+                    }
+                });
+            });
+
+            return output;
+        };
+
+        path = stringToPath(path);
+
+        var length = path.length;
+        var current = obj;
+
+        path.forEach(function(key, index) {
+            if (index === length - 1) {
+                current[key].unshift(val);
+            } else {
+                if (!current[key]) {
+                    current[key] = {};
+                }
+
+                current = current[key];
+            }
+        });
+    };
+
+    if (event.elementId == 'get_article_details_1' && event.name == 'DATA_FETCH_SUCCEEDED') {
+        if (api.data.get_article_details_1.articleDetails.showFeedbackComments) {
+            api.setState('articleId', api.context.props.sysId);
+        }
+    } else if (event.elementId == 'retrieve_knowledge_comments' && event.name == 'DATA_FETCH_SUCCEEDED') {
+        let comments = api.data.retrieve_knowledge_comments.knowledgeComments;
+
+        if (comments) {
+            api.setState('comments', comments);
+        }
+    } else if (event.elementId == 'insert_knowledge_comment' && event.name == 'DATA_OP_SUCCEEDED') {
+        let data = JSON.parse(event.payload.data.output.data.AppKnowledge_Mutation.addComment);
+
+        if (data.sys_id) {
+            helpers.translate('Comment posted.').then((value) => {
+                api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                    items: [{
+                        id: "submitCommentAlert",
+                        status: "info",
+                        icon: "info-circle-outline",
+                        content: value,
+                        action: {
+                            type: "dismiss"
+                        }
+                    }],
+                });
+            });
+
+            let comment = {
+                'id': data.sys_id,
+                'parent': data.parent,
+                'children': data.children,
+                'created': data.created_on,
+                'text': data.comment_text,
+                'user': {
+                    'name': data.user.name,
+                    'id': data.user.sys_id,
+                    'avatar': data.user.avatar
+                },
+                'reactionCount': 0,
+                'isReacted': false
+            };
+
+            let comments = api.state.comments;
+
+            if (comment.parent) {
+                getPath(comments, comment.parent, 0);
+
+                if (done && itemPath.length > 0) {
+                    api.setState('comments', []);
+
+                    put(comments, getStringPath(itemPath, 'children'), comment);
+
+                    api.setState('comments', comments);
+                    done = false;
+                    itemPath = [];
+                }
+            } else {
+                api.setState('comments', []);
+                comments.unshift(comment);
+                api.setState('comments', comments);
+            }
+        } else {
+            helpers.translate('You have reached the daily limit for feedback posted by a user.').then((value) => {
+                api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                    items: [{
+                        id: "commentLimitAlert",
+                        status: "critical",
+                        icon: "info-circle-outline",
+                        content: value,
+                        action: {
+                            type: "dismiss"
+                        }
+                    }],
+                });
+            });
+        }
+    } else if (event.elementId == 'delete_knowledge_comment' && event.name == 'DATA_OP_SUCCEEDED') {
+        let comments = api.state.comments;
+        let currentCommentId = api.state.currentCommentId;
+
+        if (currentCommentId != null) {
+            getPath(comments, currentCommentId, 0);
+            
+            if (done && itemPath.length > 0) {
+                api.setState('comments', []);
+                let index = itemPath[0];
+
+                if (itemPath.length <= 1) {
+                    comments.splice(index, 1);
+                } else {
+                    unset(comments, getStringPath(itemPath, null));
+                }
+
+                api.setState('comments', comments);
+                done = false;
+                itemPath = [];
+            }
+
+            helpers.translate('Comment deleted.').then((value) => {
+                api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                    items: [{
+                        id: "deleteCommentAlert",
+                        status: "info",
+                        icon: "info-circle-outline",
+                        content: value,
+                        action: {
+                            type: "dismiss"
+                        }
+                    }],
+                });
+            });
+        }
+    } else if (event.elementId == 'like_knowledge_comment' && event.name == 'DATA_OP_SUCCEEDED') {
+        let comments = api.state.comments;
+        let currentCommentId = api.state.currentCommentId;
+
+        if (currentCommentId != null) {
+            getPath(comments, currentCommentId, 0);
+
+            if (done && itemPath.length > 0) {
+                api.setState('comments', []);
+                let path = getStringPath(itemPath, "");
+                let reactionCount = get(comments, `${path}.reactionCount`);
+
+                set(comments, `${path}.reactionCount`, reactionCount + 1);
+                set(comments, `${path}.isReacted`, true);
+
+                api.setState('comments', comments);
+                done = false;
+                itemPath = [];
+            }
+        }
+    } else if (event.elementId == 'unlike_knowledge_comment' && event.name == 'DATA_OP_SUCCEEDED') {
+        let comments = api.state.comments;
+        let currentCommentId = api.state.currentCommentId;
+
+        if (currentCommentId != null) {
+            getPath(comments, currentCommentId, 0);
+
+            if (done && itemPath.length > 0) {
+                api.setState('comments', []);
+                let path = getStringPath(itemPath, "");
+                let reactionCount = get(comments, `${path}.reactionCount`);
+
+                set(comments, `${path}.reactionCount`, reactionCount - 1);
+                set(comments, `${path}.isReacted`, false);
+
+                api.setState('comments', comments);
+                done = false;
+                itemPath = [];
+            }
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>79f3acc6a392dd109a651d681bd45b43</sys_id>
+        <sys_name>Update comments</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_client_script_79f3acc6a392dd109a651d681bd45b43</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

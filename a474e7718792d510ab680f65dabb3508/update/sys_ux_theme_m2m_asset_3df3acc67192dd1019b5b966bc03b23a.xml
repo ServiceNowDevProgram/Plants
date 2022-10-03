@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset">
+    <sys_ux_theme_m2m_asset action="INSERT_OR_UPDATE">
+        <asset display_value="now-logo-dark">f9f3acc61f92dd10616570096c6ded3a</asset>
+        <properties>{&#13;
+"position": "header_logo"&#13;
+}</properties>
+        <sys_class_name>sys_ux_theme_m2m_asset</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3df3acc67192dd1019b5b966bc03b23a</sys_id>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_theme_m2m_asset_3df3acc67192dd1019b5b966bc03b23a</sys_update_name>
+        <theme display_value="Plants portal theme">b1f3acc64492dd10bbd26442cdaa4f4d</theme>
+    </sys_ux_theme_m2m_asset>
+</record_update>

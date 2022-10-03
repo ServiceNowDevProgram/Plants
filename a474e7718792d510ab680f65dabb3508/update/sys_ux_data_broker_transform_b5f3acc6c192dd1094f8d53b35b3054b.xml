@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_plants_db.Transform metadata to add catalog filter</api_name>
+        <description>This is an interim way to add dynamic catalog filter before Related catalogs EVAM usecase </description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Transform metadata to add catalog filter</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+    {&#13;
+        "name": "graphqlData",&#13;
+        "label": "GraphQL Metadata Response",&#13;
+        "description": "",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "object",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+    },&#13;
+    {&#13;
+        "name": "catalogSysId",&#13;
+        "label": "Catalog Sys Id",&#13;
+        "description": "Pass the sys_id of catalog to pull related catalogs for",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "string",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+    }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+	var compositeMetadata = input
+		.graphqlData
+		.data
+		.GlideCompositeDataMetadata_Query
+		.getMetadata;
+	var END_QUERY = '^EQ';
+	var AND = '^';
+	compositeMetadata.datasources.map(function(source) {
+		if (source.table === 'sc_2_sc') {
+			var catalogFilter = 'sc_cat_item=' + input.catalogSysId + END_QUERY;
+			source.query = source.query? new String(source.query).replace(END_QUERY, "") + AND + catalogFilter : catalogFilter;
+		}
+	});
+	
+	return compositeMetadata;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+        <sys_id>b5f3acc6c192dd1094f8d53b35b3054b</sys_id>
+        <sys_name>Transform metadata to add catalog filter</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_b5f3acc6c192dd1094f8d53b35b3054b</sys_update_name>
+    </sys_ux_data_broker_transform>
+</record_update>

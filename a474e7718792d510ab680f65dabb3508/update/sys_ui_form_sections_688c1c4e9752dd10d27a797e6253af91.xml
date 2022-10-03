@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="688c1c4e9752dd10d27a797e6253af91" sys_domain="global" table="x_snc_plants_db_plantipedia" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a88c1c4e9752dd10d27a797e6253af94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plants_db_plantipedia" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">688c1c4e9752dd10d27a797e6253af91</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">bd58580a9752dd10d27a797e6253af44</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:27:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>288c1c4e9752dd10d27a797e6253af95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plants_db_plantipedia" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">688c1c4e9752dd10d27a797e6253af91</sys_ui_form>
+            <sys_ui_section caption="Information" display_value="Information" name="x_snc_plants_db_plantipedia" sys_domain="global" view="Default view">208c1c4e9752dd10d27a797e6253af91</sys_ui_section>
+            <sys_updated_by>MGOPW</sys_updated_by>
+            <sys_updated_on>2022-10-03 19:27:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_plants_db_plantipedia</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>MGOPW</sys_created_by>
+            <sys_created_on>2022-10-03 19:27:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>688c1c4e9752dd10d27a797e6253af91</sys_id>
+            <sys_name>x_snc_plants_db_plantipedia</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_update_name>sys_ui_form_sections_688c1c4e9752dd10d27a797e6253af91</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

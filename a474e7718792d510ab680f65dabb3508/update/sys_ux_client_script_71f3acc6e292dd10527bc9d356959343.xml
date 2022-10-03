@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>475a07c623202010778fc50947bf65fe</includes>
+        <macroponent display_value="Article page">71f3acc63b92dd10b15f363217bf7d45</macroponent>
+        <name>Article actions</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "Unable to copy link to clipboard because of a browser limitation. Use the following link: ",
+  "comment" : ""
+}, {
+  "code" : null,
+  "message" : "Link copied to clipboard",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const {
+        getOrigin,
+        getClipboard,
+        getTrimmedValue
+    } = imports["sn_km_uib.Article actions include"]();
+    if (event.elementId == "article_actions") {
+        if (event.payload.item.id == "flag") {
+         api.setState("flagArticleContent","");
+            helpers.modal.open("[component-id$='custom_2']");
+        }
+        if (event.payload.item.id == "copyLink") {
+            const articleResult = api.data.get_article_details_1.articleDetails;
+            var permalink = getOrigin() + '/kb?id=kb_article_view&sysparm_article=' + articleResult.articleInfo.number;
+            getClipboard().writeText(permalink).then(function() {
+                helpers.translate('Link copied to clipboard').then((value) => {
+                    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                        items: [{
+                            id: "copyLinkAlert",
+                            status: "info",
+                            icon: "info-circle-outline",
+                            content: value,
+                            action: {
+                                type: "dismiss"
+                            }
+                        }],
+                    });
+                });
+            }, function(err) {
+                helpers.translate('Unable to copy link to clipboard because of a browser limitation. Use the following link: ').then((value) => {
+                    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                        items: [{
+                            id: "copyLinkAlert",
+                            status: "info",
+                            icon: "info-circle-outline",
+                            content: {
+                                type: "jsx",
+                                value: `<div><div>${value}</div><br /><div>${permalink}</div></div>`
+                            },
+                            action: {
+                                type: "dismiss"
+                            }
+                        }]
+                    });
+                });
+            });
+        }
+    } else if (event.elementId == "flag_comment") {
+        var value = event.payload.fieldValue;
+        var trimmedValue = getTrimmedValue(value);
+        api.setState('flagArticleContent', trimmedValue);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>71f3acc6e292dd10527bc9d356959343</sys_id>
+        <sys_name>Article actions</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_client_script_71f3acc6e292dd10527bc9d356959343</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

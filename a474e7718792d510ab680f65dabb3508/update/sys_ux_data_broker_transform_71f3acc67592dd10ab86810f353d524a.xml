@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_plants_db.Heading for record page</api_name>
+        <description>Heading for record page (Request) on custom portal</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Heading for record page</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[ {&#13;
+    "name": "catBroker",&#13;
+    "label": "lookup record broker",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  },&#13;
+ {&#13;
+    "name": "table",&#13;
+    "label": "Table",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  }]</props>
+        <required_translations>[{"message":"Table","comment":""},{"message":"lookup record broker","comment":""},{"message":"Graphql Query Output","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input){
+	var table = input.table;
+	var modelData = input.catBroker;
+	
+	var shortDescription = modelData.short_description && modelData.short_description.displayValue;
+	var catalogItem = modelData.cat_item && modelData.cat_item.displayValue;
+	
+	if(table == "sc_req_item"){
+			return {
+			"title": catalogItem,
+			"subtitle": shortDescription
+		};
+	}else{
+		return {
+			"title": shortDescription,
+			"subtitle": catalogItem
+		};
+	}
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+        <sys_id>71f3acc67592dd10ab86810f353d524a</sys_id>
+        <sys_name>Heading for record page</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_71f3acc67592dd10ab86810f353d524a</sys_update_name>
+    </sys_ux_data_broker_transform>
+</record_update>

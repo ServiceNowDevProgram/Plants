@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_template">
+    <sys_uib_template action="INSERT_OR_UPDATE">
+        <associated_types>f198e5625311101017caddeeff7b120d,d5d732935301101017caddeeff7b12b3</associated_types>
+        <description/>
+        <image display_value="ui-builder-templates-left-and-right-sidebar.svg">b57f0e0877311010d99bbc3f681061c9</image>
+        <label>Portal Centered Column with Sidebars</label>
+        <macroponent display_value="Fixed Width One-Four-One">79f3acc60192dd10618282e40141cd49</macroponent>
+        <macroponent_config/>
+        <optional_properties/>
+        <order>0</order>
+        <required_properties/>
+        <sys_class_name>sys_uib_template</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:33</sys_created_on>
+        <sys_id>75f3acc61792dd1064254652ee5e5549</sys_id>
+        <sys_name>Portal Centered Column with Sidebars</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_uib_template_75f3acc61792dd1064254652ee5e5549</sys_update_name>
+        <type/>
+    </sys_uib_template>
+</record_update>

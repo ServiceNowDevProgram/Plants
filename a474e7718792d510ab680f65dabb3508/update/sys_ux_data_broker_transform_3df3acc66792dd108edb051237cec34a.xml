@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_plants_db.Image for record header</api_name>
+        <description>Used to fetch the image from a cat item to a record header</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Image for record header</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "catBroker",&#13;
+    "label": "catalog item broker",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  }&#13;
+]</props>
+        <required_translations>[{"message":"Graphql Query Output","comment":""},{"message":"catalog item broker","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var model = {};
+    var modelData = input.catBroker.picture.displayValue;
+    if(modelData != undefined){
+		model.headerImage = modelData;
+		model.fieldLabel = "Test value"; //Here only to support the required structure of the object
+	}
+    return model;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:30</sys_created_on>
+        <sys_id>3df3acc66792dd108edb051237cec34a</sys_id>
+        <sys_name>Image for record header</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_3df3acc66792dd108edb051237cec34a</sys_update_name>
+    </sys_ux_data_broker_transform>
+</record_update>

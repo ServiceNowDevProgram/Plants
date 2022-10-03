@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Article page">71f3acc63b92dd10b15f363217bf7d45</macroponent>
+        <name>Create knowledge feedback</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    const {
+        context,
+        data,
+        state,
+        setState,
+        emit
+    } = api;
+    const {
+        modal
+    } = helpers;
+    const insertRecord = function(table, fields, type) {
+        setState("currentFeedbackAction", type);
+        data.create_record_1.execute({
+            table,
+            templateFields: fields,
+            useSetDisplayValue: ''
+        });
+    };
+    var articleSysId = context.props.sysId;
+    var templateFields = "article=" + articleSysId + "^";
+    var articleData = data.get_article_details_1.articleDetails;
+    var yesMessage = "Thank you for your feedback";
+    var noMessage = "We'll improve the article based on your feedback.";
+    const feedbackAction = state.currentFeedbackAction;
+
+    if (event.elementId == "kb_star_rating") {
+        setState('currentFeedbackAction', "rating");
+        templateFields += "rating=" + event.payload.rating;
+        if (articleData.enableActionableFeedbackForRating >= event.payload.rating) {
+            setState('userRating', event.payload.rating);
+            modal.open("[component-id$='custom_1']");
+        } else {
+            insertRecord('kb_feedback', templateFields, "rating");
+        }
+    }
+
+    if (event.elementId == "boolean_feedback_no") {
+        var showModal = (articleData.showFeedbackOptions || articleData.showFeedbackComments) && articleData.enableActionableFeedbackForHelpful;
+        setState("currentFeedbackAction", "boolean_feedback");
+        if (showModal) {
+            setState('additionalDetails', null);
+            setState("selectedReason", ["4"]);
+            modal.open("[component-id$='custom_1']");
+        } else {
+            templateFields += "useful=no";
+            setState('booleanFeedbackMessage', noMessage);
+            setState('booleanFeedbackIcon', 'thumbs-down-outline');
+            setState("isBooleanFeedbackButtonsHidden", true);
+            insertRecord('kb_feedback', templateFields, "boolean_feedback");
+        }
+    } else if (event.elementId == "boolean_feedback_yes") {
+        setState("currentFeedbackAction", "boolean_feedback");
+        templateFields += "useful=yes";
+        setState('booleanFeedbackMessage', yesMessage);
+        setState('booleanFeedbackIcon', 'thumbs-up-outline');
+        setState("isBooleanFeedbackButtonsHidden", true);
+        insertRecord('kb_feedback', templateFields, "boolean_feedback");
+        const usefulYesCount = articleData.usefulYesCount+1;
+        const totalUsefulCount = articleData.totalUsefulCount+1;
+        var helpPercent = (usefulYesCount && totalUsefulCount) ? 
+            Math.round(usefulYesCount / totalUsefulCount *100) : 0;
+        const helpPercentMessage = (helpPercent) ? helpPercent+'% found this helpful':'';
+        setState('helpPercentMessage',helpPercentMessage);
+        setState('isHelpPercentInfoHidden', false);
+    } else if (event.elementId == "boolean_feedback_no_ignore") {
+
+        modal.close("[component-id$='custom_1']");
+        if (feedbackAction != "rating") {
+            setState('booleanFeedbackMessage', noMessage);
+            setState('booleanFeedbackIcon', 'thumbs-down-outline');
+            setState("isBooleanFeedbackButtonsHidden", true);
+            templateFields += "reason=4^useful=no";
+        }
+        if (feedbackAction == "rating") {
+            templateFields += "reason=4^rating=" + state.userRating;
+        }
+        insertRecord('kb_feedback', templateFields,feedbackAction);
+
+    } else if (event.elementId == "boolean_feedback_no_submit") {
+        modal.close("[component-id$='custom_1']");
+        if ((state.selectedReason)[0] != null)
+            templateFields += "reason=" + (state.selectedReason)[0] + "^";
+        if (state.additionalDetails != null)
+            templateFields += "comments=" + state.additionalDetails + "^";
+        if (feedbackAction != "rating") {
+            setState('booleanFeedbackMessage', noMessage);
+            setState('booleanFeedbackIcon', 'thumbs-down-outline');
+            setState("isBooleanFeedbackButtonsHidden", true);
+            templateFields += "useful=no";
+        }
+        if (feedbackAction == "rating") {
+            templateFields += "rating=" + state.userRating;
+        }
+        insertRecord('kb_feedback', templateFields,feedbackAction);
+    } else if (event.elementId == "flag_article") {
+        modal.close("[component-id$='custom_2']");
+        var comments = state.flagArticleContent.replaceAll("\n", "\\n").replaceAll("^", "&#94;");
+        templateFields += "flagged=true^comments=" + comments;
+        setState('flagArticleContent', comments);
+        if (articleData.enableActionableFeedbackForFlag)
+            templateFields += "^reason=Flagged";
+        insertRecord('kb_feedback', templateFields, "flag_article");
+    }
+
+    if (event.elementId == "create_record_1") {
+        var items = [];
+        var requestFailed = false;
+		
+        if (event.name == "DATA_OP_SUCCEEDED") {
+            var output = event.payload.data.output.data.GlideRecord_Mutation.insert_kb_feedback;
+            if (output == null) {
+                requestFailed = true;
+            } else {
+                if (state.currentFeedbackAction == "flag_article") {
+                    items.push({
+                        id: "flagArticleSuccess",
+                        status: "info",
+                        icon: "info-circle-outline",
+                        content: "Article has been flagged",
+                        action: {
+                            type: "dismiss"
+                        }
+                    });
+                }
+                if (state.currentFeedbackAction == "rating") {
+                    items.push({
+                        id: "ratingArticleSuccess",
+                        status: "info",
+                        icon: "info-circle-outline",
+                        content: "Feedback submitted.",
+                        action: {
+                            type: "dismiss"
+                        }
+                    });
+                }
+
+                if (state.currentFeedbackAction == "boolean_feedback") {
+                    items.push({
+                        id: "booleanFeedbackSuccess",
+                        status: "info",
+                        icon: "info-circle-outline",
+                        content: "Feedback submitted.",
+                        action: {
+                            type: "dismiss"
+                        }
+                    });
+                }
+            }
+        }
+        
+        if (event.name == "DATA_OP_FAILED" || requestFailed) {
+            items.push({
+                id: "flagArticleFailure",
+                status: "critical",
+                icon: "info-circle-outline",
+                content: "You have reached the daily limit for feedback posted by a user.",
+                action: {
+                    type: "dismiss"
+                }
+            });
+        }
+        if (items.length > 0) {
+            emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                items
+            });
+        }
+        setState('currentFeedbackAction', "");
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+        <sys_id>b1f3acc63c92dd102bb81e162d0ae744</sys_id>
+        <sys_name>Create knowledge feedback</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_client_script_b1f3acc63c92dd102bb81e162d0ae744</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

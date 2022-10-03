@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_plants_db.Boolean reversal transform</api_name>
+        <description>Required because the buttons prop is true to disable and false to enable, and also to fetch the Custom portal settings page text</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Boolean reversal transform</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "broker",&#13;
+    "label": "GraphQL Broker",&#13;
+    "fieldType": "json",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Graphql Query Output"&#13;
+  }&#13;
+]</props>
+        <required_translations>[{"message":"Graphql Query Output","comment":""},{"message":"GraphQL Broker","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	var modelData = input.broker.data.GlideRecord_Query.sys_properties._results[0].value.value;
+	var mfa = {};
+	if(modelData == "false"){
+		mfa.value = "true";
+		mfa.text = gs.getMessage("Please enable Multi-factor authentication on the instance.");
+	}
+	else{
+		mfa.value = "false";
+		mfa.text = gs.getMessage("Configure Multi-factor authentication by clicking the button below");
+	}
+	return mfa;
+}
+]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:32</sys_created_on>
+        <sys_id>b5f3acc68a92dd102237030c70cf3749</sys_id>
+        <sys_name>Boolean reversal transform</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_b5f3acc68a92dd102237030c70cf3749</sys_update_name>
+    </sys_ux_data_broker_transform>
+</record_update>
