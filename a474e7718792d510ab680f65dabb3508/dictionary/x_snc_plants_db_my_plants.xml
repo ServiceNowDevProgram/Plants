@@ -4,13 +4,18 @@
         <element label="Last Watered" max_length="40" name="last_watered" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element display="true" label="Name" max_length="200" name="name" type="string"/>
+        <element label="Next watering" max_length="40" name="next_watering" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Picture" max_length="40" name="picture" type="user_image"/>
         <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plants_db_plantipedia" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice/>
         </element>
+        <element label="Water every (days)" max_length="40" name="watering_schedule" type="integer"/>
         <index name="index">
             <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="plant_type"/>
         </index>
     </element>
 </database>
