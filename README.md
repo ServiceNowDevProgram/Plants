@@ -15,7 +15,7 @@ Let's create a new plant app! Should we track the plants we have? Track when the
 5. Use your forked repo to [Import your application](https://developer.servicenow.com/dev.do#!/learn/learning-plans/quebec/new_to_servicenow/app_store_learnv2_devenvironment_quebec_importing_an_application_from_source_control)
 6. Make updates to the application
 7. In Studio, commit your changes to source control
-8. Submit a pull request to the ServiceNowNextExperience/hacktoberfest22-recipes
+8. Submit a pull request to the ServiceNowDevProgram/Plants
  `main` branch
 
 ## Contribution ideas
