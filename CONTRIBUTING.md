@@ -32,5 +32,5 @@ Along with new features, or working on any issues that appear in this repo's iss
 4. In the data section, click the preview button on the Plants row
 5. Check the checkbox next to the plant record you added in the plant list
 6. Right click on the list header and choose "Create Application Files"
-7. Choose *New install and upgrades* and select OK
+7. Choose **New install and upgrades** and select OK
 8. Via AES or Studio, commit your changes and open a new Pull Request!
