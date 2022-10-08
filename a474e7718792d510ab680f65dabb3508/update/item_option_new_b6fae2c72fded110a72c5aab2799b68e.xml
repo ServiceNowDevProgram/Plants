@@ -102,12 +102,12 @@
     <fx_price action="delete_multiple" query="id=b6fae2c72fded110a72c5aab2799b68e"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="USD">USD</currency>
+        <currency display_value="">USD</currency>
         <field>price_if_checked</field>
         <id>b6fae2c72fded110a72c5aab2799b68e</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_currency display_value="">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-07 08:24:51</sys_created_on>
         <sys_id>3a1baec72fded110a72c5aab2799b6e1</sys_id>
@@ -119,12 +119,12 @@
     </fx_price>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="USD">USD</currency>
+        <currency display_value="">USD</currency>
         <field>rec_price_if_checked</field>
         <id>b6fae2c72fded110a72c5aab2799b68e</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_currency display_value="">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-07 08:24:51</sys_created_on>
         <sys_id>be1baec72fded110a72c5aab2799b6e0</sys_id>

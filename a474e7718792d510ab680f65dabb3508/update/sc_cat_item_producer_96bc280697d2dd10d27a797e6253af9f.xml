@@ -2,6 +2,7 @@
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
+        <additional_review>false</additional_review>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
@@ -9,6 +10,7 @@
         <category/>
         <checked_out/>
         <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
@@ -45,7 +47,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Maria Gabriela Waechter">39fa2b650766a050c147f85c7c1ed033</owner>
+        <owner display_value="">39fa2b650766a050c147f85c7c1ed033</owner>
         <picture/>
         <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=96bc280697d2dd10d27a797e6253af9f&amp;sysparm_preview=true", "summary");</preview>
@@ -92,12 +94,12 @@
     <fx_price action="delete_multiple" query="id=96bc280697d2dd10d27a797e6253af9f"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="USD">USD</currency>
+        <currency display_value="">USD</currency>
         <field>price</field>
         <id>96bc280697d2dd10d27a797e6253af9f</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_currency display_value="">USD</reference_currency>
         <sys_created_by>MGOPW</sys_created_by>
         <sys_created_on>2022-10-03 20:38:45</sys_created_on>
         <sys_id>d2bc280697d2dd10d27a797e6253afa6</sys_id>

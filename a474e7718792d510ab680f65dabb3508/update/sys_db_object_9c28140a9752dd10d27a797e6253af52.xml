@@ -13,7 +13,7 @@
         <label>Plantipedia</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_snc_plants_db_plantipedia</name>
-        <number_ref display_value="🌱">5f48180a9752dd10d27a797e6253af7d</number_ref>
+        <number_ref display_value="">5f48180a9752dd10d27a797e6253af7d</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

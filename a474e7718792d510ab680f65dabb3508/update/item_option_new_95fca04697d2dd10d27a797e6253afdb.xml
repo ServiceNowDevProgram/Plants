@@ -97,18 +97,17 @@
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
         <write_roles/>
-        <x_cls_clear_skye_i_super_slush_definition/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=95fca04697d2dd10d27a797e6253afdb"/>
     <fx_price action="delete_multiple" query="id=95fca04697d2dd10d27a797e6253afdb"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="USD">USD</currency>
+        <currency display_value="">USD</currency>
         <field>price_if_checked</field>
         <id>95fca04697d2dd10d27a797e6253afdb</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_currency display_value="">USD</reference_currency>
         <sys_created_by>MGOPW</sys_created_by>
         <sys_created_on>2022-10-03 20:40:27</sys_created_on>
         <sys_id>4f1da44697d2dd10d27a797e6253af11</sys_id>
@@ -120,12 +119,12 @@
     </fx_price>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="USD">USD</currency>
+        <currency display_value="">USD</currency>
         <field>rec_price_if_checked</field>
         <id>95fca04697d2dd10d27a797e6253afdb</id>
         <parent/>
         <reference_amount>0</reference_amount>
-        <reference_currency display_value="USD">USD</reference_currency>
+        <reference_currency display_value="">USD</reference_currency>
         <sys_created_by>MGOPW</sys_created_by>
         <sys_created_on>2022-10-03 20:40:26</sys_created_on>
         <sys_id>cf1da44697d2dd10d27a797e6253af10</sys_id>
