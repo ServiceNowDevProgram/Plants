@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="All About Plants Data Item">d2688d6f07da15104e70fa7f7c1ed02b</data_item>
+        <interleaved_field/>
+        <name>7a688d6f07da15104e70fa7f7c1ed0a1 Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-08 14:30:38</sys_created_on>
+        <sys_id>3e688d6f07da15104e70fa7f7c1ed0a4</sys_id>
+        <sys_name>7a688d6f07da15104e70fa7f7c1ed0a1 Item Stream</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_item_stream_3e688d6f07da15104e70fa7f7c1ed0a4</sys_update_name>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

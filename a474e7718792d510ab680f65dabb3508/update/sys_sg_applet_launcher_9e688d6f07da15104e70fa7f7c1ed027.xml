@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button display_value="New function instance">b04a4def07da15104e70fa7f7c1ed055</header_button>
+        <header_titles>375a2a347330330018eea18d4ef6a79a</header_titles>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Plant Health</name>
+        <required_roles>x_snc_plants_db.my_plants_user,x_snc_plants_db.plantipedia_user</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-08 14:30:35</sys_created_on>
+        <sys_id>9e688d6f07da15104e70fa7f7c1ed027</sys_id>
+        <sys_name>Plant Health</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_9e688d6f07da15104e70fa7f7c1ed027</sys_update_name>
+        <title>Plant Health</title>
+    </sys_sg_applet_launcher>
+</record_update>

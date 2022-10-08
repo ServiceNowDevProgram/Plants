@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Button (All About Plants)">c768cd6f07da15104e70fa7f7c1ed075</button>
+        <item_parameter display_value="All About Plants pet_safe">0b68cd6f07da15104e70fa7f7c1ed073</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-08 14:30:39</sys_created_on>
+        <sys_id>8b68cd6f07da15104e70fa7f7c1ed0bc</sys_id>
+        <sys_name>0b68cd6f07da15104e70fa7f7c1ed073</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_8b68cd6f07da15104e70fa7f7c1ed0bc</sys_update_name>
+        <ui_parameter display_value="Pet safe?">0f68cd6f07da15104e70fa7f7c1ed078</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

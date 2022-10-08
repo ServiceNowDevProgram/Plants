@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <alert/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Edit">f2688d6f07da15104e70fa7f7c1ed0a1</icon>
+        <item_view/>
+        <name>All About Plants Form Screen</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-08 14:30:37</sys_created_on>
+        <sys_id>3a688d6f07da15104e70fa7f7c1ed0a2</sys_id>
+        <sys_name>All About Plants Form Screen</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_form_screen_3a688d6f07da15104e70fa7f7c1ed0a2</sys_update_name>
+        <table>x_snc_plants_db_plantipedia</table>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="All About Plants Detail Screen View Config">e2688d6f07da15104e70fa7f7c1ed07b</view_config>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=3a688d6f07da15104e70fa7f7c1ed0a2"/>
+</record_update>

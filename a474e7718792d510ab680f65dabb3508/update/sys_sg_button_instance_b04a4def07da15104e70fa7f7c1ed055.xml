@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Delegate Details">28138ae2531f20101fb2ddeeff7b12c6</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Setup</label>
+        <location>header</location>
+        <name>New function instance</name>
+        <order/>
+        <parent>9e688d6f07da15104e70fa7f7c1ed027</parent>
+        <parent_table>sys_sg_applet_launcher</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-08 14:38:42</sys_created_on>
+        <sys_id>b04a4def07da15104e70fa7f7c1ed055</sys_id>
+        <sys_name>New function instance</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_button_instance_b04a4def07da15104e70fa7f7c1ed055</sys_update_name>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=b04a4def07da15104e70fa7f7c1ed055"/>
+</record_update>

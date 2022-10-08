@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
+    <sys_sg_form_segment action="INSERT_OR_UPDATE">
+        <embedded_screen display_value="Details">b6688d6f07da15104e70fa7f7c1ed0a3</embedded_screen>
+        <form display_value="All About Plants Form Screen">3a688d6f07da15104e70fa7f7c1ed0a2</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
+        <order>10</order>
+        <sys_class_name>sys_sg_form_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-08 14:30:38</sys_created_on>
+        <sys_id>76688d6f07da15104e70fa7f7c1ed0a7</sys_id>
+        <sys_name/>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_form_segment_76688d6f07da15104e70fa7f7c1ed0a7</sys_update_name>
+    </sys_sg_form_segment>
+</record_update>
