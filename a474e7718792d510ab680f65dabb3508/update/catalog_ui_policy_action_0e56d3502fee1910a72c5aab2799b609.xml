@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Plant">96bc280697d2dd10d27a797e6253af9f</catalog_item>
+        <catalog_variable>IO:87165b102fee1910a72c5aab2799b6e6</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 08:46:21</sys_created_on>
+        <sys_id>0e56d3502fee1910a72c5aab2799b609</sys_id>
+        <sys_name>fertilize_schedule</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0e56d3502fee1910a72c5aab2799b609</sys_update_name>
+        <table/>
+        <ui_policy display_value="Watering schelule read only if not else">cc5697102fee1910a72c5aab2799b6ff</ui_policy>
+        <variable>fertilize_schedule</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

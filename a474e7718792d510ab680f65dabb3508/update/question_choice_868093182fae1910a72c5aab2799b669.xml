@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Water every:">cbef87582fae1910a72c5aab2799b692</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 08:21:21</sys_created_on>
+        <sys_id>868093182fae1910a72c5aab2799b669</sys_id>
+        <sys_name>Else</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>question_choice_868093182fae1910a72c5aab2799b669</sys_update_name>
+        <text>Else</text>
+        <value>else</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=868093182fae1910a72c5aab2799b669"/>
+</record_update>
