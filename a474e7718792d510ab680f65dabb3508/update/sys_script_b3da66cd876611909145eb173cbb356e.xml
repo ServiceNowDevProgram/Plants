@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_plants_db_my_plants</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_snc_plants_db_my_plants">last_fertilizedVALCHANGES^last_fertilizedISNOTEMPTY^fertilize_scheduleISNOTEMPTY^NQfertilize_scheduleVALCHANGES^fertilize_scheduleISNOTEMPTY^last_fertilizedISNOTEMPTY^EQ<item endquery="false" field="last_fertilized" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="last_fertilized" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="fertilize_schedule" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="fertilize_schedule" goto="false" newquery="true" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="fertilize_schedule" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="last_fertilized" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate Next Fertilizing date</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[/**
+* Description : Auto populate Next Fertilize field == Last Fertilize + Fertilize every to get the next action date     
+**/
+
+(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var date = new GlideDateTime(current.getValue('last_fertilized')); 
+	date.addDaysLocalTime(parseInt(current.getValue('fertilize_schedule')));
+	current.setValue('next_fertilize',date);
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 13:42:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3da66cd876611909145eb173cbb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Next Fertilizing date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_script_b3da66cd876611909145eb173cbb356e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 13:42:53</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3da66cd876611909145eb173cbb356e"/>
+</record_update>
