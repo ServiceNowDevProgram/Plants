@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b14708829712dd10d27a797e6253af5c" label="My Plants" max_length="40" name="x_snc_plants_db_my_plants" type="collection">
+    <element label="My Plants" max_length="40" name="x_snc_plants_db_my_plants" type="collection">
         <element label="Fertilize every (days)" max_length="40" name="fertilize_schedule" type="integer"/>
         <element label="Last Fertilized" max_length="40" name="last_fertilized" type="glide_date"/>
         <element label="Last Watered" max_length="40" name="last_watered" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element display="true" label="Name" max_length="200" name="name" type="string"/>
+        <element label="Next Fertilize" max_length="40" name="next_fertilize" type="glide_date"/>
         <element label="Next watering" max_length="40" name="next_watering" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Picture" max_length="40" name="picture" type="user_image"/>
         <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plants_db_plantipedia" type="reference"/>
