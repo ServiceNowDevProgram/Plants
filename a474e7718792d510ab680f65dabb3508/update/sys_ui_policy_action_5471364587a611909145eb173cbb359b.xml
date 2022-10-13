@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>next_fertilize</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 14:00:42</sys_created_on>
+        <sys_id>5471364587a611909145eb173cbb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>next_fertilize</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5471364587a611909145eb173cbb359b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-13 14:00:42</sys_updated_on>
+        <table>x_snc_plants_db_my_plants</table>
+        <ui_policy display_value="Make Next Fertilize and Next watering Read only">bb11fe0587a611909145eb173cbb3538</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
