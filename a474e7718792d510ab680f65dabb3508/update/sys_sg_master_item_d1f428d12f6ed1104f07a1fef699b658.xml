@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_snc_plants_db_my_plants</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen/>
+        <item_view/>
+        <name>Plant List Config</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 22:25:04</sys_created_on>
+        <sys_id>d1f428d12f6ed1104f07a1fef699b658</sys_id>
+        <sys_name>Plant List Config</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_master_item_d1f428d12f6ed1104f07a1fef699b658</sys_update_name>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="My Plant\'s List Detail Screen View Config">003450152f2ed1104f07a1fef699b6c3</view_config>
+    </sys_sg_master_item>
+</record_update>
