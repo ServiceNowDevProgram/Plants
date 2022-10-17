@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (My Tasks)">772450152f2ed1104f07a1fef699b653</button>
+        <item_parameter display_value="My Tasks task">372450152f2ed1104f07a1fef699b652</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 21:11:47</sys_created_on>
+        <sys_id>b32450152f2ed1104f07a1fef699b657</sys_id>
+        <sys_name>372450152f2ed1104f07a1fef699b652</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_b32450152f2ed1104f07a1fef699b657</sys_update_name>
+        <ui_parameter display_value="Task">bb2450152f2ed1104f07a1fef699b656</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

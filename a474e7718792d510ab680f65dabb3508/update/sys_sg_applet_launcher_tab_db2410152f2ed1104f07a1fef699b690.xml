@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="My Plants">d32410152f2ed1104f07a1fef699b68f</applet_launcher>
+        <icon display_value="Request">972410152f2ed1104f07a1fef699b68e</icon>
+        <label>My Plants</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 21:11:45</sys_created_on>
+        <sys_id>db2410152f2ed1104f07a1fef699b690</sys_id>
+        <sys_name>My Plants</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_db2410152f2ed1104f07a1fef699b690</sys_update_name>
+    </sys_sg_applet_launcher_tab>
+</record_update>
