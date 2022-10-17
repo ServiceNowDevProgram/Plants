@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>My Tasks task</name>
+        <parent>3b2450152f2ed1104f07a1fef699b65c</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 21:11:47</sys_created_on>
+        <sys_id>372450152f2ed1104f07a1fef699b66b</sys_id>
+        <sys_name>My Tasks task</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_372450152f2ed1104f07a1fef699b66b</sys_update_name>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="INSERT_OR_UPDATE">
+        <available_offline>true</available_offline>
+        <check_acl>false</check_acl>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Plus">2c3490152f2ed1104f07a1fef699b66b</icon>
+        <name>Create New Plant</name>
+        <relative_url>false</relative_url>
+        <roles_override/>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-13 21:11:50</sys_created_on>
+        <sys_id>243490152f2ed1104f07a1fef699b66c</sys_id>
+        <sys_name>Create New Plant</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_243490152f2ed1104f07a1fef699b66c</sys_update_name>
+        <url>https://dev80589.service-now.com/sp?id=sc_cat_item&amp;sys_id=96bc280697d2dd10d27a797e6253af9f</url>
+    </sys_sg_browser_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=243490152f2ed1104f07a1fef699b66c"/>
+</record_update>
