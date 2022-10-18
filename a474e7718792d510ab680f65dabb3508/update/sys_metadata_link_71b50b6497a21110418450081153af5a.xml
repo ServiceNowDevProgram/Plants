@@ -29,6 +29,7 @@
         &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
         &lt;compressed&gt;true&lt;/compressed&gt;
         &lt;content_type&gt;image/jpeg&lt;/content_type&gt;
+        &lt;encryption_context/&gt;
         &lt;file_name&gt;image&lt;/file_name&gt;
         &lt;hash&gt;3aaaddc10cd4a250e35d98661251e9ee9a779848faa5b41e2a3a3e577cc771f3&lt;/hash&gt;
         &lt;image_height&gt;1200&lt;/image_height&gt;
@@ -38,6 +39,8 @@
         &lt;state&gt;available&lt;/state&gt;
         &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
         &lt;sys_created_on&gt;2022-10-12 01:51:25&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
         &lt;sys_id&gt;1c01436097a21110418450081153afb2&lt;/sys_id&gt;
         &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
@@ -78,14 +81,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-12 02:11:59</sys_created_on>
         <sys_id>71b50b6497a21110418450081153af5a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>Rosemary</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_71b50b6497a21110418450081153af5a</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-12 02:11:59</sys_updated_on>
         <tablename>x_snc_plants_db_plantipedia</tablename>
     </sys_metadata_link>
 </record_update>
