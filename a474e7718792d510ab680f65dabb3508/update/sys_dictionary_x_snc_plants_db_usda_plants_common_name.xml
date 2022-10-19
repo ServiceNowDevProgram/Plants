@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="state_common_name" table="x_snc_plants_db_usda_plants">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="common_name" table="x_snc_plants_db_usda_plants">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>State Common Name</column_label>
+        <column_label>Common Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>state_common_name</element>
+        <element>common_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -51,12 +51,12 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-10-19 19:30:43</sys_created_on>
-        <sys_name>State Common Name</sys_name>
+        <sys_created_on>2022-10-19 20:27:29</sys_created_on>
+        <sys_name>Common Name</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_plants_db_usda_plants_state_common_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_plants_db_usda_plants_common_name</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
