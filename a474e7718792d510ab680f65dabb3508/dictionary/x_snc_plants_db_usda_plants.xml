@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="90b53a47476611101f8ea946926d4315" label="USDA Plants" max_length="40" name="x_snc_plants_db_usda_plants" type="collection">
+        <element label="Common Name" max_length="255" name="common_name" type="string_full_utf8"/>
+        <element label="Family" max_length="255" name="family" type="string_full_utf8"/>
+        <element label="Scientific Name with Author" max_length="255" name="scientific_name" type="string_full_utf8"/>
+        <element display="true" label="Symbol" max_length="40" name="symbol" type="string_full_utf8"/>
+        <element label="Synonym Symbol" max_length="40" name="synonym_symbol" type="string_full_utf8"/>
+    </element>
+</database>

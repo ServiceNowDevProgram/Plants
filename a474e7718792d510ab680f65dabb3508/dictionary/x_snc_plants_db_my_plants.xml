@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="My Plants" max_length="40" name="x_snc_plants_db_my_plants" type="collection">
+    <element db_object_id="b7cc7d83472211101f8ea946926d43da" label="My Plants" max_length="40" name="x_snc_plants_db_my_plants" type="collection">
         <element label="Fertilize every (days)" max_length="40" name="fertilize_schedule" type="integer"/>
         <element label="Last Fertilized" max_length="40" name="last_fertilized" type="glide_date"/>
         <element label="Last Watered" max_length="40" name="last_watered" type="glide_date"/>
@@ -9,8 +9,12 @@
         <element label="Next watering" max_length="40" name="next_watering" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Picture" max_length="40" name="picture" type="user_image"/>
         <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plants_db_plantipedia" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="good" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Good" sequence="0" value="good"/>
+                <element inactive_on_update="false" label="Needs Attention" sequence="1" value="needs_attention"/>
+                <element inactive_on_update="false" label="Dead" sequence="2" value="dead"/>
+            </choice>
         </element>
         <element label="Water every (days)" max_length="40" name="watering_schedule" type="integer"/>
         <index name="index">

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_plants_db.USDAPlantsDB</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Retrieve USDA Plants data from Outbound REST HTTP GET to populate the USDA Plants table</description>
+        <name>USDAPlantsDB</name>
+        <script><![CDATA[var USDAPlantsDB = Class.create();
+USDAPlantsDB.prototype = {
+    // Reference: https://plants.sc.egov.usda.gov/home/downloads
+    initialize: function() {},
+
+    getCompleteList: function() {
+        try {
+            var r = new sn_ws.RESTMessageV2('x_snc_plants_db.USDA Plants Database', 'Complete List');
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+            if (httpStatus == 200) {
+                this.populateUSDAPlantsTable(responseBody);
+            } else {
+                gs.error('Error USDAPlantsDB.getCompleteList() HTTP Status: ' + httpStatus);
+            }
+        } catch (ex) {
+            var message = ex.message;
+            gs.error('Error USDAPlantsDB.getCompleteList() : ' + message);
+        }
+    },
+
+    getNRCSStateList: function(state /*US State*/ ) {
+        try {
+            var r = new sn_ws.RESTMessageV2('x_snc_plants_db.USDA Plants Database', 'NRCS State Plants List');
+            r.setStringParameterNoEscape('state', state); // example: California
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+            if (httpStatus == 200) {
+                this.populateUSDAPlantsTable(responseBody);
+            } else {
+                gs.error('Error USDAPlantsDB.getCompleteList() HTTP Status: ' + httpStatus);
+            }
+        } catch (ex) {
+            var message = ex.message;
+            gs.error('Error USDAPlantsDB.getNRCSStateList(' + state + ') : ' + message);
+        }
+    },
+
+    populateUSDAPlantsTable: function(resp) {
+        // Split on new lines
+        var pList = resp.split(/\r?\n/);
+        // Skip 1st line => header
+        for (var i = 1; i < pList.length; i++) {
+            // "Symbol","Synonym Symbol","Scientific Name with Author","Common Name","Family"
+            var tempPlant = pList[i].split(',');
+            var grPlant = new GlideRecord('x_snc_plants_db_usda_plants');
+            grPlant.initialize();
+            grPlant.symbol = tempPlant[0].replaceAll('"', '');
+            grPlant.synonym_symbol = tempPlant[1].replaceAll('"', '');
+            grPlant.scientific_name = tempPlant[2].replaceAll('"', '');
+            grPlant.common_name = tempPlant[3].replaceAll('"', '');
+            grPlant.family = tempPlant[4].replaceAll('"', '');
+            grPlant.insert();
+        }
+    },
+
+    type: 'USDAPlantsDB'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 19:25:44</sys_created_on>
+        <sys_id>bc04bec3476611101f8ea946926d4349</sys_id>
+        <sys_name>USDAPlantsDB</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_script_include_bc04bec3476611101f8ea946926d4349</sys_update_name>
+    </sys_script_include>
+</record_update>
