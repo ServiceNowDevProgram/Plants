@@ -29,16 +29,32 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	
-	var today = new GlideDate().getDisplayValue();
-	current.completed = today;
-	
-	var plant_record = new GlideRecord('x_snc_plants_db_my_plants');
-	if(plant_record.get(current.plant)){
-		plant_record.last_watered = today;
-		plant_record.update();
-	}
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var today = new GlideDate().getDisplayValue();
+    current.completed = today;
+
+    var plant_record = new GlideRecord('x_snc_plants_db_my_plants');
+    if (plant_record.get(current.plant)) {
+        // Update watered date
+        if (current.task_type == 'water') {
+            plant_record.last_watered = today;
+        }
+        // Update fertilized date
+        if (current.task_type == 'fertilize') {
+            plant_record.last_fertilized = today;
+        }
+        // Check if any tasks open
+        var grQuick = new GlideRecord('x_snc_plants_db_tasks');
+        grQuick.addQuery('completed', true);
+		grQuick.addQuery('plant', current.plant);
+        grQuick.query();
+		// No tasks open -> set plant status to Good
+        if (!grQuick.next()) {
+            plant_record.status = 'good';
+        }
+        plant_record.update();
+    }
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
