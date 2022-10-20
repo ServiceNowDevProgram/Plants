@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2cf988db47aa11101f8ea946926d4388" label="Plant Progress" max_length="40" name="x_snc_plants_db_plant_progress" type="collection">
+        <element label="Color Observation" max_length="255" name="color" type="string_full_utf8"/>
+        <element label="Dry Weight (grams)" max_length="20" name="dry_weight" type="decimal"/>
+        <element label="First Cotyledon" max_length="40" name="first_cotyledon" type="boolean"/>
+        <element label="First Flowering" max_length="40" name="first_flowering" type="boolean"/>
+        <element label="Fresh Weight (grams)" max_length="20" name="fresh_weight" type="decimal"/>
+        <element label="Number of Flowers" max_length="40" name="number_flowers" type="integer"/>
+        <element label="Number of Leaves" max_length="40" name="number_leaves" type="integer"/>
+        <element label="Plant" mandatory="true" max_length="32" name="plant" reference="x_snc_plants_db_my_plants" type="reference"/>
+        <element label="Plant Height (cm)" max_length="20" name="plant_height" type="decimal"/>
+        <element label="Root Mass (grams)" max_length="20" name="root_mass" type="decimal"/>
+        <element label="Root Shoot Ratio" max_length="20" name="root_shoot_ratio" type="decimal"/>
+        <element label="Surface Area of Leaves (cm^2)" max_length="20" name="surface_area_leaves" type="decimal"/>
+        <index name="index">
+            <element name="plant"/>
+        </index>
+    </element>
+</database>
