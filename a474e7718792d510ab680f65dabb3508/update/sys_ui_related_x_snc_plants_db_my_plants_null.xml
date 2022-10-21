@@ -2,17 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_snc_plants_db_my_plants" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="My Plants - Default view" name="x_snc_plants_db_my_plants" related_list="NULL" sys_domain="global" view="Default view">55ed8cdf47aa11101f8ea946926d4390</list_id>
+            <list_id display_value="My Plants - Default view" name="x_snc_plants_db_my_plants" related_list="NULL" sys_domain="global" view="Default view">39aafd6f472a11101f8ea946926d4341</list_id>
             <order_by/>
             <position>0</position>
+            <related_list>x_snc_plants_db_tasks.plant</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-21 04:25:49</sys_created_on>
+            <sys_id>79aafd6f472a11101f8ea946926d4343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-21 04:25:49</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="My Plants - Default view" name="x_snc_plants_db_my_plants" related_list="NULL" sys_domain="global" view="Default view">39aafd6f472a11101f8ea946926d4341</list_id>
+            <order_by/>
+            <position>1</position>
             <related_list>x_snc_plants_db_plant_progress.plant</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-20 01:52:09</sys_created_on>
-            <sys_id>d5ed401347ea11101f8ea946926d43f8</sys_id>
+            <sys_created_on>2022-10-21 04:25:49</sys_created_on>
+            <sys_id>b1aafd6f472a11101f8ea946926d4344</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-20 01:52:09</sys_updated_on>
+            <sys_updated_on>2022-10-21 04:25:49</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>My Plants - Default view</calculated_name>
@@ -23,10 +37,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-20 01:52:09</sys_created_on>
+            <sys_created_on>2022-10-21 04:25:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>55ed8cdf47aa11101f8ea946926d4390</sys_id>
+            <sys_id>39aafd6f472a11101f8ea946926d4341</sys_id>
             <sys_name>My Plants - Default view</sys_name>
             <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
             <sys_policy/>
