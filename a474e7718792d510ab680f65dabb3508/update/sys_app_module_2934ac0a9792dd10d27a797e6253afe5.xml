@@ -15,7 +15,7 @@
         <name/>
         <order>100</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>/now/plants</query>
+        <query>/now/plants/landing</query>
         <report/>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
