@@ -10,7 +10,7 @@
         <copied_from_name>Create watering task</copied_from_name>
         <description/>
         <internal_name>create_fertilizing_task</internal_name>
-        <label_cache>[{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.next_fertilize","label":"2 - For Each➛My Plants Record➛Next Fertilize","reference":"","reference_display":"Next Fertilize","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_plants_db_my_plants","column_name":"next_fertilize"},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.next_watering","label":"2 - For Each➛My Plants Record➛Next watering","reference":"","reference_display":"Next watering","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_plants_db_my_plants","column_name":"next_watering"},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.name","label":"2 - For Each➛My Plants Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_plants_db_my_plants","column_name":"name"},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Records","label":"1 - Look Up Records➛My Plants Records","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Table","label":"1 - Look Up Records➛My Plants Table","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.record","label":"2 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.table_name","label":"2 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.status","label":"2 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.error_message","label":"2 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.__action_status__","label":"2 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.__dont_treat_as_error__","label":"2 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item","label":"2 - For Each➛My Plants Record","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.record","label":"3 - Create Record➛Tasks Record","reference":"x_snc_plants_db_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.table_name","label":"3 - Create Record➛Tasks Table","reference":"x_snc_plants_db_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.__action_status__","label":"3 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.__dont_treat_as_error__","label":"3 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"f4342f6c-c9e2-4004-9c42-857be4951d0c.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f4342f6c-c9e2-4004-9c42-857be4951d0c.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"f4342f6c-c9e2-4004-9c42-857be4951d0c.Table","label":"4 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4342f6c-c9e2-4004-9c42-857be4951d0c.Record","label":"4 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.next_fertilize","label":"2 - For Each➛My Plants Record➛Next Fertilize","reference":"","reference_display":"Next Fertilize","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_plants_db_my_plants","column_name":"next_fertilize"},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.next_watering","label":"2 - For Each➛My Plants Record➛Next watering","reference":"","reference_display":"Next watering","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_plants_db_my_plants","column_name":"next_watering"},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.name","label":"2 - For Each➛My Plants Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_plants_db_my_plants","column_name":"name"},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Records","label":"1 - Look Up Records➛My Plants Records","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Table","label":"1 - Look Up Records➛My Plants Table","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.record","label":"2 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.table_name","label":"2 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.status","label":"2 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.error_message","label":"2 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.__action_status__","label":"2 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.__dont_treat_as_error__","label":"2 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item","label":"2 - For Each➛My Plants Record","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.record","label":"3 - Create Record➛Tasks Record","reference":"x_snc_plants_db_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.table_name","label":"3 - Create Record➛Tasks Table","reference":"x_snc_plants_db_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.__action_status__","label":"3 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.__dont_treat_as_error__","label":"3 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>d98515ad876e51909145eb173cbb35a2</master_snapshot>
         <name>Create fertilizing task</name>
         <natlang/>
@@ -29,12 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7ee3192d876e51909145eb173cbb354e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Create fertilizing task</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_hub_flow_7ee3192d876e51909145eb173cbb354e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7ee3192d876e51909145eb173cbb354e"/>
@@ -42,7 +45,7 @@
     <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
         <day_of_month>1</day_of_month>
-        <day_of_week/>
+        <day_of_week>6</day_of_week>
         <name/>
         <run_period/>
         <run_start>2022-10-14 20:35:44</run_start>
@@ -56,9 +59,9 @@
         <sys_overrides/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 17:53:47</sys_updated_on>
-        <time>1970-01-01 08:00:00</time>
-        <timer_type>11</timer_type>
+        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
+        <time>1970-01-01 21:00:00</time>
+        <timer_type>3</timer_type>
     </sys_flow_timer_trigger>
     <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:618515ad876e51909145eb173cbb35e0^sys_idNOT INe58515ad876e51909145eb173cbb35e0"/>
     <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
@@ -70,14 +73,14 @@
         <name>Trigger:618515ad876e51909145eb173cbb35e0</name>
         <offset/>
         <offset_type>0</offset_type>
-        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as display_value="Rampriya S">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
-        <run_dayofweek/>
+        <run_dayofweek>6</run_dayofweek>
         <run_period/>
         <run_start>2022-10-14 20:35:44</run_start>
-        <run_time>1970-01-01 08:00:00</run_time>
-        <run_type>daily</run_type>
+        <run_time>1970-01-01 21:00:00</run_time>
+        <run_type>weekly</run_type>
         <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('618515ad876e51909145eb173cbb35e0');]]></script>
         <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -90,47 +93,61 @@
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 17:53:47</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
         <time_zone/>
         <trigger display_value="">618515ad876e51909145eb173cbb35e0</trigger>
         <upgrade_safe>true</upgrade_safe>
     </sys_flow_trigger_auto_script>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7ee3192d876e51909145eb173cbb354e"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=7ee3192d876e51909145eb173cbb354e^sys_idNOT IN76e3192d876e51909145eb173cbb356b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7ee3192d876e51909145eb173cbb354e^sys_idNOT INe2638067972211105dfe79100153af0a"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
         <flow display_value="Create fertilizing task">7ee3192d876e51909145eb173cbb354e</flow>
-        <name>Daily</name>
+        <name>Weekly</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-10-14 20:28:43</sys_created_on>
-        <sys_id>76e3192d876e51909145eb173cbb356b</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_created_on>2022-10-20 19:44:50</sys_created_on>
+        <sys_id>e2638067972211105dfe79100153af0a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 18:16:23</sys_updated_on>
-        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
+        <trigger_definition display_value="Weekly">cf352104c32222002841b63b12d3ae1f</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
-        <trigger_type>daily</trigger_type>
+        <trigger_type>weekly</trigger_type>
     </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=76e3192d876e51909145eb173cbb356b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e2638067972211105dfe79100153af0a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>76e3192d876e51909145eb173cbb356b</document_key>
+        <document_key>e2638067972211105dfe79100153af0a</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 19:50:20</sys_created_on>
+        <sys_id>0ba488a7972211105dfe79100153afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 19:50:20</sys_updated_on>
+        <value>6</value>
+        <variable display_value="Day of Week">c685a104c32222002841b63b12d3aed3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e2638067972211105dfe79100153af0a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-10-14 20:28:43</sys_created_on>
-        <sys_id>fee3192d876e51909145eb173cbb356b</sys_id>
+        <sys_created_on>2022-10-20 19:44:50</sys_created_on>
+        <sys_id>62638067972211105dfe79100153af0c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-14 20:28:43</sys_updated_on>
-        <value>1970-01-01 00:00:00</value>
-        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+        <sys_updated_on>2022-10-20 19:44:50</sys_updated_on>
+        <value>1970-01-01 16:00:00</value>
+        <variable display_value="Time">a745a104c32222002841b63b12d3ae18</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=76e3192d876e51909145eb173cbb356b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_cf352104c32222002841b63b12d3ae1f^id=e2638067972211105dfe79100153af0a"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=7ee3192d876e51909145eb173cbb354e"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=7ee3192d876e51909145eb173cbb354e^sys_idNOT IN72e3192d876e51909145eb173cbb3550"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -154,7 +171,8 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <comment/>
+        <comment>Task for fertilizing the plant</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Create fertilizing task">7ee3192d876e51909145eb173cbb354e</flow>
         <order>3</order>
@@ -163,10 +181,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 20:28:43</sys_created_on>
         <sys_id>7ee3192d876e51909145eb173cbb3569</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 18:16:23</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
         <ui_id>4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7ee3192d876e51909145eb173cbb3569"/>
@@ -224,10 +242,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 20:28:43</sys_created_on>
         <sys_id>f2e3192d876e51909145eb173cbb3563</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 18:16:23</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
         <ui_id>163b9454-0359-4d86-b900-b9749b948a0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f2e3192d876e51909145eb173cbb3563"/>
@@ -265,7 +283,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=7ee3192d876e51909145eb173cbb354e"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=7ee3192d876e51909145eb173cbb354e^sys_idNOT INb6e3192d876e51909145eb173cbb3559"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">ee4f5a8f47e211101f8ea946926d43df</block>
+        <block display_value="">e2638067972211105dfe79100153af12</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -286,10 +304,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 20:28:43</sys_created_on>
         <sys_id>b6e3192d876e51909145eb173cbb3559</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 18:16:23</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
         <ui_id>468c6375-04b8-4f78-b550-0dd959e35a93</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -331,7 +349,7 @@
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 17:53:47</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
         <trigger display_value="">618515ad876e51909145eb173cbb35e0</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7ee3192d876e51909145eb173cbb354e"/>
@@ -346,7 +364,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>create_fertilizing_task</internal_name>
-        <label_cache>[{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.next_fertilize","label":"2 - For Each➛My Plants Record➛Next Fertilize","reference":"","reference_display":"Next Fertilize","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_plants_db_my_plants","column_name":"next_fertilize"},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.next_watering","label":"2 - For Each➛My Plants Record➛Next watering","reference":"","reference_display":"Next watering","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_plants_db_my_plants","column_name":"next_watering"},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.name","label":"2 - For Each➛My Plants Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_plants_db_my_plants","column_name":"name"},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Records","label":"1 - Look Up Records➛My Plants Records","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Table","label":"1 - Look Up Records➛My Plants Table","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.record","label":"2 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.table_name","label":"2 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.status","label":"2 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.error_message","label":"2 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.__action_status__","label":"2 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.__dont_treat_as_error__","label":"2 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item","label":"2 - For Each➛My Plants Record","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.record","label":"3 - Create Record➛Tasks Record","reference":"x_snc_plants_db_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.table_name","label":"3 - Create Record➛Tasks Table","reference":"x_snc_plants_db_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.__action_status__","label":"3 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.__dont_treat_as_error__","label":"3 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"f4342f6c-c9e2-4004-9c42-857be4951d0c.__dont_treat_as_error__","label":"4 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"f4342f6c-c9e2-4004-9c42-857be4951d0c.__action_status__","label":"4 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"f4342f6c-c9e2-4004-9c42-857be4951d0c.Table","label":"4 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f4342f6c-c9e2-4004-9c42-857be4951d0c.Record","label":"4 - Create Task➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.next_fertilize","label":"2 - For Each➛My Plants Record➛Next Fertilize","reference":"","reference_display":"Next Fertilize","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_plants_db_my_plants","column_name":"next_fertilize"},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.next_watering","label":"2 - For Each➛My Plants Record➛Next watering","reference":"","reference_display":"Next watering","type":"glide_date","base_type":"glide_date","parent_table_name":"x_snc_plants_db_my_plants","column_name":"next_watering"},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item.name","label":"2 - For Each➛My Plants Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_plants_db_my_plants","column_name":"name"},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Records","label":"1 - Look Up Records➛My Plants Records","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Table","label":"1 - Look Up Records➛My Plants Table","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"163b9454-0359-4d86-b900-b9749b948a0b.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.record","label":"2 - Create or Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.table_name","label":"2 - Create or Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"table_name"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.status","label":"2 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.error_message","label":"2 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.__action_status__","label":"2 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"eb4f47b7-d457-490e-96b3-89606b84f301.__dont_treat_as_error__","label":"2 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"468c6375-04b8-4f78-b550-0dd959e35a93.item","label":"2 - For Each➛My Plants Record","reference":"x_snc_plants_db_my_plants","reference_display":"My Plants","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.record","label":"3 - Create Record➛Tasks Record","reference":"x_snc_plants_db_tasks","reference_display":"Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.table_name","label":"3 - Create Record➛Tasks Table","reference":"x_snc_plants_db_tasks","reference_display":"Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.__action_status__","label":"3 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2.__dont_treat_as_error__","label":"3 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Create fertilizing task</name>
         <natlang/>
@@ -363,7 +381,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d98515ad876e51909145eb173cbb35a2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -371,7 +389,7 @@
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 18:16:23</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:50:28</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=d98515ad876e51909145eb173cbb35a2"/>
@@ -381,19 +399,19 @@
         <comment/>
         <display_text/>
         <flow display_value="Create fertilizing task">d98515ad876e51909145eb173cbb35a2</flow>
-        <name>Daily</name>
+        <name>Weekly</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 20:35:44</sys_created_on>
         <sys_id>ad8515ad876e51909145eb173cbb35b6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 18:16:23</sys_updated_on>
-        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <sys_updated_on>2022-10-20 19:50:29</sys_updated_on>
+        <trigger_definition display_value="Weekly">cf352104c32222002841b63b12d3ae1f</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
-        <trigger_type>daily</trigger_type>
+        <trigger_type>weekly</trigger_type>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ad8515ad876e51909145eb173cbb35b6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -410,7 +428,35 @@
         <value>1970-01-01 00:00:00</value>
         <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=ad8515ad876e51909145eb173cbb35b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ad8515ad876e51909145eb173cbb35b6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 19:49:54</sys_created_on>
+        <sys_id>b49408a7972211105dfe79100153afd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 19:49:54</sys_updated_on>
+        <value>1970-01-01 16:00:00</value>
+        <variable display_value="Time">a745a104c32222002841b63b12d3ae18</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ad8515ad876e51909145eb173cbb35b6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 19:50:28</sys_created_on>
+        <sys_id>f8b40ca7972211105dfe79100153af4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 19:50:28</sys_updated_on>
+        <value>6</value>
+        <variable display_value="Day of Week">c685a104c32222002841b63b12d3aed3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_cf352104c32222002841b63b12d3ae1f^id=ad8515ad876e51909145eb173cbb35b6"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=d98515ad876e51909145eb173cbb35a2"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=d98515ad876e51909145eb173cbb35a2^sys_idNOT INd58515ad876e51909145eb173cbb35a3"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -434,7 +480,8 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <comment/>
+        <comment>Task for fertilizing the plant</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
         <flow display_value="Create fertilizing task">d98515ad876e51909145eb173cbb35a2</flow>
         <order>3</order>
@@ -443,10 +490,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 20:35:44</sys_created_on>
         <sys_id>a58515ad876e51909145eb173cbb35b5</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 18:16:23</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:50:28</sys_updated_on>
         <ui_id>4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a58515ad876e51909145eb173cbb35b5"/>
@@ -504,10 +551,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 20:35:43</sys_created_on>
         <sys_id>d58515ad876e51909145eb173cbb35af</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 18:16:23</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:50:28</sys_updated_on>
         <ui_id>163b9454-0359-4d86-b900-b9749b948a0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d58515ad876e51909145eb173cbb35af"/>
@@ -545,7 +592,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d98515ad876e51909145eb173cbb35a2"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=d98515ad876e51909145eb173cbb35a2^sys_idNOT IN9d8515ad876e51909145eb173cbb35a6"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">ee4f5a8f47e211101f8ea946926d43df</block>
+        <block display_value="">e2638067972211105dfe79100153af12</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -566,10 +613,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 20:35:43</sys_created_on>
         <sys_id>9d8515ad876e51909145eb173cbb35a6</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-19 18:16:23</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:50:28</sys_updated_on>
         <ui_id>468c6375-04b8-4f78-b550-0dd959e35a93</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

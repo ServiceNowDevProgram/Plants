@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 01:35:20</sys_created_on>
+        <sys_id>0b0a0cdb47aa11101f8ea946926d4300</sys_id>
+        <sys_name>x_snc_plants_db_plant_progress.x_snc_plants_db.plant_progress_user</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_security_acl display_value="x_snc_plants_db_plant_progress">720ac8db47aa11101f8ea946926d43fe</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0b0a0cdb47aa11101f8ea946926d4300</sys_update_name>
+        <sys_user_role display_value="x_snc_plants_db.plant_progress_user" name="x_snc_plants_db.plant_progress_user">fe0ac4db47aa11101f8ea946926d438e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
