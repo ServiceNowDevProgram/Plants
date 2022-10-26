@@ -106,10 +106,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:54:29</sys_created_on>
         <sys_id>9b48a53e2fda9110a72c5aab2799b677</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:07:03</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:05</sys_updated_on>
         <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -162,10 +162,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:54:30</sys_created_on>
         <sys_id>2b48a53e2fda9110a72c5aab2799b680</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:07:03</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:05</sys_updated_on>
         <ui_id>163b9454-0359-4d86-b900-b9749b948a0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2b48a53e2fda9110a72c5aab2799b680"/>
@@ -214,10 +214,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:54:30</sys_created_on>
         <sys_id>2b48a53e2fda9110a72c5aab2799b698</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:07:03</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:05</sys_updated_on>
         <ui_id>4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2b48a53e2fda9110a72c5aab2799b698"/>
@@ -254,18 +254,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:54:31</sys_created_on>
         <sys_id>2348a53e2fda9110a72c5aab2799b69a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:06:48</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:16:43</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>plant={{468c6375-04b8-4f78-b550-0dd959e35a93.item}}^status=new^task=Water the ﻿{{468c6375-04b8-4f78-b550-0dd959e35a93.item.name}} plant﻿^due_date={{468c6375-04b8-4f78-b550-0dd959e35a93.item.next_watering}}</value>
+        <value>plant={{468c6375-04b8-4f78-b550-0dd959e35a93.item}}^status=new^task=Water the ﻿{{468c6375-04b8-4f78-b550-0dd959e35a93.item.name}} plant﻿^due_date={{468c6375-04b8-4f78-b550-0dd959e35a93.item.next_watering}}^task_type=water</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2b48a53e2fda9110a72c5aab2799b698"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2b48a53e2fda9110a72c5aab2799b698"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=573769ba2fda9110a72c5aab2799b6e6"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=573769ba2fda9110a72c5aab2799b6e6^sys_idNOT INab48a53e2fda9110a72c5aab2799b684"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">2f48a53e2fda9110a72c5aab2799b683</block>
+        <block display_value="">3da5ee47472611101f8ea946926d436f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -286,10 +286,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:54:30</sys_created_on>
         <sys_id>ab48a53e2fda9110a72c5aab2799b684</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:07:03</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:05</sys_updated_on>
         <ui_id>468c6375-04b8-4f78-b550-0dd959e35a93</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -363,7 +363,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9449e97e2fda9110a72c5aab2799b60b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -371,7 +371,7 @@
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:07:00</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:04</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=9449e97e2fda9110a72c5aab2799b60b"/>
@@ -386,10 +386,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:58:40</sys_created_on>
         <sys_id>6449e97e2fda9110a72c5aab2799b621</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:07:03</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:05</sys_updated_on>
         <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -443,10 +443,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:58:40</sys_created_on>
         <sys_id>6c49e97e2fda9110a72c5aab2799b61f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:07:00</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:04</sys_updated_on>
         <ui_id>4c23e7a3-58a3-43a4-afd6-f3e74f1a6ed2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6c49e97e2fda9110a72c5aab2799b61f"/>
@@ -483,11 +483,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:58:40</sys_created_on>
         <sys_id>ec49e97e2fda9110a72c5aab2799b620</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:06:59</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:04</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>plant={{468c6375-04b8-4f78-b550-0dd959e35a93.item}}^status=new^task=Water the ﻿{{468c6375-04b8-4f78-b550-0dd959e35a93.item.name}} plant﻿^due_date={{468c6375-04b8-4f78-b550-0dd959e35a93.item.next_watering}}</value>
+        <value>plant={{468c6375-04b8-4f78-b550-0dd959e35a93.item}}^status=new^task=Water the ﻿{{468c6375-04b8-4f78-b550-0dd959e35a93.item.name}} plant﻿^due_date={{468c6375-04b8-4f78-b550-0dd959e35a93.item.next_watering}}^task_type=water</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6c49e97e2fda9110a72c5aab2799b61f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6c49e97e2fda9110a72c5aab2799b61f"/>
@@ -504,10 +504,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:58:40</sys_created_on>
         <sys_id>9049e97e2fda9110a72c5aab2799b619</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:06:59</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:04</sys_updated_on>
         <ui_id>163b9454-0359-4d86-b900-b9749b948a0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9049e97e2fda9110a72c5aab2799b619"/>
@@ -545,7 +545,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9449e97e2fda9110a72c5aab2799b60b"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=9449e97e2fda9110a72c5aab2799b60b^sys_idNOT IN1049e97e2fda9110a72c5aab2799b610"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">2f48a53e2fda9110a72c5aab2799b683</block>
+        <block display_value="">3da5ee47472611101f8ea946926d436f</block>
         <comment/>
         <connected_to/>
         <decision_table/>
@@ -566,10 +566,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:58:39</sys_created_on>
         <sys_id>1049e97e2fda9110a72c5aab2799b610</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-06 09:07:00</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:18:04</sys_updated_on>
         <ui_id>468c6375-04b8-4f78-b550-0dd959e35a93</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

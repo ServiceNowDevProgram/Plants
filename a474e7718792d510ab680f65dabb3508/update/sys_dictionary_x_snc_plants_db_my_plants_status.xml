@@ -10,13 +10,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>good</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>

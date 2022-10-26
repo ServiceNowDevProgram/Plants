@@ -6,7 +6,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
         <copied_from>573769ba2fda9110a72c5aab2799b6e6</copied_from>
         <copied_from_name>Create watering task</copied_from_name>
         <description/>
@@ -16,6 +15,7 @@
         <name>Create fertilizing task</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>618515ad876e51909145eb173cbb35e0</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -221,11 +221,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 20:28:43</sys_created_on>
         <sys_id>fee3192d876e51909145eb173cbb356a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-14 20:31:20</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:16:19</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>plant={{468c6375-04b8-4f78-b550-0dd959e35a93.item}}^status=new^task=FErtilize the ﻿{{468c6375-04b8-4f78-b550-0dd959e35a93.item.name}} plant﻿^due_date={{468c6375-04b8-4f78-b550-0dd959e35a93.item.next_fertilize}}</value>
+        <value>plant={{468c6375-04b8-4f78-b550-0dd959e35a93.item}}^status=new^task=Fertilize the ﻿{{468c6375-04b8-4f78-b550-0dd959e35a93.item.name}} plant﻿^due_date={{468c6375-04b8-4f78-b550-0dd959e35a93.item.next_fertilize}}^task_type=fertilize</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7ee3192d876e51909145eb173cbb3569"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7ee3192d876e51909145eb173cbb3569"/>
@@ -234,7 +234,6 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
-        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Create fertilizing task">7ee3192d876e51909145eb173cbb354e</flow>
         <order>1</order>
@@ -531,11 +530,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-14 20:35:44</sys_created_on>
         <sys_id>298515ad876e51909145eb173cbb35b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-14 20:35:44</sys_updated_on>
+        <sys_updated_on>2022-10-19 18:16:22</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>plant={{468c6375-04b8-4f78-b550-0dd959e35a93.item}}^status=new^task=FErtilize the ﻿{{468c6375-04b8-4f78-b550-0dd959e35a93.item.name}} plant﻿^due_date={{468c6375-04b8-4f78-b550-0dd959e35a93.item.next_fertilize}}</value>
+        <value>plant={{468c6375-04b8-4f78-b550-0dd959e35a93.item}}^status=new^task=Fertilize the ﻿{{468c6375-04b8-4f78-b550-0dd959e35a93.item.name}} plant﻿^due_date={{468c6375-04b8-4f78-b550-0dd959e35a93.item.next_fertilize}}^task_type=fertilize</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a58515ad876e51909145eb173cbb35b5"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a58515ad876e51909145eb173cbb35b5"/>
@@ -544,7 +543,6 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
-        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Create fertilizing task">d98515ad876e51909145eb173cbb35a2</flow>
         <order>1</order>
@@ -645,8 +643,9 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d98515ad876e51909145eb173cbb35a2"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d98515ad876e51909145eb173cbb35a2"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d98515ad876e51909145eb173cbb35a2"/>
-    <sys_hub_flow action="update">
+    <sys_hub_flow action="UPDATE">
         <sys_id>7ee3192d876e51909145eb173cbb354e</sys_id>
         <latest_snapshot>d98515ad876e51909145eb173cbb35a2</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
     </sys_hub_flow>
 </record_update>
