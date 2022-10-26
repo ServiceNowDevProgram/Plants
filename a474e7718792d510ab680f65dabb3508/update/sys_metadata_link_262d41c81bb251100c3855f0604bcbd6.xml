@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>646c450c1bb251100c3855f0604bcbb7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plants_db_usda_plants">
+    <x_snc_plants_db_usda_plants action="INSERT_OR_UPDATE">
+        <common_name>rock clematis</common_name>
+        <family>Ranunculaceae</family>
+        <scientific_name>Clematis columbiana - (Nutt.)Torr.&amp;A.Gray</scientific_name>
+        <symbol>CLCO2</symbol>
+        <synonym_symbol/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:23:51</sys_created_on>
+        <sys_id>646c450c1bb251100c3855f0604bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-22 14:23:51</sys_updated_on>
+    </x_snc_plants_db_usda_plants>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-22 14:24:01</sys_created_on>
+        <sys_id>262d41c81bb251100c3855f0604bcbd6</sys_id>
+        <sys_name>CLCO2</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_262d41c81bb251100c3855f0604bcbd6</sys_update_name>
+        <tablename>x_snc_plants_db_usda_plants</tablename>
+    </sys_metadata_link>
+</record_update>
