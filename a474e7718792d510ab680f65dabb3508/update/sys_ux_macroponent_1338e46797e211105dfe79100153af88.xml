@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>macroponent</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "list__simple_1",
+  "elementLabel" : "List - Simple 1",
+  "propertyValues" : {
+    "listTitle" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "My plants",
+        "comment" : ""
+      }
+    },
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_snc_plants_db_my_plants"
+    },
+    "fixedQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "query" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "columns" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "groupByField" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : 20
+    },
+    "maxColumns" : {
+      "type" : "JSON_LITERAL",
+      "value" : 5
+    },
+    "page" : {
+      "type" : "JSON_LITERAL",
+      "value" : 1
+    },
+    "highlightedValueConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "hideHighlightedValues" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideTitle" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideTitleRowCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRefreshButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLastRefreshedText" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideColumnGrouping" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideColumnFiltering" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideColumnSorting" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePersonalization" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideColumnReorder" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideDotwalk" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideInlineEditing" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideHighlightContent" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "highlightContent" : {
+      "type" : "JSON_LITERAL",
+      "value" : {
+        "patterns" : [ ],
+        "color" : ""
+      }
+    },
+    "hideLinks" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideViewAll" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideCellFilter" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideCheckboxHover" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideFilterPanel" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideFirstPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLastPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLimitSelector" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideMenuButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideMultiEdit" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideDeclarativeActions" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideNextPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePages" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePagination" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hidePanel" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hidePanelAdvanced" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePanelConditionDelete" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePanelFooter" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePanelRestore" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePreviousPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideQuickEdit" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideRange" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRowCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRowSelector" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideSelectAll" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideEmptyStateImage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideDBViews" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideUnnecessaryRowSelectors" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "overrideWordWrapUserPref" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "wordWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "maxCharLimit" : {
+      "type" : "JSON_LITERAL",
+      "value" : 4000
+    },
+    "refreshRequested" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "recordSelectedTable" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedSysId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedView" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "2b1c080881e05dc63b917044290b233f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"list__simple_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Plants Visit</name>
+        <props>[ {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "My plants",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 22:25:44</sys_created_on>
+        <sys_id>1338e46797e211105dfe79100153af88</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Plants Visit</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_macroponent_1338e46797e211105dfe79100153af88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 22:43:44</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>
