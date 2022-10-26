@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="dry_weight" label="Dry Weight (grams)" language="en" table="x_snc_plants_db_plant_progress">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>dry_weight</element>
+            <help/>
+            <hint/>
+            <label>Dry Weight (grams)</label>
+            <language>en</language>
+            <name>x_snc_plants_db_plant_progress</name>
+            <plural>Dry Weight (grams)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-20 01:43:19</sys_created_on>
+            <sys_name>Dry Weight (grams)</sys_name>
+            <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_plants_db_plant_progress_dry_weight_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
