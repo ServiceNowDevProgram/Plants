@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="task_type" table="x_snc_plants_db_tasks" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>task_type</element>
+            <name>x_snc_plants_db_tasks</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-19 18:12:42</sys_created_on>
+            <sys_name>task_type</sys_name>
+            <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_update_name>sys_choice_x_snc_plants_db_tasks_task_type</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fertilize</label>
+            <language>en</language>
+            <name>x_snc_plants_db_tasks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-19 18:12:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>fertilize</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General</label>
+            <language>en</language>
+            <name>x_snc_plants_db_tasks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-19 18:12:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>general</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Water</label>
+            <language>en</language>
+            <name>x_snc_plants_db_tasks</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-19 18:12:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>water</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
