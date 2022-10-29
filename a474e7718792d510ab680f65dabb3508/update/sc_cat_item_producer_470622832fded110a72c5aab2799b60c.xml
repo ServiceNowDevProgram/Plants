@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="Environmental">c02de2d6977e11103050bbc3f153afd5</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -45,7 +45,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="Rajesh Kohmu">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -68,7 +68,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
