@@ -13,7 +13,7 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p>Here you can upload the plant details including pictures</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -31,7 +31,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>New Plant Type</name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
