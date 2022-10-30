@@ -4,7 +4,7 @@
         <documentkey>6ef4265e97f611103050bbc3f153afe9</documentkey>
         <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_snc_plants_db_plantipedia"&gt;
     &lt;x_snc_plants_db_plantipedia action="INSERT_OR_UPDATE"&gt;
-        &lt;characteristics&gt;&lt;![CDATA[Indoor Plant]]&gt;&lt;/characteristics&gt;
+        &lt;characteristics&gt;&lt;![CDATA[Indoor Plant - home office]]&gt;&lt;/characteristics&gt;
         &lt;difficulty_level&gt;advanced&lt;/difficulty_level&gt;
         &lt;environment&gt;&lt;![CDATA[Prefers for room temperature]]&gt;&lt;/environment&gt;
         &lt;image&gt;4a876e5a97fa11103050bbc3f153af24&lt;/image&gt;
@@ -19,9 +19,9 @@
         &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
         &lt;sys_created_on&gt;2022-10-29 20:42:51&lt;/sys_created_on&gt;
         &lt;sys_id&gt;6ef4265e97f611103050bbc3f153afe9&lt;/sys_id&gt;
-        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
         &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
-        &lt;sys_updated_on&gt;2022-10-29 20:45:18&lt;/sys_updated_on&gt;
+        &lt;sys_updated_on&gt;2022-10-30 10:18:34&lt;/sys_updated_on&gt;
         &lt;water&gt;&lt;![CDATA[Once in a week]]&gt;&lt;/water&gt;
     &lt;/x_snc_plants_db_plantipedia&gt;
     &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
