@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d280fffe97f2111028a4fef3a253af9e</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_snc_plants_db_plantipedia"&gt;
+    &lt;x_snc_plants_db_plantipedia action="INSERT_OR_UPDATE"&gt;
+        &lt;characteristics&gt;&lt;![CDATA[Cacti are succulent perennial plants.]]&gt;&lt;/characteristics&gt;
+        &lt;difficulty_level&gt;beginner&lt;/difficulty_level&gt;
+        &lt;environment&gt;&lt;![CDATA[Harsh]]&gt;&lt;/environment&gt;
+        &lt;image/&gt;
+        &lt;light_requirements&gt;&lt;![CDATA[Sunny]]&gt;&lt;/light_requirements&gt;
+        &lt;name&gt;Cacti&lt;/name&gt;
+        &lt;number&gt;PLA0001002&lt;/number&gt;
+        &lt;other/&gt;
+        &lt;pet_safe&gt;&lt;![CDATA[No]]&gt;&lt;/pet_safe&gt;
+        &lt;potting&gt;&lt;![CDATA[1-3cm per year]]&gt;&lt;/potting&gt;
+        &lt;potting_mix&gt;&lt;![CDATA[five parts potting soil, two parts pumic]]&gt;&lt;/potting_mix&gt;
+        &lt;propagation/&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-10-31 15:24:19&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;d280fffe97f2111028a4fef3a253af9e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-31 15:24:19&lt;/sys_updated_on&gt;
+        &lt;water&gt;&lt;![CDATA[Occasionally]]&gt;&lt;/water&gt;
+    &lt;/x_snc_plants_db_plantipedia&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 15:25:58</sys_created_on>
+        <sys_id>65a177ba97f2111028a4fef3a253afc5</sys_id>
+        <sys_name>Cacti</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_65a177ba97f2111028a4fef3a253afc5</sys_update_name>
+        <tablename>x_snc_plants_db_plantipedia</tablename>
+    </sys_metadata_link>
+</record_update>
