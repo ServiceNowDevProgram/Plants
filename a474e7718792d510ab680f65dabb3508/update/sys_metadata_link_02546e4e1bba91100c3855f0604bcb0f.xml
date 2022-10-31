@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>25446e4e1bba91100c3855f0604bcb0c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plants_db_plant_progress">
+    <x_snc_plants_db_plant_progress action="INSERT_OR_UPDATE">
+        <color>white, purple or blue color</color>
+        <dry_weight>250</dry_weight>
+        <first_cotyledon>true</first_cotyledon>
+        <first_flowering>true</first_flowering>
+        <fresh_weight>200</fresh_weight>
+        <number_flowers>0</number_flowers>
+        <number_leaves>0</number_leaves>
+        <plant display_value="Mary's Rosemary Plant">e97e964f47e211101f8ea946926d43c6</plant>
+        <plant_height>40</plant_height>
+        <root_mass/>
+        <root_shoot_ratio/>
+        <surface_area_leaves/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 01:52:28</sys_created_on>
+        <sys_id>25446e4e1bba91100c3855f0604bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-29 01:52:28</sys_updated_on>
+    </x_snc_plants_db_plant_progress>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 01:52:46</sys_created_on>
+        <sys_id>02546e4e1bba91100c3855f0604bcb0f</sys_id>
+        <sys_name>Created 2022-10-28 18:52:28</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_02546e4e1bba91100c3855f0604bcb0f</sys_update_name>
+        <tablename>x_snc_plants_db_plant_progress</tablename>
+    </sys_metadata_link>
+</record_update>
