@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="New Plant Type">470622832fded110a72c5aab2799b60c</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 21:05:39</sys_created_on>
+        <sys_id>063c6e56977e11103050bbc3f153af64</sys_id>
+        <sys_name>New Plant Type.Users with 'itil' role</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_063c6e56977e11103050bbc3f153af64</sys_update_name>
+        <user_criteria display_value="Users with 'itil' role">2f137fb2eb303010e0ef83c45e52287c</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>
