@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="New Plant Type">470622832fded110a72c5aab2799b60c</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 21:08:30</sys_created_on>
+        <sys_id>f3dc6e96977e11103050bbc3f153afd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New Plant Type</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_f3dc6e96977e11103050bbc3f153afd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-29 21:08:30</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>091337acdb85b7040ae3ac44d4961975</instance_id>
+        <instance_name>dev83017</instance_name>
+        <name>sc_cat_item_catalog_f3dc6e96977e11103050bbc3f153afd1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="New Plant Type">470622832fded110a72c5aab2799b60c</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-29 21:08:30</sys_created_on><sys_id>f3dc6e96977e11103050bbc3f153afd1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.New Plant Type</sys_name><sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package><sys_policy/><sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope><sys_update_name>sc_cat_item_catalog_f3dc6e96977e11103050bbc3f153afd1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-29 21:08:30</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-217451938</payload_hash>
+        <record_name>Service Catalog.New Plant Type</record_name>
+        <reverted_from/>
+        <source>0274a692973a11103050bbc3f153af2d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 21:08:30</sys_created_on>
+        <sys_id>3fdc6e96977e11103050bbc3f153afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184259323a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-29 21:08:30</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>b3dc6e962d7e1110bfee6dc79ba129d4</update_guid>
+        <update_guid_history>b3dc6e962d7e1110bfee6dc79ba129d4:-217451938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.New Plant Type">b15daad6977e11103050bbc3f153af2a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 21:10:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>bd49436b3b3440f69425efd1ad479e64</sys_id>
+        <sys_metadata>f3dc6e96977e11103050bbc3f153afd1</sys_metadata>
+        <sys_name>Service Catalog.New Plant Type</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent display_value="New Plant Type">470622832fded110a72c5aab2799b60c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_f3dc6e96977e11103050bbc3f153afd1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_f3dc6e96977e11103050bbc3f153afd1">3fdc6e96977e11103050bbc3f153afd4</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
