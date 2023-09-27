@@ -23,3 +23,6 @@ Let's create a new plant app! Should we track the plants we have? Track when the
 - Create an experience to be able to manage your plants
 - Bring in plant data from other sources
 - Create a way to track plant progress over time
+- Add potting information (size, type, when it was repotted, soil type, etc)
+- Plant location (indoor, distance to window, outdoor, in the ground? in a pot?)
+- Look at the local weather, did it rain today? If so, log the outdoor plants as watered
