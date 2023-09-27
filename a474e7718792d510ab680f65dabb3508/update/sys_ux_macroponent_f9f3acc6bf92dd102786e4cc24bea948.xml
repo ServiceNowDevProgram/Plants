@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
@@ -2556,6 +2557,7 @@
         <dispatched_events>fdf3acc67492dd10bb07d899d556723d,bdf3acc6f592dd102c43bbad92c2d53d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events>39f3acc66692dd1042efb53ad51d7e47,7df3acc62d92dd104f0ef3c4c6119647,71f3acc68992dd10216ff497ee5cba48,75f3acc69d92dd103f88307eba31bf48,b5f3acc63892dd106a21db4ee29b3a48</handled_events>
         <interactions/>
         <interfaces/>
@@ -3006,10 +3008,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-03 20:00:32</sys_created_on>
         <sys_id>f9f3acc6bf92dd102786e4cc24bea948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_f9f3acc6bf92dd102786e4cc24bea948</sys_update_name>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:06:41</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9f3acc6bf92dd102786e4cc24bea948"/>
 </record_update>

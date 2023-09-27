@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
         <composition>[ {&#13;
@@ -807,9 +808,9 @@
 } ]</data>
         <description/>
         <dispatched_events>75f3acc60692dd10b02934d2c893f13e,f9f3acc6ec92dd10f5cd5883a422583e</dispatched_events>
-        <events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events>b9f3acc6b592dd1082cc456e09291648</handled_events>
         <interactions/>
         <interfaces/>
@@ -918,10 +919,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-03 20:00:34</sys_created_on>
         <sys_id>f5f3acc61492dd107ea7760903a6a948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Catalog Item Page</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_f5f3acc61492dd107ea7760903a6a948</sys_update_name>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:06:41</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=f5f3acc61492dd107ea7760903a6a948"/>
 </record_update>

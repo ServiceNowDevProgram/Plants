@@ -67,11 +67,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-30 08:09:04</sys_created_on>
         <sys_id>cc14012247f251102120690cd36d4314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Desert rose</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_cc14012247f251102120690cd36d4314</sys_update_name>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:05:03</sys_updated_on>
         <tablename>x_snc_plants_db_my_plants</tablename>
     </sys_metadata_link>
 </record_update>

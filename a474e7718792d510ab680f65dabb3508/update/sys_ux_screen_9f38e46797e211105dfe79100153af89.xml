@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
     <sys_ux_screen action="INSERT_OR_UPDATE">
         <active>true</active>
-        <app_config display_value="Mushnik's Plants Config">21f3acc69792dd10d27a797e6253af1f</app_config>
+        <app_config/>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Plants Visit">1338e46797e211105dfe79100153af88</macroponent>
         <macroponent_config>{
