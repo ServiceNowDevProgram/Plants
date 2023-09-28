@@ -1,4 +1,4 @@
-![test](/Images/Itsaplant.png)
+![test](/images/Itsaplant.png)
 
 # Plants
 
