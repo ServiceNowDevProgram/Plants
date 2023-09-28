@@ -1,6 +1,6 @@
-# Plants
+![plant](/Images/Its a plant.png)
 
-![](Images/Its a plant.png)
+# Plants
 
 Let's create a new plant app! Should we track the plants we have? Track when they were watered, how healthy they are, what kind of fertilizer they like? Where do they live?
 
