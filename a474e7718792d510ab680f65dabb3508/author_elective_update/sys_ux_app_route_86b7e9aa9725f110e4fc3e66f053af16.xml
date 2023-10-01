@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Mushnik\'s Plants Config">d527142187253110aea5ea8d0ebb35d6</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>test</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>test</route_type>
+        <screen_type display_value="test">4eb7e9aa9725f110e4fc3e66f053af13</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 23:48:41</sys_created_on>
+        <sys_id>86b7e9aa9725f110e4fc3e66f053af16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_app_route_86b7e9aa9725f110e4fc3e66f053af16</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 23:48:41</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=86b7e9aa9725f110e4fc3e66f053af16"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>54066b04db48b0507527d7c8f49619e2</instance_id>
+        <instance_name>dev113408</instance_name>
+        <name>sys_ux_app_route_86b7e9aa9725f110e4fc3e66f053af16</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Mushnik\'s Plants Config">d527142187253110aea5ea8d0ebb35d6</app_config><description/><extension_point/><fields/><icon/><name>test</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>test</route_type><screen_type display_value="test">4eb7e9aa9725f110e4fc3e66f053af13</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-30 23:48:41</sys_created_on><sys_id>86b7e9aa9725f110e4fc3e66f053af16</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package><sys_policy/><sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope><sys_update_name>sys_ux_app_route_86b7e9aa9725f110e4fc3e66f053af16</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-30 23:48:41</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=86b7e9aa9725f110e4fc3e66f053af16"/></record_update>]]></payload>
+        <payload_hash>75069508</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>f21b81d297ed7110e4fc3e66f053afd8</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 23:48:41</sys_created_on>
+        <sys_id>8ab7e9aa9725f110e4fc3e66f053af18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ae87e8aa60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 23:48:41</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>ceb7e9aa8125f110c8c15e8539023317</update_guid>
+        <update_guid_history>ceb7e9aa8125f110c8c15e8539023317:75069508</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 23:52:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>1612aface37244bb9944e65569860fd1</sys_id>
+        <sys_metadata>86b7e9aa9725f110e4fc3e66f053af16</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_86b7e9aa9725f110e4fc3e66f053af16</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_86b7e9aa9725f110e4fc3e66f053af16">8ab7e9aa9725f110e4fc3e66f053af18</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 23:52:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

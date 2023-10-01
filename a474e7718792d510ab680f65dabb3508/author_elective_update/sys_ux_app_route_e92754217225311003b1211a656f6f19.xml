@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Mushnik\'s Plants Config">d527142187253110aea5ea8d0ebb35d6</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Landing Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>landing</route_type>
+        <screen_type display_value="Landing Page">6d275421c425311014cff3fad3e4f71a</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-27 15:22:47</sys_created_on>
+        <sys_id>e92754217225311003b1211a656f6f19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_app_route_e92754217225311003b1211a656f6f19</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:22:47</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=e92754217225311003b1211a656f6f19"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>54066b04db48b0507527d7c8f49619e2</instance_id>
+        <instance_name>dev113408</instance_name>
+        <name>sys_ux_app_route_e92754217225311003b1211a656f6f19</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Mushnik\'s Plants Config">d527142187253110aea5ea8d0ebb35d6</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Landing Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>landing</route_type>
+        <screen_type display_value="Landing Page">6d275421c425311014cff3fad3e4f71a</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-27 15:22:47</sys_created_on>
+        <sys_id>e92754217225311003b1211a656f6f19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_app_route_e92754217225311003b1211a656f6f19</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:22:47</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e92754217225311003b1211a656f6f19"/>
+</record_update>]]></payload>
+        <payload_hash>1213642958</payload_hash>
+        <record_name>Landing Page</record_name>
+        <reverted_from/>
+        <source>f53a051697ed7110e4fc3e66f053af68</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 03:04:06</sys_created_on>
+        <sys_id>07da495e97ed7110e4fc3e66f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ae40b16ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 03:04:06</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>cfda495e3fed7110e30435702ed934ca</update_guid>
+        <update_guid_history>cfda495e3fed7110e30435702ed934ca:0,3f18c1523ded71102562ae95b3537be3:471829419,a3fd38de906d7110e1691e2626569d0f:-898058929,a3fd38de906d7110e1691e2626569d0f:-898058929,a3fd38de906d7110e1691e2626569d0f:-898058929,2fbb745e6e6d7110b76b3c1b1487d944:883539433,734af45a8b6d7110a956eb8edf2e1be2:44589511,e258f01a4c6d7110877af8be03f87b2d:-898383910,c108701ae66d7110e3ef2562925581a2:1835465712,a87000c6832531100c85d0f993c16b0b:1213642958</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 05:57:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>892510ec8df8420d92ec7433109e0fb9</sys_id>
+        <sys_metadata>e92754217225311003b1211a656f6f19</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_e92754217225311003b1211a656f6f19</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_e92754217225311003b1211a656f6f19">07da495e97ed7110e4fc3e66f053afcb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 05:57:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

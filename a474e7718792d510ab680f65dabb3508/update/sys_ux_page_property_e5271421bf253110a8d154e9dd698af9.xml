@@ -4,7 +4,7 @@
         <description/>
         <name>chrome_footer</name>
         <page display_value="Mushnik\'s Plants">d127142187253110aea5ea8d0ebb35d6</page>
-        <required_translations>[]</required_translations>
+        <required_translations>[ ]</required_translations>
         <route/>
         <suffix/>
         <sys_class_name>sys_ux_page_property</sys_class_name>
@@ -13,37 +13,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5271421bf253110a8d154e9dd698af9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>chrome_footer</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_page_property_e5271421bf253110a8d154e9dd698af9</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-09-27 15:22:49</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 23:12:47</sys_updated_on>
         <type>json</type>
         <unique_name>x_snc_plants_db.d127142187253110aea5ea8d0ebb35d6.root.chrome_footer</unique_name>
-        <value>{&#13;
-    "public_page":{&#13;
-       "enable_footer_topbar":false,&#13;
-       "footer_topbar_options":{&#13;
-          "enable_logo":false,&#13;
-          "enable_address": false,&#13;
-          "enable_linkset_group":false,&#13;
-          "max_linkset_count":0&#13;
-       },&#13;
-       "enable_footer_bar":true,&#13;
-       "footer_bar_options":{&#13;
-          "enable_links":true,&#13;
-          "max_links_count":5,&#13;
-          "enable_social_links":false,&#13;
-          "max_social_links_count":7,&#13;
-          "social_links":[],&#13;
-          "enable_copyright_text":true,&#13;
-          "copyright_text":"© 2020 Company Inc. All rights reserved."&#13;
-       }&#13;
-    }&#13;
- }</value>
+        <value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{"enable_logo":false,"enable_address":false,"enable_linkset_group":false,"max_linkset_count":0},"enable_footer_bar":true,"footer_bar_options":{"enable_links":true,"max_links_count":5,"enable_social_links":false,"max_social_links_count":7,"social_links":[],"enable_copyright_text":true,"copyright_text":"© 2020 Company Inc. All rights reserved."}}}</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=e5271421bf253110a8d154e9dd698af9"/>
 </record_update>
