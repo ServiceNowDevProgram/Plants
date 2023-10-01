@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="97e11d3247adf110d381f164336d43d7" label="my_plants_m2m_My Plants_Plant Knowledge" max_length="40" name="x_snc_plants_db_my_plants_m2m_knowledge" type="collection">
+        <element attributes="encode_utf8=false" label="Plant Knowledge" max_length="32" name="kb_knowledge" reference="kb_knowledge" type="reference"/>
+        <element attributes="encode_utf8=false" label="My Plants" max_length="32" name="x_snc_plants_db_my_plants" reference="x_snc_plants_db_my_plants" type="reference"/>
+        <index name="index">
+            <element name="kb_knowledge"/>
+        </index>
+        <index name="index2">
+            <element name="x_snc_plants_db_my_plants"/>
+        </index>
+    </element>
+</database>
