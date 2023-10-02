@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="New Plant Type">470622832fded110a72c5aab2799b60c</sc_cat_item>
+        <sc_category display_value="">c02de2d6977e11103050bbc3f153afd5</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 21:10:49</sys_created_on>
+        <sys_id>e56dead6977e11103050bbc3f153af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Environmental.New Plant Type</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sc_cat_item_category_e56dead6977e11103050bbc3f153af89</sys_update_name>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:03:58</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>027afd1adb309c505749cac5059619aa</instance_id>
+        <instance_name>dev104031</instance_name>
+        <name>sc_cat_item_category_e56dead6977e11103050bbc3f153af89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="New Plant Type">470622832fded110a72c5aab2799b60c</sc_cat_item>
+        <sc_category display_value="">c02de2d6977e11103050bbc3f153afd5</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-29 21:10:49</sys_created_on>
+        <sys_id>e56dead6977e11103050bbc3f153af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Environmental.New Plant Type</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sc_cat_item_category_e56dead6977e11103050bbc3f153af89</sys_update_name>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:03:58</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>-1708302956</payload_hash>
+        <record_name>Environmental.New Plant Type</record_name>
+        <reverted_from/>
+        <source>f760086647a1b110d381f164336d431b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 16:17:49</sys_created_on>
+        <sys_id>e98000a647a1b110d381f164336d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ae6e1c1790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 16:17:49</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>a98000a6fca1b1109768f22f8dbaebf1</update_guid>
+        <update_guid_history>a98000a6fca1b1109768f22f8dbaebf1:-1708302956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Environmental.New Plant Type">5107d86e47e5b110d381f164336d4386</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-30 17:56:06</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>052861376a034098a125112773815759</sys_id>
+        <sys_metadata>e56dead6977e11103050bbc3f153af89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Environmental.New Plant Type</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_e56dead6977e11103050bbc3f153af89</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_e56dead6977e11103050bbc3f153af89">e98000a647a1b110d381f164336d43f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-30 17:56:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
