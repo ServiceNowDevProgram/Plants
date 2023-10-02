@@ -139,9 +139,7 @@
                                                                         }
                                                                     },
                                                                     "slot": null,
-                                                                    "styles": {
-                                                                        "margin-bottom": "var(--now-static-space--lg)"
-                                                                    }
+                                                                    "styles": null
                                                                 },
                                                                 {
                                                                     "definition": {
@@ -189,9 +187,7 @@
                                                                         }
                                                                     },
                                                                     "slot": null,
-                                                                    "styles": {
-                                                                        "padding-left": "var(--now-static-space--xs)"
-                                                                    }
+                                                                    "styles": null
                                                                 }
                                                             ],
                                                             "layout": {
@@ -202,12 +198,16 @@
                                                                         {
                                                                             "element_id": "heading_2",
                                                                             "rules": {},
-                                                                            "styles": {}
+                                                                            "styles": {
+                                                                                "margin-bottom": "var(--now-static-space--lg)"
+                                                                            }
                                                                         },
                                                                         {
                                                                             "element_id": "heading_8",
                                                                             "rules": {},
-                                                                            "styles": {}
+                                                                            "styles": {
+                                                                                "padding-left": "var(--now-static-space--xs)"
+                                                                            }
                                                                         }
                                                                     ],
                                                                     "root": null,
@@ -251,9 +251,7 @@
                                                             }
                                                         },
                                                         "slot": null,
-                                                        "styles": {
-                                                            "height": "100%"
-                                                        }
+                                                        "styles": null
                                                     }
                                                 ],
                                                 "layout": {
@@ -265,7 +263,8 @@
                                                                 "element_id": "container_6_Main",
                                                                 "rules": {},
                                                                 "styles": {
-                                                                    "grid-area": "main"
+                                                                    "grid-area": "main",
+                                                                    "height": "100%"
                                                                 }
                                                             }
                                                         ],
@@ -311,9 +310,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "width": "100%"
-                                            }
+                                            "styles": null
                                         },
                                         {
                                             "definition": {
@@ -359,9 +356,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "margin-bottom": "var(--now-static-space--lg)"
-                                            }
+                                            "styles": null
                                         },
                                         {
                                             "definition": {
@@ -437,9 +432,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "width": "44rem"
-                                            }
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -450,17 +443,23 @@
                                                 {
                                                     "element_id": "container_6",
                                                     "rules": {},
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "width": "100%"
+                                                    }
                                                 },
                                                 {
                                                     "element_id": "heading_3",
                                                     "rules": {},
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "margin-bottom": "var(--now-static-space--lg)"
+                                                    }
                                                 },
                                                 {
                                                     "element_id": "search_combobox_component_1",
                                                     "rules": {},
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "width": "44rem"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -505,9 +504,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {
-                                    "height": "100%"
-                                }
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -558,7 +555,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {}
+                    "styles": null
                 }
             ],
             "layout": {
@@ -611,7 +608,7 @@
             }
         },
         "slot": null,
-        "styles": {}
+        "styles": null
     },
     {
         "definition": {
@@ -660,56 +657,7 @@
                                     
                                 ],
                                 "isHero": false,
-                                "isHidden": {
-                                    "transform": {
-                                        "operands": {
-                                            "container": [
-                                                {
-                                                    "operation": {
-                                                        "left": {
-                                                            "transform": {
-                                                                "operands": {
-                                                                    "container": [
-                                                                        {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "evam_mytasks",
-                                                                                    "compositeDataViews",
-                                                                                    "items"
-                                                                                ]
-                                                                            },
-                                                                            "type": "DATA_OUTPUT_BINDING"
-                                                                        }
-                                                                    ],
-                                                                    "type": "LIST_CONTAINER"
-                                                                },
-                                                                "operator": "LEN"
-                                                            },
-                                                            "type": "CLIENT_TRANSFORM"
-                                                        },
-                                                        "operator": "EQUAL",
-                                                        "right": {
-                                                            "type": "JSON_LITERAL",
-                                                            "value": 0
-                                                        }
-                                                    },
-                                                    "type": "BINARY"
-                                                },
-                                                {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                }
-                                            ],
-                                            "type": "LIST_CONTAINER"
-                                        },
-                                        "operator": "IF"
-                                    },
-                                    "type": "CLIENT_TRANSFORM"
-                                },
+                                "isHidden": null,
                                 "isNonDestructive": false,
                                 "overrides": null,
                                 "propertyValues": {
@@ -762,7 +710,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "No content to display."
+                                            "message": "No tasks pending"
                                         }
                                     },
                                     "title": {
@@ -770,7 +718,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "Complete your tasks"
+                                            "message": "Tasks To Do"
                                         }
                                     },
                                     "titleHeadingLevel": {
@@ -791,9 +739,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {
-                                    "margin-bottom": "3rem"
-                                }
+                                "styles": null
                             },
                             {
                                 "definition": {
@@ -937,9 +883,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {
-                                    "margin-bottom": "3rem"
-                                }
+                                "styles": null
                             },
                             {
                                 "definition": {
@@ -1083,7 +1027,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {}
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -1094,12 +1038,16 @@
                                     {
                                         "element_id": "data_row_1",
                                         "rules": {},
-                                        "styles": {}
+                                        "styles": {
+                                            "margin-bottom": "3rem"
+                                        }
                                     },
                                     {
                                         "element_id": "data_row_2",
                                         "rules": {},
-                                        "styles": {}
+                                        "styles": {
+                                            "margin-bottom": "3rem"
+                                        }
                                     },
                                     {
                                         "element_id": "data_row_3",
@@ -1149,10 +1097,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {
-                        "height": "auto",
-                        "width": "100%"
-                    }
+                    "styles": null
                 }
             ],
             "layout": {
@@ -1165,8 +1110,10 @@
                             "rules": {},
                             "styles": {
                                 "grid-area": "main",
+                                "height": "auto",
                                 "margin": "auto",
-                                "max-width": "90rem"
+                                "max-width": "90rem",
+                                "width": "100%"
                             }
                         }
                     ],
@@ -1213,10 +1160,7 @@
             }
         },
         "slot": null,
-        "styles": {
-            "height": "100%",
-            "width": "100%"
-        }
+        "styles": null
     },
     {
         "definition": {
@@ -1277,7 +1221,7 @@
             }
         },
         "slot": null,
-        "styles": {}
+        "styles": null
     },
     {
         "definition": {
@@ -1338,7 +1282,7 @@
             }
         },
         "slot": null,
-        "styles": {}
+        "styles": null
     },
     {
         "definition": {
@@ -1402,7 +1346,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {}
+                    "styles": null
                 },
                 {
                     "definition": {
@@ -1540,7 +1484,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {}
+                    "styles": null
                 },
                 {
                     "definition": {
@@ -1660,7 +1604,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {}
+                                            "styles": null
                                         },
                                         {
                                             "definition": {
@@ -1822,9 +1766,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "padding-left": "var(--now-static-space--lg)"
-                                            }
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -1840,7 +1782,9 @@
                                                 {
                                                     "element_id": "button_6",
                                                     "rules": {},
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "padding-left": "var(--now-static-space--lg)"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -1884,9 +1828,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {
-                                    "height": "100%"
-                                }
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -1898,7 +1840,8 @@
                                         "element_id": "container_4_Main",
                                         "rules": {},
                                         "styles": {
-                                            "grid-area": "main"
+                                            "grid-area": "main",
+                                            "height": "100%"
                                         }
                                     }
                                 ],
@@ -1944,9 +1887,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {
-                        "width": "100%"
-                    }
+                    "styles": null
                 }
             ],
             "layout": {
@@ -1975,7 +1916,8 @@
                             "rules": {},
                             "styles": {
                                 "grid-area": "3 / 1 / 4 / 2",
-                                "min-height": "50px"
+                                "min-height": "50px",
+                                "width": "100%"
                             }
                         }
                     ],
@@ -2012,7 +1954,7 @@
             }
         },
         "slot": null,
-        "styles": {}
+        "styles": null
     },
     {
         "definition": {
@@ -2076,7 +2018,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {}
+                    "styles": null
                 },
                 {
                     "definition": {
@@ -2214,7 +2156,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {}
+                    "styles": null
                 },
                 {
                     "definition": {
@@ -2334,7 +2276,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {}
+                                            "styles": null
                                         },
                                         {
                                             "definition": {
@@ -2528,9 +2470,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "padding-left": "var(--now-static-space--lg)"
-                                            }
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -2546,7 +2486,9 @@
                                                 {
                                                     "element_id": "button_8",
                                                     "rules": {},
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "padding-left": "var(--now-static-space--lg)"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -2590,9 +2532,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {
-                                    "height": "100%"
-                                }
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -2604,7 +2544,8 @@
                                         "element_id": "container_5_Main",
                                         "rules": {},
                                         "styles": {
-                                            "grid-area": "main"
+                                            "grid-area": "main",
+                                            "height": "100%"
                                         }
                                     }
                                 ],
@@ -2650,9 +2591,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {
-                        "width": "100%"
-                    }
+                    "styles": null
                 }
             ],
             "layout": {
@@ -2681,7 +2620,8 @@
                             "rules": {},
                             "styles": {
                                 "grid-area": "3 / 1 / 4 / 2",
-                                "min-height": "50px"
+                                "min-height": "50px",
+                                "width": "100%"
                             }
                         }
                     ],
@@ -2718,9 +2658,7 @@
             }
         },
         "slot": null,
-        "styles": {
-            "width": "100%"
-        }
+        "styles": null
     }
 ]</composition>
         <da_relay_models/>
@@ -3131,11 +3069,11 @@
     }
 ]</data>
         <description/>
-        <dispatched_events>e1271421962531108f5c5f2bbc0d65fd,6d2714213a25311014ad6d7d7b9cc4fc</dispatched_events>
+        <dispatched_events>a927142150253110a4ec70f0fbcabeff,6d2714213a25311014ad6d7d7b9cc4fc</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <handled_events>2927542146253110f1c64fa5ed34f61f,61275421eb2531106d0dca882524c420,652754217e25311087311ad97fa9a11f,ad275421b02531105b56383590e1e81f,2127542139253110323a4592af58be21</handled_events>
+        <handled_events>2927542146253110f1c64fa5ed34f61f,61275421eb2531106d0dca882524c420,652754217e25311087311ad97fa9a11f,75f3acc69d92dd103f88307eba31bf48,2127542139253110323a4592af58be21</handled_events>
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{
@@ -3447,7 +3385,9 @@
                 "rules": {},
                 "styles": {
                     "background-color": "rgb(var(--now-color_background--secondary))",
-                    "grid-area": "row2"
+                    "grid-area": "row2",
+                    "height": "100%",
+                    "width": "100%"
                 }
             }
         ],
@@ -3494,9 +3434,6 @@
   "message" : "Cancel",
   "comment" : ""
 }, {
-  "message" : "Complete your tasks",
-  "comment" : ""
-}, {
   "message" : "Get the help you need",
   "comment" : ""
 }, {
@@ -3509,6 +3446,9 @@
   "message" : "No content to display.",
   "comment" : ""
 }, {
+  "message" : "No tasks pending",
+  "comment" : ""
+}, {
   "message" : "Reject",
   "comment" : ""
 }, {
@@ -3516,6 +3456,9 @@
   "comment" : ""
 }, {
   "message" : "Search",
+  "comment" : ""
+}, {
+  "message" : "Tasks To Do",
   "comment" : ""
 }, {
   "message" : "Track your requests",
@@ -3537,7 +3480,7 @@
   "comment" : ""
 } ]</required_translations>
         <root_component/>
-        <root_component_config>{ }</root_component_config>
+        <root_component_config>{}</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_properties>[
@@ -3642,14 +3585,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-09-27 15:22:46</sys_created_on>
         <sys_id>2d27542157253110e1e0481e62bab721</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Landing Page</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_2d27542157253110e1e0481e62bab721</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-09-27 15:23:01</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 22:32:16</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=2d27542157253110e1e0481e62bab721"/>
 </record_update>
