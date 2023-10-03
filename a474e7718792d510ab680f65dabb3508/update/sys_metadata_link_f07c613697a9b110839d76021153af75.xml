@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>48c9e1fa9769b110839d76021153af89</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_snc_plants_db_plantipedia"&gt;
+    &lt;x_snc_plants_db_plantipedia action="INSERT_OR_UPDATE"&gt;
+        &lt;characteristics&gt;&lt;![CDATA[Erect, clumping, broadleaf evergreen hou]]&gt;&lt;/characteristics&gt;
+        &lt;difficulty_level&gt;beginner&lt;/difficulty_level&gt;
+        &lt;environment/&gt;
+        &lt;image&gt;873b257697a9b110839d76021153af45&lt;/image&gt;
+        &lt;light_requirements&gt;&lt;![CDATA[Receive direct sunlight only part of the]]&gt;&lt;/light_requirements&gt;
+        &lt;name&gt;Dracaena trifasciata(Snake Plant)&lt;/name&gt;
+        &lt;number&gt;PLA0001003&lt;/number&gt;
+        &lt;other/&gt;
+        &lt;pet_safe&gt;&lt;![CDATA[No]]&gt;&lt;/pet_safe&gt;
+        &lt;potting&gt;&lt;![CDATA[3.0 feet]]&gt;&lt;/potting&gt;
+        &lt;potting_mix&gt;&lt;![CDATA[Fertilizer once a month]]&gt;&lt;/potting_mix&gt;
+        &lt;propagation&gt;&lt;![CDATA[Root division, pups, leaf cuttings feet]]&gt;&lt;/propagation&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-10-01 18:36:27&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;48c9e1fa9769b110839d76021153af89&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-10-01 18:45:53&lt;/sys_updated_on&gt;
+        &lt;water&gt;&lt;![CDATA[Well-drained soil and careful watering ]]&gt;&lt;/water&gt;
+    &lt;/x_snc_plants_db_plantipedia&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color&gt;#ada893&lt;/average_image_color&gt;
+        &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;image/jpeg&lt;/content_type&gt;
+        &lt;file_name&gt;image&lt;/file_name&gt;
+        &lt;hash&gt;e6db8be88f6c09e6a00470cfa519d047a8ca3b89b0089327eafe6f758b882626&lt;/hash&gt;
+        &lt;image_height&gt;225&lt;/image_height&gt;
+        &lt;image_width&gt;225&lt;/image_width&gt;
+        &lt;size_bytes&gt;6848&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;6733&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-10-01 18:42:31&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;873b257697a9b110839d76021153af45&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-10-01 18:42:31&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;ZZ_YYx_snc_plants_db_plantipedia&lt;/table_name&gt;
+        &lt;table_sys_id&gt;48c9e1fa9769b110839d76021153af89&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAAAA==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="image" sys_id="873b257697a9b110839d76021153af45"&gt;873b257697a9b110839d76021153af45&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-10-01 18:42:31&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c73b257697a9b110839d76021153af45&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;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&lt;/data&gt;
+        &lt;length&gt;8964&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="image" sys_id="873b257697a9b110839d76021153af45"&gt;873b257697a9b110839d76021153af45&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-10-01 18:42:31&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;4b3b257697a9b110839d76021153af45&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 18:47:49</sys_created_on>
+        <sys_id>f07c613697a9b110839d76021153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dracaena trifasciata(Snake Plant)</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_f07c613697a9b110839d76021153af75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 18:47:49</sys_updated_on>
+        <tablename>x_snc_plants_db_plantipedia</tablename>
+    </sys_metadata_link>
+</record_update>
