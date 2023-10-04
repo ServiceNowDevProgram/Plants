@@ -8,35 +8,35 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Plants experience</mobile_title>
+        <mobile_title>Potting Informations</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>100</order>
+        <name>x_snc_plants_db_pot_info</name>
+        <order>350</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>/now/plants/landing</query>
+        <query/>
         <report/>
-        <roles/>
+        <roles>x_snc_plants_db.potting_information_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
-        <sys_created_by>MGOPW</sys_created_by>
-        <sys_created_on>2022-10-03 20:02:16</sys_created_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 16:27:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2934ac0a9792dd10d27a797e6253afe5</sys_id>
+        <sys_id>706cc9360761711019e8f7108c1ed068</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Plants Experience  ➚</sys_name>
+        <sys_name>Potting Informations</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
-        <sys_update_name>sys_app_module_2934ac0a9792dd10d27a797e6253afe5</sys_update_name>
+        <sys_update_name>sys_app_module_706cc9360761711019e8f7108c1ed068</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 16:35:21</sys_updated_on>
+        <sys_updated_on>2023-10-01 16:43:30</sys_updated_on>
         <timeline_page/>
-        <title>Plants Experience  ➚</title>
+        <title>Potting Informations</title>
         <uncancelable>false</uncancelable>
         <view_name/>
-        <window_name>_blank</window_name>
+        <window_name/>
     </sys_app_module>
 </record_update>

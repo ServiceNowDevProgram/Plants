@@ -9,6 +9,14 @@
         <element label="Next watering" max_length="40" name="next_watering" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Nickname" max_length="200" name="nickname" type="string"/>
         <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Picture" max_length="40" name="picture" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Placement" max_length="40" name="placement" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
+                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+                <element inactive_on_update="false" label="In the ground" sequence="2" value="ground"/>
+                <element inactive_on_update="false" label="In a pot" sequence="3" value="pot"/>
+            </choice>
+        </element>
         <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plants_db_plantipedia" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="good" label="Status" max_length="40" name="status" type="choice">
             <choice>
