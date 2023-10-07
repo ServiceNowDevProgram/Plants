@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7c8f75b5474321009db4b5b08b9a71b5</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Wayne Webb"&gt;46d14f04a9fe19810142e40c6b071512&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="FAQ"&gt;8deb2552ff0131009b20fffffffffffc&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000007&lt;/number&gt;
+        &lt;published&gt;2014-09-10&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;What is a cookie?		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-10 00:02:26&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;7c8f75b5474321009db4b5b08b9a71b5&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:55:39&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;4&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;strong&gt;What is a cookie?&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Cookies are messages that web servers pass to your web browser when you visit Internet sites. Your browser stores each message in a small file, called &lt;code&gt;cookie.txt&lt;/code&gt;. When you request another page from the server, your browser sends the cookie back to the server. These files typically contain information about your visit to the web page, as well as any information you&amp;#39;ve volunteered, such as your name and interests.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Examples of cookies&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cookies are most commonly used to track web site activity. When you visit some sites, the server gives you a cookie that acts as your identification card. Upon each return visit to that site, your browser passes that cookie back to the server. In this way, a web server can gather information about which web pages are used the most, and which pages are gathering the most repeat hits.&lt;/p&gt;
+&lt;p&gt;Cookies are also used for online shopping. Online stores often use cookies that record any personal information you enter, as well as any items in your electronic shopping cart, so that you don&amp;#39;t need to re-enter this information each time you visit the site.&lt;/p&gt;
+&lt;p&gt;Servers can use cookies to provide personalized web pages. When you select preferences at a site that uses this option, the server places the information in a cookie. When you return, the server uses the information in the cookie to create a customized page for you.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Security concerns&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Only the web site that creates a cookie can read it, so other servers do not have access to your information. Additionally, web servers can use only information that you provide or choices that you make while visiting the web site as content in cookies.&lt;/p&gt;
+&lt;p&gt;Webmasters have always been able to track access to their sites, but cookies make it easier to do so. In some cases, cookies come not from the site you&amp;#39;re visiting, but from advertising companies that manage the banner ads for a set of sites. These advertising companies can develop detailed profiles of the people who select ads across their customers&amp;#39; sites.&lt;/p&gt;
+&lt;p&gt;Accepting a cookie does not give a server access to your computer or any of your personal information (except for any information that you may have purposely given, as with online shopping). Also, it is not possible to execute code from a cookie, and not possible to use a cookie to deliver a virus.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;How do I clear my web browser&amp;#39;s cache, cookies, and history?&lt;/strong&gt;&lt;/span&gt; &lt;/p&gt;
+&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;If you don&amp;#39;t see instructions below for your specific version or browser, search your browser&amp;#39;s &lt;span class="menuitem"&gt;Help&lt;/span&gt; menu for &amp;#34;clear cache&amp;#34;. If you&amp;#39;re unsure what browser version you&amp;#39;re using, from the &lt;span class="menuitem"&gt;Help&lt;/span&gt; menu, select &lt;span class="menuitem"&gt;About [browser name]&lt;/span&gt;. InInternet Explorer and Firefox, if you don&amp;#39;t see the menu bar, press &lt;code&gt;Alt&lt;/code&gt;. &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;When troubleshooting issues with any web site, after clearing your browser&amp;#39;s cache and cookies, exit your browser completely before attempting to access the site again. In Windows, close all your browser windows; in Mac OS X, quit (&lt;code&gt;Command-q&lt;/code&gt;) your browser.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Android&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Start your browser. &lt;/li&gt;&lt;li&gt;Tap &lt;span class="menuitem"&gt;Menu&lt;/span&gt;, and then tap &lt;span class="menuitem"&gt;More&lt;/span&gt;. &lt;/li&gt;&lt;li&gt;Select &lt;span class="menuitem"&gt;Settings&lt;/span&gt;. &lt;/li&gt;&lt;li&gt;Under &amp;#34;Privacy settings&amp;#34;, select &lt;span class="menuitem"&gt;Clear cache&lt;/span&gt;, &lt;span class="menuitem"&gt;Clear history&lt;/span&gt;, or &lt;span class="menuitem"&gt;Clear all cookie data&lt;/span&gt; as appropriate, and then tap &lt;span class="menuitem"&gt;OK&lt;/span&gt; to accept (or &lt;span class="menuitem"&gt;Cancel&lt;/span&gt; to cancel) the deletion.&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt; Chrome&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;In the browser bar, enter:&lt;br /&gt;    chrome://settings/clearBrowserData&lt;/li&gt;&lt;li&gt;Select the items you want to clear (e.g., &lt;span class="menuitem"&gt;Clear browsing history&lt;/span&gt;, &lt;span class="menuitem"&gt;Clear download history&lt;/span&gt;, &lt;span class="menuitem"&gt;Empty the cache&lt;/span&gt;, &lt;span class="menuitem"&gt;Delete cookies and other site and plug-in data&lt;/span&gt;).&lt;br /&gt;    From the &lt;span class="menuitem"&gt;Obliterate the following items from:&lt;/span&gt; drop-down menu, you can choose the period of time for which you want to clear cached information. To clear your entire cache, select &lt;span class="menuitem"&gt;the beginning of time&lt;/span&gt;.&lt;/li&gt;&lt;li&gt;Click &lt;span class="menuitem"&gt;Clear browsing data&lt;/span&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Firefox&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;&lt;li&gt;From the &lt;span class="menuitem"&gt;Tools&lt;/span&gt; or &lt;span class="menuitem"&gt;History&lt;/span&gt; menu, select &lt;span class="menuitem"&gt;Clear Recent History&lt;/span&gt;.&lt;br /&gt;    If the menu bar is hidden, press &lt;code&gt;Alt&lt;/code&gt; to make it visible.&lt;/li&gt;&lt;li&gt;From the &lt;span class="menuitem"&gt;Time range to clear:&lt;/span&gt; drop-down menu, select the desired range; to clear your entire cache, select &lt;span class="menuitem"&gt;Everything&lt;/span&gt;. &lt;/li&gt;&lt;li&gt;Click the down arrow next to &amp;#34;Details&amp;#34; to choose which elements of the history to clear. Click &lt;span class="menuitem"&gt;Clear Now&lt;/span&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Internet Explorer 8 and higher&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;&lt;li&gt;From the &lt;span class="menuitem"&gt;Tools&lt;/span&gt; or &lt;span class="menuitem"&gt;Safety&lt;/span&gt; menu, select &lt;span class="menuitem"&gt;Delete browsing history...&lt;/span&gt;.&lt;br /&gt;    If the menu bar is hidden, press &lt;code&gt;Alt&lt;/code&gt; to make it visible.&lt;/li&gt;&lt;li&gt;Deselect &lt;span class="menuitem"&gt;Preserve Favorites website data&lt;/span&gt;, and select: &lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;&lt;span class="menuitem"&gt;Temporary Internet files&lt;/span&gt; or &lt;span class="menuitem"&gt;Temporary Internet files and website files&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="menuitem"&gt;Cookies&lt;/span&gt; or &lt;span class="menuitem"&gt;Cookies and website data&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="menuitem"&gt;History&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;Click &lt;span class="menuitem"&gt;Delete&lt;/span&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Internet Explorer 7&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;&lt;li&gt;From the &lt;span class="menuitem"&gt;Tools&lt;/span&gt; menu in the upper right, select &lt;span class="menuitem"&gt;Delete Browsing History...&lt;/span&gt;. &lt;/li&gt;&lt;li&gt;To delete your cache, click &lt;span class="menuitem"&gt;Delete files...&lt;/span&gt;.&lt;br /&gt;    To delete your cookies, click &lt;span class="menuitem"&gt;Delete cookies...&lt;/span&gt;.&lt;br /&gt;    To delete your history, click &lt;span class="menuitem"&gt;Delete history...&lt;/span&gt;.&lt;/li&gt;&lt;li&gt;Click &lt;span class="menuitem"&gt;Close&lt;/span&gt;, and then click &lt;span class="menuitem"&gt;OK&lt;/span&gt; to exit.&lt;/li&gt;&lt;/ol&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Mobile Safari for iOS (iPhone, iPod touch, iPad)&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;To clear cache and cookies:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;From the home screen, tap &lt;span class="menuitem"&gt;Settings&lt;/span&gt;, and then tap &lt;span class="menuitem"&gt;Safari&lt;/span&gt;. &lt;/li&gt;&lt;li&gt;At the bottom of Safari&amp;#39;s settings screen, tap &lt;span class="menuitem"&gt;Clear cookies and data&lt;/span&gt;, or&lt;span class="menuitem"&gt;Clear Cookies&lt;/span&gt; and &lt;span class="menuitem"&gt;Clear Cache&lt;/span&gt;. Confirm when prompted.&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;To clear history:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;From the home screen, tap &lt;span class="menuitem"&gt;Safari&lt;/span&gt;.&lt;/li&gt;&lt;li&gt;At the bottom of the screen, tap the &lt;span class="menuitem"&gt;Bookmarks&lt;/span&gt; icon.&lt;/li&gt;&lt;li&gt;In the lower left, tap &lt;span class="menuitem"&gt;Clear&lt;/span&gt;.&lt;/li&gt;&lt;li&gt;Tap &lt;span class="menuitem"&gt;Clear History&lt;/span&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Opera&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;&lt;li&gt;From the &lt;span class="menuitem"&gt;Opera&lt;/span&gt; menu, select &lt;span class="menuitem"&gt;Settings&lt;/span&gt;, and then &lt;span class="menuitem"&gt;Delete Private Data...&lt;/span&gt;. &lt;/li&gt;&lt;li&gt;In the dialog box that opens, select the items you want to clear, and then click&lt;span class="menuitem"&gt;Delete&lt;/span&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Safari&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;&lt;li&gt;From the &lt;span class="menuitem"&gt;Safari&lt;/span&gt; menu, select &lt;span class="menuitem"&gt;Reset Safari...&lt;/span&gt;. &lt;/li&gt;&lt;li&gt;From the menu, select the items you want to reset, and then click &lt;span class="menuitem"&gt;Reset&lt;/span&gt;. As of Safari 5.1, &lt;span class="menuitem"&gt;Remove all website data&lt;/span&gt; covers both cookies and cache.&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt; &lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Applications&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=7c8f75b5474321009db4b5b08b9a71b5"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:53</sys_created_on>
+        <sys_id>681a55e897753110e4fc3e66f053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000007</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_681a55e897753110e4fc3e66f053af4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:53</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

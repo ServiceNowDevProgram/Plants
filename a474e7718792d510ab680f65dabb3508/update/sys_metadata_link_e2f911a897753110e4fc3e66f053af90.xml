@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0dd6457187032100deddb882a2e3ecb3</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Sam Sorokin"&gt;46d85d4aa9fe198101e36eb956587fe7&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="How To"&gt;4008ed12ff0131009b20ffffffffffef&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000012&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Where can I obtain updates and new releases?
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;0dd6457187032100deddb882a2e3ecb3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:54:17&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;47&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;strong&gt;Where can I obtain updates and new releases for Mac OS X?&lt;/strong&gt;&lt;/span&gt;&lt;span class="Apple-tab-span"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To find updates and new releases for Mac OS X, try any of the following options:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Use Software Update to download and install updates, and even full releases, of the operating system. &lt;/li&gt;&lt;li&gt;To download the full version of Mac OS X 10.9 (Mavericks), open the Mac App Store, available in Mac OS X 10.6.6 and later. You may access it from the Apple menu. You can also buy other software products from Apple and third-party developers in the App Store.&lt;/li&gt;&lt;li&gt;To order Apple merchandise, visit the &lt;a title="" href="http://store.apple.com/us" rel="nofollow"&gt;Apple Store&lt;/a&gt; or call 800-MY-APPLE. For information about upgrades, call 800-785-9445. &lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Policies&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=0dd6457187032100deddb882a2e3ecb3"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:29</sys_created_on>
+        <sys_id>e2f911a897753110e4fc3e66f053af90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000012</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_e2f911a897753110e4fc3e66f053af90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:29</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

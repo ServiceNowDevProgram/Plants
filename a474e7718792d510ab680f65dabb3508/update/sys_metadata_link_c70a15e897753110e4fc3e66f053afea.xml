@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>471ee81eff6002009b20ffffffffff34</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Java"&gt;acba2d2047b002007f47563dbb9a71fc&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000032&lt;/number&gt;
+        &lt;published&gt;2015-06-11&lt;/published&gt;
+        &lt;rating&gt;5&lt;/rating&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Getting Around in Windows&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2015-06-11 17:09:43&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;471ee81eff6002009b20ffffffffff34&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2015-06-11 17:10:53&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;4&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;h2&gt;Getting Around in Windows&lt;/h2&gt; &lt;h3&gt;Windows 8.x&lt;/h3&gt; &lt;p&gt;Windows 8.x is designed for using touch, mouse, and keyboard together, on hardware ranging from touch-enabled tablets and laptops to PCs and all-in-one computers, including those without touch capability. &lt;/p&gt; &lt;h3&gt;&lt;span style="font-size: 12pt;"&gt;Start screen and Desktop&lt;/span&gt;&lt;/h3&gt; &lt;ul&gt;&lt;li&gt;8.1: Microsoft updated the Windows 8.1 interface by returning the &lt;span class="menuitem"&gt;Start&lt;/span&gt; button, providing its ease of access along with the option of the Metro interface. The intent is to provide a seamless experience on desktops, laptops, tablets, and phone devices. &lt;p&gt;By default, the Start screen is displayed. Move your mouse pointer to the bottom left corner of the screen to make the &lt;span class="menuitem"&gt;Start&lt;/span&gt; button appear. Click it to display the desktop; click it again to display the Start screen.&lt;/p&gt; &lt;/li&gt;&lt;li&gt;8: The Start screen has a default application display you can customize: &lt;br /&gt;&lt;br /&gt;&lt;ol&gt;&lt;li&gt;Right-click any app and the Application bar will appear at the bottom, with options for the application you have selected. &lt;/li&gt;&lt;li&gt;To add an app to the Start screen, click &lt;span class="menuitem"&gt;Pin to Start&lt;/span&gt;.&lt;br /&gt;    If an application is already on the Start screen, you&amp;#39;ll see &lt;span class="menuitem"&gt;Unpin from Start&lt;/span&gt; instead. &lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt; &lt;h3&gt;Power User menu&lt;/h3&gt; &lt;p&gt;The Power User menu displays the most commonly used applications from the Control Panel, File Explorer, and Task Manager, as well as Restart, Run, Search, and Shutdown/Update. Access it in one of the following ways:&lt;/p&gt; &lt;ul&gt;&lt;li&gt;Press &lt;code&gt;&lt;a href="/kb_view.do?sys_kb_id&amp;#61;3b07857187032100deddb882a2e3ec20" rel="nofollow"&gt;Win&lt;/a&gt;-x&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;In 8.1, right-click the &lt;span class="menuitem"&gt;Start&lt;/span&gt; button to launch the Power User menu. In 8, move your cursor to the bottom left corner of the screen and right-click.&lt;/li&gt;&lt;/ul&gt; &lt;h3&gt;Viewing and closing apps&lt;/h3&gt; &lt;p&gt;Note: Some applications and features in Windows 8 (e.g., Control Panel, Internet Explorer) have both a Windows 8.x version and a pre-Windows 8 version. Windows 8.x applications (formerly called &amp;#34;metro&amp;#34; style applications) have neither close nor minimize buttons; they are designed to run as full-screen applications and cannot be resized.&lt;/p&gt; &lt;ul&gt;&lt;li&gt;Tap the down arrow to view all apps (similar to viewing all programs in previous versions of Windows).&lt;br /&gt;    Alternately, you can right-click an open area of the Start screen, and the Application bar will open at the bottom. Click &lt;span class="menuitem"&gt;All apps&lt;/span&gt; on the lower right, and a list of all available apps will appear.&lt;/li&gt;&lt;li&gt;To close Windows 8.x applications, go to the top of the screen (your cursor will become a hand) and drag down to the bottom of the screen.&lt;/li&gt;&lt;/ul&gt; &lt;h3&gt;Search Settings and other Charms&lt;/h3&gt; &lt;p&gt;Options for accessing the Charms menu:&lt;/p&gt; &lt;ul&gt;&lt;li&gt;Tap the upper right-hand corner and move down to select a charm.&lt;/li&gt;&lt;li&gt;Hover your mouse pointer at the upper right-hand corner of the screen. Then, move your mouse pointer downward to select a charm. The following options will be displayed: &lt;br /&gt; &lt;ul&gt;&lt;li&gt;Search&lt;/li&gt;&lt;li&gt;Share&lt;/li&gt;&lt;li&gt;Start&lt;/li&gt;&lt;li&gt;Devices&lt;/li&gt;&lt;li&gt;Settings&lt;/li&gt;&lt;/ul&gt; &lt;/li&gt;&lt;/ul&gt; &lt;h3&gt;Initiating a search&lt;/h3&gt; &lt;p&gt;Press &lt;code&gt;&lt;a href="/kb_view.do?sys_kb_id&amp;#61;3b07857187032100deddb882a2e3ec20" rel="nofollow"&gt;Win&lt;/a&gt;-q&lt;/code&gt;. Type your search term(s) and choose the appropriate result.&lt;/p&gt; &lt;p&gt;Typing while in the Start screen initiates a search. For best results, choose&lt;span class="menuitem"&gt;Everywhere&lt;/span&gt; from the drop-down menu.&lt;/p&gt; &lt;h3&gt;Accessing the Control Panel&lt;/h3&gt; &lt;ul&gt;&lt;li&gt;Press &lt;code&gt;&lt;a href="/kb_view.do?sys_kb_id&amp;#61;3b07857187032100deddb882a2e3ec20" rel="nofollow"&gt;Win&lt;/a&gt;-i&lt;/code&gt;. On the panel that appears on the right, click &lt;span class="menuitem"&gt;Change PC Settings&lt;/span&gt;. The Windows 8.x version of the Control Panel will appear.&lt;/li&gt;&lt;li&gt;From the Start screen, type &lt;code&gt;control panel&lt;/code&gt;, and click the resulting &lt;span class="menuitem"&gt;Control Panel&lt;/span&gt;.&lt;/li&gt;&lt;/ul&gt; &lt;h2&gt;Windows 7&lt;/h2&gt; &lt;p&gt;&lt;a href="/kb_view.do?sys_kb_id&amp;#61;c487857187032100deddb882a2e3ec4f" rel="nofollow"&gt;Windows 7&lt;/a&gt; does not offer a complete Classic View or Classic Start menu. To use a Classic theme, right-click anywhere on the desktop, and then choose &lt;span class="menuitem"&gt;Personalize&lt;/span&gt;. Under &amp;#34;Basic and High Contrast Themes&amp;#34;, select &lt;span class="menuitem"&gt;Windows Classic&lt;/span&gt;.&lt;/p&gt; &lt;p&gt;In Windows 7, there is no Classic View in the Control Panel. Instead, you can switch between &lt;span class="menuitem"&gt;Category&lt;/span&gt;, &lt;span class="menuitem"&gt;Large icons&lt;/span&gt;, and &lt;span class="menuitem"&gt;Small icons&lt;/span&gt;.&lt;/p&gt; &lt;p&gt;To customize your Windows 7 Start menu and Taskbar, right-click the &lt;span class="menuitem"&gt;Start&lt;/span&gt; icon and click &lt;span class="menuitem"&gt;Properties&lt;/span&gt;. &lt;/p&gt; &lt;h2&gt;Windows Vista&lt;/h2&gt; &lt;p&gt;In &lt;a href="/kb_view.do?sys_kb_id&amp;#61;8a9a897187032100deddb882a2e3ec24" rel="nofollow"&gt;Windows Vista&lt;/a&gt;, you can choose whether to use the default views for some items (e.g., Start menu, Control Panel) or switch to Classic View. The option to switch is usually visible in the left frame, or by right-clicking and selecting &lt;span class="menuitem"&gt;Properties&lt;/span&gt;.&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=471ee81eff6002009b20ffffffffff34"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:47</sys_created_on>
+        <sys_id>c70a15e897753110e4fc3e66f053afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000032</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_c70a15e897753110e4fc3e66f053afea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:47</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

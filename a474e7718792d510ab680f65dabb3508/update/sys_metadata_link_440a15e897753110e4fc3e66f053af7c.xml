@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3020c9b1474321009db4b5b08b9a712d</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Ron Kettering"&gt;62d78687c0a8010e00b3d84178adc913&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category&gt;Tips and Tricks&lt;/category&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Email"&gt;5681bf8bff0221009b20ffffffffff95&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000028&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;What are phishing scams and how can I avoid them?
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;3020c9b1474321009db4b5b08b9a712d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-24 03:49:03&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;91&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;Phishing explained&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Phishing Explained&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Phishing scams are typically fraudulent email messages appearing to come from legitimate enterprises (e.g., your company, your Internet service provider, your bank). These messages usually direct you to a spoofed web site or otherwise get you to divulge private information (e.g., passphrase, credit card, or other account updates). The perpetrators then use this private information to commit identity theft.&lt;/p&gt;
+&lt;p&gt;One type of phishing attempt is an email message stating that you are receiving it due to fraudulent activity on your account, and asking you to &amp;#34;click here&amp;#34; to verify your information.&lt;/p&gt;
+&lt;p&gt;Phishing scams are crude social engineering tools designed to induce panic in the reader. These scams attempt to trick recipients into responding or clicking immediately, by claiming they will lose something (e.g., email, bank account). Such a claim is always indicative of a phishing scam, as responsible companies and organizations will never take these types of actions via email.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Specific types of phishing&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Phishing scams vary widely in terms of their complexity, the quality of the forgery, and the attacker&amp;#39;s objective. Several distinct types of phishing have emerged.&lt;/p&gt;
+&lt;h3&gt;&lt;span style="font-size: 10pt;"&gt;Spear phishing&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Phishing attacks directed at specific individuals, roles, or organizations are referred to as &amp;#34;spear phishing&amp;#34;. Since these attacks are so pointed, attackers may go to great lengths to gather specific personal or institutional information in the hope of making the attack more believable and increasing the likelihood of its success.&lt;/p&gt;
+&lt;p&gt;The best defense against spear phishing is to carefully, securely discard information (i.e., using a cross-cut shredder) that could be used in such an attack. Further, be aware of data that may be relatively easily obtainable (e.g., your title at work, your favorite places, or where you bank), and think before acting on seemingly random requests via email or phone.&lt;/p&gt;
+&lt;h3&gt;&lt;span style="font-size: 10pt;"&gt;Whaling&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;The term &amp;#34;whaling&amp;#34; is used to describe phishing attacks (usually spear phishing) directed specifically at executive officers or other high-profile targets within a business, government, or other organization.&lt;/p&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Avoiding phishing scams&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;The Company and other reputable organizations will never use email to request that you reply with your passphrase, Social Security number, or confidential personal information. Be suspicious of any email message that asks you to enter or verify personal information, through a web site or by replying to the message itself. Never reply to or click the links in a message. If you think the message may be legitimate, go directly to the company&amp;#39;s web site (i.e., type the real URL into your browser) or contact the company to see if you really do need to take the action described in the email message.&lt;/p&gt;
+&lt;p&gt;When you recognize a phishing message, delete the email message from your Inbox, and then empty it from the deleted items folder to avoid accidentally accessing the web sites it points to.&lt;/p&gt;
+&lt;p&gt;Always read your email as plain text.&lt;/p&gt;
+&lt;p&gt;Phishing messages often contain clickable images that look legitimate; by reading messages in plain text, you can see the URLs that any images point to. Additionally, when you allow your mail client to read HTML or other non-text-only formatting, attackers can take advantage of your mail client&amp;#39;s ability to execute code, which leaves your computer vulnerable to viruses, worms, and Trojans.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Warnings&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Reading email as plain text is a general best practice that, while avoiding some phishing attempts, won&amp;#39;t avoid them all. Some legitimate sites use redirect scripts that don&amp;#39;t check the redirects. Consequently, phishing perpetrators can use these scripts to redirect from legitimate sites to their fake sites.&lt;/p&gt;
+&lt;p&gt;Another tactic is to use a homograph attack, which, due to International Domain Name (IDN) support in modern browsers, allows attackers to use different languagecharacter sets to produce URLs that look remarkably like the authentic ones.&lt;/p&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Reporting phishing attempts&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;If the phishing attempt targets the Company in any way (e.g., asks for the Company&amp;#39;s Webmail users to &amp;#34;verify their accounts&amp;#34;, includes a malicious PDF directed to human resources, or impersonates the Company), forward it with full headers to the Company Information Security Office. &lt;/li&gt;&lt;li&gt;You can report a phishing scam attempt to the company that is being spoofed. &lt;/li&gt;&lt;li&gt;You can also send reports to the Federal Trade Commission (FTC). &lt;/li&gt;&lt;li&gt;Depending on where you live, some local authorities also accept phishing scam reports. &lt;/li&gt;&lt;li&gt;Finally, you can send details to the Anti-Phishing Working Group, which is building a database of common scams to which people can refer.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Example of a phishing scam&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The following phishing scam was targeted at Servicenow users:&lt;/p&gt;
+&lt;pre class="example"&gt;-----------------------------------------------------------------
+
+From: &amp;#34;SERVICENOW.ORG SUPPORT TEAM&amp;#34; &amp;lt;supportteam01&amp;#64;indiana.edu&amp;gt;
+Reply-To: &amp;#34;SERVICENOW.ORG SUPPORT TEAM&amp;#34; &amp;lt;spupportteam&amp;#64;info.lt&amp;gt;
+Date: Sat, 12 Jul 2008 17:42:05 -0400
+To: &amp;lt;&amp;#34;Undisclosed-Recipient:;&amp;#34;&amp;#64;iocaine.uits.indiana.edu&amp;gt;
+Subject: CONFIRM YOUR ACCOUNT
+
+Dear SERVICENOW.ORG Webmail Subscriber
+
+This mail is to inform all our {SERVICENOW.ORG} webmail users that we
+will be maintaining and upgrading our website in a couple of days from
+now.As a Subscriber you are required to send us your Email account
+details to enable us know if you are still making use of your
+mailbox. Be informed that we will be deleting all mail account that is
+not functioning to enable us create more space for new employees and
+managers in the company, You are to send your mail account details which
+are as follows:
+
+*User Name:
+*Password:
+*Date of birth:
+
+Failure to do this will immediately render your email address deactivated from our database.
+
+Thank you for using SERVICENOW.ORG
+FROM THE SERVICENOW.ORG SUPPORT TEAM
+
+------------------------------------------------------------------&lt;/pre&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Email&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=3020c9b1474321009db4b5b08b9a712d"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:35</sys_created_on>
+        <sys_id>440a15e897753110e4fc3e66f053af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000028</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_440a15e897753110e4fc3e66f053af7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:35</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

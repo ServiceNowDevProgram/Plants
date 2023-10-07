@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3b07857187032100deddb882a2e3ec20</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Boris Catino"&gt;a6826bf03710200044e0bfc8bcbe5de6&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Windows"&gt;14f8a152ff0131009b20ffffffffff74&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000017&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;What is the Windows key?		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;3b07857187032100deddb882a2e3ec20&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:53:20&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;12&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;h1&gt;What is the Windows key?&lt;/h1&gt;
+&lt;p&gt;The Windows key is a standard key on most keyboards on computers built to use a Windows operating system. It is labeled with a Windows logo, and is usually placed between the &lt;code&gt;Ctrl&lt;/code&gt; and &lt;code&gt;Alt&lt;/code&gt; keys on the left side of the keyboard; there may be a second identical key on the right side as well.&lt;/p&gt;
+&lt;p&gt;Pressing &lt;code&gt;Win&lt;/code&gt; (the Windows key) on its own will do the following:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Windows 8.x: Toggle between the Start screen and the current application&lt;/li&gt;&lt;li&gt;Windows 7 or Vista: Bring up the Start menu&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Pressing &lt;code&gt;Win&lt;/code&gt; in combination with other keys will access shortcuts; these will vary based on the version of Windows you are using. For a list of shortcuts, see &lt;a title="" href="http://en.wikipedia.org/wiki/Windows_key" rel="nofollow"&gt;Wikipedia: Windows key&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If your keyboard does not have a Windows key, you can access the Start menu, but not other shortcuts, by pressing &lt;code&gt;Ctrl-Esc&lt;/code&gt;. If you are running Windows on a Mac in &lt;a title="" href="http://www.apple.com/support/bootcamp/" rel="nofollow"&gt;Boot Camp&lt;/a&gt;, the &lt;code&gt;Command&lt;/code&gt; key functions as the Windows key.&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Desktop&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=3b07857187032100deddb882a2e3ec20"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:39</sys_created_on>
+        <sys_id>010a15e897753110e4fc3e66f053af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000017</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_010a15e897753110e4fc3e66f053af83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:39</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

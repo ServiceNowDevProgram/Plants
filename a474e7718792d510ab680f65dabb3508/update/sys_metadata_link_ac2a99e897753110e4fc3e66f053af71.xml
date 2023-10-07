@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d15de43187032100deddb882a2e3ec7d</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Ron Kettering"&gt;62d78687c0a8010e00b3d84178adc913&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category&gt;Outlook&lt;/category&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Outlook 2010"&gt;36786152ff0131009b20ffffffffff51&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000026&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Create And Edit A Contact Group		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;d15de43187032100deddb882a2e3ec7d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:50:08&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;10&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;Outlook 2010 - Create And Edit A Contact Group (Formerly Distribution Lists)&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div id="doc-summary"&gt;
+&lt;p&gt;This article explains how to create and edit a contact group in Outlook 2010. In previous versions of Outlook, this was known as a distribution list.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id="doc-body"&gt;
+&lt;p&gt;A contact group (formerly known as a distribution list) is a grouping of email addresses collected under one name. A message sent to a Contact Group goes to all recipients listed in the group. You can include Contact Groups in messages, task requests, meeting requests, and in other Contact Groups. There is no maximum number of names you can include in a Contact Group.&lt;/p&gt;
+&lt;h3&gt;Create a Contact Group with New Names or Names in the Address Book&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;In Contacts, on the &lt;strong&gt;Home &lt;/strong&gt;tab, in the &lt;strong&gt;New &lt;/strong&gt;group, click &lt;strong&gt;New Contact Group&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;li&gt;In the &lt;strong&gt;Name &lt;/strong&gt;box, type a name for the Contact Group.&lt;/li&gt;&lt;li&gt;On the &lt;strong&gt;Contact Group&lt;/strong&gt; tab, in the &lt;strong&gt;Members &lt;/strong&gt;group, click &lt;strong&gt;Add Members&lt;/strong&gt;, and then click &lt;strong&gt;From Outlook Contacts&lt;/strong&gt;, &lt;strong&gt;From Address Book&lt;/strong&gt; or &lt;strong&gt;New E-mail Contact&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;If you are adding a new email contact, enter the information for the person in the &lt;strong&gt;Add New Member&lt;/strong&gt;dialog box. OR&lt;/li&gt;&lt;li&gt;If you are adding a member from Outlook Contacts or an Address Book, do the following:&lt;/li&gt;&lt;li&gt;&lt;ol&gt;&lt;li&gt;In the &lt;strong&gt;Address Book&lt;/strong&gt; drop-down list, click the address book that contains the email addresses that you want to include in your Contact Group.&lt;/li&gt;&lt;li&gt;In the list of names, click the names that you want, and then click &lt;strong&gt;Members&lt;/strong&gt;. You can add names from different address books to the same Contact Group.&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;Do this for each person whom you want to add to the Contact Group, and then click &lt;strong&gt;OK&lt;/strong&gt;. The Contact Group is saved in your &lt;strong&gt;Contacts &lt;/strong&gt;folder under the name that you chose.&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;Create a Contact Group by Copying Names from an Email Message&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;In the message that you want to copy the names from, click the names in the &lt;strong&gt;To &lt;/strong&gt;or &lt;strong&gt;Cc &lt;/strong&gt;box (To, Cc, and Bcc boxes: A message is sent to the recipients in the To box. Recipients in the Cc (carbon copy) and Bcc (blind carbon copy) boxes also get the message; however, the names of the recipients in the Bcc box aren&amp;#39;t visible to other recipients.).&lt;/li&gt;&lt;li&gt;Right-click your selection, and then click &lt;strong&gt;Copy&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;In Mail, on the &lt;strong&gt;Home &lt;/strong&gt;tab, in the &lt;strong&gt;New &lt;/strong&gt;group, click &lt;strong&gt;New Items&lt;/strong&gt;, then click &lt;strong&gt;More Items&lt;/strong&gt;, and then click&lt;strong&gt;Contact Group&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;In the &lt;strong&gt;Name &lt;/strong&gt;box, type a name for the Contact Group.&lt;/li&gt;&lt;li&gt;On the &lt;strong&gt;Contact Group&lt;/strong&gt; tab, in the &lt;strong&gt;Members &lt;/strong&gt;group, click &lt;strong&gt;Add Members&lt;/strong&gt;, and then click either &lt;strong&gt;From Outlook Contacts&lt;/strong&gt; or &lt;strong&gt;From Address Book&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;At the bottom of the &lt;strong&gt;Select Members&lt;/strong&gt; dialog box, in the &lt;strong&gt;Members &lt;/strong&gt;box, right-click, and then click &lt;strong&gt;Paste&lt;/strong&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;h4&gt;NOTE:&lt;/h4&gt;
+&lt;p&gt;A member does not need to be in your Address Book in order to be added to the Contact Group. The member&amp;#39;s name and email address will be included when you copy and paste from the original email message.&lt;/p&gt;
+&lt;h3&gt;Add an Address from an Address Book or a Contacts Folder&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;On the &lt;strong&gt;Contact Group&lt;/strong&gt; tab, in the &lt;strong&gt;Members &lt;/strong&gt;group, click &lt;strong&gt;Add Members&lt;/strong&gt;, and then click &lt;strong&gt;From Outlook Contacts&lt;/strong&gt; or &lt;strong&gt;From Address Book&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;In the &lt;strong&gt;Address Book&lt;/strong&gt; drop-down list, click the address book that contains the e-mail addresses that you want in your Contact Group.&lt;/li&gt;&lt;li&gt;Browse for the name that you want, or type it in the &lt;strong&gt;Search &lt;/strong&gt;box.&lt;/li&gt;&lt;li&gt;In the &lt;strong&gt;Name &lt;/strong&gt;list, click the name, and then click &lt;strong&gt;Members&lt;/strong&gt;. Do this for each person whom you want to add to the Contact Group, and then click OK.&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;Add an Address that is Not in a Contacts Folder or an Address Book&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;On the &lt;strong&gt;Contact Group&lt;/strong&gt; tab, in the &lt;strong&gt;Members &lt;/strong&gt;group, click &lt;strong&gt;Add Members&lt;/strong&gt;, and then click &lt;strong&gt;New E-mail Contact&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Type the information for the email address, and then click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;&lt;/ol&gt;
+&lt;h3&gt;Remove a Contact Group Member&lt;/h3&gt;
+&lt;ol&gt;&lt;li&gt;In the list of names, click the name that you want to remove.&lt;/li&gt;&lt;li&gt;On the &lt;strong&gt;Contact Group&lt;/strong&gt; tab, in the &lt;strong&gt;Members &lt;/strong&gt;group, click &lt;strong&gt;Remove Member&lt;/strong&gt;.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Email&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=d15de43187032100deddb882a2e3ec7d"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:10</sys_created_on>
+        <sys_id>ac2a99e897753110e4fc3e66f053af71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000026</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_ac2a99e897753110e4fc3e66f053af71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:10</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

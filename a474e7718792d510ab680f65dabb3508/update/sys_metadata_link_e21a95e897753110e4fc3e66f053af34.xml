@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8f27857187032100deddb882a2e3ec0f</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Boris Catino"&gt;a6826bf03710200044e0bfc8bcbe5de6&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Windows"&gt;14f8a152ff0131009b20ffffffffff74&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000019&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;How can I restore my computer to a previous
+			configuration?
+		&lt;/short_description&gt;
+        &lt;source display_value="PRB0000014"&gt;1998e51967b032004792adab9485effa&lt;/source&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;8f27857187032100deddb882a2e3ec0f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:53:07&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;14&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;Restore my computer to a previous configuration&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can use a feature called System Restore to restore your Windows computer to a previous working configuration. To use System Restore, follow the appropriate steps for your operating system.&lt;/p&gt;
+&lt;p&gt;Note: For help navigating, see &lt;a href="/kb_view.do?sys_kb_id&amp;#61;3347493187032100deddb882a2e3ec01" rel="nofollow"&gt;Getting around in Windows&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Windows 8.x and 7&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;In Windows 8.x, press &lt;/span&gt;&lt;a style="font-size: 10pt;" href="/kb_view.do?sys_kb_id&amp;#61;3b07857187032100deddb882a2e3ec20" rel="nofollow"&gt;Win&lt;/a&gt;&lt;span style="font-size: 10pt;"&gt;-c; from the Charms menu, choose Search, and thenApps. Enter rstrui and select the matching result.  &lt;br /&gt;&lt;/span&gt;&lt;span style="font-size: 10pt;"&gt;    In Windows 7, in the Start menu search field, enter system restore , rstrui , or rstrui.exe and select the matching result.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;In the resulting System Restore menu, click Next. Choose a restore point that was created before your current configuration stopped working.  &lt;br /&gt;&lt;/span&gt;&lt;span style="font-size: 10pt;"&gt;    Note: If you need to select a restore point that isn&amp;#39;t listed, click Show more restore points.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Click Next, and then Finish.&lt;/span&gt; &lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Windows Vista&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;In the Start menu search field, enter system restore . &lt;/li&gt;&lt;li&gt;Click Choose a different restore point, and then click Next. &lt;/li&gt;&lt;li&gt;Choose a restore point that was created before your current configuration stopped working. Click Next, and then Finish.&lt;/li&gt;&lt;/ol&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Desktop&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=8f27857187032100deddb882a2e3ec0f"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:01</sys_created_on>
+        <sys_id>e21a95e897753110e4fc3e66f053af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000019</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_e21a95e897753110e4fc3e66f053af34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:01</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

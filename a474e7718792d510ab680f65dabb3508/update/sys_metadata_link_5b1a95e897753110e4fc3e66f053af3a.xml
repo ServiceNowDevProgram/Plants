@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9e528db1474321009db4b5b08b9a71a6</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Boris Catino"&gt;a6826bf03710200044e0bfc8bcbe5de6&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Windows 8"&gt;7429a152ff0131009b20ffffffffffb4&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000020&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Windows: Should I upgrade to Windows 8.x?
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;9e528db1474321009db4b5b08b9a71a6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:52:57&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;20&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;Should I upgrade to Windows 8.x?&lt;/span&gt;&lt;/strong&gt;&lt;span class="Apple-tab-span"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Windows 8.x is designed for using touch, mouse, and keyboard together, on hardware ranging from touch-enabled tablets and laptops to PCs and all-in-one computers, including those without touch capability.  To decide whether to upgrade, consider details surrounding system requirements, versions, features related to your own use, and support at IU.&lt;/p&gt;
+&lt;p class="p2"&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Features&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class="ul1"&gt;&lt;li class="li4"&gt;Another noticeable difference is the requirement of a Microsoft account to download apps from the Windows Store and access apps such as Calendar, Mail, and Messaging. &lt;/li&gt;&lt;li class="li4"&gt;By most accounts, Windows 8.x improves performance in areas such as speed, memory management, and power efficiency, resulting in faster boot times, smaller memory footprint, and more free memory for the programs you run. Windows 8.x also suspends apps and desktop programs when a device is put into sleep mode, allowing the CPU to drop into a lower-power state for battery savings. &lt;/li&gt;&lt;li class="li4"&gt;The Task Manager and Explorer have been enhanced, allowing easier views of system resource use, and more useful and functional file management. &lt;/li&gt;&lt;li class="li4"&gt;Windows 8.x comes with improved recovery options, including restoring a device to a clean install state, or performing the equivalent of a factory reset while keeping installed apps and preferences. Both these functions can be performed from a built-in recovery menu.&lt;/li&gt;&lt;/ul&gt;
+&lt;p class="p2"&gt; &lt;/p&gt;
+&lt;p class="p3"&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;System Requirements&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p1"&gt;Computers currently running Windows 7 should not have problems running Windows 8.x.&lt;/p&gt;
+&lt;table class="t1" style="height: 526px;" width="1193" cellspacing="0" cellpadding="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="td1" valign="middle"&gt;
+&lt;table cellspacing="0" cellpadding="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="td2" valign="top"&gt;
+&lt;table class="t2" border="1" cellspacing="0" cellpadding="4"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="td3" valign="middle"&gt;
+&lt;p class="p5"&gt;&lt;b&gt;Microsoft recommends&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;td class="td4" valign="middle"&gt;
+&lt;p class="p5"&gt;&lt;b&gt;ServiceNow recommends&lt;/b&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td3" valign="middle"&gt;
+&lt;p class="p4"&gt;1 GHz 32-bit (x86) or 64-bit (x64) processor&lt;/p&gt;
+&lt;/td&gt;&lt;td class="td4" valign="middle"&gt;
+&lt;p class="p4"&gt;Dual-core (Core 2) processor&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td3" valign="middle"&gt;
+&lt;p class="p4"&gt;1 GB of system memory (32-bit) or 2 GB of system memory (64-bit)&lt;/p&gt;
+&lt;/td&gt;&lt;td class="td4" valign="middle"&gt;
+&lt;p class="p4"&gt;2 GB of system memory&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td3" valign="middle"&gt;
+&lt;p class="p4"&gt;DirectX 9-capable graphics processor, with Hardware Pixel Shader v2.0 and WDDM 1.0 or higher driver support&lt;/p&gt;
+&lt;/td&gt;&lt;td class="td4" valign="middle"&gt;
+&lt;p class="p4"&gt; &lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td3" valign="middle"&gt;
+&lt;p class="p4"&gt;128 MB of graphics memory&lt;/p&gt;
+&lt;/td&gt;&lt;td class="td4" valign="middle"&gt;
+&lt;p class="p4"&gt;256 MB of graphics memory and a non-integrated video card.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td3" valign="middle"&gt;
+&lt;p class="p4"&gt;40 GB of hard drive capacity with 16 GB free space (32-bit) or 20 GB free space (64-bit)&lt;/p&gt;
+&lt;/td&gt;&lt;td class="td4" valign="middle"&gt;
+&lt;p class="p4"&gt;80-100 GB of hard drive capacity&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td3" valign="middle"&gt;
+&lt;p class="p4"&gt;DVD-ROM drive&lt;/p&gt;
+&lt;/td&gt;&lt;td class="td4" valign="middle"&gt;
+&lt;p class="p4"&gt; &lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td3" valign="middle"&gt;
+&lt;p class="p4"&gt;Audio output capability&lt;/p&gt;
+&lt;/td&gt;&lt;td class="td4" valign="middle"&gt;
+&lt;p class="p4"&gt; &lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td3" valign="middle"&gt;
+&lt;p class="p4"&gt;Internet access capability&lt;/p&gt;
+&lt;/td&gt;&lt;td class="td4" valign="middle"&gt;
+&lt;p class="p4"&gt; &lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td5" colspan="2" valign="middle"&gt;
+&lt;p class="p4"&gt;Additionally, a new element is the requirement that modern UI applications have a minimum of 1024 x 768 screen resolution, and 1366 x 768 for the snap feature.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="td1" valign="top"&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Desktop&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=9e528db1474321009db4b5b08b9a71a6"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:05</sys_created_on>
+        <sys_id>5b1a95e897753110e4fc3e66f053af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000020</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_5b1a95e897753110e4fc3e66f053af3a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:05</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

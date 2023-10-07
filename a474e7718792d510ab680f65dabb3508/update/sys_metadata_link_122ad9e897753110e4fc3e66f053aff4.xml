@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e6c2956097753110e4fc3e66f053af8e</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value=""&gt;system&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count&gt;0&lt;/helpful_count&gt;
+        &lt;image/&gt;
+        &lt;kb_category/&gt;
+        &lt;kb_knowledge_base display_value="Botanica, An encyclopedia of Plants"&gt;464027aa47a57110760bb1a8536d4343&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description&gt;Look up desert rose in Wiktionary, the free dictionary. Desert rose may refer to: Plants Adenium, a genus&lt;/meta_description&gt;
+        &lt;number&gt;KB0010006&lt;/number&gt;
+        &lt;published&gt;2023-10-07&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Desert rose&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;system&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-10-07 03:25:04&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;e6c2956097753110e4fc3e66f053af8e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-10-07 03:50:49&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;0&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;link rel="dc:replaces" /&gt;&lt;link href="//en.wikipedia.org/wiki/Desert_rose" rel="dc:isVersionOf" /&gt;&lt;link href="/w/load.php?lang&amp;#61;en&amp;amp;modules&amp;#61;mediawiki.skinning.content.parsoid%7Cmediawiki.skinning.interface%7Csite.styles&amp;amp;only&amp;#61;styles&amp;amp;skin&amp;#61;vector" rel="stylesheet" /&gt;&lt;/p&gt;
+&lt;style id="mwAg"&gt;.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:#f9f9f9;display:flow-root}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1}}@media(min-width:720px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}&lt;/style&gt;
+&lt;div class="side-box side-box-right plainlinks sistersitebox"&gt;
+&lt;div class="side-box side-box-right plainlinks sistersitebox"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;style&gt;.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}&lt;/style&gt;
+&lt;div id="mwAw" class="side-box side-box-right plainlinks sistersitebox"&gt;
+&lt;div class="side-box-flex"&gt;
+&lt;div class="side-box-image"&gt;&lt;span class="noviewer"&gt;&lt;img class="mw-file-element" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png" alt="" width="40" height="40" /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="side-box-text plainlist"&gt;Look up &lt;em&gt;&lt;strong&gt;&lt;a class="extiw" title="wiktionary:desert rose" href="https://en.wiktionary.org/wiki/desert%20rose" rel="nofollow"&gt;desert rose&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt; in Wiktionary, the free dictionary.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p id="mwBA"&gt;&lt;strong id="mwBQ"&gt;Desert rose&lt;/strong&gt; may refer to:&lt;/p&gt;
+&lt;h2 id="Plants"&gt;Plants&lt;/h2&gt;
+&lt;ul id="mwBw"&gt;&lt;li id="mwCA"&gt;&lt;em id="mwCQ"&gt;&lt;a id="mwCg" title="Adenium" href="./Adenium" rel="nofollow"&gt;Adenium&lt;/a&gt;&lt;/em&gt;, a genus of flowering plants in tropical Africa and Arabia&lt;/li&gt;&lt;li id="mwCw"&gt;&lt;em id="mwDA"&gt;&lt;a id="mwDQ" title="Rosa stellata" href="./Rosa_stellata" rel="nofollow"&gt;Rosa stellata&lt;/a&gt;&lt;/em&gt;, a flowering plant native to North America&lt;/li&gt;&lt;li id="mwDg"&gt;&lt;a id="mwDw" class="mw-redirect" title="Sturt’s desert rose" href="./Sturt’s_desert_rose" rel="nofollow"&gt;Sturt’s desert rose&lt;/a&gt; (&lt;em id="mwEA"&gt;Gossypium sturtianum&lt;/em&gt;), an Australian shrub related to cotton&lt;/li&gt;&lt;/ul&gt;
+&lt;h2 id="Other_uses"&gt;Other uses&lt;/h2&gt;
+&lt;ul id="mwEg"&gt;&lt;li id="mwEw"&gt;&lt;a id="mwFA" title="Desert rose (crystal)" href="./Desert_rose_%28crystal%29" rel="nofollow"&gt;Desert rose (crystal)&lt;/a&gt;, a rosette formation of gypsum and barite with sand inclusions&lt;/li&gt;&lt;li id="mwFQ"&gt;&lt;a id="mwFg" title="Desert Rose (Sting song)" href="./Desert_Rose_%28Sting_song%29" rel="nofollow"&gt;&amp;#34;Desert Rose&amp;#34; (Sting song)&lt;/a&gt;, a song on Sting&amp;#39;s 1999 album &lt;em id="mwFw"&gt;Brand New Day&lt;/em&gt;&lt;/li&gt;&lt;li id="mwGA"&gt;&lt;a id="mwGQ" class="mw-redirect" title="Desert Rose (Eric Johnson song)" href="./Desert_Rose_%28Eric_Johnson_song%29" rel="nofollow"&gt;&amp;#34;Desert Rose&amp;#34; (Eric Johnson song)&lt;/a&gt;, a song on Eric Johnson&amp;#39;s 1990 album &lt;em id="mwGg"&gt;Ah Via Musicom&lt;/em&gt;&lt;/li&gt;&lt;li id="mwGw"&gt;&lt;a id="mwHA" class="mw-redirect" title="Desert Rose (My Little Pony)" href="./Desert_Rose_%28My_Little_Pony%29" rel="nofollow"&gt;Desert Rose (&lt;em id="mwHQ"&gt;My Little Pony&lt;/em&gt;)&lt;/a&gt;, a character in the &lt;em id="mwHg"&gt;My Little Pony&lt;/em&gt; franchise&lt;/li&gt;&lt;li id="mwHw"&gt;&lt;a id="mwIA" class="mw-redirect" title="Desert Rose Academy Charter School" href="./Desert_Rose_Academy_Charter_School" rel="nofollow"&gt;Desert Rose Academy Charter School&lt;/a&gt;, a public charter high school in Tucson, Arizona&lt;/li&gt;&lt;li id="mwIQ"&gt;&lt;a id="mwIg" title="The Desert Rose Band" href="./The_Desert_Rose_Band" rel="nofollow"&gt;The Desert Rose Band&lt;/a&gt;, a country rock band founded by Chris Hillman, Herb Pedersen, and John Jorgenson&lt;/li&gt;&lt;li id="mwIw"&gt;A pattern of &lt;a id="mwJA" title="Franciscan Ceramics" href="./Franciscan_Ceramics" rel="nofollow"&gt;Franciscan Ceramics&lt;/a&gt; dinnerware&lt;/li&gt;&lt;li id="mwJQ"&gt;&lt;em id="mwJg"&gt;Desert Rose: The Life and Legacy of Coretta Scott King&lt;/em&gt;, a biography written by King&amp;#39;s sister &lt;a id="mwJw" title="Edythe Scott Bagley" href="./Edythe_Scott_Bagley" rel="nofollow"&gt;Edythe Scott Bagley&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;div id="mwKA" class="shortdescription nomobile noexcerpt noprint searchaux" style="display: none;"&gt;Topics referred to by the same term&lt;/div&gt;
+&lt;p&gt;&lt;link href="./Category:Short_description_is_different_from_Wikidata" rel="mw:PageProp/Category" /&gt;&lt;/p&gt;
+&lt;style&gt;.mw-parser-output .dmbox{display:flex;align-items:center;clear:both;margin:0.9em 1em;border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding:0.25em 0.35em;font-style:italic}.mw-parser-output .dmbox&gt;*{flex-shrink:0;margin:0 0.25em}.mw-parser-output .dmbox-body{flex-grow:1;flex-shrink:1;padding:0.1em 0}.mw-parser-output .dmbox-invalid-type{text-align:center}&lt;/style&gt;
+&lt;div id="_disambigbox" class="metadata plainlinks dmbox 
+dmbox-disambig "&gt;&lt;a class="mw-file-description" href="./File:Disambig_gray.svg" rel="nofollow"&gt;&lt;img class="mw-file-element" src="//upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png" alt="Disambiguation icon" width="30" height="23" /&gt;&lt;/a&gt;
+&lt;div class="dmbox-body"&gt;This &lt;a title="Help:Disambiguation" href="./Help:Disambiguation" rel="nofollow"&gt;disambiguation&lt;/a&gt; page lists articles associated with the title &lt;strong&gt;Desert rose&lt;/strong&gt;.&lt;br /&gt;&lt;small&gt;If an &lt;a class="external text" href="//en.wikipedia.org/w/index.php?title&amp;#61;Special:WhatLinksHere/Desert_rose&amp;amp;namespace&amp;#61;0" rel="nofollow"&gt;internal link&lt;/a&gt; led you here, you may wish to change the link to point directly to the intended article.&lt;/small&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;link href="./Category:All_article_disambiguation_pages" rel="mw:PageProp/Category" /&gt;&lt;link href="./Category:All_disambiguation_pages" rel="mw:PageProp/Category" /&gt;&lt;link href="./Category:Disambiguation_pages" rel="mw:PageProp/Category" /&gt;&lt;link id="mwKQ" href="./Category:Plant_common_name_disambiguation_pages" rel="mw:PageProp/Category" /&gt;&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2024-01-05&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=e6c2956097753110e4fc3e66f053af8e"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:17</sys_created_on>
+        <sys_id>122ad9e897753110e4fc3e66f053aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0010006</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_122ad9e897753110e4fc3e66f053aff4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:17</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

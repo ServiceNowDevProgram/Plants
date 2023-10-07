@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f2765f9fc0a8011b0120ec1b352bf09b</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Wayne Webb"&gt;46d14f04a9fe19810142e40c6b071512&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci display_value="Sales Force Automation"&gt;a9c0c8d2c6112276018f7705562f9cb0&lt;/cmdb_ci&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Announcements"&gt;b85c6552ff0131009b20ffffffffffd4&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000001&lt;/number&gt;
+        &lt;published&gt;2023-06-20&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Sales Force Automation is DOWN&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-01-17 17:21:52&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;f2765f9fc0a8011b0120ec1b352bf09b&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-10-03 15:57:53&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;0&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;div style="border: 0px; font-family: &amp;#39;open sans&amp;#39;; font-size: 14px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: #444444; font-variant: normal; letter-spacing: 0.4000000059604645px; line-height: 27px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"&gt;&lt;span style="border: 0px; font-family: Verdana, arial, Helvetica, sans-serif; font-size: 14px; font-style: inherit; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"&gt;On Friday, January 20th, we experienced a widespread outage that affected all Zoho services. The outage started around 8:13 am Pacific Time. Zoho services started coming back online for customer use at 3:49 pm, and all services were fully restored at 6:22 pm PST. We absolutely realize how important our services are for businesses and users who rely on us; we let you down on Friday. Please accept our humblest apologies. &lt;/span&gt;&lt;/div&gt;
+&lt;div style="border: 0px; font-family: &amp;#39;open sans&amp;#39;; font-size: 14px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: #444444; font-variant: normal; letter-spacing: 0.4000000059604645px; line-height: 27px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"&gt;&lt;span style="border: 0px; font-family: Verdana, arial, Helvetica, sans-serif; font-size: 14px; font-style: inherit; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"&gt; &lt;/span&gt;&lt;/div&gt;
+&lt;div style="border: 0px; font-family: &amp;#39;open sans&amp;#39;; font-size: 14px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; color: #444444; font-variant: normal; letter-spacing: 0.4000000059604645px; line-height: 27px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"&gt;&lt;span style="border: 0px; font-family: Verdana, arial, Helvetica, sans-serif; font-size: 14px; font-style: inherit; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"&gt;The cause of the outage was an abrupt power failure in our state-of-the-art collocated data center facility (owned and operated by Equinix) in the Silicon Valley area, California. Equinix provides us physically secure space, highly redundant power and cooling. We get our internet connectivity from separate service providers. We own, maintain and operate the servers and the network equipment and the software. The problem was not just that the power failure happened, the problem was that it happened &lt;em style="border: 0px; font-family: inherit; font-size: 14px; font-style: italic; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"&gt;abruptly&lt;/em&gt;, with no warning whatsoever, and all our equipment went down all at once. Data centers, certainly this one, have triple, and even quadruple, redundancy in their power systems just to prevent such an abrupt power outage. The intent is that any power failure would have sufficient warning so that equipment, databases most importantly, can be shut down gracefully. In fact, the main function such data centers perform is to provide extreme redundancy in power systems, provide cooling for the equipment and provide physical security. Absolutely no warning happened prior to this incident, which is what we have asked our vendor to explain, and we hope they would be transparent with us. I do want to say that Equinix has served us well, they are a leader in this field, we have never suffered an abrupt power outage like this in 5&amp;#43; years. But they do owe us and other customers in that data center an explanation for what happened on Friday. They restored power quickly, but the damage was done because of the abruptness of the outage.&lt;/span&gt;&lt;/div&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;News&lt;/topic&gt;
+        &lt;use_count/&gt;
+        &lt;valid_to&gt;2032-07-30&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=f2765f9fc0a8011b0120ec1b352bf09b"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:20</sys_created_on>
+        <sys_id>cb2a1de897753110e4fc3e66f053af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000001</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_cb2a1de897753110e4fc3e66f053af51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:20</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

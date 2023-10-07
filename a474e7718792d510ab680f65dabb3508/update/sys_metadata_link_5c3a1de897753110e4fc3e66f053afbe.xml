@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f77d34b1474321009db4b5b08b9a71c5</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Wayne Webb"&gt;46d14f04a9fe19810142e40c6b071512&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Dell"&gt;455b2552ff0131009b20ffffffffffd9&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000023&lt;/number&gt;
+        &lt;published/&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Enable/Disable Wireless Laptop Connections
+		&lt;/short_description&gt;
+        &lt;source display_value="PRB0000012"&gt;e9b0e55567b032004792adab9485ef6c&lt;/source&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-06-24 03:49:03&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;f77d34b1474321009db4b5b08b9a71c5&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-24 03:49:03&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;0&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;b&gt;&lt;span style="font-size: 18pt;"&gt;Enable/Disable Wireless Laptop Connections&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Dell Quickset Utility&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;On a Dell laptop running the latest versions of Quickset and the Intel drivers (downloadable from support.dell.com), perform the following steps:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Launch the Quickset utility by double-clicking the Quickset icon in the system tray.&lt;/li&gt;&lt;li&gt;Click on &lt;b&gt;Location Profiler &lt;/b&gt;in the upper left.&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;Modify Settings &lt;/b&gt;on the left side in the Quickset Location Profiler window&lt;/li&gt;&lt;li&gt;Select the box &lt;b&gt;Disable Wi-Fi until the Wired connection is terminated&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;Save&lt;/b&gt; at the bottom of the window.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;This can be very useful to those who plug into an Ethernet port so they don&amp;#39;t have to manually disable wireless. It also fixes a few problems where Windows might try to use both network interfaces simultaneously. Note: Sometimes it appears that the &amp;#34;Location Profiler&amp;#34; menu option is not present. If this is the case, reinstall Quickset, reboot, then re-install the Dell drivers for wireless and reboot again. This seems to correct the issue.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Windows Computers; Manual Method&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Right-click your wireless icon in the system tray and select &lt;b&gt;View Available Wireless Networks&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Double-click on the company&amp;#39;s wireless connection to disconnect&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;Yes&lt;/b&gt; when prompted to disconnect&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;--OR-- &lt;/b&gt;&lt;/span&gt;(if you do not see the wireless icon in your system tray)&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Click on the &lt;b&gt;Start&lt;/b&gt; button&lt;/li&gt;&lt;li&gt;Pull up to &lt;b&gt;Connect To &lt;/b&gt;--&amp;gt; &lt;b&gt;Show All Connections&lt;/b&gt; (in Windows 2000 or XP using the classic interface, pull up to&lt;b&gt;Settings&lt;/b&gt; and select &lt;b&gt;Network Connections&lt;/b&gt;)&lt;/li&gt;&lt;li&gt;Right-click on the &lt;b&gt;Wireless Network Connection&lt;/b&gt; and select &lt;b&gt;View Available Wireless Networks&lt;/b&gt;. Double-click on the company&amp;#39;s wireless connection to disconnect&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;Yes&lt;/b&gt; when prompted to disconnect&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;These procedures leave the wireless device active, and the wireless icon viewable in the system tray with a red X on it, to easily connect when desired.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Mac OS X Computers; Manual Method&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;If you Macintosh does not automatically detect the wired network when you plug in an Ethernet cable:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;From the &lt;b&gt;Apple&lt;/b&gt; menu select &lt;b&gt;System Preferences&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Click the &lt;b&gt;Network&lt;/b&gt; icon&lt;/li&gt;&lt;li&gt;From the drop down menu select Built-in Ethernet (wired), or Airport (wireless), as needed&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;--OR--&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;Click on the signal strength indicator in the upper right corner of your screen and select &lt;b&gt;nostrings&lt;/b&gt; from the menu.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;How to turn off network bridging and Internet connection sharing&lt;/b&gt;&lt;br /&gt;Network instability can also be caused if either Network Bridging or Internet Connection Sharing are turned on within your system preferences. When your computer is configured for network bridging or Internet Connection Sharing, it can cause looping of network traffic.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Windows Vista&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Click on the &lt;b&gt;Start&lt;/b&gt; button&lt;/li&gt;&lt;li&gt;Click on &lt;b&gt;Control Panel&lt;/b&gt; and choose &lt;b&gt;Network and Sharing Center&lt;/b&gt;&lt;/li&gt;&lt;li&gt;On the left hand side of the page select &lt;b&gt;Manage network connections&lt;/b&gt; from the Tasks list&lt;/li&gt;&lt;li&gt;In the Network Connections window, right-click on an active Ethernet connection (Local Area Connection). Make sure Bridge Connections is not selected.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Windows XP Pro&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Click on the &lt;b&gt;Start&lt;/b&gt; button&lt;/li&gt;&lt;li&gt;Pull up to &lt;b&gt;Connect To &lt;/b&gt;--&amp;gt; &lt;b&gt;Show All Connections&lt;/b&gt; (if using the classic interface, pull up to &lt;b&gt;Settings&lt;/b&gt; and select&lt;b&gt;Network Connections&lt;/b&gt;)&lt;/li&gt;&lt;li&gt;In the Network Connections window, right-click on an active Ethernet connection (Local Area Connection). Make sure Bridge Connections is not selected.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Windows 2000&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Click on the &lt;b&gt;Start&lt;/b&gt; button&lt;/li&gt;&lt;li&gt;Pull up to &lt;b&gt;Settings&lt;/b&gt; and select &lt;b&gt;Network Connections&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Right-click on an active Ethernet connection (Local Area Connection). On the Connection Properties screen, select the &lt;b&gt;Sharing&lt;/b&gt; tab.&lt;/li&gt;&lt;li&gt;Under &lt;b&gt;Shared Access&lt;/b&gt;, make sure &lt;b&gt;Enable Internet Connection Sharing &lt;/b&gt;for this connection is not selected, then click &lt;b&gt;OK&lt;/b&gt;.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Mac OS X&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;From the &lt;b&gt;Apple&lt;/b&gt; menu, select to &lt;b&gt;System Preference&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Under Internet &amp;amp; Network, click &lt;b&gt;Sharing&lt;/b&gt;, then click the &lt;b&gt;Internet&lt;/b&gt; tab.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Internet Sharing Off &lt;/b&gt;must be displayed at the top of the tab. If you see Internet Sharing On, click Stop to disable it.&lt;/li&gt;&lt;/ul&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Desktop&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;draft&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=f77d34b1474321009db4b5b08b9a71c5"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:25</sys_created_on>
+        <sys_id>5c3a1de897753110e4fc3e66f053afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000023</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_5c3a1de897753110e4fc3e66f053afbe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:25</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

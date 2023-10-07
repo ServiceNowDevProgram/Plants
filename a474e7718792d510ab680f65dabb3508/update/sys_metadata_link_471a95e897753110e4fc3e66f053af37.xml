@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>93910db1474321009db4b5b08b9a7199</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Sam Sorokin"&gt;46d85d4aa9fe198101e36eb956587fe7&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="How To"&gt;4008ed12ff0131009b20ffffffffffef&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000015&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;How do I create and delete users?
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;93910db1474321009db4b5b08b9a7199&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:53:46&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;13&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;b&gt;Creating/Deleting users in Mac OS X&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="p2"&gt;To allow users to log into your Mac OS X computer, create an account for each of them.&lt;/p&gt;
+&lt;p class="p4" style="font-size: 12pt;"&gt;&lt;b&gt;Creating a new user in Mac OS X&lt;/b&gt;&lt;/p&gt;
+&lt;ol class="ol1"&gt;&lt;li class="li5"&gt;From the Apple menu, select System Preferences.... &lt;/li&gt;&lt;li class="li5"&gt;From the View menu, select Users &amp;amp; Groups (Mac OS X 10.7 or later) orAccounts (Mac OS X 10.6 or earlier). &lt;/li&gt;&lt;li class="li5"&gt;If it&amp;#39;s locked, click the padlock in the bottom left corner of the window, and then authenticate as an administrator. &lt;/li&gt;&lt;li class="li5"&gt;Under the list of user accounts, click &amp;#43; (the plus sign). &lt;/li&gt;&lt;li class="li5"&gt;From the menu next to &amp;#34;New Account:&amp;#34;, select the type of account you want to create. To allow this user to make changes to the system settings, add programs, and perform other system functions beyond basic use, selectAdministrator. For lower access accounts, choose Standard or Managed with Parental Controls as appropriate. Sharing Only and Group are special options for specific needs. For more, refer to your operating system&amp;#39;s documentation. Note: Selecting Administrator will give the user the ability to make changes to your system without your approval.&lt;/li&gt;&lt;li class="li5"&gt;In the &amp;#34;Full Name:&amp;#34; field, enter the new user&amp;#39;s real name. &lt;/li&gt;&lt;li class="li5"&gt;In the &amp;#34;Account Name:&amp;#34; or &amp;#34;Short Name:&amp;#34; field, enter a username you wish to assign to the user.&lt;/li&gt;&lt;li class="li5"&gt;In the &amp;#34;Password:&amp;#34; field, type a password for the user, and then type it again in the &amp;#34;Verify:&amp;#34; field. You can optionally set a password hint for the user. For the hint, try to use something only the new user will understand; alternatively, leave this field blank. &lt;/li&gt;&lt;li class="li5"&gt;Click Create User or Create Account.&lt;/li&gt;&lt;/ol&gt;
+&lt;p class="p4" style="font-size: 12pt;"&gt;&lt;b&gt;Deleting a user in Mac OS X&lt;/b&gt;&lt;/p&gt;
+&lt;ol class="ol1"&gt;&lt;li class="li5"&gt;From the Apple menu, select System Preferences.... &lt;/li&gt;&lt;li class="li5"&gt;From the View menu, select Users &amp;amp; Groups (Mac OS X 10.7 and later) orAccounts (Mac OS X 10.6 and earlier). &lt;/li&gt;&lt;li class="li5"&gt;If it&amp;#39;s locked, click the padlock in the bottom left corner of the window, and then authenticate as an administrator. &lt;/li&gt;&lt;li class="li5"&gt;Select the name of the user you want to delete, and, under the list of accounts, click - (the minus sign). &lt;/li&gt;&lt;li class="li5"&gt;Choose Save the home folder in a disk image, Don&amp;#39;t change the home folder, or Delete the home folder depending on how or whether you want to save the user&amp;#39;s data. In Mac OS X 10.7 or later, if you choose to delete the home folder, there is also an Erase home folder securely option. Then, click Delete User or OK.&lt;/li&gt;&lt;/ol&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Desktop&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=93910db1474321009db4b5b08b9a7199"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:03</sys_created_on>
+        <sys_id>471a95e897753110e4fc3e66f053af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000015</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_471a95e897753110e4fc3e66f053af37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:03</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

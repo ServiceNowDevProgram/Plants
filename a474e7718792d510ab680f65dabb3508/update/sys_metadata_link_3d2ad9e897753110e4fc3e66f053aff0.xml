@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e31486b5474321009db4b5b08b9a7164</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Wayne Webb"&gt;46d14f04a9fe19810142e40c6b071512&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Dell"&gt;455b2552ff0131009b20ffffffffffd9&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000010&lt;/number&gt;
+        &lt;published&gt;2014-09-10&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Warranty coverage details for SCI and DeSC
+			computers
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-10 00:21:59&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;e31486b5474321009db4b5b08b9a7164&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:55:07&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;8&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;strong&gt;Warranty coverage details for SCI and DeSC computers&lt;span class="Apple-tab-span"&gt; &lt;/span&gt; &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Your newly acquired Dell computer comes with a limited factory warranty of 5 years for parts and labor coverage. The warranty begins the day the computer is shipped, not when you receive it.&lt;/p&gt;
+&lt;p&gt; If you think that you have a hardware problem and are not sure, please call the OIT Help Desk at 8-HELP. A Help Desk representative will determine if the problem is caused by hardware or software. If it is determined to be a hardware problem, a Hardware Support technician will be dispatched to your office to repair your computer. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What Are CRUs?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; The Dell laptops come with many CRUs (customer replaceable units). Dell does not reimburse HWS for any work done on these items. If you suspect one of these components has failed and the Help Desk, your SCAD representative or STC representative has determined your trouble to be hardware failure, you will need to contact Dell - please see the Hardware Support warranty page for information on numbers to call.&lt;/p&gt;
+&lt;p&gt;The following are examples of CRUs:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Floppy Drive/LS-120/Zip drive&lt;/li&gt;&lt;li&gt;External Floppy Drive Cable&lt;/li&gt;&lt;li&gt;External Media Cable&lt;/li&gt;&lt;li&gt;External Media Sleeve&lt;/li&gt;&lt;li&gt;CD-ROMs/CD-RW/DVD drive&lt;/li&gt;&lt;li&gt;PCMCIA Card&lt;/li&gt;&lt;li&gt;Main Battery&lt;/li&gt;&lt;li&gt;Travel Module&lt;/li&gt;&lt;li&gt;AC Adapter&lt;/li&gt;&lt;li&gt;Power Cord&lt;/li&gt;&lt;li&gt;Mini PCI Card Assembly&lt;/li&gt;&lt;li&gt;Memory Modules&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;Additionally, Dell desktop systems also have CRUs. Again these are not reimbursable to Hardware Support and are dealt with by the customers also. Computer Replaceable Units are:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Keyboards&lt;/li&gt;&lt;li&gt;Mice&lt;/li&gt;&lt;li&gt;Monitors&lt;/li&gt;&lt;li&gt;External Speakers&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;If one of these items needs to be replaced, you can contact Dell directly. Have your system tag number ready. When you contact Dell, they will make arrangements to have replacement parts advance shipped directly to you for immediate replacement. A return prepaid air bill will be provided for the return of your defective part. If a customer does NOT want to deal with Dell, Hardware Support can certainly obtain these items under warranty and replace them for a labor charge.&lt;/p&gt;
+&lt;p&gt;Hardware Support provides service for all computers regardless of their warranty. For information regarding services and pricing for warrantied and non-warrantied computers, please see the Hardware Support warranty page.&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Policies&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=e31486b5474321009db4b5b08b9a7164"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:15</sys_created_on>
+        <sys_id>3d2ad9e897753110e4fc3e66f053aff0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000010</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_3d2ad9e897753110e4fc3e66f053aff0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:15</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c487857187032100deddb882a2e3ec4f</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Boris Catino"&gt;a6826bf03710200044e0bfc8bcbe5de6&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Windows 7"&gt;6f8c0a92ff4131009b20ffffffffff43&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000021&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;About Windows 7&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;c487857187032100deddb882a2e3ec4f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:52:48&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;9&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;About Windows 7&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Windows 7 is not an upgrade to Windows Vista, but an entirely different operating system. With it, you can expect greater functionality in communication, multimedia, and security, including improved, streamlined User Account Control (UAC) performance with fewer prompts. The interface introduced with Vista, Windows Aero, uses 3D graphics and other high-end visual effects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;System requirements&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The minimum hardware requirements for Windows 7 as specified by Microsoft are listed as follows:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;1 GHz 32-bit (x86) or 64-bit (x64) processor &lt;br /&gt;UITS recommends: A dual-core (Core 2) processor &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;1 GB of system memory (32-bit) or 2 GB of system memory (64-bit) &lt;br /&gt;UITS recommends: 2 GB system memory &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;A graphics processor that is DirectX 9-capable with Hardware Pixel Shader v2.0 and WDDM Driver support&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;128 MB of graphics memory &lt;br /&gt;UITS recommends: 256 MB graphics memory; non-integrated video card &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;40 GB of hard drive capacity with 16 GB free space (32-bit) or 20 GB free space (64-bit) &lt;br /&gt;UITS recommends: 80-100 GB capacity &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;DVD-ROM drive&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Audio output capability&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Internet access capability &lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Windows 7 versions and upgrades&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;The different versions and upgrades include Windows 7 Ultimate; IU departments will use Windows 7 Enterprise.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;If you are using any version of Windows 7 or Vista except Enterprise, you can upgrade to Windows 7 Ultimate. For example, if you purchase a new computer from an outside retailer, it might be shipped with Windows 7 Home Premium; you can upgrade to Windows 7 Ultimate if you wish. &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Departments that use Vista Enterprise can upgrade to Windows 7 Enterprise. If you have Vista Enterprise for personal use, you cannot upgrade that to Windows 7 Enterprise, but you can do a clean install of Windows 7 Ultimate, which will format your hard drive and remove your previous version of Windows. &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;For all other versions of Windows, migrating to Windows 7 will require a clean install. &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Your upgrade path must be consistent with your system type (i.e., you cannot upgrade from Windows Vista Ultimate 32-bit to Windows 7 Ultimate 64-bit, or from a 64-bit to a 32-bit operating system). &lt;/li&gt;&lt;/ul&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Desktop&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=c487857187032100deddb882a2e3ec4f"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:09</sys_created_on>
+        <sys_id>d82a99e897753110e4fc3e66f053af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000021</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_d82a99e897753110e4fc3e66f053af6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:09</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

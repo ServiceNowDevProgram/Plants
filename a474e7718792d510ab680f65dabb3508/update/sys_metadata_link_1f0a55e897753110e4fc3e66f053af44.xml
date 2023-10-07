@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4d2de43187032100deddb882a2e3ec20</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Ron Kettering"&gt;62d78687c0a8010e00b3d84178adc913&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category&gt;Outlook&lt;/category&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Outlook 2010"&gt;36786152ff0131009b20ffffffffff51&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000027&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Importing Address Book From CSV File
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;4d2de43187032100deddb882a2e3ec20&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:50:01&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;35&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;Outlook 2010 - Importing Address Book From CSV File &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div id="doc-summary"&gt;
+&lt;p&gt;This article explains how to import your address book from a CSV file into Outlook 2010. &lt;/p&gt;
+&lt;/div&gt;
+&lt;div id="doc-body"&gt;&lt;ol&gt;&lt;li&gt;Start Outlook 2010.&lt;/li&gt;&lt;li&gt;Select the &lt;strong&gt;File&lt;/strong&gt; menu.&lt;/li&gt;&lt;li&gt;Choose &lt;strong&gt;Open.&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Import&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Select &lt;strong&gt;Import from another program or file&lt;/strong&gt;, then &lt;strong&gt;Next&lt;/strong&gt; from the Import/Export Wizard.&lt;/li&gt;&lt;li&gt;Select &lt;strong&gt;Comma Separated Values (Windows) &lt;/strong&gt;, then &lt;strong&gt;Next&lt;/strong&gt;. &lt;/li&gt;&lt;li&gt;Choose &lt;strong&gt;Browse &lt;/strong&gt;to navigate to the .csv file that you want to import, and then click &lt;strong&gt;Open&lt;/strong&gt; to return to the Import a File window.&lt;/li&gt;&lt;li&gt;Select &lt;strong&gt;Next&lt;/strong&gt; and choose &lt;strong&gt;Contacts &lt;/strong&gt;as the destination folder, and click &lt;strong&gt;Next &lt;/strong&gt;again.&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Finish&lt;/strong&gt; to import the Address Book.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Email&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=4d2de43187032100deddb882a2e3ec20"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:48</sys_created_on>
+        <sys_id>1f0a55e897753110e4fc3e66f053af44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000027</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_1f0a55e897753110e4fc3e66f053af44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:48</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

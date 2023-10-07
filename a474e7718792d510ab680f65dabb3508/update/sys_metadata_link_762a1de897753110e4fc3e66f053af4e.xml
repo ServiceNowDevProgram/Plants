@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e97ee81eff6002009b20ffffffffffe0</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Android"&gt;c78a2d2047b002007f47563dbb9a71bf&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000033&lt;/number&gt;
+        &lt;published&gt;2015-06-11&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Eclipse configuration for Android development
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2015-06-11 17:10:27&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;e97ee81eff6002009b20ffffffffffe0&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2015-06-11 17:10:57&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;2&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;h2&gt;Installing the Eclipse Plugin&lt;/h2&gt; &lt;p&gt;Android offers a custom plugin for the Eclipse IDE, called Android Development Tools (ADT). This plugin provides a powerful, integrated environment in which to develop Android apps. It extends the capabilities of Eclipse to let you quickly set up new Android projects, build an app UI, debug your app, and export signed (or unsigned) app packages (APKs) for distribution.&lt;/p&gt; &lt;p class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you have been using Eclipse with ADT, be aware that &lt;a target="_blank" href="http://developer.android.com/tools/studio/index.html" rel="noopener noreferrer nofollow"&gt;Android Studio&lt;/a&gt; is now the official IDE for Android, so you should migrate to Android Studio to receive all the latest IDE updates. For help moving projects, see &lt;a target="_blank" href="http://developer.android.com/sdk/installing/migrate.html" rel="noopener noreferrer nofollow"&gt;Migrating to Android Studio&lt;/a&gt;.&lt;/p&gt; &lt;p&gt; &lt;/p&gt; &lt;p&gt;You should install the ADT plugin only if you already have an Eclipse installation that you want to continue using. Your existing Eclipse installation must meet these requirements:&lt;/p&gt; &lt;ul&gt;&lt;li&gt;&lt;a target="_blank" href="http://eclipse.org/mobile/" rel="noopener noreferrer nofollow"&gt;Eclipse&lt;/a&gt; 3.7.2 (Indigo) or greater &lt;p class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt; Eclipse 3.6 (Helios) is no longer supported with the latest version of ADT.&lt;/p&gt; &lt;/li&gt;&lt;li&gt;Eclipse &lt;a target="_blank" href="http://www.eclipse.org/jdt" rel="noopener noreferrer nofollow"&gt;JDT&lt;/a&gt; plugin (included in most Eclipse IDE packages)&lt;/li&gt;&lt;li&gt;&lt;a target="_blank" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" rel="noopener noreferrer nofollow"&gt;JDK 6&lt;/a&gt; (JRE alone is not sufficient)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Not&lt;/strong&gt; compatible with GNU Compiler for Java (gcj)&lt;/li&gt;&lt;/ul&gt; &lt;h2 id="Download"&gt;Download the ADT Plugin&lt;/h2&gt; &lt;hr /&gt; &lt;p&gt;To add the ADT plugin to Eclipse:&lt;/p&gt; &lt;ol&gt;&lt;li&gt;Start Eclipse, then select &lt;strong&gt;Help&lt;/strong&gt; &amp;gt; &lt;strong&gt;Install New Software&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Add&lt;/strong&gt;, in the top-right corner.&lt;/li&gt;&lt;li&gt;In the Add Repository dialog that appears, enter &amp;#34;ADT Plugin&amp;#34; for the &lt;em&gt;Name&lt;/em&gt; and the following URL for the &lt;em&gt;Location&lt;/em&gt;: &lt;pre class="prettyprint"&gt;&lt;span class="pln"&gt;https&lt;/span&gt;&lt;span class="pun"&gt;:&lt;/span&gt;&lt;span class="com"&gt;//dl-ssl.google.com/android/eclipse/&lt;/span&gt;&lt;/pre&gt; &lt;p class="note"&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Android Developer Tools update site requires a secure connection. Make sure the update site URL you enter starts with HTTPS.&lt;/p&gt; &lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;In the Available Software dialog, select the checkbox next to Developer Tools and click &lt;strong&gt;Next&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;In the next window, you&amp;#39;ll see a list of the tools to be downloaded. Click &lt;strong&gt;Next&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Read and accept the license agreements, then click &lt;strong&gt;Finish&lt;/strong&gt;. &lt;p&gt;If you get a security warning saying that the authenticity or validity of the software can&amp;#39;t be established, click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt; &lt;/li&gt;&lt;li&gt;When the installation completes, restart Eclipse.&lt;/li&gt;&lt;/ol&gt; &lt;h2 id="Configure"&gt;Configure the ADT Plugin&lt;/h2&gt; &lt;hr /&gt; &lt;p&gt;Once Eclipse restarts, you must specify the location of your Android SDK directory:&lt;/p&gt; &lt;ol&gt;&lt;li&gt;In the &amp;#34;Welcome to Android Development&amp;#34; window that appears, select &lt;strong&gt;Use existing SDKs&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Browse and select the location of the Android SDK directory you recently downloaded and unpacked.&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Next&lt;/strong&gt;.&lt;/li&gt;&lt;/ol&gt; &lt;p&gt;Your Eclipse IDE is now set up to develop Android apps, but you need to add the latest SDK platform tools and an Android platform to your environment. To get these packages for your SDK, continue to &lt;a target="_blank" href="http://developer.android.com/sdk/installing/adding-packages.html" rel="noopener noreferrer nofollow"&gt;Adding Platforms and Packages&lt;/a&gt;.&lt;/p&gt; &lt;h2 id="Troubleshooting"&gt;Troubleshooting ADT Installation&lt;/h2&gt; &lt;hr /&gt; &lt;p&gt;If you are having trouble downloading the ADT plugin after following the steps above and you are behind a firewall (such as a corporate firewall), make sure that you have properly configured your proxy settings in Eclipse. In Eclipse, you can configure proxy information from the main Eclipse menu in &lt;strong&gt;Window&lt;/strong&gt; (on Mac OS X, &lt;strong&gt;Eclipse&lt;/strong&gt;) &amp;gt; &lt;strong&gt;Preferences&lt;/strong&gt; &amp;gt; &lt;strong&gt;General&lt;/strong&gt; &amp;gt;&lt;strong&gt;Network Connections&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;If you are still unable to use Eclipse to download the ADT plugin as a remote update site, you can download the ADT zip file to your local machine and manually install it:&lt;/p&gt; &lt;ol&gt;&lt;li&gt;Download the ADT Plugin zip file (do not unpack it): &lt;table class="download"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;Package&lt;/th&gt;&lt;th&gt;Size&lt;/th&gt;&lt;th&gt;MD5 Checksum&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a target="_blank" href="https://dl.google.com/android/ADT-23.0.6.zip" rel="noopener noreferrer nofollow"&gt;ADT-23.0.6.zip&lt;/a&gt;&lt;/td&gt;&lt;td&gt;103344298 bytes&lt;/td&gt;&lt;td&gt;f64b7e50c84799f41c642218c35f1bbe&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; &lt;/li&gt;&lt;li&gt;Start Eclipse, then select &lt;strong&gt;Help&lt;/strong&gt; &amp;gt; &lt;strong&gt;Install New Software&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Click &lt;strong&gt;Add&lt;/strong&gt;, in the top-right corner.&lt;/li&gt;&lt;li&gt;In the Add Repository dialog, click &lt;strong&gt;Archive&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Select the downloaded ADT-23.0.6.zip file and click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Enter &amp;#34;ADT Plugin&amp;#34; for the name and click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;In the Available Software dialog, select the checkbox next to Developer Tools and click &lt;strong&gt;Next&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;In the next window, you&amp;#39;ll see a list of the tools to be downloaded. Click &lt;strong&gt;Next&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Read and accept the license agreements, then click &lt;strong&gt;Finish&lt;/strong&gt;. &lt;p&gt;If you get a security warning saying that the authenticity or validity of the software can&amp;#39;t be established, click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt; &lt;/li&gt;&lt;li&gt;When the installation completes, restart Eclipse.&lt;/li&gt;&lt;/ol&gt; &lt;p&gt;To update your plugin once you&amp;#39;ve installed using the zip file, you will have to follow these steps again instead of the default update instructions.&lt;/p&gt; &lt;h4&gt;Other install errors&lt;/h4&gt; &lt;p&gt;Note that there are features of ADT that require some optional Eclipse packages (for example, WST). If you encounter an error when installing ADT, your Eclipse installation might not include these packages. For information about how to quickly add the necessary packages to your Eclipse installation, see the troubleshooting topic &lt;a target="_blank" href="http://developer.android.com/resources/faq/troubleshooting.html#installeclipsecomponents" rel="noopener noreferrer nofollow"&gt;ADT Installation Error: &amp;#34;requires plug-in org.eclipse.wst.sse.ui&amp;#34;&lt;/a&gt;.&lt;/p&gt; &lt;h4&gt;For Linux users&lt;/h4&gt; &lt;p&gt;If you encounter this error when installing the ADT Plugin for Eclipse:&lt;/p&gt; &lt;pre class="prettyprint"&gt;&lt;span class="typ"&gt;An&lt;/span&gt;&lt;span class="pln"&gt; error occurred during provisioning&lt;/span&gt;&lt;span class="pun"&gt;.&lt;/span&gt;&lt;span class="pln"&gt;&lt;br /&gt;&lt;/span&gt;&lt;span class="typ"&gt;Cannot&lt;/span&gt;&lt;span class="pln"&gt; connect to keystore&lt;/span&gt;&lt;span class="pun"&gt;.&lt;/span&gt;&lt;span class="pln"&gt;&lt;br /&gt;JKS&lt;/span&gt;&lt;/pre&gt; &lt;p&gt;...then your development machine lacks a suitable Java VM. Installing Sun Java 6 will resolve this issue and you can then reinstall the ADT Plugin.&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=e97ee81eff6002009b20ffffffffffe0"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:18</sys_created_on>
+        <sys_id>762a1de897753110e4fc3e66f053af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000033</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_762a1de897753110e4fc3e66f053af4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:18</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8aef1935474321009db4b5b08b9a7113</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Ron Kettering"&gt;62d78687c0a8010e00b3d84178adc913&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category&gt;Outlook&lt;/category&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Outlook 2010"&gt;36786152ff0131009b20ffffffffff51&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000030&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Deleted Email Recovery		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;8aef1935474321009db4b5b08b9a7113&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-24 03:49:03&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;45&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;Deleted Email Recovery&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;By default, every email deleted from your OWA mailbox goes through the following process:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;The email is moved to your Deleted Items folder.&lt;/li&gt;&lt;li&gt;If you purge or remove items from your Deleted Items folder they will be moved to the Dumpster where they are still recoverable.&lt;/li&gt;&lt;li&gt;The Dumpster only holds email message for 14 days once they&amp;#39;ve been removed from Deleted Items.&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;Deleted email can be recovered from the Deleted Items folder or the Dumpster. Once it has been permanently deleted from the dumpster it can not be recovered.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Desktop clients (e.g., Outlook, Entourage, Apple Mail) may be configured to use a local trash system or be configured to purge email from the Deleted Items folder more quickly than 14 days.&lt;/p&gt;
+&lt;p&gt;Deleted Email Recovery is only available in OWA or Outlook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Delete Email&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When you are ready to delete email from your Inbox, select the email by clicking on it once and then either:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;select the Delete icon on the OWA Toolbar,&lt;br /&gt;OR&lt;/li&gt;&lt;li&gt;right-click and select &lt;b&gt;Delete&lt;/b&gt;.&lt;br /&gt;&lt;em&gt;Result:&lt;/em&gt; The email is moved to Deleted Items&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Permanently Delete Email from Deleted Items&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;&lt;li&gt;Access your mailbox and navigate to &lt;b&gt;Deleted Items&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Select the email you want to delete by clicking once on the email to highlight it.
+&lt;ul&gt;&lt;li&gt;To select a range of emails, single-click on the first email in the range, press down the Shift key, and single-click on the last email in the range.&lt;/li&gt;&lt;li&gt;To select random, multiple emails, press down the Ctrl key as you select emails.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;Choose the Delete icon on the OWA Toolbar, or right-click and select Delete.&lt;/li&gt;&lt;li&gt;OWA asks you to confirm your action. Choose &lt;b&gt;OK&lt;/b&gt; to continue, or &lt;b&gt;Cancel&lt;/b&gt; to quit the Permanent Delete operation. When &lt;b&gt;OK&lt;/b&gt; is selected, there is no chance for email recovery (unless a server backup was performed before the email was permanently deleted).&lt;br /&gt;&lt;em&gt;Result:&lt;/em&gt; The Delete confirmation window displays.&lt;/li&gt;&lt;/ol&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Permanently Delete Email from Options &amp;gt; Deleted Items&lt;/span&gt;&lt;/h2&gt;
+&lt;ol&gt;&lt;li&gt;Select &lt;b&gt;Options &amp;gt; Deleted Items&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;On the Deleted Items page, select the email you wish to delete in the Recover Deleted Items scroll box. &lt;/li&gt;&lt;li&gt;Choose the &lt;b&gt;Permanently Delete&lt;/b&gt; option above the scroll box.&lt;/li&gt;&lt;li&gt;OWA asks you to confirm your action. Choose &lt;b&gt;OK&lt;/b&gt; to continue, or &lt;b&gt;Cancel&lt;/b&gt; to quit the Permanent Delete operation. When &lt;b&gt;OK&lt;/b&gt; is selected, there is no chance for email recovery (unless a server backup was performed before the email was permanently deleted).&lt;/li&gt;&lt;/ol&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Automatically Empty Deleted Items on Log Off&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;OWA can be configured to empty Deleted Items when the user logs off of OWA. The items will be stored in the Recover Deleted Items scroll box for 14 days.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Select &lt;b&gt;Options &amp;gt; Deleted Items&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Check the &lt;b&gt;Empty Deleted Items folder on logoff&lt;/b&gt; checkbox.&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;Save&lt;/b&gt; to save your changes.&lt;/li&gt;&lt;/ol&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Email&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=8aef1935474321009db4b5b08b9a7113"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:58</sys_created_on>
+        <sys_id>311a55e897753110e4fc3e66f053affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000030</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_311a55e897753110e4fc3e66f053affc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:58</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

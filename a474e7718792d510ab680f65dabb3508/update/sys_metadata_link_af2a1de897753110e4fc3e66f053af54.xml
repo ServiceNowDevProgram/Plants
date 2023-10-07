@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f27d7f79c0a8011b0018f9d700d2b9aa</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Wayne Webb"&gt;46d14f04a9fe19810142e40c6b071512&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Announcements"&gt;b85c6552ff0131009b20ffffffffffd4&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000002&lt;/number&gt;
+        &lt;published&gt;2023-06-22&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Email Interruption Tonight at 11:00 PM Eastern
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-01-17 17:29:38&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;f27d7f79c0a8011b0018f9d700d2b9aa&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-19 15:43:43&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;0&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #111111; font-weight: normal; font-style: normal; margin: 2px; padding: 2px; font-variant: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;" align="justify"&gt; If the site is UP but you cant access the page, try one of the below solutions:&lt;/p&gt;
+&lt;p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #111111; font-weight: normal; font-style: normal; margin: 2px; padding: 2px; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;&lt;b&gt;Browser Related Problems&lt;/b&gt;&lt;/p&gt;
+&lt;p class="list-text" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; color: #111111; font-weight: normal; font-style: normal; margin: 2px 2px 2px 16px; padding: 2px; text-align: justify; font-variant: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;Force a full refresh for the site. This can be achieved by pressing CTRL &amp;#43; F5 keys at the same time on your favourite browser (Firefox, Chrome, Explorer, etc.)&lt;/p&gt;
+&lt;p class="list-text" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; color: #111111; font-weight: normal; font-style: normal; margin: 2px 2px 2px 16px; padding: 2px; text-align: justify; font-variant: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;Try alternative urls such as m.outlook.com&lt;/p&gt;
+&lt;p class="list-text" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; color: #111111; font-weight: normal; font-style: normal; margin: 2px 2px 2px 16px; padding: 2px; text-align: justify; font-variant: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;Clear the temporary cache and cookies on your browser to make sure that you have the most recent version of the web page. For instructions choose your brow&lt;span class="Apple-converted-space"&gt;&lt;/span&gt;&lt;a style="color: #111111; text-decoration: none;" href="http://www.isitdownrightnow.com/how-to/clear-firefox-cache.html" rel="nofollow"&gt;&lt;/a&gt;&lt;span class="Apple-converted-space"&gt;&lt;/span&gt;&lt;span class="Apple-converted-space"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #111111; font-weight: normal; font-style: normal; margin: 2px; padding: 2px; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;&lt;b&gt;Fix DNS Problems&lt;/b&gt;&lt;/p&gt;
+&lt;p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #111111; font-weight: normal; font-style: normal; margin: 2px; padding: 2px; font-variant: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;" align="justify"&gt;A Domain Name System (DNS) allows a site IP address (192.168.x.x) to be identified with words (*.com) in order to be remembered more easily, like a phonebook for websites. This service is usually provided by your ISP.&lt;/p&gt;
+&lt;p class="list-text" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; color: #111111; font-weight: normal; font-style: normal; margin: 2px 2px 2px 16px; padding: 2px; text-align: justify; font-variant: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;Clear your local DNS cache to make sure that you grab the most recent cache that your ISP has. For Windows - (Start &amp;gt; Command Prompt &amp;gt; type &amp;#34;ipconfig /flushdns&amp;#34; and hit enter). For details choose your operating system &lt;span class="Apple-converted-space"&gt;&lt;/span&gt;&lt;span class="Apple-converted-space"&gt;&lt;/span&gt;&lt;span class="Apple-converted-space"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="list-text" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; color: #111111; font-weight: normal; font-style: normal; margin: 2px 2px 2px 16px; padding: 2px; text-align: justify; font-variant: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;If you can access a website at office or from a 3G network yet it&amp;#39;s not working on your computer, it is a good idea to use an alternative DNS service other than your ISPs.&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;a class="textlink" style="color: #111111; text-decoration: none; font-weight: 400;" href="http://use.opendns.com/" target="_blank" rel="noopener noreferrer nofollow"&gt;OpenDNS&lt;/a&gt;or&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;a class="textlink" style="color: #111111; text-decoration: none; font-weight: 400;" href="https://developers.google.com/speed/public-dns/" target="_blank" rel="noopener noreferrer nofollow"&gt;Google Public DNS&lt;/a&gt;&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;are both excellent and free public DNS services.&lt;/p&gt;
+&lt;p class="list-text" style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 15px; color: #111111; font-weight: normal; font-style: normal; margin: 2px 2px 2px 16px; padding: 2px; text-align: justify; font-variant: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;"&gt;Check our help page for step-by-step instructions on&lt;span class="Apple-converted-space"&gt; &lt;/span&gt;&lt;a class="textlink" style="color: #111111; text-decoration: none; font-weight: 400;" href="http://www.isitdownrightnow.com/how-to/setup-opendns-or-google-dns.html" rel="nofollow"&gt;&lt;span style="text-decoration: underline;"&gt;how to change your DNS&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;News&lt;/topic&gt;
+        &lt;use_count/&gt;
+        &lt;valid_to&gt;2032-07-30&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=f27d7f79c0a8011b0018f9d700d2b9aa"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:22</sys_created_on>
+        <sys_id>af2a1de897753110e4fc3e66f053af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000002</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_af2a1de897753110e4fc3e66f053af54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:22</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

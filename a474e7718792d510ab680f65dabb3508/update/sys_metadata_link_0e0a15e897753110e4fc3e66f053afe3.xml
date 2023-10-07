@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>42d45135474321009db4b5b08b9a7172</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Boris Catino"&gt;a6826bf03710200044e0bfc8bcbe5de6&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Windows"&gt;14f8a152ff0131009b20ffffffffff74&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000022&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;How to set or change your default web browser
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;42d45135474321009db4b5b08b9a7172&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:52:35&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;7&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;How to set or change your default web browser&lt;/span&gt;&lt;/strong&gt;&lt;span class="Apple-tab-span"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The following setting can be changed only if you have Administrator privileges on your computer.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Change the default programs used in Windows 8&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;If not already in Desktop mode, enter it by tapping the Windows and the D key at the same time.&lt;/li&gt;&lt;li&gt;Move the mouse to the lower-right hand corner of the screen to activate the &amp;#34;Gadget&amp;#34; bar and select Settings (gear icon)&lt;/li&gt;&lt;li&gt;Select &lt;span&gt;Control Panel&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Select &lt;span&gt;Programs&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Select &lt;span&gt;Default Programs&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Click on &lt;span&gt;Set your default programs&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Locate and select the web browser you wish to set as your default from the list&lt;/li&gt;&lt;li&gt;With your choice selected, click on &lt;span&gt;Set this program as default&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Click OK to save your settings&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Change the default programs used in Windows 7/Windows Vista&lt;/b&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Click on the &lt;span&gt;Start Button&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Select &lt;span&gt;Control Panel&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Select &lt;span&gt;Programs&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Select &lt;span&gt;Default Programs&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Click on &lt;span&gt;Set your default programs&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Locate and select the web browser you wish to set as your default from the list&lt;/li&gt;&lt;li&gt;With your choice selected click on Set this program as default&lt;/li&gt;&lt;li&gt;Click OK to save your settings&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;To make Firefox your default browser&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Open Firefox&lt;/li&gt;&lt;li&gt;From the &lt;span&gt;Tools&lt;/span&gt; pull-down menu select &lt;span&gt;Options&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Click on the &lt;span&gt;Advanced&lt;/span&gt; tab&lt;/li&gt;&lt;li&gt;In the area called &lt;span&gt;System Defaults&lt;/span&gt;, click on the &lt;span&gt;Check Now&lt;/span&gt; button.&lt;/li&gt;&lt;li&gt;If Firefox is not set to be your default browser, you will be given the option to make it the default.&lt;/li&gt;&lt;/ul&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Desktop&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=42d45135474321009db4b5b08b9a7172"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:43</sys_created_on>
+        <sys_id>0e0a15e897753110e4fc3e66f053afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000022</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_0e0a15e897753110e4fc3e66f053afe3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:43</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

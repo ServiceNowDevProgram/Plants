@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>d7dc75b5474321009db4b5b08b9a7150</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Wayne Webb"&gt;46d14f04a9fe19810142e40c6b071512&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Security"&gt;6bfb6552ff0131009b20ffffffffff66&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000006&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Dealing with Spyware and Viruses
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:50:40&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;d7dc75b5474321009db4b5b08b9a7150&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:56:04&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;11&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;strong&gt;Dealing with Spyware/Adware&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Spyware is the generic term for computer software that gathers information about you and your Internet surfing habits for marketing purposes; Adware refers to programs which gather information about you for marketing purposes in order to target your computer with advertisements (often in the form of pop-up windows.) These programs are often difficult to uninstall through traditional un-installation programs and will interfere with the normal performance of your computer&amp;#39;s software and/or networking protocol.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Viruses, worms, and Trojan horses&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;According to Webster&amp;#39;s &lt;em&gt;Collegiate Dictionary&lt;/em&gt;, a computer virus is &amp;#34;a computer program usually hidden within another seemingly innocuous program that produces copies of itself and inserts them into other programs or files, and that usually performs a malicious action (such as destroying data)&amp;#34;. Computer viruses are never naturally occurring; they are always man-made. Once created and released, however, their spread is not directly under human control.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Macro viruses: A macro is a piece of code that can be embedded in a data file. A macro virus is thus a virus that exists as a macro attached to a data file. In most respects, macro viruses are like all other viruses. The main difference is that they are attached to data files (i.e., documents) rather than executable programs.
+&lt;p&gt;Document-based viruses are, and will likely continue to be, more prevalent than any other type of virus.&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;Worms: Worms are very similar to viruses in that they are computer programs that replicate functional copies of themselves (usually to other computer systems via network connections) and often, but not always, contain some functionality that will interfere with the normal use of a computer or a program. Unlike viruses, however, worms exist as separate entities; they do not attach themselves to other files or programs. Because of their similarity to viruses, worms also are often referred to as viruses. &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;&lt;li&gt;Trojan horses: A Trojan horse is a program that does something undocumented which the programmer intended, but that users would not accept if they knew about it. By some definitions, a virus is a particular case of a Trojan horse, namely, one which is able to spread to other programs (i.e., it turns them into Trojans too). According to others, a virus that does not do any deliberate damage (other than merely replicating) is not a Trojan. Finally, despite the definitions, many people use the term &amp;#34;Trojan&amp;#34; to refer only to a non-replicating malicious program.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;Fortunately, there are many options for prevention and the safe removal of Spyware/Adware from your computer:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Preventing Spyware / Adware&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;Choose programs carefully. Often free or trial programs downloaded from the Internet contain spyware/adware to fund the creators of the programs. The most common Spyware/Adware programs are installed with peer-to-peer sharing software such as Kazaa, Bearshare, and Limewire. Reading the license agreement and &amp;#34;Read Me&amp;#34; files of these programs will often indicate the installation of additional programs. Protect yourself by knowing your options. Some programs will allow you to customize the installation, whereas others such as Kazaa&amp;#39;s latest version cannot be installed without Spyware/Adware.&lt;/p&gt;
+&lt;p&gt;Protect yourself by knowing that there are other dangers for users of these programs; particularly for those who do not understand how the software is structured to operate or for those who are not careful to share only files they own legally.&lt;/p&gt;
+&lt;p&gt;Do not click on unfamiliar links in pop-up windows. Spyware/Adware creators will disguise links in their pop-up windows. The safest way to close a pop-up windows is to right-click on it in your taskbar and choose &lt;b&gt;Close&lt;/b&gt; or select the active window and use &lt;b&gt;Alt &amp;#43; F4 &lt;/b&gt;on your keyboard.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Removing SpyWare / Adware&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;Many Spyware/Adware removal programs are free to download and use. The Solution Center has found success with a free program called Spybot, as well as Microsoft&amp;#39;s AntiSpyWare. OIT advises that novice users request technical assistance when installing and using these programs. See &amp;#34;Obtaining Technical Assistance&amp;#34; below. Should you choose to use Spybot without assistance, read the directions online which remind you to back up your registry first, and then update the Spybot definition files before scanning your hard drive. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=d7dc75b5474321009db4b5b08b9a7150"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:12</sys_created_on>
+        <sys_id>812a99e897753110e4fc3e66f053af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000006</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_812a99e897753110e4fc3e66f053af75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:12</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

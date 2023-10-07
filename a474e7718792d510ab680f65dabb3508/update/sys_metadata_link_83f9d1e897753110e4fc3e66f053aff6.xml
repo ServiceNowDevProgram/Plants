@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1addc9f1474321009db4b5b08b9a7120</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Wayne Webb"&gt;46d14f04a9fe19810142e40c6b071512&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Policies"&gt;5a7b2552ff0131009b20ffffffffffb1&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000009&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Are Copyrighted Files Illegal to Have On My
+			Computer?
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 20:33:34&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;1addc9f1474321009db4b5b08b9a7120&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:55:18&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;22&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;strong&gt;Are Copyrighted Files Illegal to Have On My Computer?&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Tools built to make use of the Internet easier have created special concerns for the holders of copyright. While it takes time and energy for someone to photocopy all the pages of a book, it takes scarcely any time for someone to download an album of music, a feature film, an episode of a television show, or a computer game. Sometimes, because it is easy to download copyrighted material, it is tempting to believe it is legal to do so.&lt;/p&gt;
+&lt;p&gt;But it is legal only if the material being downloaded is in the public domain, if the copyright holder has given you permission to make a copy of the material, or if you are making copies for purposes of criticism, comment, news reporting, scholarly or instructional purposes such that the &amp;#34;fair use&amp;#34; exception under federal copyright law applies. However, most contemporary music, film, television shows, computer games, and computer software are not likely to be in the public domain. Nor is it likely that downloading such materials in their entirety for entertainment purposes without permission from the rights-holder will meet the &amp;#34;fair use&amp;#34; criteria.&lt;/p&gt;
+&lt;p&gt;Therefore, if you do not know whether material is copyrighted or not, assume that it is, and proceed accordingly.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;But what if I own legal copies of the material?&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Even if you have legally obtained copies of copyrighted materials on your computer, you must be careful to protect those copies against unauthorized copying by others.&lt;/p&gt;
+&lt;p&gt;In particular, file sharing technologies such as BitTorrent, and so-called &amp;#34;private&amp;#34; sharing networks (to the extent you have reason to use such technologies for legitimate purposes) should be used responsibly and with great care to ensure that copyrighted materials are not being made available for copying by others not legally entitled to do so. Indeed, failure to restrict unauthorized access to copyrighted materials stored on your computer may constitute contributory infringement under federal copyright law.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;What is legal to download?&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Some material is in the public domain, and is available through web or file transfer sites maintained for that purpose. Some recording artists and some television studios provide streaming versions of performances for your viewing or listening.  And some performers do give permission to copy and share some of their work.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;How will the rights-holder know?&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The music industry, the film and television industry, and organizations representing software manufacturers and firms creating computer games, have become increasingly concerned about copyright infringement via the Internet, and have pursued the infringers - sometimes filing lawsuits against the individuals. Other kinds of copyrighted materials also are of concern.&lt;/p&gt;
+&lt;p&gt;Just as some Employees search the Internet for music, films, or other material they would like, the rights-holders or their agents often search the Internet for computers that are holding and/or distributing unauthorized copies. When rights-holders find an unauthorized copy of a work, they often file an infringement complaint with the service provider. Sometimes, they file a lawsuit. And under some circumstances, they may file criminal charges.&lt;/p&gt;
+&lt;p&gt;The Company is the service provider for its employees. Unless these complaints are addressed promptly, the Company may also be held liable for infringement. So if you use the Company network to make illegal copies, or if you fail to protect legally obtained copies on your computer, you put yourself and the Company at risk.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;What happens if I get caught?&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Penalties for copyright infringement include civil and criminal penalties. In general, anyone found liable for civil copyright infringement may be ordered to pay either actual damages or &amp;#34;statutory&amp;#34; damages affixed at not less than $750 and not more than $30,000 per work infringed. For &amp;#34;willful&amp;#34; infringement, a court may award up to $150,000 per work infringed. A court can, in its discretion, also assess costs and attorney&amp;#39;s fees. For details see Title 17, United States Code, Sections 504, 505.&lt;/p&gt;
+&lt;p&gt;Willful copyright infringement can also result in criminal penalties, including imprisonment of up to five years and fines of up to $250,000 per offense.&lt;/p&gt;
+&lt;p&gt;Violation of federal copyright law is also a violation of Company regulations and will be reported to appropriate disciplinary authorities. Employees may receive a warning, disciplinary probation, or other, even more serious, penalty as a result of infringement. Company policy also requires that loss of computing and network privileges be considered as part of the penalty in cases of repeated infringement.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;b&gt;Does IT scan my computer for illegal files?&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Although most campus copyright infringement is revealed when the Company receives complaints from the rights-holder or agent, some unauthorized service of music, films, television, computer games, and proprietary software has been discovered by IT simply because of the network performance problems caused by the traffic.&lt;/p&gt;
+&lt;p&gt;In such cases, IT does not peruse files, but makes inferences which it reports to the appropriate disciplinary authority, while notifying the employee of the potential disciplinary and legal action. As a general matter, the Company is committed to protection of privacy, unless intrusion is warranted, and does not actively monitor its computing network for purposes of seeking out infringing activity on the part of its users. Further, the language of the Digital Millennium Copyright Act makes it clear that the service provider is not expected to be aware of content carried through its services, only to be properly responsive when alleged infringement is reported.&lt;/p&gt;
+&lt;p&gt;Please be aware the Company cannot knowingly assist you in illegal activity, such as making unauthorized copies or sharing copyrighted materials without authorization. To do so would be to participate in violating federal law and, in acting as agents of the Company, staff are forbidden to do so.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Policies&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=1addc9f1474321009db4b5b08b9a7120"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:30</sys_created_on>
+        <sys_id>83f9d1e897753110e4fc3e66f053aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000009</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_83f9d1e897753110e4fc3e66f053aff6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:30</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

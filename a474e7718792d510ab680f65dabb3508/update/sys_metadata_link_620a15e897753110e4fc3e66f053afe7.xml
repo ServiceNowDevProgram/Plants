@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>435186b5474321009db4b5b08b9a7160</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Wayne Webb"&gt;46d14f04a9fe19810142e40c6b071512&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Apple"&gt;c8bb2552ff0131009b20fffffffffff6&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000008&lt;/number&gt;
+        &lt;published&gt;2014-09-10&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;How to configure VPN for Apple Devices
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-10 00:10:34&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;435186b5474321009db4b5b08b9a7160&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:55:30&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;54&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;strong&gt;How to configure VPN for Apple Devices&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;For an iPhone or iPad running iOS?&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;em&gt;Select &lt;/em&gt;&lt;strong&gt;Settings &amp;gt; General &amp;gt; VPN&lt;/strong&gt;.&amp;#61;&lt;/li&gt;&lt;li&gt;&lt;em&gt;Click &lt;/em&gt;&lt;strong&gt;Add VPN Configuration&lt;/strong&gt; and &lt;em&gt;enter &lt;/em&gt;the&lt;strong&gt; following information&lt;/strong&gt;:&lt;/li&gt;&lt;li&gt;&lt;ol&gt;&lt;li&gt;Select &lt;strong&gt;L2TP&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;Enter &lt;strong&gt;Servicenow VPN&lt;/strong&gt; in the &lt;strong&gt;Description &lt;/strong&gt;field.&lt;/li&gt;&lt;li&gt;Enter &lt;strong&gt;vpn-nu.vpn.servicenow.edu&lt;/strong&gt; in the &lt;strong&gt;Server &lt;/strong&gt;field.&lt;/li&gt;&lt;li&gt;Enter your &lt;strong&gt;NetID &lt;/strong&gt;in the &lt;strong&gt;Account &lt;/strong&gt;field.&lt;/li&gt;&lt;li&gt;Enter your &lt;strong&gt;NetID password&lt;/strong&gt; in the &lt;strong&gt;Password &lt;/strong&gt;field.&lt;/li&gt;&lt;li&gt;Enter &lt;strong&gt;servicenow&lt;/strong&gt; (case sensitive) in the &lt;strong&gt;Secret &lt;/strong&gt;field.&lt;/li&gt;&lt;li&gt;Select &lt;strong&gt;Save&lt;/strong&gt;.  &lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;li&gt;To connect to Servicenow VPN, &lt;strong&gt;VPN &lt;/strong&gt;should be &lt;em&gt;turned &lt;/em&gt;&lt;strong&gt;On&lt;/strong&gt;. Once you are successfully connected to Servicenow VPN, your screen will look like the following&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;For Mac OS X Mavericks (10.9), Mountain Lion (10.8) or Lion (10.7)&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;em&gt;Open&lt;/em&gt; &lt;strong&gt;Apple &amp;gt; System Preferences&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;&lt;em&gt;Select&lt;/em&gt; the &lt;strong&gt;Network&lt;/strong&gt; icon in the &lt;strong&gt;System Preferences&lt;/strong&gt; window. &lt;/li&gt;&lt;li&gt;&lt;em&gt;Click the &lt;strong&gt;&amp;#43; button &lt;/strong&gt;at the bottom left of the screen to add a new connection. (Note: You may need to click the LOCK icon to enable editing of Network Settings.) &lt;/em&gt;&lt;/li&gt;&lt;li&gt;
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;Select&lt;/em&gt; &lt;strong&gt;Interface&lt;/strong&gt;: VPN&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;em&gt;Select&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt; VPN Type&lt;/strong&gt;: L2TP over IPSec&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;em&gt;Enter&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt; Service Name&lt;/strong&gt;: Servicenow VPN&lt;/li&gt;&lt;li&gt;&lt;em&gt;Click&lt;/em&gt; &lt;strong&gt;Create&lt;/strong&gt;.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;em&gt;From the Network window enter the following information:&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;em&gt;Enter&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt; Server Address&lt;/strong&gt;: vpn-nu.vpn.servicenow.edu.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;em&gt;Enter&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt; Account Name&lt;/strong&gt;: your NetID.&lt;/li&gt;&lt;li&gt;&lt;em&gt;Check&lt;/em&gt; the checkbox labelled &lt;strong&gt;Show VPN status in menu bar&lt;/strong&gt; to allow you the opportunity to establish a VPN connection from your menu bar.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;em&gt;Click&lt;/em&gt; &lt;strong&gt;Authentication Settings&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;
+&lt;ul&gt;&lt;li&gt;In the &lt;strong&gt;Shared Secret&lt;/strong&gt; box &lt;em&gt;enter&lt;/em&gt; servicenowvpn&lt;/li&gt;&lt;li&gt;&lt;em&gt;Click&lt;/em&gt; &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;&lt;em&gt;Click&lt;/em&gt; &lt;strong&gt;Apply&lt;/strong&gt;.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;li&gt;&lt;em&gt;Click&lt;/em&gt; &lt;strong&gt;Advanced...&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;
+&lt;ul&gt;&lt;li&gt;&lt;em&gt;Check&lt;/em&gt; the checkbox labelled &lt;strong&gt;Send all traffic over VPN connection&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;&lt;em&gt;Click&lt;/em&gt; &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;&lt;li&gt;&lt;em&gt;Click&lt;/em&gt; &lt;strong&gt;Apply&lt;/strong&gt;.&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;&lt;/ol&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Applications&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=435186b5474321009db4b5b08b9a7160"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:45</sys_created_on>
+        <sys_id>620a15e897753110e4fc3e66f053afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000008</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_620a15e897753110e4fc3e66f053afe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:45</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

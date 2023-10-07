@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="DELETE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">79f3acc6b892dd103326b763bce1e642</dataset>
+        <order/>
+        <predicate_bundle display_value="">f1fdd52097b53110e4fc3e66f053af98</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 04:14:23</sys_created_on>
+        <sys_id>741e9d2097b53110e4fc3e66f053af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_741e9d2097b53110e4fc3e66f053af77</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 04:14:23</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>54066b04db48b0507527d7c8f49619e2</instance_id>
+        <instance_name>dev113408</instance_name>
+        <name>sys_ux_composite_data_m2m_predicate_bundle_741e9d2097b53110e4fc3e66f053af77</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle"><sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE"><dataset display_value="Custom Portal Landing - Popular Articles">79f3acc6b892dd103326b763bce1e642</dataset><order/><predicate_bundle display_value="">f1fdd52097b53110e4fc3e66f053af98</predicate_bundle><sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-07 04:14:23</sys_created_on><sys_id>741e9d2097b53110e4fc3e66f053af77</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package><sys_policy/><sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope><sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_741e9d2097b53110e4fc3e66f053af77</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-07 04:14:23</sys_updated_on></sys_ux_composite_data_m2m_predicate_bundle></record_update>]]></payload>
+        <payload_hash>941629581</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>06dbcb7e97ed3510e4fc3e66f053af85</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 04:14:23</sys_created_on>
+        <sys_id>7c1e9d2097b53110e4fc3e66f053af79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b0857f2690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 04:14:23</sys_updated_on>
+        <type>EVAM View Config Bundle M2M</type>
+        <update_guid>b01e9d2084b53110e9506589ebb32b79</update_guid>
+        <update_guid_history>b01e9d2084b53110e9506589ebb32b79:941629581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 04:18:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_m2m_predicate_bundle">sys_ux_composite_data_m2m_predicate_bundle</sys_db_object>
+        <sys_id>20794aab325740cbb4f4fc057626cb81</sys_id>
+        <sys_metadata>741e9d2097b53110e4fc3e66f053af77</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_741e9d2097b53110e4fc3e66f053af77</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_m2m_predicate_bundle_741e9d2097b53110e4fc3e66f053af77">7c1e9d2097b53110e4fc3e66f053af79</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 04:18:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

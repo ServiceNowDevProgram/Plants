@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3b0fccee0a0a0b9b00d34b36ea41a43e</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Wayne Webb"&gt;46d14f04a9fe19810142e40c6b071512&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="IE"&gt;f23c6552ff0131009b20ffffffffffa9&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000003&lt;/number&gt;
+        &lt;published&gt;2023-06-20&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Managing Settings in Internet Explorer 10 for
+			Windows 8
+		&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-06-11 22:10:48&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;3b0fccee0a0a0b9b00d34b36ea41a43e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-19 15:43:43&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;0&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;div id="article-title" class="clearfix" style="margin: 0px; padding: 35px 0px 0px; border: 0px; outline: 0px; zoom: 1; color: #404040; font-family: open_sansregular, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"&gt;Summary&lt;/div&gt; &lt;p style="margin: 0px 0px 15px; padding: 0px; border: 0px; outline: 0px; line-height: 1.286em; color: #404040; font-family: open_sansregular, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"&gt;Learn to set up a home page, connection settings, and parental control in Internet Explorer.&lt;/p&gt; &lt;h3 style="margin: 1em 0px 0.5em; padding: 0px; border: 0px; outline: 0px; font-weight: 100; color: #000000; font-family: open_sanssemibold, Arial, Helvetica, sans-serif; font-size: 1.143em; line-height: 1em; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"&gt;Solution&lt;/h3&gt; &lt;div id="article-solution" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; color: #404040; font-family: open_sansregular, Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 18px; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"&gt; &lt;div class="wide-rounded" style="margin: 0px 0px 10px; padding: 0px; border: 1px solid #d3d3d3; outline: 0px; border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; background-color: #ffffff;"&gt; &lt;div class="content" style="margin: 8px 15px; padding: 0px; border: 0px; outline: 0px;"&gt; &lt;p style="margin: 0px 0px 15px; padding: 0px; border: 0px; outline: 0px; line-height: 1.286em;"&gt;Want to set up a default home page? Want to set up your Internet connection? Need to block the types of sites that display on your computer? Learn how to do all this in Internet Explorer using the steps below. For all PC browser-related articles see &lt;a style="margin: 0px; padding: 0px; border: 0px; outline: 0px; color: #057bb8; text-decoration: none; cursor: pointer;" href="http://ww2.cox.com/residential/support/internet/article.cox?articleId&amp;#61;{9de645b0-5426-11e1-e56f-000000000000}" rel="nofollow"&gt;Manage Your PC Browser&lt;/a&gt;.&lt;/p&gt; &lt;p style="margin: 0px 0px 15px; padding: 0px; border: 0px; outline: 0px; line-height: 1.286em;"&gt;We do not support all browsers. The following information is for reference only. For specific information on using Internet Explorer 10 visit &lt;a style="margin: 0px; padding: 0px; border: 0px; outline: 0px; color: #057bb8; text-decoration: none; cursor: pointer;" href="http://windows.microsoft.com/en-US/internet-explorer/help" target="_blank" rel="noopener noreferrer nofollow"&gt;Microsoft.com&lt;/a&gt;.&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;p&gt;This is outdated for older XP users. Windows XP Service Pack 2 (SP2) contains a collection of new technologies designed to help keep your PC and your personal information more secure. SP2 also makes it easier to monitor these settings with the new Windows Security Center, available through the Control Panel.&lt;/p&gt; &lt;p&gt;The Security Center lets you check the status of your essential security settings. You can also use it to find information about the latest virus or other security threat or to get customer support from Microsoft for a security-related issue.&lt;/p&gt; &lt;p&gt;&lt;b&gt;To open Security Center&lt;/b&gt;&lt;/p&gt; &lt;table class="numberedList" border="0" cellspacing="0" cellpadding="0"&gt;&lt;tbody&gt;&lt;tr valign="top"&gt;&lt;td class="listNumber" align="right" nowrap="nowrap"&gt; &lt;p&gt;1.&lt;/p&gt; &lt;/td&gt;&lt;td&gt; &lt;p&gt;Click &lt;b&gt;Start&lt;/b&gt; and then click &lt;b&gt;Control Panel&lt;/b&gt;.&lt;/p&gt; &lt;div style="width: 335px;"&gt;&lt;img src="http://www.microsoft.com/library/media/1033/windowsxp/images/sp2/sp2_wscoverv1.jpg" alt="Control Panel" width="335" height="239" border="0" /&gt;&lt;br /&gt; &lt;p class="figureCaption"&gt;Control Panel with new Security Center icon&lt;/p&gt; &lt;/div&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr valign="top"&gt;&lt;td class="listNumber" align="right" nowrap="nowrap"&gt; &lt;p&gt;2.&lt;/p&gt; &lt;/td&gt;&lt;td&gt; &lt;p&gt;Double-click &lt;b&gt;Security Center&lt;/b&gt;. You should see a window that looks like the one below.&lt;/p&gt; &lt;div style="width: 335px;"&gt;&lt;img src="http://www.microsoft.com/library/media/1033/windowsxp/images/sp2/sp2_wscoverv2.jpg" alt="Security Center" width="335" height="253" border="0" /&gt;&lt;br /&gt; &lt;p class="figureCaption"&gt;Security Center&lt;/p&gt; &lt;/div&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; &lt;p&gt;Security Center checks to make sure you have:&lt;/p&gt; &lt;table border="0" cellspacing="0" cellpadding="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="listBullet" valign="top"&gt;•&lt;/td&gt;&lt;td class="listItem"&gt; &lt;p&gt;A software firewall.&lt;/p&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="listBullet" valign="top"&gt;•&lt;/td&gt;&lt;td class="listItem"&gt; &lt;p&gt;An up-to-date antivirus program.&lt;/p&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="listBullet" valign="top"&gt;•&lt;/td&gt;&lt;td class="listItem"&gt; &lt;p&gt;Automatic Updates set to download and install updates automatically.&lt;/p&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; &lt;p&gt;If the Security Center detects that your computer might benefit from enhanced security in one of the three essential areas listed above, it displays an alert in the notification area (to the right of the taskbar, above the clock). You will see an alert like the one below every time you log on, until the problem is fixed.&lt;/p&gt; &lt;div style="width: 185px;"&gt;&lt;img src="http://www.microsoft.com/library/media/1033/windowsxp/images/sp2/sp2_wscoverv3.gif" alt="Security settings alert" width="185" height="94" border="0" /&gt;&lt;br /&gt; &lt;p class="figureCaption"&gt;Security settings alert&lt;/p&gt; &lt;/div&gt; &lt;p&gt;&lt;b&gt;Tip&lt;/b&gt; To find out how to address a problem, click any alert and the Security Center will open. In the &lt;b&gt;Security Center&lt;/b&gt;, click &lt;b&gt;Recommendations&lt;/b&gt;.&lt;/p&gt; &lt;p&gt;&lt;b&gt;Note&lt;/b&gt; If your computer is part of a domain (a group of computers on a network), your security settings are typically managed by your network administrator. In this case, the Security Center does not display your security status or send alerts.&lt;/p&gt; &lt;p&gt;Windows Security Center checks for many common antivirus and firewall programs, but it&amp;#39;s possible that you might be using a program that Windows can&amp;#39;t find. For more information about using antivirus and firewall software that Windows doesn&amp;#39;t find, read &lt;a target="_blank" href="http://www.microsoft.com/windowsxp/using/security/internet/sp2_wscfwav.mspx" rel="noopener noreferrer nofollow"&gt;Monitor Your Firewall and Antivirus Software&lt;/a&gt;&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;News&lt;/topic&gt;
+        &lt;use_count/&gt;
+        &lt;valid_to&gt;2032-07-30&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=3b0fccee0a0a0b9b00d34b36ea41a43e"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:40</sys_created_on>
+        <sys_id>150a15e897753110e4fc3e66f053af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000003</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_150a15e897753110e4fc3e66f053af86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:40</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

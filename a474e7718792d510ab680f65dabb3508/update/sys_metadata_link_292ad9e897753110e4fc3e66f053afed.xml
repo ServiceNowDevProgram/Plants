@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>dcf43d75474321009db4b5b08b9a71dc</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Boris Catino"&gt;a6826bf03710200044e0bfc8bcbe5de6&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Excel"&gt;ed1c2552ff0131009b20ffffffffff65&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000005&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;Excel Functionality&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;johnoliver.mendoza&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:15:52&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;dcf43d75474321009db4b5b08b9a71dc&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;johnoliver.mendoza&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2014-12-19 15:56:23&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;48&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 18pt;"&gt;&lt;strong&gt;Excel Functionality&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Copying formulas without changing cell locations&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;When you want to know how to copy a formula and keep portions of the formula from changing relative to where they are being copied, p&lt;/span&gt;&lt;span style="font-size: 10pt;"&gt;recede each portion of the cell specifications that aren&amp;#39;t supposed to change with $.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;For example, if a formula contains the cell reference: B2, which is not supposed to change if the formula is copied to another cell, then change B2 to $B$2&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;If, for example, the column specification, B, can change in B2, but not the row specification, 2, then change B2 to B$2 Similarly, if the row specification, 2, can change in B2, but not the column specification, B, then change B2 to $B2&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;How to use formula to manipulate data in Col A and put results in Col B&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Type a value in box A1&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Click box B1&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Click the Summation (sigma) notation symbol in to toolbar (autosum)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;In the formula box, type &amp;#34;*1.03&amp;#34; after the &amp;#34;&amp;#43;SUM(A1)&amp;#34;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Hit Enter -- box B1 will now show the new value.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Type in more values in col A (A2,A3,A4, etc).&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Highlight column B, and select Edit--&amp;gt;Fill--&amp;gt;FillDown, to apply &lt;/span&gt;the formula to the entire column.&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;To round values, click the B column and select Format--&amp;gt;Style--&amp;gt;Currency.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;div&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style="font-size: 12pt;"&gt;&lt;strong&gt;Spreadsheets display 4 digit years instead of 2 digit years&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div id="solution"&gt;&lt;ol&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Click on the Start Button.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Pull up to Settings.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Select Control Panels.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Double-click on the Regional Settings Control Panel.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Click on the Date tab.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Change the short date style to MM/dd/yy (from MM/dd/yyyy) to return to al 2-digit format for the year.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 10pt;"&gt;Last Updated: March 1, 2000&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt; &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Enlarging Default Font Sizes in MS Excel&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Click &lt;b&gt;Excel&lt;/b&gt; in the upper left hand corner.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Select &lt;b&gt;Preferences...&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Select the &lt;b&gt;General&lt;/b&gt; tab.&lt;/li&gt;&lt;li&gt;Next to “Standard Font,” you can select the default font type and size.&lt;/li&gt;&lt;li&gt;After you click &lt;b&gt;OK&lt;/b&gt;, quit Excel to apply the changes.&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt; &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Defining the print area so that document fits on one page&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;If you are unable to print the desired area of the spreadsheet on a single page, t&lt;/span&gt;&lt;span&gt;he print area may be defined incorrectly, or it may need to be specified.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;Click and drag the mouse to draw a selection box around the cells that should be printed. In the file menu, highlight &amp;#34;Print Area&amp;#34; and select &amp;#34;Set Print Area.&amp;#34; This will surround the cells with a dashed line. Cells that fall outside the print area will be moved to the next page.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;To clear an existing print area definition, highlight &amp;#34;Print Area&amp;#34; in the file menu, and select &amp;#34;Clear Print Area.&amp;#34;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;The maximum size of the user-defined print area depends on the margins of the page. To change the margins, select &amp;#34;Page Setup&amp;#34; in the file menu, and click on the &amp;#34;Margins&amp;#34; tab.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;To fit a large area onto a single page, it may be necessary to adjust the scaling of the printed output. To change the scaling, select &amp;#34;Page Setup&amp;#34; in the file menu, and click on the &amp;#34;Page&amp;#34; tab. The output can be scaled by an arbitrary factor, or it can be automatically fit to one or more pages.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt; &lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;I&amp;#39;m getting an error when trying to open an Excel file.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Some users may get errors when opening files with macros in Excel X for Macintosh. Those whose User folders are being stored on a volume other than the startup volume are most likely to be affected. This has been affecting some people trying to submit the Excel-based academic HR forms, which are Excel-based. Deleting the preference file &amp;#34;Office Registration Cache X&amp;#34; often fixes the problem:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Quit any programs you have running, especially any parts of the Office suite (Excel, Word, etc.)&lt;/li&gt;&lt;li&gt;Go to &lt;b&gt;Go &amp;gt; Home &amp;gt; Library &amp;gt; Preferences &amp;gt; Microsoft&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Locate the file &lt;b&gt;Office Registration Cache X&lt;/b&gt; and drag it to the trash. (&lt;b&gt;Note:&lt;/b&gt; Don&amp;#39;t empty the trash just yet.)&lt;/li&gt;&lt;li&gt;Try opening the Excel form again.&lt;br /&gt;If it still doesn&amp;#39;t work, repeat steps 1-4 and then continue:&lt;/li&gt;&lt;li&gt;Open up TextEdit (found under &lt;b&gt;Go &amp;gt; Applications&lt;/b&gt;) and create a new document by pressing &lt;b&gt;&amp;lt;command&amp;gt; &amp;#43;n&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Go to &lt;b&gt;File &amp;gt; Save As...&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Name the file &lt;b&gt;Office Registration Cache X&lt;/b&gt;. (&lt;b&gt;Note:&lt;/b&gt; Be sure to get the spelling and capitalization exactly.)&lt;/li&gt;&lt;li&gt;Save it under &lt;b&gt;Home &amp;gt; Library &amp;gt; Preferences &amp;gt; Microsoft&lt;/b&gt;.&lt;br /&gt;&lt;b&gt;Note:&lt;/b&gt; There are actually two libraries: one under the user&amp;#39;s Home and one under the Macintosh HD. Be sure to use the one under Home. The exact name of user&amp;#39;s Home is the short name of the user&amp;#39;s local account on their Macintosh, and it will have a house icon. You can select home by pressing &lt;b&gt;command - shift -h&lt;/b&gt; in the &lt;b&gt;Save As&lt;/b&gt; dialogue box.&lt;/li&gt;&lt;li&gt;Quit TextEdit.&lt;/li&gt;&lt;li&gt;Go back to &lt;b&gt;Go &amp;gt; Home &amp;gt; Library &amp;gt; Preferences&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Click once on &lt;b&gt;Office Registration Cache X&lt;/b&gt; to select it, and then go to &lt;b&gt;File &amp;gt; Get Info&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Check the box for &lt;b&gt;Locked&lt;/b&gt;.&lt;/li&gt;&lt;li&gt;Try the file again. &lt;/li&gt;&lt;/ol&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=dcf43d75474321009db4b5b08b9a71dc"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:57:13</sys_created_on>
+        <sys_id>292ad9e897753110e4fc3e66f053afed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000005</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_292ad9e897753110e4fc3e66f053afed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:57:13</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

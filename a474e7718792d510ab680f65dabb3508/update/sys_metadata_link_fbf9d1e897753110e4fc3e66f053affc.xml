@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>24d9243187032100deddb882a2e3ec33</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Ron Kettering"&gt;62d78687c0a8010e00b3d84178adc913&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category&gt;Tips and Tricks&lt;/category&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;helpful_count/&gt;
+        &lt;image/&gt;
+        &lt;kb_category display_value="Email"&gt;5681bf8bff0221009b20ffffffffff95&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="IT"&gt;a7e8a78bff0221009b20ffffffffff17&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description/&gt;
+        &lt;number&gt;KB0000029&lt;/number&gt;
+        &lt;published&gt;2014-09-09&lt;/published&gt;
+        &lt;rating/&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;What is Spam?&lt;/short_description&gt;
+        &lt;source display_value=""&gt;173669d567b032004792adab9485ef11&lt;/source&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;bert.haddad&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2014-09-09 23:31:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;24d9243187032100deddb882a2e3ec33&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;bert.haddad&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-06-24 03:49:03&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;10&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 18pt;"&gt;What is Spam?&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Spam has increasingly become a problem on the Internet. While every Internet user receives some spam, email addresses posted to web sites or in newsgroups and chat rooms attract the most spam.&amp;#39;&lt;/p&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Definitions&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;The term &amp;#34;spam&amp;#34; is Internet slang that refers to unsolicited commercial email (UCE) or unsolicited bulk email (UBE). Some people refer to this kind of communication as junk email to equate it with the paper junk mail that comes through the US Mail. Unsolicited email most often contains advertisements for services or products, but very few reputable marketers use UCE to advertise. The most commonly seen spam includes the following:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Phishing scams, a very popular and dangerous form of email fraud&lt;/li&gt;&lt;li&gt;Foreign bank scams or advance fee fraud schemes&lt;/li&gt;&lt;li&gt;Pyramid schemes, including multilevel marketing (MLM)&lt;/li&gt;&lt;li&gt;Other &amp;#34;Get Rich Quick&amp;#34; or &amp;#34;Make Money Fast&amp;#34; (MMF) schemes&lt;/li&gt;&lt;li&gt;Quack health products and remedies&lt;/li&gt;&lt;li&gt;Ads for pornographic web sites&lt;/li&gt;&lt;li&gt;Offers of software for collecting email addresses and sending UCE&lt;/li&gt;&lt;li&gt;Offers of bulk emailing services for sending UCE&lt;/li&gt;&lt;li&gt;Chain letters (see About chain mail)&lt;/li&gt;&lt;li&gt;Illegally pirated software (&amp;#34;Warez&amp;#34;)&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;To reduce the amount of spam you receive:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Don&amp;#39;t reply to spam&lt;/li&gt;&lt;li&gt;Be careful releasing your email address, and know how it will be used&lt;/li&gt;&lt;li&gt;Be proactive  &lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Don&amp;#39;t reply to spam&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;If you reply to spam, the spammer or the automated program on the other end will then know that your address is connected to a live person, and the spammer will then bombard you with even more spam, and circulate your address to other spammers. It is critical that you pause and think before replying to any spam. Consider the following guidelines:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Setting up your email account to generate automatic responses while you are away can have the unfortunate side-effect of verifying your email address to every spammer that sends you spam. &lt;/li&gt;&lt;li&gt;If the message appears to come from a legitimate company, the company may have obtained your email address from some transaction between you and the company. In fact, you may have inadvertently provided your email address (e.g., if you didn&amp;#39;t check a box marked &lt;span class="menuitem"&gt;Don&amp;#39;t send me product updates&lt;/span&gt;). In these cases, it is usually safe to reply and ask to be removed from the mailing list. &lt;/li&gt;&lt;li&gt;If it is not a company you recognize, use your judgment. To be safe, copy and paste the link to the company&amp;#39;s site into the browser rather than clicking it in the email message. &lt;/li&gt;&lt;li&gt;If the spam is clearly from a disreputable source, never respond. Do not follow the (probably bogus) unsubscribe directions. In most cases, if you never reply, the network of spammers will eventually decide your email address is a dud, and will stop using it as often.&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Be careful releasing your email address, and know how it will be used&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Every time you communicate on the Internet or browse a web site, there are opportunities for spammers to intercept your communications to obtain your email address and other personal information.&lt;/p&gt;
+&lt;p&gt;Otherwise reputable companies may sell or exchange your email address with other companies, and this information may eventually find its way to a spammer. At worst, spammers will use automated programs to bombard these lists of email addresses with spam. Consider the following guidelines:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Subscribe only to essential discussion lists, and ensure that they are moderated. &lt;/li&gt;&lt;li&gt;Think twice before offering your email address to a web site. You may wish to check the site&amp;#39;s privacy policy first to be sure it uses secure technology, and that the company does not share your email address with others. &lt;/li&gt;&lt;li&gt;If you need to list email addresses on your web site, present the addresses in a way that makes them less vulnerable to collection and abuse by spammers.&lt;/li&gt;&lt;li&gt;Every time you are asked for your email address verbally or on paper, think carefully about whether or not you want to receive any information from that company or organization. It is usually best to decline to provide your email address. &lt;/li&gt;&lt;li&gt;Whenever possible, advocate that organizations you are involved in or do business with default to the opt-in model. This requires you to specifically request to be added to their email lists, rather than the opt-out model, where they add you to email lists automatically, and then give you the option of asking to be removed. &lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;&lt;span style="font-size: 12pt;"&gt;Be proactive&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Adjusting the security settings in your web browser is a good preventive measure. For a higher level of security, have your browser disallow:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Accepting cookies&lt;/li&gt;&lt;li&gt;Listing your name and other personal information in your browser profile&lt;/li&gt;&lt;li&gt;Filling in form fields for you&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;This will help reduce the amount of personal information transmitted to sites at the expense of full functionality, since many legitimate web sites require you to accept cookies.&lt;/p&gt;
+&lt;p&gt;Do not contribute to the spam problem by producing any of it yourself! In particular, learn about chain mail and do not forward chain mail to others. Also, if you receive an email message that appears to warn of some horrible thing happening (a virus that reportedly deletes all your files, for example) or is a touching sob story (about helping to save a poor sick girl or boy, for example), be suspicious.&lt;/p&gt;
+&lt;p&gt;Nearly every instance of chain mail is a hoax. The message may even come from someone you know and respect who is simply not aware that it&amp;#39;s a hoax. Learn about hoaxes and the sites available to verify hoaxes, and do not forward them to others. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt;"&gt;Questions regarding X-rated spam (unsolicited mass e-mail)&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Some members of the Company have at times expressed concern to IT regarding their own accountability for unsolicited e-mail of a sexual nature sent to their Company e-mail address. In some cases, an employee worries that a supervisor or co-worker might think the employee solicited the mail. In other cases, the person fears that an IT employee asked to assist with the computer might think the person had solicited the sexually-oriented mail.&lt;/p&gt;
+&lt;p&gt;Most people who either have experienced spam or have read about spam understand that spammers do not wait to be asked; they are in the business of aggressive marketing. Many spammers are deceitful, trying to fool people into opening their unwanted e-mail by pretending to be someone else or using a subject line which fools the recipient into opening the mail. Sometimes they claim falsely that the person is receiving the e-mail because the person asked for it, or expressed interest in material of a similar nature. The truth is that few people welcome spam and even fewer ask for it.&lt;/p&gt;
+&lt;p&gt;If a supervisor or co-worker thinks otherwise, IT can reassure them. Certainly, IT technicians and consultants understand that spam is a plague and not something invited by the recipient. As extra protection, depending upon how you receive your e-mail on campus, there are ways to quarantine spam and/or filter your incoming e-mail.  It is advisable to immediately delete any such emails you receive.&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;Email&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=24d9243187032100deddb882a2e3ec33"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 03:56:34</sys_created_on>
+        <sys_id>fbf9d1e897753110e4fc3e66f053affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0000029</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_fbf9d1e897753110e4fc3e66f053affc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 03:56:34</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>
