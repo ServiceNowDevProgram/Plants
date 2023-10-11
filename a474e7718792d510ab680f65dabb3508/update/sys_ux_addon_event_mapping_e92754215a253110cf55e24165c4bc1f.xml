@@ -9,41 +9,41 @@
         <source_da display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</source_da>
         <source_element_id>data_row_3</source_element_id>
         <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
-        <sys_created_by>system</sys_created_by>
-        <sys_created_on>2023-09-27 15:22:49</sys_created_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 21:35:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e92754215a253110cf55e24165c4bc1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Popular articles event mapping</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_addon_event_mapping_e92754215a253110cf55e24165c4bc1f</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-09-27 15:22:49</sys_updated_on>
-        <target_event display_value="Popular articles">ad275421b02531105b56383590e1e81f</target_event>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 21:35:45</sys_updated_on>
+        <target_event display_value="">ad275421b02531105b56383590e1e81f</target_event>
         <target_payload_mapping>{
-  "type": "MAP_CONTAINER",
-  "container": {
-    "sysId": {
-      "type": "EVENT_PAYLOAD_BINDING",
-      "binding": {
-        "address": [
-          "sysId"
-        ]
-      }
+    "container": {
+        "sysId": {
+            "binding": {
+                "address": [
+                    "sysId"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "table": {
+            "binding": {
+                "address": [
+                    "table"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
     },
-    "table": {
-      "type": "EVENT_PAYLOAD_BINDING",
-      "binding": {
-        "address": [
-          "table"
-        ]
-      }
-    }
-  }
+    "type": "MAP_CONTAINER"
 }</target_payload_mapping>
     </sys_ux_addon_event_mapping>
 </record_update>
