@@ -70,6 +70,448 @@
                         "id": "d356d14b6e293a3020a244b63d278d8f",
                         "type": "MACROPONENT"
                     },
+                    "elementId": "search_container",
+                    "elementLabel": "Search Container",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "bb0f92e8d7eff1590624bfe69d316f23",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "search_input",
+                                "elementLabel": "Search Input",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "clnkgoxdhaaaacddddbhhtuycccsjrj",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_input.NOW_INPUT#VALUE_SET",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_input.NOW_INPUT#VALUE_SET",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                                                    "payload": {
+                                                        "container": {
+                                                            "propName": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "searchTerm"
+                                                            },
+                                                            "value": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "value"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "32408b42ff7a10109046e490703bf176"
+                                                },
+                                                "operation": null,
+                                                "targetId": "clnkgoxdiaaaaceeddbhhtlfftdjjphz",
+                                                "type": "EVENT"
+                                            },
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": {
+                                                    "dataBrokerId": "b997a84053021010cbc2ddeeff7b1228",
+                                                    "operationName": "REFRESH",
+                                                    "parentResourceId": "look_up_plantipedia_records",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {}
+                                                    }
+                                                },
+                                                "targetId": "clnkgpjjhmaaaacxddbhhtboeeaeezbbr",
+                                                "type": "DATABROKER_OP"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "eventMappingId": "clnkgpeuoaaaadggddbhhtaajjrffddrtv",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_input.NOW_INPUT#ENTER_KEYDOWN",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_input.NOW_INPUT#ENTER_KEYDOWN",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                                                    "payload": {
+                                                        "container": {
+                                                            "propName": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "searchTerm"
+                                                            },
+                                                            "value": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "fieldValue"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "32408b42ff7a10109046e490703bf176"
+                                                },
+                                                "operation": null,
+                                                "targetId": "clnkgpeuoaaaadhhddbhhtiiwqqffwyii",
+                                                "type": "EVENT"
+                                            },
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": {
+                                                    "dataBrokerId": "b997a84053021010cbc2ddeeff7b1228",
+                                                    "operationName": "REFRESH",
+                                                    "parentResourceId": "look_up_plantipedia_records",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {}
+                                                    }
+                                                },
+                                                "targetId": "clnkgprkddaaaadxddbhhtziiddkqiixi",
+                                                "type": "DATABROKER_OP"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "eventMappingId": "clnklwozwaaaaubddbhhtkhhfeedrljj",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_input.NOW_INPUT#INPUT",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_input.NOW_INPUT#INPUT",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                                                    "payload": {
+                                                        "container": {
+                                                            "propName": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "searchTerm"
+                                                            },
+                                                            "value": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "fieldValue"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "32408b42ff7a10109046e490703bf176"
+                                                },
+                                                "operation": null,
+                                                "targetId": "clnklwozxaaaaucddbhhtddmccxfggaak",
+                                                "type": "EVENT"
+                                            },
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": {
+                                                    "dataBrokerId": "b997a84053021010cbc2ddeeff7b1228",
+                                                    "operationName": "REFRESH",
+                                                    "parentResourceId": "look_up_plantipedia_records",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {}
+                                                    }
+                                                },
+                                                "targetId": "clnkmbbjjhjjaaaavffddbhhtmqtmvoml",
+                                                "type": "DATABROKER_OP"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "overrides": {
+                                    "composition": [
+                                        {
+                                            "definition": {
+                                                "id": "33eaddad37cf901283bbdc7a574773b9",
+                                                "type": "MACROPONENT"
+                                            },
+                                            "elementId": "icon_1",
+                                            "elementLabel": "Icon 1",
+                                            "eventMappings": [
+                                                
+                                            ],
+                                            "isHidden": {
+                                                "type": "JSON_LITERAL",
+                                                "value": null
+                                            },
+                                            "preset": null,
+                                            "propertyValues": {
+                                                "configAria": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": null
+                                                },
+                                                "icon": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "magnifying-glass-fill"
+                                                },
+                                                "size": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "md"
+                                                },
+                                                "supportRtl": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": false
+                                                }
+                                            },
+                                            "slot": "end",
+                                            "styles": null
+                                        }
+                                    ]
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "align": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "autofocus": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "input": {}
+                                        }
+                                    },
+                                    "disabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "fieldLayout": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "layout": "vertical"
+                                        }
+                                    },
+                                    "helperContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideRequiredIndicator": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "invalid": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Search"
+                                        }
+                                    },
+                                    "max": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "maxlength": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "messages": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            
+                                        ]
+                                    },
+                                    "min": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "minlength": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "multiple": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "name": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "optional": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "pattern": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "placeholder": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "All"
+                                        }
+                                    },
+                                    "readonly": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "required": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "step": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "any"
+                                    },
+                                    "type": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "text"
+                                    },
+                                    "value": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "search_input",
+                                        "styles": {
+                                            "align-self": "center",
+                                            "margin-bottom": "3rem",
+                                            "width": "50%"
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": null,
+                                "styles": {
+                                    "flex-direction": "column",
+                                    "width": "100%"
+                                },
+                                "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "ariaRegionHeadingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "1"
+                        },
+                        "ariaRegionName": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "ariaRole": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "includeAriaHeading": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "fullheight"
+                        },
+                        "type": {
+                            "type": "JSON_LITERAL",
+                            "value": "section"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
                     "elementId": "gallery",
                     "elementLabel": "Gallery",
                     "eventMappings": [
@@ -1991,6 +2433,10 @@
                             }
                         },
                         {
+                            "element_id": "search_container",
+                            "styles": {}
+                        },
+                        {
                             "element_id": "gallery",
                             "styles": {}
                         }
@@ -2068,8 +2514,147 @@
         ],
         "inputValues": {
             "encodedQuery": {
-                "type": "JSON_LITERAL",
-                "value": ""
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "characteristicsLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORdifficulty_levelLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORenvironmentLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORpottingLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORlight_requirementsLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORnameLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORnumberLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORotherLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORpotting_mixLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORpropagationLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^ORwaterLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "searchTerm"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
             },
             "limit": {
                 "type": "JSON_LITERAL",
@@ -2144,6 +2729,9 @@
     
 ]</props>
         <required_translations>[ {
+  "message" : "All",
+  "comment" : ""
+}, {
   "message" : "Characteristics: ",
   "comment" : ""
 }, {
@@ -2171,6 +2759,9 @@
   "message" : "Propagation:",
   "comment" : ""
 }, {
+  "message" : "Search",
+  "comment" : ""
+}, {
   "message" : "Water:",
   "comment" : ""
 } ]</required_translations>
@@ -2178,18 +2769,25 @@
         <root_component_config/>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_properties/>
+        <state_properties>[
+    {
+        "initialValue": null,
+        "name": "searchTerm",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-06 17:57:11</sys_created_on>
         <sys_id>2bc0131c97fdb11055cbb8d0f053af8c</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_2bc0131c97fdb11055cbb8d0f053af8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-09 19:04:16</sys_updated_on>
+        <sys_updated_on>2023-10-10 17:43:03</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
