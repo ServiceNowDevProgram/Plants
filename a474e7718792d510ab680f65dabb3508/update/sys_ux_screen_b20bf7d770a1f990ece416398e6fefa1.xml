@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Plants Management App Config">760bf7d766a1f99013019c7c3e5acab6</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    {
+        "eventMappingId": "clgwmjswfaaheccddbhhwzcffhiikhha",
+        "isConfiguration": false,
+        "offRowStorageId": null,
+        "sourceEventApiName": "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_a6a8b88ec3702010ec37e0dd9740dd43",
+        "sourceEventCorrelationId": null,
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "targetId": "clgwmjswfaaheddddbhhwfbseeknffu",
+                "type": "EVENT",
+                "declarativeAction": null,
+                "event": {
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463",
+                    "payload": {
+                        "type": "MAP_CONTAINER",
+                        "container": {
+                            "route": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                }
+                            },
+                            "fields": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                }
+                            },
+                            "params": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                }
+                            },
+                            "redirect": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "redirect"
+                                    ]
+                                }
+                            },
+                            "passiveNavigation": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "passiveNavigation"
+                                    ]
+                                }
+                            },
+                            "title": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "title"
+                                    ]
+                                }
+                            },
+                            "multiInstField": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "multiInstField"
+                                    ]
+                                }
+                            },
+                            "targetRoute": {
+                                "type": "EVENT_PAYLOAD_BINDING",
+                                "binding": {
+                                    "address": [
+                                        "targetRoute"
+                                    ]
+                                }
+                            },
+                            "external": null
+                        }
+                    },
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED"
+                },
+                "operation": null,
+                "clientScript": null,
+                "conditional": null,
+                "broker": null
+            }
+        ],
+        "sourceEventDefinition": {
+            "id": null,
+            "apiName": "sn_app_analytics_w.NAV_ITEM_SELECTED_RELAY_a6a8b88ec3702010ec37e0dd9740dd43",
+            "type": "UXEVENT"
+        }
+    }
+]</event_mappings>
+        <macroponent display_value="Dashboard overview">a6a8b88ec3702010ec37e0dd9740dd43</macroponent>
+        <macroponent_config>{
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "message": "",
+            "comment": ""
+        }
+    },
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    }
+}</macroponent_config>
+        <name>All Dashboards Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="All Dashboards">7e0bf7d755a1f9905e40af9f361adaa8</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 18:27:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b20bf7d770a1f990ece416398e6fefa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Dashboards Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_screen_b20bf7d770a1f990ece416398e6fefa1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 18:27:48</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=b20bf7d770a1f990ece416398e6fefa1"/>
+</record_update>
