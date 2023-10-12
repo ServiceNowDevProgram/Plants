@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="Plants">f780f03647e9f110d381f164336d432d</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -40,7 +40,6 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
-        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>true</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -58,7 +57,7 @@
         <roles/>
         <save_options/>
         <save_script/>
-        <sc_catalogs/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template display_value="AES Record Producer">211f71ca73202010ae42d31ee2f6a785</sc_template>
@@ -71,14 +70,14 @@
         <sys_created_by>MGOPW</sys_created_by>
         <sys_created_on>2022-10-03 20:38:45</sys_created_on>
         <sys_id>96bc280697d2dd10d27a797e6253af9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>New Plant</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sc_cat_item_producer_96bc280697d2dd10d27a797e6253af9f</sys_update_name>
-        <sys_updated_by>paige</sys_updated_by>
-        <sys_updated_on>2023-09-27 15:03:58</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 14:26:21</sys_updated_on>
         <table_name>x_snc_plants_db_my_plants</table_name>
         <taxonomy_topic/>
         <template/>
@@ -86,7 +85,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version/>
+        <version>1</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Plants Management">7e0bf7d701a1f990c3fb271bdbc37aae</dashboard>
+        <group/>
+        <role display_value="x_snc_plants_db.my_plants_user" name="x_snc_plants_db.my_plants_user">7b2627758792d510ab680f65dabb350f</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 18:27:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7f0b7bd747a1f9902a0fc468c26d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7e0bf7d701a1f990c3fb271bdbc37aae</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>par_dashboard_permission_7f0b7bd747a1f9902a0fc468c26d430c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 18:27:51</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

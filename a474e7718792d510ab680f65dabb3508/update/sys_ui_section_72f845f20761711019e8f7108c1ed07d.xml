@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Maintenance" section_id="72f845f20761711019e8f7108c1ed07d" sys_domain="global" table="x_snc_plants_db_my_plants" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_fertilized</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
+            <sys_id>57f845f20761711019e8f7108c1ed0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance" display_value="Maintenance" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">72f845f20761711019e8f7108c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fertilize_schedule</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
+            <sys_id>d7f845f20761711019e8f7108c1ed0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance" display_value="Maintenance" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">72f845f20761711019e8f7108c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>next_fertilize</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
+            <sys_id>5bf845f20761711019e8f7108c1ed0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance" display_value="Maintenance" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">72f845f20761711019e8f7108c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
+            <sys_id>dbf845f20761711019e8f7108c1ed0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance" display_value="Maintenance" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">72f845f20761711019e8f7108c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_watered</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
+            <sys_id>5ff845f20761711019e8f7108c1ed0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance" display_value="Maintenance" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">72f845f20761711019e8f7108c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watering_schedule</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
+            <sys_id>dff845f20761711019e8f7108c1ed0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance" display_value="Maintenance" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">72f845f20761711019e8f7108c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>next_watering</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
+            <sys_id>53f845f20761711019e8f7108c1ed0d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Maintenance" display_value="Maintenance" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">72f845f20761711019e8f7108c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Maintenance</caption>
+            <header>false</header>
+            <name>x_snc_plants_db_my_plants</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-01 16:12:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72f845f20761711019e8f7108c1ed07d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_plants_db_my_plants</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_update_name>sys_ui_section_72f845f20761711019e8f7108c1ed07d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-01 16:12:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
