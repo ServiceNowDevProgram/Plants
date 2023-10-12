@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_plants_db.WeatherUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Retrieve and shape the weather data.</description>
+        <name>WeatherUtils</name>
+        <script><![CDATA[var WeatherUtils = Class.create();
+WeatherUtils.prototype = {
+	initialize: function() {
+	},
+
+	isRainingInUnitedStatesByLatLng: function(lat, lng) {
+		var metadataMessage = new sn_ws.RESTMessageV2('Weather.gov', 'Base Weather Metadata');
+		metadataMessage.setStringParameter('lat', lat);
+		metadataMessage.setStringParameter('lng', lng);
+
+		try {
+			var metadataResponse = metadataMessage.execute();
+			if (metadataResponse.getStatusCode() == 200) {
+				var metadataResponseBody = metadataResponse.getBody();
+
+				var forecastUrl = new global.JSON().decode(metadataResponseBody).properties.forecast;
+
+				var forecastMessage = new sn_ws.RESTMessageV2();
+				forecastMessage.setEndpoint(forecastUrl);
+				forecastMessage.setHttpMethod('GET');
+
+				var forecastResponse = forecastMessage.execute();
+				var forecastResponseBody = forecastResponse.getBody();
+
+				// Get the forecast for today (usually the first item)
+				var todaysForecast =  new global.JSON().decode(forecastResponseBody).properties.periods[0];
+
+				// Check if the forecast contains keywords indicating rain
+				var shortForecast = todaysForecast.shortForecast.toLowerCase();
+				var detailedForecast = todaysForecast.detailedForecast.toLowerCase();
+
+				if (shortForecast.includes('rain') || detailedForecast.includes('rain')) {
+					return true;
+				} else {
+					return false;
+				}
+
+			} else {
+				return undefined;
+			}
+		} 
+		catch (ex) {
+			return undefined;
+		}
+	},
+
+	type: 'WeatherUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 02:21:31</sys_created_on>
+        <sys_id>83b1ea3f4721311005bec7de826d4384</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>WeatherUtils</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_script_include_83b1ea3f4721311005bec7de826d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 14:22:16</sys_updated_on>
+    </sys_script_include>
+</record_update>

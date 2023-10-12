@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>City</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Weather [ City ]</qualified_name>
+        <rest_endpoint>https://weather.com/api/v1/p/redux-dal</rest_endpoint>
+        <rest_message display_value="Weather">765f501897b97110f971ffb0f053af63</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 05:34:21</sys_created_on>
+        <sys_id>3460205897b97110f971ffb0f053afbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>City</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_rest_message_fn_3460205897b97110f971ffb0f053afbb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 05:34:21</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>69bd86f4db3bed9005ef17291396191e</instance_id>
+        <instance_name>dev178683</instance_name>
+        <name>sys_rest_message_fn_3460205897b97110f971ffb0f053afbb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>City</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Weather [ City ]</qualified_name><rest_endpoint>https://weather.com/api/v1/p/redux-dal</rest_endpoint><rest_message display_value="Weather">765f501897b97110f971ffb0f053af63</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-06 05:34:21</sys_created_on><sys_id>3460205897b97110f971ffb0f053afbb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>City</sys_name><sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package><sys_policy/><sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope><sys_update_name>sys_rest_message_fn_3460205897b97110f971ffb0f053afbb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-06 05:34:21</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-72937253</payload_hash>
+        <record_name>City</record_name>
+        <reverted_from/>
+        <source>b84360c897753110f971ffb0f053af45</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 05:34:21</sys_created_on>
+        <sys_id>52c6a4d497b97110f971ffb0f053af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b037acb870000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 05:34:21</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>9ac6a4d467b97110af724c1ee36ff061</update_guid>
+        <update_guid_history>9ac6a4d467b97110af724c1ee36ff061:-72937253</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 05:45:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>01ee04f132cc429b873a5c3c55f234b9</sys_id>
+        <sys_metadata>3460205897b97110f971ffb0f053afbb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>City</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent display_value="Weather">765f501897b97110f971ffb0f053af63</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_3460205897b97110f971ffb0f053afbb</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_3460205897b97110f971ffb0f053afbb">52c6a4d497b97110f971ffb0f053af62</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 05:45:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
