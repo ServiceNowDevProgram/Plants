@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Landing Page">2d27542157253110e1e0481e62bab721</macroponent>
+        <name>data_row_3_data</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : null,
+  "message" : "{0} out of 5",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    const input = api.data.evam_popular_articles.compositeDataViews;
+    for (var i = 0; i < input.items.length; i++) {
+        var model = input.items[i].propValues;
+        if (model.model.rating != "") {
+            model.detailValueTwo = helpers.translateSync("{0} out of 5", model.model.rating);
+        }
+    }
+    return input;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-27 15:22:47</sys_created_on>
+        <sys_id>692754214c253110d8096f9a5cd3d615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>data_row_3_data</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_client_script_692754214c253110d8096f9a5cd3d615</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:22:47</sys_updated_on>
+        <target/>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>54066b04db48b0507527d7c8f49619e2</instance_id>
+        <instance_name>dev113408</instance_name>
+        <name>sys_ux_client_script_692754214c253110d8096f9a5cd3d615</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Landing Page"&gt;2d27542157253110e1e0481e62bab721&lt;/macroponent&gt;&lt;name&gt;data_row_3_data&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ {
+  "code" : null,
+  "message" : "{0} out of 5",
+  "comment" : ""
+} ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    const input = api.data.evam_popular_articles.compositeDataViews;
+    for (var i = 0; i &lt; input.items.length; i++) {
+        var model = input.items[i].propValues;
+        if (model.model.rating != "") {
+            model.detailValueTwo = helpers.translateSync("{0} out of 5", model.model.rating);
+        }
+    }
+    return input;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-27 15:22:47&lt;/sys_created_on&gt;&lt;sys_id&gt;692754214c253110d8096f9a5cd3d615&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;data_row_3_data&lt;/sys_name&gt;&lt;sys_package display_value="My Plants" source="x_snc_plants_db"&gt;a474e7718792d510ab680f65dabb3508&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="My Plants"&gt;a474e7718792d510ab680f65dabb3508&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_692754214c253110d8096f9a5cd3d615&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-27 15:22:47&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-973677629</payload_hash>
+        <record_name>data_row_3_data</record_name>
+        <reverted_from/>
+        <source>735a1ce697717110e4fc3e66f053af19</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-13 04:45:53</sys_created_on>
+        <sys_id>2cde58ea97f17110e4fc3e66f053af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b275aeff00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-13 04:45:53</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>a0de58ea30f17110eac5cb5ba839b75b</update_guid>
+        <update_guid_history>a0de58ea30f17110eac5cb5ba839b75b:-973677629,c82a9026fbb17110396bf31e8dece2ec:0,73265822b2717110fce779a1e12cf6f9:-1846054521,e002d42a96317110ef3dd0433aa26701:-973677629,8cee48e24bfd31109be31667b1750409:0,db718826db7d3110447a3cd77561e1db:195582326,2351a39a7fb931105205ed551c3951d5:0,01843e9661f531109ce0e890ea58a91a:-973677629,74d5e84270f17110f1f81257784d160d:0,719f7b51abb9f1107fadcee48dd43950:-973677629,679ba785d3b5b11061f7e204d63aea62:0,8b7c1fc12875b110ce04ef1424e53c27:620418137,12565b0df335b110555a5c90669d0726:-973677629,f6bf0b054c35b110026cb6d3d5118989:0,7ed179cd423d7110c3c3780d21835f53:-973677629,c73b290d6ef971101ed294cdfb5d2548:0,2791a16485b53110936a833108768337:-973677629,7bead028ca3131107c1e9da44372fee6:0,e47c9cdb88693110eb70fc829fa11f67:0,cbc450932b693110416d082974a8c44b:-973677629,d24c94db1e6931109728ebabcc3a31eb:0,2a02989fe8293110cce56e65e093b8c4:-973677629,1ee78493802931108c0ff192b7274b33:0,c0e5638be46531105cbf9b45d4fc2517:-973677629,0ebb8ff6062175103317202a6510a7fa:0,08d90b7a97ed3510ee4d6126797ac4c7:-889919795,b28885faf06535106bacc72bd6c09f7f:0,1e26817e332535101e8971e254b15f5d:-2026968266,57da0d5ee3ed7110392915b1bb93d562:0,4b87819e64ad71102d02699d0d4f9f56:-430968171,817000c6832531105c098a6017a82fbc:1203268944</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-13 04:56:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>56a1f55af3e14f90a0a3fa1e5ca07410</sys_id>
+        <sys_metadata>692754214c253110d8096f9a5cd3d615</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>data_row_3_data</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_692754214c253110d8096f9a5cd3d615</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_692754214c253110d8096f9a5cd3d615">2cde58ea97f17110e4fc3e66f053af5b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-13 04:56:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
