@@ -16,9 +16,9 @@
         <sys_id>a127542171253110bf24f5a371baee26</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>4754e15e53721010c5e2ddeeff7b129e</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_security_acl_a127542171253110bf24f5a371baee26</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-09-27 15:22:47</sys_updated_on>

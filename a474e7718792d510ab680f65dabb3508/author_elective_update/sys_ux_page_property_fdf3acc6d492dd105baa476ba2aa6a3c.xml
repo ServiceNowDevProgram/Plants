@@ -36,7 +36,7 @@
     <sys_translated_text action="DELETE" query="documentkey=fdf3acc6d492dd105baa476ba2aa6a3c"/>
 <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</application>
+        <application display_value="Plants">a474e7718792d510ab680f65dabb3508</application>
         <file_path/>
         <instance_id>d8e6e28fdbef8d502f68c597059619c6</instance_id>
         <instance_name>oldbabyyoda</instance_name>
@@ -105,10 +105,10 @@
         <sys_metadata>fdf3acc6d492dd105baa476ba2aa6a3c</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>chrome_header</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_parent/>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
         <sys_update_name>sys_ux_page_property_fdf3acc6d492dd105baa476ba2aa6a3c</sys_update_name>
         <sys_update_version display_value="sys_ux_page_property_fdf3acc6d492dd105baa476ba2aa6a3c">fe73dca587613110aea5ea8d0ebb35e3</sys_update_version>

@@ -139,7 +139,9 @@
                                                                         }
                                                                     },
                                                                     "slot": null,
-                                                                    "styles": null
+                                                                    "styles": {
+                                                                        "margin-bottom": "var(--now-static-space--lg)"
+                                                                    }
                                                                 },
                                                                 {
                                                                     "definition": {
@@ -187,7 +189,9 @@
                                                                         }
                                                                     },
                                                                     "slot": null,
-                                                                    "styles": null
+                                                                    "styles": {
+                                                                        "padding-left": "var(--now-static-space--xs)"
+                                                                    }
                                                                 }
                                                             ],
                                                             "layout": {
@@ -198,16 +202,12 @@
                                                                         {
                                                                             "element_id": "heading_2",
                                                                             "rules": {},
-                                                                            "styles": {
-                                                                                "margin-bottom": "var(--now-static-space--lg)"
-                                                                            }
+                                                                            "styles": {}
                                                                         },
                                                                         {
                                                                             "element_id": "heading_8",
                                                                             "rules": {},
-                                                                            "styles": {
-                                                                                "padding-left": "var(--now-static-space--xs)"
-                                                                            }
+                                                                            "styles": {}
                                                                         }
                                                                     ],
                                                                     "root": null,
@@ -251,7 +251,9 @@
                                                             }
                                                         },
                                                         "slot": null,
-                                                        "styles": null
+                                                        "styles": {
+                                                            "height": "100%"
+                                                        }
                                                     }
                                                 ],
                                                 "layout": {
@@ -263,8 +265,7 @@
                                                                 "element_id": "container_6_Main",
                                                                 "rules": {},
                                                                 "styles": {
-                                                                    "grid-area": "main",
-                                                                    "height": "100%"
+                                                                    "grid-area": "main"
                                                                 }
                                                             }
                                                         ],
@@ -310,7 +311,9 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": null
+                                            "styles": {
+                                                "width": "100%"
+                                            }
                                         },
                                         {
                                             "definition": {
@@ -356,7 +359,9 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": null
+                                            "styles": {
+                                                "margin-bottom": "var(--now-static-space--lg)"
+                                            }
                                         },
                                         {
                                             "definition": {
@@ -432,7 +437,9 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": null
+                                            "styles": {
+                                                "width": "44rem"
+                                            }
                                         }
                                     ],
                                     "layout": {
@@ -443,23 +450,17 @@
                                                 {
                                                     "element_id": "container_6",
                                                     "rules": {},
-                                                    "styles": {
-                                                        "width": "100%"
-                                                    }
+                                                    "styles": {}
                                                 },
                                                 {
                                                     "element_id": "heading_3",
                                                     "rules": {},
-                                                    "styles": {
-                                                        "margin-bottom": "var(--now-static-space--lg)"
-                                                    }
+                                                    "styles": {}
                                                 },
                                                 {
                                                     "element_id": "search_combobox_component_1",
                                                     "rules": {},
-                                                    "styles": {
-                                                        "width": "44rem"
-                                                    }
+                                                    "styles": {}
                                                 }
                                             ],
                                             "root": null,
@@ -504,7 +505,9 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": null
+                                "styles": {
+                                    "height": "100%"
+                                }
                             }
                         ],
                         "layout": {
@@ -555,7 +558,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {}
                 }
             ],
             "layout": {
@@ -608,7 +611,7 @@
             }
         },
         "slot": null,
-        "styles": null
+        "styles": {}
     },
     {
         "definition": {
@@ -788,416 +791,9 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": null
-                            },
-                            {
-                                "definition": {
-                                    "id": "d356d14b6e293a3020a244b63d278d8f",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "container_7",
-                                "elementLabel": "Container 7",
-                                "eventMappings": [
-                                    
-                                ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "overrides": {
-                                    "composition": [
-                                        {
-                                            "definition": {
-                                                "id": "66ee7d86e81f696c9f9be19d8424cc0d",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "list_1",
-                                            "elementLabel": "List 1",
-                                            "eventMappings": [
-                                                
-                                            ],
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
-                                            "preset": null,
-                                            "propertyValues": {
-                                                "actionConfigId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "allRecordsSelected": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "columns": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "name,plant_type,next_watering,status"
-                                                },
-                                                "daClientActionContract": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "error": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": {}
-                                                },
-                                                "exceptedRecords": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": [
-                                                        
-                                                    ]
-                                                },
-                                                "fixedQuery": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "groupByField": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "headerSize": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "md"
-                                                },
-                                                "headingLevel": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": 1
-                                                },
-                                                "hideCellFilter": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideCheckboxHover": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideColumnFiltering": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideColumnGrouping": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideColumnReorder": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideColumnResizing": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideColumnSorting": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideDeclarativeActions": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideDotwalk": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideDragDrop": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                "hideEmptyStateImage": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideFilterPanel": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideFirstPage": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideHeader": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideHighlightContent": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideHighlightedValues": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideInlineEditing": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideLastPage": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideLastRefreshedText": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideLimitSelector": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideLinks": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideListSharing": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                "hideMenuButton": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideNextPage": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideOptionToSaveAs": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePages": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePagination": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePanelAdvanced": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePanelConditionDelete": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePanelFooter": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePanelRestore": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePersonalization": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hidePreviousPage": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideQuickEdit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideRange": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideRefreshButton": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideRowCount": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideRowSelector": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideSelectAll": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideTitle": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideTitleRowCount": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "hideUnnecessaryRowSelectors": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                "highlightContent": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": {
-                                                        "color": "",
-                                                        "patterns": [
-                                                            
-                                                        ]
-                                                    }
-                                                },
-                                                "highlightedValueConfigId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "isRefList": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "limit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "listMenuOpen": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                "listTitle": {
-                                                    "type": "TRANSLATION_LITERAL",
-                                                    "value": {
-                                                        "code": null,
-                                                        "comment": "",
-                                                        "message": "My Plants"
-                                                    }
-                                                },
-                                                "maxCharLimit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": 4000
-                                                },
-                                                "maxColumns": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "menuSelection": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "overrideWordWrapUserPref": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "page": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": 1
-                                                },
-                                                "query": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "active=true^ORDERBYDESCnext_watering"
-                                                },
-                                                "recordSelectedQuery": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "recordSelectedSysId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "recordSelectedTable": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "recordSelectedView": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "refreshRequested": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "selectedListId": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "selectedRecords": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": [
-                                                        
-                                                    ]
-                                                },
-                                                "table": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "x_snc_plants_db_my_plants"
-                                                },
-                                                "tiny": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "view": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "Default"
-                                                },
-                                                "wordWrap": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                }
-                                            },
-                                            "slot": null,
-                                            "styles": null
-                                        }
-                                    ],
-                                    "layout": {
-                                        "default": {
-                                            "children": null,
-                                            "items": [
-                                                {
-                                                    "element_id": "list_1",
-                                                    "styles": {}
-                                                }
-                                            ],
-                                            "root": null,
-                                            "rules": null,
-                                            "styles": {
-                                                "flex-direction": "column",
-                                                "width": "100%"
-                                            },
-                                            "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
-                                            "type": "flex"
-                                        },
-                                        "version": "3.0.0"
-                                    }
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "ariaRegionHeadingLevel": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "1"
-                                    },
-                                    "ariaRegionName": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": ""
-                                        }
-                                    },
-                                    "ariaRole": {
-                                        "type": "JSON_LITERAL",
-                                        "value": ""
-                                    },
-                                    "hideEmptyStateUi": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "includeAriaHeading": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
-                                    "slotWrapperBehavior": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "fullheight"
-                                    },
-                                    "type": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "section"
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
+                                "styles": {
+                                    "margin-bottom": "3rem"
+                                }
                             },
                             {
                                 "definition": {
@@ -1341,7 +937,9 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": null
+                                "styles": {
+                                    "margin-bottom": "3rem"
+                                }
                             },
                             {
                                 "definition": {
@@ -1485,7 +1083,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": null
+                                "styles": {}
                             }
                         ],
                         "layout": {
@@ -1496,20 +1094,12 @@
                                     {
                                         "element_id": "data_row_1",
                                         "rules": {},
-                                        "styles": {
-                                            "margin-bottom": "3rem"
-                                        }
-                                    },
-                                    {
-                                        "element_id": "container_7",
                                         "styles": {}
                                     },
                                     {
                                         "element_id": "data_row_2",
                                         "rules": {},
-                                        "styles": {
-                                            "margin-bottom": "3rem"
-                                        }
+                                        "styles": {}
                                     },
                                     {
                                         "element_id": "data_row_3",
@@ -1559,7 +1149,10 @@
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {
+                        "height": "auto",
+                        "width": "100%"
+                    }
                 }
             ],
             "layout": {
@@ -1572,10 +1165,8 @@
                             "rules": {},
                             "styles": {
                                 "grid-area": "main",
-                                "height": "auto",
                                 "margin": "auto",
-                                "max-width": "90rem",
-                                "width": "100%"
+                                "max-width": "90rem"
                             }
                         }
                     ],
@@ -1622,7 +1213,10 @@
             }
         },
         "slot": null,
-        "styles": null
+        "styles": {
+            "height": "100%",
+            "width": "100%"
+        }
     },
     {
         "definition": {
@@ -1683,7 +1277,7 @@
             }
         },
         "slot": null,
-        "styles": null
+        "styles": {}
     },
     {
         "definition": {
@@ -1744,7 +1338,7 @@
             }
         },
         "slot": null,
-        "styles": null
+        "styles": {}
     },
     {
         "definition": {
@@ -1808,7 +1402,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {}
                 },
                 {
                     "definition": {
@@ -1946,7 +1540,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {}
                 },
                 {
                     "definition": {
@@ -2066,7 +1660,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": null
+                                            "styles": {}
                                         },
                                         {
                                             "definition": {
@@ -2228,7 +1822,9 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": null
+                                            "styles": {
+                                                "padding-left": "var(--now-static-space--lg)"
+                                            }
                                         }
                                     ],
                                     "layout": {
@@ -2244,9 +1840,7 @@
                                                 {
                                                     "element_id": "button_6",
                                                     "rules": {},
-                                                    "styles": {
-                                                        "padding-left": "var(--now-static-space--lg)"
-                                                    }
+                                                    "styles": {}
                                                 }
                                             ],
                                             "root": null,
@@ -2290,7 +1884,9 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": null
+                                "styles": {
+                                    "height": "100%"
+                                }
                             }
                         ],
                         "layout": {
@@ -2302,8 +1898,7 @@
                                         "element_id": "container_4_Main",
                                         "rules": {},
                                         "styles": {
-                                            "grid-area": "main",
-                                            "height": "100%"
+                                            "grid-area": "main"
                                         }
                                     }
                                 ],
@@ -2349,7 +1944,9 @@
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {
+                        "width": "100%"
+                    }
                 }
             ],
             "layout": {
@@ -2378,8 +1975,7 @@
                             "rules": {},
                             "styles": {
                                 "grid-area": "3 / 1 / 4 / 2",
-                                "min-height": "50px",
-                                "width": "100%"
+                                "min-height": "50px"
                             }
                         }
                     ],
@@ -2416,7 +2012,7 @@
             }
         },
         "slot": null,
-        "styles": null
+        "styles": {}
     },
     {
         "definition": {
@@ -2480,7 +2076,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {}
                 },
                 {
                     "definition": {
@@ -2618,7 +2214,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {}
                 },
                 {
                     "definition": {
@@ -2738,7 +2334,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": null
+                                            "styles": {}
                                         },
                                         {
                                             "definition": {
@@ -2932,7 +2528,9 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": null
+                                            "styles": {
+                                                "padding-left": "var(--now-static-space--lg)"
+                                            }
                                         }
                                     ],
                                     "layout": {
@@ -2948,9 +2546,7 @@
                                                 {
                                                     "element_id": "button_8",
                                                     "rules": {},
-                                                    "styles": {
-                                                        "padding-left": "var(--now-static-space--lg)"
-                                                    }
+                                                    "styles": {}
                                                 }
                                             ],
                                             "root": null,
@@ -2994,7 +2590,9 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": null
+                                "styles": {
+                                    "height": "100%"
+                                }
                             }
                         ],
                         "layout": {
@@ -3006,8 +2604,7 @@
                                         "element_id": "container_5_Main",
                                         "rules": {},
                                         "styles": {
-                                            "grid-area": "main",
-                                            "height": "100%"
+                                            "grid-area": "main"
                                         }
                                     }
                                 ],
@@ -3053,7 +2650,9 @@
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {
+                        "width": "100%"
+                    }
                 }
             ],
             "layout": {
@@ -3082,8 +2681,7 @@
                             "rules": {},
                             "styles": {
                                 "grid-area": "3 / 1 / 4 / 2",
-                                "min-height": "50px",
-                                "width": "100%"
+                                "min-height": "50px"
                             }
                         }
                     ],
@@ -3120,7 +2718,9 @@
             }
         },
         "slot": null,
-        "styles": null
+        "styles": {
+            "width": "100%"
+        }
     }
 ]</composition>
         <da_relay_models/>
@@ -3531,11 +3131,11 @@
     }
 ]</data>
         <description/>
-        <dispatched_events>a927142150253110a4ec70f0fbcabeff,6d2714213a25311014ad6d7d7b9cc4fc</dispatched_events>
+        <dispatched_events>e1271421962531108f5c5f2bbc0d65fd,6d2714213a25311014ad6d7d7b9cc4fc</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <handled_events>2927542146253110f1c64fa5ed34f61f,61275421eb2531106d0dca882524c420,652754217e25311087311ad97fa9a11f,75f3acc69d92dd103f88307eba31bf48,2127542139253110323a4592af58be21</handled_events>
+        <handled_events>2927542146253110f1c64fa5ed34f61f,61275421eb2531106d0dca882524c420,652754217e25311087311ad97fa9a11f,ad275421b02531105b56383590e1e81f,2127542139253110323a4592af58be21</handled_events>
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{
@@ -3847,9 +3447,7 @@
                 "rules": {},
                 "styles": {
                     "background-color": "rgb(var(--now-color_background--secondary))",
-                    "grid-area": "row2",
-                    "height": "100%",
-                    "width": "100%"
+                    "grid-area": "row2"
                 }
             }
         ],
@@ -3908,9 +3506,6 @@
   "message" : "Hello,",
   "comment" : ""
 }, {
-  "message" : "My Plants",
-  "comment" : ""
-}, {
   "message" : "No content to display.",
   "comment" : ""
 }, {
@@ -3942,7 +3537,7 @@
   "comment" : ""
 } ]</required_translations>
         <root_component/>
-        <root_component_config>{}</root_component_config>
+        <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_properties>[
@@ -4047,14 +3642,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-09-27 15:22:46</sys_created_on>
         <sys_id>2d27542157253110e1e0481e62bab721</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Landing Page</sys_name>
-        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_2d27542157253110e1e0481e62bab721</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:57:22</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:23:01</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=2d27542157253110e1e0481e62bab721"/>
 </record_update>

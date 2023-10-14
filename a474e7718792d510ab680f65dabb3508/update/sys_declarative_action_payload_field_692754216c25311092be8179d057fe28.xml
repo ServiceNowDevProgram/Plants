@@ -62,9 +62,9 @@
         <sys_created_on>2023-09-27 15:22:49</sys_created_on>
         <sys_id>692754216c25311092be8179d057fe28</sys_id>
         <sys_name>table</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_declarative_action_payload_field_692754216c25311092be8179d057fe28</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-09-27 15:22:49</sys_updated_on>

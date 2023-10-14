@@ -11,9 +11,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>now-logo-dark</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_theme_asset_a9271421d1253110cabd55896db052f3</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-09-27 15:22:47</sys_updated_on>
@@ -23,7 +23,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>ServiceNow_logo_GG.png</file_name>
         <hash>3adf8faeb55a761e53bd75370f757907171b0f9e7305c8663dcddcc8a297871c</hash>
         <image_height/>

@@ -14,9 +14,9 @@
         <sys_id>29271421e5253110524a8d18f5d4ebfe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Page Add Notifications Relay (Preferences Default)</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_event_29271421e5253110524a8d18f5d4ebfe</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-09-27 15:22:46</sys_updated_on>

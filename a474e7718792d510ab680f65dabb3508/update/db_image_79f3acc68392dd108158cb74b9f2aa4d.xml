@@ -13,9 +13,9 @@
         <sys_id>79f3acc68392dd108158cb74b9f2aa4d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_plants_db.custom_portal_banner.svg</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>db_image_79f3acc68392dd108158cb74b9f2aa4d</sys_update_name>
         <sys_updated_by>paige</sys_updated_by>
         <sys_updated_on>2023-09-27 15:03:54</sys_updated_on>
@@ -27,7 +27,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/svg+xml</content_type>
-        <encryption_context/>
         <file_name>image</file_name>
         <hash>a73a8f8d93620b6c9b6f0726342f7c7240e5be2d204db8c1b8e093881bc4f99e</hash>
         <image_height/>

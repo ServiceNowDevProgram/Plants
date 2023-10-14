@@ -40,9 +40,9 @@ function evaluateProperty({
         <sys_id>692754218725311037ff73269e152809</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>breadcrumbs_1_items</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_client_script_692754218725311037ff73269e152809</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-09-27 15:22:46</sys_updated_on>

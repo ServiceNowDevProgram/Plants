@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
     <m2m_app_config_theme action="INSERT_OR_UPDATE">
-        <applicability display_value="Public">a9275421ca2531100c5fde485b03442a</applicability>
+        <applicability display_value="">a9275421ca2531100c5fde485b03442a</applicability>
         <order>0</order>
         <sys_class_name>m2m_app_config_theme</sys_class_name>
         <sys_created_by>system</sys_created_by>
@@ -11,9 +11,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>m2m_app_config_theme_6d2754211925311058962d7abcfe572a</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2023-09-27 15:22:46</sys_updated_on>

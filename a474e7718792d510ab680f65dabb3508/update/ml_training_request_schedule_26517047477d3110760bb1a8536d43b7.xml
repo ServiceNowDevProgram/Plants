@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule">
+    <ml_training_request_schedule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <capability/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <ml_capability_definition display_value="EM ALert Clustering Solution">355041870f2300106c61e79ec4767eb1</ml_capability_definition>
+        <ml_solution/>
+        <name>EM ALert Clustering Solution</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Sails Tales">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period>1970-01-31 00:00:00</run_period>
+        <run_start>2023-10-14 19:23:48</run_start>
+        <run_time/>
+        <run_type>periodically</run_type>
+        <solution_definition/>
+        <sys_class_name>ml_training_request_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-14 19:23:48</sys_created_on>
+        <sys_id>26517047477d3110760bb1a8536d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EM ALert Clustering Solution</sys_name>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>ml_training_request_schedule_26517047477d3110760bb1a8536d43b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-14 19:23:48</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </ml_training_request_schedule>
+</record_update>

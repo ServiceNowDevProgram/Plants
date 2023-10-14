@@ -74,7 +74,7 @@
     </sys_dictionary>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</application>
+        <application display_value="Plants">a474e7718792d510ab680f65dabb3508</application>
         <file_path/>
         <instance_id>49c5c6e7db13d344b2e05d00cf961960</instance_id>
         <instance_name>dev66129</instance_name>
@@ -112,10 +112,10 @@
         <sys_metadata>cfb029f22fda9110a72c5aab2799b6c5</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Water every: (days)</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_parent display_value="">b14708829712dd10d27a797e6253af5c</sys_parent>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_snc_plants_db_my_plants_water_every</sys_update_name>
         <sys_update_version display_value="sys_dictionary_x_snc_plants_db_my_plants_water_every">59a261762fda9110a72c5aab2799b6d3</sys_update_version>

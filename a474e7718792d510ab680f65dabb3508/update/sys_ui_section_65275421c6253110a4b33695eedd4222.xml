@@ -42,9 +42,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sysapproval_approver</sys_name>
             <sys_overrides/>
-            <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
             <sys_update_name>sys_ui_section_65275421c6253110a4b33695eedd4222</sys_update_name>
             <sys_updated_by>system</sys_updated_by>
             <sys_updated_on>2023-09-27 15:22:45</sys_updated_on>

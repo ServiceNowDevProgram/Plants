@@ -330,9 +330,9 @@
         <sys_id>1338e46797e211105dfe79100153af88</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Plants Visit</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_1338e46797e211105dfe79100153af88</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-20 22:43:44</sys_updated_on>
