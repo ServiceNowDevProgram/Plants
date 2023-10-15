@@ -1223,7 +1223,7 @@
                                                                         {
                                                                             "binding": {
                                                                                 "address": [
-                                                                                    "evam_myrequests",
+                                                                                    "evam_popular_articles",
                                                                                     "compositeDataViews",
                                                                                     "items"
                                                                                 ]
@@ -1354,56 +1354,7 @@
                                     
                                 ],
                                 "isHero": false,
-                                "isHidden": {
-                                    "transform": {
-                                        "operands": {
-                                            "container": [
-                                                {
-                                                    "operation": {
-                                                        "left": {
-                                                            "transform": {
-                                                                "operands": {
-                                                                    "container": [
-                                                                        {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "evam_popular_articles",
-                                                                                    "compositeDataViews",
-                                                                                    "items"
-                                                                                ]
-                                                                            },
-                                                                            "type": "DATA_OUTPUT_BINDING"
-                                                                        }
-                                                                    ],
-                                                                    "type": "LIST_CONTAINER"
-                                                                },
-                                                                "operator": "LEN"
-                                                            },
-                                                            "type": "CLIENT_TRANSFORM"
-                                                        },
-                                                        "operator": "EQUAL",
-                                                        "right": {
-                                                            "type": "JSON_LITERAL",
-                                                            "value": 0
-                                                        }
-                                                    },
-                                                    "type": "BINARY"
-                                                },
-                                                {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": true
-                                                },
-                                                {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                }
-                                            ],
-                                            "type": "LIST_CONTAINER"
-                                        },
-                                        "operator": "IF"
-                                    },
-                                    "type": "CLIENT_TRANSFORM"
-                                },
+                                "isHidden": null,
                                 "isNonDestructive": false,
                                 "overrides": null,
                                 "propertyValues": {
@@ -1420,12 +1371,13 @@
                                         "value": null
                                     },
                                     "data": {
-                                        "script": {
-                                            "apiVersion": "2.0.0",
-                                            "inlineScript": null,
-                                            "scriptSysId": "692754214c253110d8096f9a5cd3d615"
+                                        "binding": {
+                                            "address": [
+                                                "evam_popular_articles",
+                                                "compositeDataViews"
+                                            ]
                                         },
-                                        "type": "CLIENT_TRANSFORM_SCRIPT"
+                                        "type": "DATA_OUTPUT_BINDING"
                                     },
                                     "dataBrokerIsLoading": {
                                         "type": "JSON_LITERAL",
@@ -3788,6 +3740,10 @@
                             "type": "JSON_LITERAL",
                             "value": null
                         },
+                        "navigationOptions": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
                         "params": {
                             "type": "JSON_LITERAL",
                             "value": null
@@ -3815,11 +3771,27 @@
                     },
                     "type": "MAP_CONTAINER"
                 },
-                "sysId": "e1271421962531108f5c5f2bbc0d65fd"
+                "sysId": "a927142150253110a4ec70f0fbcabeff"
             },
             "operation": null,
-            "targetId": "ckgsbamiivaaaaaaeddhhhffxiialddffit",
+            "targetId": "clnoeekaiijjaaaaeehddffhhqkddjmkiiyg",
             "type": "EVENT"
+        },
+        {
+            "broker": null,
+            "clientScript": {
+                "payload": {
+                    "type": "JSON_LITERAL",
+                    "value": {}
+                },
+                "sysId": "8bbdd02a97f17110e4fc3e66f053af35"
+            },
+            "conditional": null,
+            "declarativeAction": null,
+            "event": null,
+            "operation": null,
+            "targetId": "clnoeepggdaaaaagcddffhhqxqjjeefsls",
+            "type": "CLIENT_SCRIPT"
         }
     ]
 }</internal_event_mappings>
@@ -4047,14 +4019,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-09-27 15:22:46</sys_created_on>
         <sys_id>2d27542157253110e1e0481e62bab721</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_2d27542157253110e1e0481e62bab721</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:57:22</sys_updated_on>
+        <sys_updated_on>2023-10-13 05:42:55</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=2d27542157253110e1e0481e62bab721"/>
 </record_update>
