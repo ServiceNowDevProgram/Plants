@@ -11,8 +11,10 @@
         <name>Night Blooming Jasmine</name>
         <next_fertilize>2022-10-16</next_fertilize>
         <next_watering>2022-10-23</next_watering>
+        <nickname/>
         <picture>886a3148973e51103f621c800153aff1</picture>
-        <plant_type display_value="Night Blooming Jasmine">8257f5c0973a51103f621c800153afe5</plant_type>
+        <placement/>
+        <plant_type display_value="">8257f5c0973a51103f621c800153afe5</plant_type>
         <status>good</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-22 17:41:26</sys_created_on>
@@ -67,14 +69,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-22 17:42:15</sys_created_on>
         <sys_id>d28af188973e51103f621c800153af03</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Night Blooming Jasmine</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_d28af188973e51103f621c800153af03</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-22 17:42:15</sys_updated_on>
+        <sys_updated_on>2023-10-13 21:25:06</sys_updated_on>
         <tablename>x_snc_plants_db_my_plants</tablename>
     </sys_metadata_link>
 </record_update>

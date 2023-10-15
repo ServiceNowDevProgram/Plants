@@ -4,11 +4,16 @@
         <documentkey>8f6c99f62f9a9110a72c5aab2799b655</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plants_db_my_plants">
     <x_snc_plants_db_my_plants action="INSERT_OR_UPDATE">
+        <fertilize_schedule/>
         <last_fertilized>2022-05-01</last_fertilized>
         <last_watered>2022-10-05</last_watered>
         <location/>
         <name>Zamioculcas</name>
+        <next_fertilize/>
+        <next_watering/>
+        <nickname/>
         <picture>dc2d15f62f9a9110a72c5aab2799b66b</picture>
+        <placement/>
         <plant_type/>
         <status/>
         <sys_created_by>admin</sys_created_by>
@@ -17,13 +22,13 @@
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-06 08:05:45</sys_updated_on>
+        <watering_schedule/>
     </x_snc_plants_db_my_plants>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>picture</file_name>
         <hash>dfbd38d3191e56f0f27b25cc4b515352d5e393a38ed69122813ce8103c2a3cee</hash>
         <image_height>4000</image_height>
@@ -91,14 +96,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-06 08:06:48</sys_created_on>
         <sys_id>786d9db62f9a9110a72c5aab2799b697</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Zamioculcas</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_786d9db62f9a9110a72c5aab2799b697</sys_update_name>
-        <sys_updated_by>paige</sys_updated_by>
-        <sys_updated_on>2023-09-27 15:04:50</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-13 21:25:01</sys_updated_on>
         <tablename>x_snc_plants_db_my_plants</tablename>
     </sys_metadata_link>
 </record_update>
