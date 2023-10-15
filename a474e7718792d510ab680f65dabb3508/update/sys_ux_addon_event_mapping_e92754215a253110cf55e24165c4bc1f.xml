@@ -14,7 +14,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e92754215a253110cf55e24165c4bc1f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Popular articles event mapping</sys_name>
         <sys_overrides/>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
@@ -22,8 +22,8 @@
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_addon_event_mapping_e92754215a253110cf55e24165c4bc1f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-03 21:35:45</sys_updated_on>
-        <target_event display_value="">ad275421b02531105b56383590e1e81f</target_event>
+        <sys_updated_on>2023-10-13 05:10:34</sys_updated_on>
+        <target_event display_value="Popular articles">75f3acc69d92dd103f88307eba31bf48</target_event>
         <target_payload_mapping>{
     "container": {
         "sysId": {

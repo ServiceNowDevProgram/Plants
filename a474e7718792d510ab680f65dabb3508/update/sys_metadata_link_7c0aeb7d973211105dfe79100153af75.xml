@@ -11,7 +11,9 @@
         <name>Eggplant</name>
         <next_fertilize>2022-11-10</next_fertilize>
         <next_watering>2022-10-29</next_watering>
+        <nickname/>
         <picture>40d9e77d973211105dfe79100153afd0</picture>
+        <placement/>
         <plant_type display_value="Eggplant">4ab72fb5973211105dfe79100153af8f</plant_type>
         <status/>
         <sys_created_by>admin</sys_created_by>
@@ -67,14 +69,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-28 12:18:40</sys_created_on>
         <sys_id>7c0aeb7d973211105dfe79100153af75</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Eggplant</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_7c0aeb7d973211105dfe79100153af75</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-28 12:18:40</sys_updated_on>
+        <sys_updated_on>2023-10-13 21:24:57</sys_updated_on>
         <tablename>x_snc_plants_db_my_plants</tablename>
     </sys_metadata_link>
 </record_update>
