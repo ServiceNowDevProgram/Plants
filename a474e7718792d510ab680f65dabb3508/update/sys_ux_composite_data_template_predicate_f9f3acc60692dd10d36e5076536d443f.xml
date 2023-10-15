@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
     <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <condition/>
         <custom_condition/>
         <custom_field_list/>
@@ -13,14 +13,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-03 20:00:30</sys_created_on>
         <sys_id>f9f3acc60692dd10d36e5076536d443f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>My Request - task predicate</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_composite_data_template_predicate_f9f3acc60692dd10d36e5076536d443f</sys_update_name>
-        <sys_updated_by>paige</sys_updated_by>
-        <sys_updated_on>2023-09-27 15:06:37</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 21:22:14</sys_updated_on>
         <table>task</table>
         <ux_template display_value="Item produced template">b5f3acc6c292dd10afce974326d26e40</ux_template>
     </sys_ux_composite_data_template_predicate>

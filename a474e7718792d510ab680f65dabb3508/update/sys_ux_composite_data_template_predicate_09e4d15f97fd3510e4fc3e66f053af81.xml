@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>plant,status,due_date,task,task_type</field_list>
+        <name>my plant tasks predicate</name>
+        <order>0</order>
+        <predicate_bundle display_value="My Plant Tasks - my plant task bundle">4eb4591f97fd3510e4fc3e66f053af83</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-15 16:40:02</sys_created_on>
+        <sys_id>09e4d15f97fd3510e4fc3e66f053af81</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>my plant tasks predicate</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_09e4d15f97fd3510e4fc3e66f053af81</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-15 21:57:33</sys_updated_on>
+        <table>x_snc_plants_db_tasks</table>
+        <ux_template display_value="My Requests - My Plant tasks template">5ddb5e1397757510e4fc3e66f053afa6</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>
