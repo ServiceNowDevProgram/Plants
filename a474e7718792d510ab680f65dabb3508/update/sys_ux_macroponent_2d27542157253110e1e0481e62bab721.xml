@@ -1264,12 +1264,8 @@
                                 "overrides": null,
                                 "propertyValues": {
                                     "cardHeightHorizontal": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "md"
-                                        }
+                                        "type": "JSON_LITERAL",
+                                        "value": "lg"
                                     },
                                     "daClientActionContract": {
                                         "type": "JSON_LITERAL",
@@ -1320,7 +1316,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "Track your requests"
+                                            "message": "Track your plant tasks"
                                         }
                                     },
                                     "titleHeadingLevel": {
@@ -3895,7 +3891,7 @@
   "message" : "Search",
   "comment" : ""
 }, {
-  "message" : "Track your requests",
+  "message" : "Track your plant tasks",
   "comment" : ""
 }, {
   "message" : "Updated Articles",
@@ -4019,14 +4015,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-09-27 15:22:46</sys_created_on>
         <sys_id>2d27542157253110e1e0481e62bab721</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_2d27542157253110e1e0481e62bab721</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-13 05:42:55</sys_updated_on>
+        <sys_updated_on>2023-10-15 22:11:08</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=2d27542157253110e1e0481e62bab721"/>
 </record_update>
