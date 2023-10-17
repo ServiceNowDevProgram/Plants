@@ -4,13 +4,13 @@
             <element>location</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
-            <sys_id>d3f845f20761711019e8f7108c1ed0dd</sys_id>
+            <sys_created_on>2023-10-17 09:05:22</sys_created_on>
+            <sys_id>e09086fb47b9711051dc9128436d4308</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Location" display_value="Location" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">fef845f20761711019e8f7108c1ed07d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_updated_on>2023-10-17 09:05:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
-            <sys_id>57f845f20761711019e8f7108c1ed0dd</sys_id>
+            <sys_created_on>2023-10-17 09:05:22</sys_created_on>
+            <sys_id>649086fb47b9711051dc9128436d4308</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Location" display_value="Location" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">fef845f20761711019e8f7108c1ed07d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_updated_on>2023-10-17 09:05:22</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,27 @@
             <element>placement</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-01 16:12:54</sys_created_on>
-            <sys_id>d7f845f20761711019e8f7108c1ed0dd</sys_id>
+            <sys_created_on>2023-10-17 09:05:22</sys_created_on>
+            <sys_id>e49086fb47b9711051dc9128436d4308</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Location" display_value="Location" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">fef845f20761711019e8f7108c1ed07d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-01 16:12:54</sys_updated_on>
+            <sys_updated_on>2023-10-17 09:05:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>container_type</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-17 09:05:22</sys_created_on>
+            <sys_id>689086fb47b9711051dc9128436d4308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Location" display_value="Location" name="x_snc_plants_db_my_plants" sys_domain="global" view="Default view">fef845f20761711019e8f7108c1ed07d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-17 09:05:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
