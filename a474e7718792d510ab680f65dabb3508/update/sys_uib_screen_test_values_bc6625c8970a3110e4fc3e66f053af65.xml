@@ -8,8 +8,8 @@
     "views": "",
     "selectedTabIndex": "",
     "029f04e053610110ac9bddeeff7b1294": {
-        "inputSysId": "26d2610f977df110e4fc3e66f053afa4",
-        "inputTable": "x_snc_plants_db_tasks"
+        "inputSysId": "6b00f3b29772111028a4fef3a253afa2",
+        "inputTable": "x_snc_plants_db_my_plants"
     }
 }</macroponent_config>
         <screen display_value="Default">306625c8970a3110e4fc3e66f053af63</screen>
@@ -17,13 +17,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-18 01:49:27</sys_created_on>
         <sys_id>bc6625c8970a3110e4fc3e66f053af65</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_bc6625c8970a3110e4fc3e66f053af65</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-18 01:50:34</sys_updated_on>
+        <sys_updated_on>2023-10-19 18:17:50</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
