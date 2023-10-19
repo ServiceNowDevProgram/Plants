@@ -814,7 +814,96 @@
                                             "elementId": "list_1",
                                             "elementLabel": "List 1",
                                             "eventMappings": [
-                                                
+                                                {
+                                                    "eventMappingId": "clnvddliggeaaaaffoddnhhxdgffddgmaay",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#ROW_CLICKED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_snc_plants_db.NAV_ITEM_SELECTED_RELAY_2d27542157253110e1e0481e62bab721",
+                                                                "payload": {
+                                                                    "container": {
+                                                                        "external": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "fields": {
+                                                                            "container": {
+                                                                                "sysId": {
+                                                                                    "binding": {
+                                                                                        "address": [
+                                                                                            "sys_id"
+                                                                                        ]
+                                                                                    },
+                                                                                    "type": "EVENT_PAYLOAD_BINDING"
+                                                                                },
+                                                                                "table": {
+                                                                                    "binding": {
+                                                                                        "address": [
+                                                                                            "table"
+                                                                                        ]
+                                                                                    },
+                                                                                    "type": "EVENT_PAYLOAD_BINDING"
+                                                                                }
+                                                                            },
+                                                                            "type": "MAP_CONTAINER"
+                                                                        },
+                                                                        "multiInstField": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "navigationOptions": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "params": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "passiveNavigation": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "redirect": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "route": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": "plant-record"
+                                                                        },
+                                                                        "targetRoute": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
+                                                                        "title": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        }
+                                                                    },
+                                                                    "type": "MAP_CONTAINER"
+                                                                },
+                                                                "sysId": "a927142150253110a4ec70f0fbcabeff"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "clnvddliggeaaaaffpddnhhxhggccffpggffcc",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
                                             ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
@@ -832,7 +921,7 @@
                                                 },
                                                 "columns": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": "name,plant_type,next_watering,status"
+                                                    "value": "name,plant_type,next_watering,next_fertilize,status"
                                                 },
                                                 "daClientActionContract": {
                                                     "type": "JSON_LITERAL",
@@ -1129,7 +1218,7 @@
                                                 },
                                                 "view": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": "Default"
+                                                    "value": ""
                                                 },
                                                 "wordWrap": {
                                                     "type": "JSON_LITERAL",
@@ -1265,7 +1354,7 @@
                                 "propertyValues": {
                                     "cardHeightHorizontal": {
                                         "type": "JSON_LITERAL",
-                                        "value": "lg"
+                                        "value": "md"
                                     },
                                     "daClientActionContract": {
                                         "type": "JSON_LITERAL",
@@ -1413,7 +1502,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "Updated Articles"
+                                            "message": "Plant Knowledge Articles"
                                         }
                                     },
                                     "titleHeadingLevel": {
@@ -3883,6 +3972,9 @@
   "message" : "No content to display.",
   "comment" : ""
 }, {
+  "message" : "Plant Knowledge Articles",
+  "comment" : ""
+}, {
   "message" : "Reject",
   "comment" : ""
 }, {
@@ -3893,9 +3985,6 @@
   "comment" : ""
 }, {
   "message" : "Track your plant tasks",
-  "comment" : ""
-}, {
-  "message" : "Updated Articles",
   "comment" : ""
 }, {
   "message" : "You have approved the following task",
@@ -4016,14 +4105,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-09-27 15:22:46</sys_created_on>
         <sys_id>2d27542157253110e1e0481e62bab721</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_2d27542157253110e1e0481e62bab721</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-17 04:35:11</sys_updated_on>
+        <sys_updated_on>2023-10-19 01:26:16</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=2d27542157253110e1e0481e62bab721"/>
 </record_update>
