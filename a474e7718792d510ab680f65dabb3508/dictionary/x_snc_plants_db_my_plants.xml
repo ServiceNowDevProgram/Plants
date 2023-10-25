@@ -14,6 +14,7 @@
         <element label="Next Fertilize" max_length="40" name="next_fertilize" type="glide_date"/>
         <element label="Next watering" max_length="40" name="next_watering" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Nickname" max_length="200" name="nickname" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Owner" max_length="32" name="owner" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element default="plant_owner@plantopedia.co.uk" label="Owner's Email" max_length="40" name="owner_s_email" type="string"/>
         <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Picture" max_length="40" name="picture" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Placement" max_length="40" name="placement" type="string">
@@ -35,6 +36,9 @@
             <element name="location"/>
         </index>
         <index name="index2">
+            <element name="owner"/>
+        </index>
+        <index name="index3">
             <element name="plant_type"/>
         </index>
     </element>
