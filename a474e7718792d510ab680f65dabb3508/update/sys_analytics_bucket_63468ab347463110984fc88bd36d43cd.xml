@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
+        <application_name>Plants Portal</application_name>
+        <bucket_document_id>43d4423347463110984fc88bd36d436a</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_table_name>sp_portal</bucket_table_name>
+        <bucket_type>service_portal</bucket_type>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_snc_plants_db.sp_portal.43d4423347463110984fc88bd36d436a</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 19:46:06</sys_created_on>
+        <sys_id>63468ab347463110984fc88bd36d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plants Portal</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_analytics_bucket_63468ab347463110984fc88bd36d43cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 19:46:06</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>
