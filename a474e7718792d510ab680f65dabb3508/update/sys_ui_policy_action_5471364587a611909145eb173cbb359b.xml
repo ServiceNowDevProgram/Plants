@@ -18,6 +18,8 @@
         <sys_updated_on>2022-10-13 14:00:42</sys_updated_on>
         <table>x_snc_plants_db_my_plants</table>
         <ui_policy display_value="Make Next Fertilize and Next watering Read only">bb11fe0587a611909145eb173cbb3538</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

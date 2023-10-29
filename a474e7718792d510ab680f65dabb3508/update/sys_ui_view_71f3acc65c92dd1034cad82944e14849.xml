@@ -8,11 +8,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-03 20:00:33</sys_created_on>
         <sys_id>71f3acc65c92dd1034cad82944e14849</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Custom portal settings (x_snc_plants_db)</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ui_view_71f3acc65c92dd1034cad82944e14849</sys_update_name>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:03:52</sys_updated_on>
         <title>Custom portal settings (x_snc_plants_db)</title>
         <user/>
     </sys_ui_view>
