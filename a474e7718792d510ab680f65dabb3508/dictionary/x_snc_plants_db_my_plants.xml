@@ -21,6 +21,7 @@
             <choice>
                 <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
                 <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+                <element inactive_on_update="false" label="In balcony" sequence="2" value="In balcony"/>
             </choice>
         </element>
         <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plants_db_plantipedia" type="reference"/>
