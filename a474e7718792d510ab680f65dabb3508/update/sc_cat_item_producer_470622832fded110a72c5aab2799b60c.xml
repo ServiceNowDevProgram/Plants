@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="Plants">f780f03647e9f110d381f164336d432d</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -68,7 +68,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -89,9 +89,9 @@
         <sys_id>470622832fded110a72c5aab2799b60c</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>New Plant Type</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sc_cat_item_producer_470622832fded110a72c5aab2799b60c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-29 19:28:10</sys_updated_on>

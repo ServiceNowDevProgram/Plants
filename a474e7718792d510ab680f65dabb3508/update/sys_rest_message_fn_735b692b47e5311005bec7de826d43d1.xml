@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Base Weather Metadata</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Weather.gov [ Base Weather Metadata ]</qualified_name>
+        <rest_endpoint>https://api.weather.gov/points/${lat},${lng}</rest_endpoint>
+        <rest_message display_value="Weather.gov">0b2b696747e5311005bec7de826d438a</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 02:38:34</sys_created_on>
+        <sys_id>735b692b47e5311005bec7de826d43d1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Base Weather Metadata</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_rest_message_fn_735b692b47e5311005bec7de826d43d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 00:41:51</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

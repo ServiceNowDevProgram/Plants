@@ -169,13 +169,14 @@
         <update_guid_history>8a0d4b548fae191099641f01a6ecd50c:-519217421</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Next watering">121d8b542fae1910a72c5aab2799b6d2</sys_audit_delete>
+        <sys_audit_delete display_value="">121d8b542fae1910a72c5aab2799b6d2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-11 08:05:46</sys_created_on>
         <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
         <sys_id>299dbb8c4c4e456087ed218e2fb1e400</sys_id>
         <sys_metadata>10eccbd02fae1910a72c5aab2799b624</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Next watering</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_parent display_value="New Plant">96bc280697d2dd10d27a797e6253af9f</sys_parent>
@@ -184,5 +185,7 @@
         <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
         <sys_update_name>item_option_new_10eccbd02fae1910a72c5aab2799b624</sys_update_name>
         <sys_update_version display_value="item_option_new_10eccbd02fae1910a72c5aab2799b624">420d4b542fae1910a72c5aab2799b60d</sys_update_version>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:06:47</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

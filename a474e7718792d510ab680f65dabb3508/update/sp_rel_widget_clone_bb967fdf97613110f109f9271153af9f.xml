@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="My Plants">f7967fdf97613110f109f9271153af9c</child>
+        <cloned>2023-10-03 18:08:29</cloned>
+        <last_validated>2023-10-03 18:08:29</last_validated>
+        <parent display_value="Simple List">5b255672cb03020000f8d856634c9c28</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, $location, $rootScope, spUtil, $interpolate) {
+	var c = this;
+
+	this.data.filterText = "";
+	this.showFilter = false;
+
+	this.onClick = function($event, item, url, action) {
+		$event.stopPropagation();
+		$event.preventDefault();
+		if (typeof url == "string") {
+			var urlExp = $interpolate(url);
+			url = urlExp(item);
+			$location.url(url);
+		} else if (url &amp;&amp; typeof url == "object")
+			$location.search(url);
+		else {
+			var evt = {};
+			evt.url = url;
+			evt.table = item.className;
+			evt.sys_id = item.sys_id;
+			evt.record = item;
+			evt.rectangle_id = c.options.sys_id;
+			evt.action = action;
+			// put out the selection with simple list "sl_" prefix
+			$location.search('sl_sys_id', evt.sys_id);
+			$location.search('sl_table', evt.table);
+			$location.search('spa', 1); // spa means "I've got this"
+			$rootScope.$broadcast('$sp.list.click', evt);
+		}
+	};
+
+	if (c.options.table &amp;&amp; c.options.disable_record_watcher != 'true')
+		spUtil.recordWatch($scope, c.options.table, c.options.filter);
+
+	this.getMaxShownLabel = function(maxEntries, totalCount) {
+		if (totalCount == c.data.maxCount)
+			return "${First [0] of more than [1]}".replace('[0]', maxEntries).replace('[1]', totalCount);
+
+		return "${First [0] of [1]}".replace('[0]', maxEntries).replace('[1]', totalCount);
+	};
+
+	this.seeAllPage = c.options.list_page_dv || 'list';
+	this.targetPageID = (c.options.sp_page) ? "&amp;target_page_id=" + c.options.sp_page : "";
+
+	c.getMaxHeight = function() {
+		return c.options.panel_body_height || 'none';
+	};
+
+	c.getActionColor = function(action) {
+		return "text-" + action.color;
+	};
+
+	c.update = function update() {
+			c.server.update();
+	}
+
+	c.toggleFilter = function() {
+		c.showFilter = !c.showFilter;
+	}
+
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.panel {
+position: relative;
+}
+
+.panel-heading i {
+  cursor: pointer;
+  position: absolute;
+  padding: 10px;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.disabled-filter {
+	color: #A0A0A0;
+}
+
+.list-group-item.ng-enter {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+
+  background-color: #c0dcfa;
+}
+
+.list-group-item.ng-enter-active {
+  background-color: #fff;
+}
+
+.hide-x-overflow {
+  overflow-x: hidden;
+}
+
+.translated-html &amp;gt; p {
+  margin: 0px;
+  padding: 0px;
+}
+
+IMG {
+  max-width: 320px;
+  max-height: 240px;
+}
+
+IMG.img-sm {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.filter-box {
+  margin-top: 10px;
+}
+
+.panel-footer {
+  .number-shown-label {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.panel-title .fa {
+    padding-right: 4px;
+}
+
+.list-group-item &amp;gt; a {
+	display: inline-block;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance_vlist&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;table,filter,maximum_entries,display_field,color,size,glyph,sp_page&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;widget-simple-list&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Simple List&lt;/name&gt;&lt;option_schema&gt;[{"name":"always_show","section":"Behavior","label":"Show even when empty","type":"boolean"},{"name":"panel_body_height","section":"Presentation","label":"List body height","type":"string"},{"name":"image_field","section":"Presentation","label":"Image field","type":"field_name"},{"name":"secondary_fields","section":"Data","label":"Secondary fields","type":"field_list"},{"name":"rounded_images","section":"Presentation","label":"Rounded images","type":"boolean"},{"displayValue":"Page","name":"list_page","section":"Data","label":"List page","type":"reference","value":"sp_page","ed":{"reference":"sp_page"}},{"name":"hide_footer","section":"Presentation","label":"Hide Footer","type":"boolean"},{"displayValue":"UI View","hint":"View to use when target page is a form","name":"view","section":"Behavior","label":"View","type":"reference","value":"sys_ui_view","ed":{"reference":"sys_ui_view"}},{"hint":"If checked, Simple List will not automatically updated based on changes to the filtered records","name":"disable_record_watcher","section":"Behavior","label":"Disable record watcher","type":"boolean"},{"name":"filter_acls","section":"Data","default_value":"false","label":"Enforce field-level Read ACLs on Filter query terms (may alter the query for unprivileged users)","type":"boolean"}]&lt;/option_schema&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function () {
+	data.filterMsg = gs.getMessage("Filter...");
+	data.viewAllMsg = gs.getMessage("View all");
+	if (gs.nil(options.hide_footer))
+	    options.hide_footer = false;
+	options.hide_footer = (options.hide_footer == "true" || options.hide_footer == true);
+	options.table = $sp.getParameter('t') || options.table;
+	if (!options.table)
+		return;
+
+	if (!gs.getSession().isLoggedIn() &amp;&amp; !new SNCACLUtil().hasPublicAccess(options.table)) {
+		gs.warn("Deny access to table which is not public: " + options.table);
+		data.isValid = false;
+		return;
+	}
+
+	var gr = new GlideRecordSecure(options.table); // does ACL checking for us
+	if (!gr.isValid()) {
+		data.isValid = false;
+		return;
+	} else
+		data.isValid = true;
+	// grTemp is used to check isValidField since using GlideRecordSecure fails for date/time fields
+	var grTemp = new GlideRecord(options.table);
+	if (options.filter_acls == "true")
+		gr = $sp.addQueryString(gr, options.filter);
+	else
+		gr.addEncodedQuery(options.filter);
+	options.title = options.title || gr.getPlural();
+	options.display_field = $sp.getParameter('f') || options.display_field;
+	if (!options.display_field || !grTemp.isValidField(options.display_field))
+		options.display_field = gr.getDisplayName();
+
+	if (input &amp;&amp; input.filterText)
+		gr.addEncodedQuery(options.display_field + "LIKE" + input.filterText)
+
+	options.title = options.title || gr.getPlural();
+	options.secondary_fields = options.secondary_fields || "";
+	options.secondary_fields = options.secondary_fields.split(",");
+	if (!options.order_by || !grTemp.isValidField(options.order_by))
+		options.order_by = options.display_field;
+
+	// Set ID of sp_page from option schema
+	if (options.list_page) {
+		var sp_page = GlideRecord('sp_page');
+		if (sp_page.get(options.list_page))
+			options.list_page_dv = sp_page.getDisplayValue('id');
+	}
+
+	// redo query with limit
+	if (options.order_direction == "asc")
+		gr.orderBy(options.order_by);
+	else
+		gr.orderByDesc(options.order_by);
+
+	data.maxCount = 500;
+	gr.setLimit(data.maxCount);
+	gr.query();
+
+	data.count = gr.getRowCount();
+	data.actions = getActions();
+	data.list = [];
+	var recordIdx = 0;
+	while (gr.next()) {
+		if (options.maximum_entries &amp;&amp; recordIdx == options.maximum_entries)
+			break;
+
+		var record = {};
+		if (data.actions.length &gt; 0) {
+			var fields = gr.getFields();
+			for (var i = 0; i &lt; fields.size(); i++) {
+				var glideElement = fields.get(i);
+				var name = glideElement.getName();
+				if (name.indexOf("sys_") == -1)
+					record[name] = gr.getValue(name);
+			}
+		}
+
+		record.sys_id = gr.getValue('sys_id');
+		record.className = gr.getRecordClassName();
+		if (options.image_field) {
+			record.image_field = gr.getDisplayValue(options.image_field);
+			if (!record.image_field)
+				record.image_field = "noimage.pngx";
+		}
+
+		if (options.display_field)
+			record.display_field = getField(gr, options.display_field);
+
+		record.secondary_fields = [];
+		options.secondary_fields.forEach(function(f) {
+			record.secondary_fields.push(getField(gr, f));
+		});
+
+		if (options.sp_page) {
+			var view = "sp";
+			if (options.view) {
+				var viewGR = new GlideRecord("sys_ui_view");
+				viewGR.get(options.view);
+				view = viewGR.getValue("name");
+			}
+			record.url = {id: options.sp_page, table: record.className, sys_id: record.sys_id, view: view};
+		} else if (options.url != '')
+			record.url = options.url;
+		else
+			record.url = null;
+
+		data.list.push(record);
+		recordIdx++;
+	}
+
+	function getField(gr, name) {
+		var f = {};
+		f.display_value = gr.getDisplayValue(name);
+		f.value = gr.getValue(name);
+		var ge = gr.getElement(name);
+			if (ge == null)
+				return f;
+
+		f.type = ge.getED().getInternalType();
+		if (f.type == "glide_date_time")
+			f.isFuture = gs.dateDiff(gr.getValue(name), gs.nowNoTZ(), true) &lt; 0;
+		else if (f.type == "glide_date")
+			f.isFuture = gs.dateDiff(gr.getValue(name), gs.now(), true) &lt; 0;
+		f.label = ge.getLabel();
+		return f;
+	}
+
+	function getActions() {
+		var rl = GlideRecord("sp_vlist_action");
+		rl.addQuery("sp_rectangle_vlist",$sp.getValue("sys_id"));
+		rl.query();
+		var actions = [];
+		while(rl.next()) {
+			var action = {};
+			$sp.getRecordValues(action, rl, "name,glyph,hint,url,color");
+			actions.push(action);
+		}
+		return actions;
+	}
+})()]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-10-15 20:32:51&lt;/sys_created_on&gt;&lt;sys_id&gt;5b255672cb03020000f8d856634c9c28&lt;/sys_id&gt;&lt;sys_mod_count&gt;622&lt;/sys_mod_count&gt;&lt;sys_name&gt;Simple List&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;c21e17c3b4e32110320f8dc279c80474&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_5b255672cb03020000f8d856634c9c28&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-01 10:15:49&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel panel-{{::c.options.color}} b" ng-if="c.data.isValid &amp;&amp; (c.options.always_show == 'true' || c.options.always_show == true || c.data.filterText || c.data.list.length)"&gt;
+  &lt;div class="panel-heading" ng-if="::!c.options.hide_header"&gt;
+    &lt;h3 class="h4 panel-title"&gt;
+      &lt;span ng-if="c.options.glyph"&gt;
+        &lt;fa name="{{::c.options.glyph}}"&gt;&lt;/fa&gt;
+      &lt;/span&gt;{{::c.options.title}}&lt;/h3&gt;
+    &lt;!-- &lt;i class="fa fa-filter" ng-click="c.toggleFilter()" ng-class="{'disabled-filter': !c.showFilter}"&gt;&lt;/i&gt; --&gt;
+    &lt;div ng-show="c.showFilter"&gt;
+      &lt;input aria-label="${Filter}" ng-model="c.data.filterText" ng-model-options="{debounce: 300}" sn-focus="c.showFilter" placeholder="{{::data.filterMsg}}" ng-change="c.update()" class="form-control input-sm filter-box"&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;ul class="list-group hide-x-overflow" ng-style="::{maxHeight: c.getMaxHeight()}" style="overflow-y: auto;" ng-if="c.data.list.length &gt; 0"&gt;
+    &lt;li ng-repeat="item in c.data.list track by item.sys_id" class="list-group-item"&gt;
+      &lt;a ng-if="action.glyph || c.options.image_field || (item.display_field.type == 'translated_html' ? item.display_field.value : item.display_field.display_value)" ng-click="c.onClick($event, item, item.url, {})" href="javascript:void(0)" oncontextmenu="return false;"&gt;
+        &lt;span ng-repeat="action in c.data.actions" href="" ng-click="c.onClick($event, item, action.url, action)" ng-if="action.glyph"
+              class="list-action l-h-40 pull-right"&gt;
+          &lt;fa name="{{action.glyph}}" ng-class="c.getActionColor(action)"&gt;&lt;/fa&gt;
+        &lt;/span&gt;
+        &lt;span ng-if="c.options.image_field" class="pull-left m-r"
+              ng-class="{'avatar': c.options.rounded_images, 'thumb-sm': c.options.rounded_images}"&gt;
+          &lt;img ng-src="{{item.image_field}}" alt="..." class="img-sm" ng-class="{'img-circle': c.options.rounded_images}"&gt;
+        &lt;/span&gt;
+          &lt;div ng-switch on="item.display_field.type" ng-class="{'l-h-40': !item.secondary_fields.length}"&gt;
+            &lt;span class="translated-html" ng-switch-when="translated_html" ng-bind-html="item.display_field.value"&gt;&lt;/span&gt;
+            &lt;div ng-switch-default&gt;{{item.display_field.display_value}}&lt;/div&gt;
+          &lt;/div&gt;
+	  &lt;/a&gt;
+	    &lt;div&gt;
+          &lt;small class="text-muted" ng-repeat="f in item.secondary_fields"&gt;
+            &lt;span ng-if="!$first"&gt; • &lt;/span&gt;
+            &lt;span ng-switch="f.type" title="{{::f.label}}"&gt;
+              &lt;span ng-switch-when="glide_date"&gt;
+                &lt;span ng-if="!f.isFuture"&gt; &lt;sn-day-ago date="::f.value"&gt;&lt;/sn-day-ago&gt; &lt;/span&gt;
+                &lt;span ng-if="f.isFuture"&gt; {{f.display_value}}&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;span ng-switch-when="glide_date_time"&gt;
+                &lt;span ng-if="!f.isFuture"&gt; &lt;sn-time-ago timestamp="::f.value"&gt;&lt;/sn-time-ago&gt;&lt;/span&gt;
+                &lt;span ng-if="f.isFuture"&gt; {{f.display_value}}&lt;/span&gt;
+              &lt;/span&gt;
+              &lt;span ng-switch-default=""&gt;{{f.display_value}}&lt;/span&gt;
+            &lt;/span&gt;
+          &lt;/small&gt;
+        &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div ng-if="!c.data.list.length" class="list-group-item"&gt;
+     ${No records found}
+  &lt;/div&gt;
+  &lt;div class="panel-footer" ng-if="!c.options.hide_footer &amp;&amp; c.options.maximum_entries &amp;&amp; c.data.count &gt; c.options.maximum_entries"&gt;
+    &lt;div class="h4 number-shown-label"&gt;{{c.getMaxShownLabel(c.options.maximum_entries, c.data.count)}}&lt;/div&gt;
+    &lt;a class="pull-right" ng-href="?id={{c.seeAllPage}}&amp;table={{c.options.table}}&amp;filter={{c.options.filter}}{{c.targetPageID}}" aria-label="{{::data.viewAllMsg}} - {{::c.options.title}}"&gt;${View all}&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 18:08:29</sys_created_on>
+        <sys_id>bb967fdf97613110f109f9271153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f7967fdf97613110f109f9271153af9c</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_bb967fdf97613110f109f9271153af9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 18:08:29</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

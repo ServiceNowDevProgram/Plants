@@ -17,6 +17,7 @@
         <model_table/>
         <on_load>true</on_load>
         <order>100</order>
+        <published_ref/>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -33,12 +34,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cc5697102fee1910a72c5aab2799b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Watering schelule read only if not else</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>catalog_ui_policy_cc5697102fee1910a72c5aab2799b6ff</sys_update_name>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:03:53</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

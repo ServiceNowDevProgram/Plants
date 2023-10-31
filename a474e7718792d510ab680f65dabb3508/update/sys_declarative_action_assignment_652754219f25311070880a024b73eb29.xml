@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action/>
+        <action_attributes/>
+        <action_name>reject</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>secondary</button_type>
+        <client_action display_value="Reject">e92754213f253110c492b250d2f69f29</client_action>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script/>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>uxf_client_action</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <dynamic_record_condition/>
+        <dynamic_script_condition/>
+        <enable_dynamic_evaluation>false</enable_dynamic_evaluation>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position/>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>Reject</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <required_translations/>
+        <required_user_role_names/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <scripted_client_condition/>
+        <server_script/>
+        <specificity>1</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-27 15:22:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>652754219f25311070880a024b73eb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reject</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_652754219f25311070880a024b73eb29</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:22:46</sys_updated_on>
+        <table>global</table>
+        <tooltip/>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=652754219f25311070880a024b73eb29"/>
+</record_update>
