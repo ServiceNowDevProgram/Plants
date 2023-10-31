@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Security &amp; sign-in">21275421ea253110a41018e238ce7c0f</macroponent>
+        <name>Checking MFA setup</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var modelData = api.data.gliderecord_query_1.output.data.GlideRecord_Query.sys_properties._results[0].value.value;
+    var mfa = {};
+    if (modelData == "false") {
+        api.setState('propertyText', helpers.translateSync("Please enable Multi-factor authentication on the instance."));
+        api.setState('propertyValue', true);
+    } else {
+        api.setState('propertyText', helpers.translateSync("Configure Multi-factor authentication by clicking the button below."));
+        api.setState('propertyValue', false);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-27 15:22:48</sys_created_on>
+        <sys_id>2d275421c1253110717680003b50c20f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Checking MFA setup</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_client_script_2d275421c1253110717680003b50c20f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:22:48</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

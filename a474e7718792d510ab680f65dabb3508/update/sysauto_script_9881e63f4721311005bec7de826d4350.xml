@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Mark My Plants as Watered on Rainy Days</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-10-05 01:13:33</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var myPlants = new GlideRecord('x_snc_plants_db_my_plants');
+myPlants.addEncodedQuery("location.longitudeISNOTEMPTY^location.latitudeISNOTEMPTY^last_wateredNOTONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^ORlast_wateredISEMPTY^location.country=USA^placement!=indoor");
+myPlants.query();
+
+while (myPlants.next()) {
+	var plantLocation = myPlants.location.getRefRecord();
+	var lat = parseFloat(plantLocation.getValue('latitude')).toFixed(4);
+	var lng = parseFloat(plantLocation.getValue('longitude')).toFixed(4);
+
+	if (new WeatherUtils().isRainingInUnitedStatesByLatLng(lat, lng)) {
+		myPlants.setValue('last_watered', new GlideDateTime().getValue());
+		myPlants.update();
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 02:35:48</sys_created_on>
+        <sys_id>9881e63f4721311005bec7de826d4350</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Mark My Plants as Watered on Rainy Days</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sysauto_script_9881e63f4721311005bec7de826d4350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 14:30:17</sys_updated_on>
+        <time_zone>floating</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

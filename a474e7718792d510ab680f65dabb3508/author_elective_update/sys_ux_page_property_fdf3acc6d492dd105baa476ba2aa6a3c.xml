@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Mushnik's Plants">39f3acc69b92dd107367892f0080e93a</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">b9f3acc63b92dd10c80be5f97a197246</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>fdf3acc6d492dd105baa476ba2aa6a3c</sys_id>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_page_property_fdf3acc6d492dd105baa476ba2aa6a3c</sys_update_name>
+        <type>json</type>
+        <unique_name>x_snc_plants_db.39f3acc69b92dd107367892f0080e93a.route.chrome_header.b9f3acc63b92dd10c80be5f97a197246</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=fdf3acc6d492dd105baa476ba2aa6a3c"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>d8e6e28fdbef8d502f68c597059619c6</instance_id>
+        <instance_name>oldbabyyoda</instance_name>
+        <name>sys_ux_page_property_fdf3acc6d492dd105baa476ba2aa6a3c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Mushnik's Plants">39f3acc69b92dd107367892f0080e93a</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">b9f3acc63b92dd10c80be5f97a197246</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-03 20:00:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>fdf3acc6d492dd105baa476ba2aa6a3c</sys_id>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_page_property_fdf3acc6d492dd105baa476ba2aa6a3c</sys_update_name>
+        <type>json</type>
+        <unique_name>x_snc_plants_db.39f3acc69b92dd107367892f0080e93a.route.chrome_header.b9f3acc63b92dd10c80be5f97a197246</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=fdf3acc6d492dd105baa476ba2aa6a3c"/>
+</record_update>]]></payload>
+        <payload_hash>-1355294396</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>e1b2d4e187613110aea5ea8d0ebb35e9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>paige</sys_created_by>
+        <sys_created_on>2023-09-27 15:06:42</sys_created_on>
+        <sys_id>fe73dca587613110aea5ea8d0ebb35e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ad72d93ae0000001</sys_recorded_at>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:06:42</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>be73dca574613110fadbcf53577a35e3</update_guid>
+        <update_guid_history>be73dca574613110fadbcf53577a35e3:-1355294396</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paige</sys_created_by>
+        <sys_created_on>2023-09-27 15:20:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>3ab196e628154529b85649db790caad9</sys_id>
+        <sys_metadata>fdf3acc6d492dd105baa476ba2aa6a3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_fdf3acc6d492dd105baa476ba2aa6a3c</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_fdf3acc6d492dd105baa476ba2aa6a3c">fe73dca587613110aea5ea8d0ebb35e3</sys_update_version>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:20:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

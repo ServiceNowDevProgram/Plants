@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1000e15410bd7110d2e5969d222fc94b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>a474e7718792d510ab680f65dabb3508</scope_name>
+        <serialized_content>{"FlowDesigner:FD1000e15410bd7110d2e5969d222fc94b":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD1000e15410bd7110d2e5969d222fc94b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Locations\",\"mandatory\":\"false\",\"child_name\":\"sys_id\",\"uiUniqueId\":\"c9b7c41f-f87a-4d19-8ad4-bd7de28131be\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD1000e15410bd7110d2e5969d222fc94b\",\"child_label\":\"sys_id\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"8a3cc35f-7e5d-4b29-afc7-1bbb430f4af8\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 09:44:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d000e15497bd7110f971ffb0f053af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD1000e15410bd7110d2e5969d222fc94b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_complex_object_d000e15497bd7110f971ffb0f053af4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 09:44:21</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

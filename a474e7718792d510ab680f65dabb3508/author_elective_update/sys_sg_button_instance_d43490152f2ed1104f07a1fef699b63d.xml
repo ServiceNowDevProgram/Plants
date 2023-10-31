@@ -61,6 +61,7 @@
         <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
         <sys_id>2e29f934c9c242fa8f4a68032d6af419</sys_id>
         <sys_metadata>d43490152f2ed1104f07a1fef699b63d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>New</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_parent/>
@@ -69,5 +70,7 @@
         <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
         <sys_update_name>sys_sg_button_instance_d43490152f2ed1104f07a1fef699b63d</sys_update_name>
         <sys_update_version display_value="sys_sg_button_instance_d43490152f2ed1104f07a1fef699b63d">123454152f2ed1104f07a1fef699b6ea</sys_update_version>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:06:49</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

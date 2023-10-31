@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>POPULAR_ARTICLES</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Popular articles</label>
+        <props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-27 15:22:48</sys_created_on>
+        <sys_id>ad275421b02531105b56383590e1e81f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_event_ad275421b02531105b56383590e1e81f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:22:48</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=ad275421b02531105b56383590e1e81f"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My Plants">a474e7718792d510ab680f65dabb3508</application>
+        <file_path/>
+        <instance_id>8b2447bfdbd94510e03ad7c8f49619d3</instance_id>
+        <instance_name>dev124507</instance_name>
+        <name>sys_ux_event_ad275421b02531105b56383590e1e81f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>POPULAR_ARTICLES</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Popular articles</label>
+        <props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-27 15:22:48</sys_created_on>
+        <sys_id>ad275421b02531105b56383590e1e81f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_ux_event_ad275421b02531105b56383590e1e81f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:22:48</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad275421b02531105b56383590e1e81f"/>
+</record_update>]]></payload>
+        <payload_hash>-2057990538</payload_hash>
+        <record_name>Popular articles</record_name>
+        <reverted_from/>
+        <source>9343202747ed711018307af3836d433e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 21:23:51</sys_created_on>
+        <sys_id>6153e02747ed711018307af3836d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18af76d02df0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 21:23:51</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>6d53e02786ed71101a8a999d2ecf5803</update_guid>
+        <update_guid_history>6d53e02786ed71101a8a999d2ecf5803:0,056dc4ebf46d711060680c424d1c0c81:-404035920,ae82dfc36de5311084daa24c9a3ea9c9:-2057990538</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-03 21:35:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>0784b49df44a451a8f63286d1494d144</sys_id>
+        <sys_metadata>ad275421b02531105b56383590e1e81f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular articles</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope_delete display_value="">134f03baa7f94f9881dbd077b0c03844</sys_scope_delete>
+        <sys_update_name>sys_ux_event_ad275421b02531105b56383590e1e81f</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_ad275421b02531105b56383590e1e81f">6153e02747ed711018307af3836d4304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-03 21:35:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
