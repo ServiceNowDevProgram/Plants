@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b7cc7d83472211101f8ea946926d43da" label="My Plants" max_length="40" name="x_snc_plants_db_my_plants" type="collection">
+    <element audit="true" db_object_id="b7cc7d83472211101f8ea946926d43da" label="My Plants" max_length="40" name="x_snc_plants_db_my_plants" type="collection">
         <element choice="1" label="Container type" max_length="40" name="container_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="In a pot" sequence="0" value="pot"/>

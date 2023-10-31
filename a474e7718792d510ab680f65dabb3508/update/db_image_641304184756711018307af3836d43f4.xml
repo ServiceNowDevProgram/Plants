@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>Service Portal</category>
+        <format>gif</format>
+        <height>312</height>
+        <image>e734c8184756711018307af3836d43de</image>
+        <name>x_snc_plants_db.ezgif-2-5a30a94b35.gif</name>
+        <size_bytes>9723239</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 23:33:55</sys_created_on>
+        <sys_id>641304184756711018307af3836d43f4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_snc_plants_db.ezgif-2-5a30a94b35.gif</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>db_image_641304184756711018307af3836d43f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 23:35:20</sys_updated_on>
+        <thumbnail/>
+        <width>312</width>
+    </db_image>
+</record_update>
