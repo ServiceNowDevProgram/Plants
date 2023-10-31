@@ -2573,13 +2573,208 @@
                                 },
                                 "preset": null,
                                 "repeatWith": {
-                                    "binding": {
-                                        "address": [
-                                            "look_up_plantipedia_records",
-                                            "results"
+                                    "script": {
+                                        "apiVersion": "2.0.0",
+                                        "controllerElementId": null,
+                                        "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperty({api, helpers}) {\n  const pageSize = api.state.pageSize;\n  const startIndex = api.state.currentPageIndex * pageSize;\n\treturn api.data.look_up_plantipedia_records.results.slice(startIndex, startIndex + pageSize);\n}",
+                                        "scriptSysId": "09544ff19786311055cbb8d0f053afea",
+                                        "target": null
+                                    },
+                                    "type": "CLIENT_TRANSFORM_SCRIPT"
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "63ea66b3c5a122819f729b7254789c34",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "pagination_control_1",
+                                "elementLabel": "Pagination control 1",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "cloddbehwbaaaajjgddbhhtzgiirccdigg",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_pagination_cont.NOW_PAGINATION_CONTROL#SELECTED_PAGE_SET",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_pagination_cont.NOW_PAGINATION_CONTROL#SELECTED_PAGE_SET",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                                                    "payload": {
+                                                        "container": {
+                                                            "propName": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "currentPageIndex"
+                                                            },
+                                                            "value": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "value"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "32408b42ff7a10109046e490703bf176"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cloddbehwbaaaajjhddbhhttyguglhhh",
+                                                "type": "EVENT"
+                                            }
                                         ]
                                     },
-                                    "type": "DATA_OUTPUT_BINDING"
+                                    {
+                                        "eventMappingId": "cloddbkrcckaaaadiiddbhhtaawaxbbddiibb",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_pagination_cont.NOW_PAGINATION_CONTROL#SELECTED_PAGE_SIZE_SET",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_pagination_cont.NOW_PAGINATION_CONTROL#SELECTED_PAGE_SIZE_SET",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+                                                    "payload": {
+                                                        "container": {
+                                                            "propName": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "pageSize"
+                                                            },
+                                                            "value": {
+                                                                "binding": {
+                                                                    "address": [
+                                                                        "value"
+                                                                    ]
+                                                                },
+                                                                "type": "EVENT_PAYLOAD_BINDING"
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "32408b42ff7a10109046e490703bf176"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cloddbkrcckaaaadjjddbhhtnesajban",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "hideGoToFirst": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideGoToLast": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideGoToNext": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideGoToPrevious": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hidePageNumbers": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hidePageSizeControl": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "hideRange": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "pageSizeLabel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "pageSizes": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            10,
+                                            20,
+                                            50,
+                                            100
+                                        ]
+                                    },
+                                    "pagesOverride": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "rangeLabel": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "selectedPage": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "0"
+                                    },
+                                    "selectedPageSize": {
+                                        "binding": {
+                                            "address": [
+                                                "pageSize"
+                                            ]
+                                        },
+                                        "type": "STATE_BINDING"
+                                    },
+                                    "total": {
+                                        "transform": {
+                                            "operands": {
+                                                "container": [
+                                                    {
+                                                        "binding": {
+                                                            "address": [
+                                                                "look_up_plantipedia_records",
+                                                                "results"
+                                                            ]
+                                                        },
+                                                        "type": "DATA_OUTPUT_BINDING"
+                                                    }
+                                                ],
+                                                "type": "LIST_CONTAINER"
+                                            },
+                                            "operator": "LEN"
+                                        },
+                                        "type": "CLIENT_TRANSFORM"
+                                    },
+                                    "visiblePages": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "5"
+                                    }
                                 },
                                 "slot": null,
                                 "styles": null
@@ -2593,6 +2788,12 @@
                                         "element_id": "plants_repeater",
                                         "styles": {
                                             "align-self": "center"
+                                        }
+                                    },
+                                    {
+                                        "element_id": "pagination_control_1",
+                                        "styles": {
+                                            "margin-top": "2rem"
                                         }
                                     }
                                 ],
@@ -2877,11 +3078,10 @@
             },
             "limit": {
                 "type": "JSON_LITERAL",
-                "value": "1000"
+                "value": "10000"
             },
             "offset": {
-                "type": "JSON_LITERAL",
-                "value": null
+                "type": "JSON_LITERAL"
             },
             "orderBy": {
                 "type": "JSON_LITERAL",
@@ -2998,6 +3198,26 @@
         "name": "searchTerm",
         "shape": "",
         "valueType": "string"
+    },
+    {
+        "fieldType": "number",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": 0
+        },
+        "name": "currentPageIndex",
+        "shape": "",
+        "valueType": "number"
+    },
+    {
+        "fieldType": "number",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": 10
+        },
+        "name": "pageSize",
+        "shape": "",
+        "valueType": "number"
     }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
