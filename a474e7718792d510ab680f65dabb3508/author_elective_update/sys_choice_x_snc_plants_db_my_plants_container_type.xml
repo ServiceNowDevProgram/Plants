@@ -53,5 +53,24 @@
             <sys_updated_on>2023-10-17 09:04:38</sys_updated_on>
             <value>ground</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>container_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>on wood</label>
+            <language>en</language>
+            <name>x_snc_plants_db_my_plants</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-30 17:08:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-30 17:08:31</sys_updated_on>
+            <value>on wood</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
