@@ -8,7 +8,7 @@
 "model":"${model}",&#13;
 "prompt":"${prompt}",&#13;
 "temperature":${temperature},&#13;
-"max_token":${max_token},&#13;
+"max_token":${max_token}&#13;
 }</content>
         <function_name>askChatGPT</function_name>
         <http_method>post</http_method>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-31 14:04:25</sys_created_on>
         <sys_id>1e2b0354971a71102b9ebde3f153af38</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>askChatGPT</sys_name>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_rest_message_fn_1e2b0354971a71102b9ebde3f153af38</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-31 14:07:56</sys_updated_on>
+        <sys_updated_on>2023-10-31 18:48:08</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>
