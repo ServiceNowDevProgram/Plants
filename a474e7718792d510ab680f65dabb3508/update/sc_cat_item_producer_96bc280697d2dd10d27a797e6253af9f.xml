@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Plants">f780f03647e9f110d381f164336d432d</category>
+        <category display_value="Plants">d696506e47e5b110d381f164336d43ed</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -77,9 +77,9 @@
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sc_cat_item_producer_96bc280697d2dd10d27a797e6253af9f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 14:26:21</sys_updated_on>
+        <sys_updated_on>2023-10-29 19:27:47</sys_updated_on>
         <table_name>x_snc_plants_db_my_plants</table_name>
-        <taxonomy_topic/>
+        <taxonomy_topic display_value="New Plant">43b10a3f47063110984fc88bd36d43a4</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
