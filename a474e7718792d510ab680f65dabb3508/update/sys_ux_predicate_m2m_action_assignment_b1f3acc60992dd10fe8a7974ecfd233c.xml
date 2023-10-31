@@ -6,10 +6,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2022-10-03 20:00:33</sys_created_on>
         <sys_id>b1f3acc60992dd10fe8a7974ecfd233c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_predicate_m2m_action_assignment_b1f3acc60992dd10fe8a7974ecfd233c</sys_update_name>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:06:43</sys_updated_on>
     </sys_ux_predicate_m2m_action_assignment>
 </record_update>

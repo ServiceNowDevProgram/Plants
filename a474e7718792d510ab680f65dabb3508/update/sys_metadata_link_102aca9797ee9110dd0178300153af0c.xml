@@ -69,11 +69,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-20 10:54:56</sys_created_on>
         <sys_id>102aca9797ee9110dd0178300153af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Marigold</sys_name>
         <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_102aca9797ee9110dd0178300153af0c</sys_update_name>
+        <sys_updated_by>paige</sys_updated_by>
+        <sys_updated_on>2023-09-27 15:04:15</sys_updated_on>
         <tablename>x_snc_plants_db_plantipedia</tablename>
     </sys_metadata_link>
 </record_update>

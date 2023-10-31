@@ -11,11 +11,14 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-10-19 19:29:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>Symbol</sys_name>
             <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
             <sys_policy/>
             <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
             <sys_update_name>sys_documentation_x_snc_plants_db_usda_plants_symbol_en</sys_update_name>
+            <sys_updated_by>paige</sys_updated_by>
+            <sys_updated_on>2023-09-27 15:03:29</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
