@@ -4,6 +4,7 @@
             <choice>
                 <element inactive_on_update="false" label="In a pot" sequence="0" value="pot"/>
                 <element inactive_on_update="false" label="In the ground" sequence="1" value="ground"/>
+                <element inactive_on_update="false" label="on wood" sequence="2" value="on wood"/>
             </choice>
         </element>
         <element label="Fertilize every (days)" max_length="40" name="fertilize_schedule" type="integer"/>
@@ -21,6 +22,7 @@
             <choice>
                 <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
                 <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+                <element inactive_on_update="false" label="In balcony" sequence="2" value="In balcony"/>
             </choice>
         </element>
         <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plants_db_plantipedia" type="reference"/>
