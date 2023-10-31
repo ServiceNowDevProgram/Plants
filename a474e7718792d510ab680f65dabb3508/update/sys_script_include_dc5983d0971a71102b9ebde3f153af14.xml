@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_plants_db.chatGPT</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>chatGPT</name>
+        <script><![CDATA[var chatGPT = Class.create();
+chatGPT.prototype = {
+    initialize: function() {
+    },
+
+    type: 'chatGPT'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 13:56:06</sys_created_on>
+        <sys_id>dc5983d0971a71102b9ebde3f153af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chatGPT</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_script_include_dc5983d0971a71102b9ebde3f153af14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 13:56:06</sys_updated_on>
+    </sys_script_include>
+</record_update>
