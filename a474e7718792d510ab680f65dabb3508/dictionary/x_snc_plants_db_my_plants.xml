@@ -4,6 +4,7 @@
             <choice>
                 <element inactive_on_update="false" label="In a pot" sequence="0" value="pot"/>
                 <element inactive_on_update="false" label="In the ground" sequence="1" value="ground"/>
+                <element inactive_on_update="false" label="on wood" sequence="2" value="on wood"/>
             </choice>
         </element>
         <element label="Fertilize every (days)" max_length="40" name="fertilize_schedule" type="integer"/>
