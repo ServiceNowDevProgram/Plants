@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_taxonomy_contributor">
+    <m2m_taxonomy_contributor action="INSERT_OR_UPDATE">
+        <contributors display_value="All content taxonomy contributors">58473babc3453010069aec4b7d40dd50</contributors>
+        <sys_class_name>m2m_taxonomy_contributor</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 19:25:48</sys_created_on>
+        <sys_id>82a18efb47063110984fc88bd36d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>m2m_taxonomy_contributor_82a18efb47063110984fc88bd36d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 19:25:48</sys_updated_on>
+        <taxonomy display_value="Plant Taxonomy">caa18efb47063110984fc88bd36d435f</taxonomy>
+    </m2m_taxonomy_contributor>
+</record_update>
