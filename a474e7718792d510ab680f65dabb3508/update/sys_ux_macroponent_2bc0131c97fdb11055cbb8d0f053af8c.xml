@@ -10,8 +10,8 @@
             "id": "d356d14b6e293a3020a244b63d278d8f",
             "type": "MACROPONENT"
         },
-        "elementId": "content",
-        "elementLabel": "Content",
+        "elementId": "column_layout_1",
+        "elementLabel": "Column layout 1",
         "eventMappings": [
             
         ],
@@ -23,11 +23,11 @@
             "composition": [
                 {
                     "definition": {
-                        "id": "1f6e0643eca7a637e36bd7833549ec9e",
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
                         "type": "MACROPONENT"
                     },
-                    "elementId": "title",
-                    "elementLabel": "Title",
+                    "elementId": "__cloiiqgznyaaaaeeeeddffhhqdpyfbbepr__column_1",
+                    "elementLabel": "__cloiiqgznyaaaaeeeeddffhhqdpyfbbepr__Column 1",
                     "eventMappings": [
                         
                     ],
@@ -35,36 +35,261 @@
                         "type": "JSON_LITERAL",
                         "value": null
                     },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "15fe506403f8a98575b6df59008ea8f1",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "image_1",
+                                "elementLabel": "Plantipedia",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "alt": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "fit": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "none"
+                                    },
+                                    "height": {
+                                        "type": "JSON_LITERAL",
+                                        "value": 150
+                                    },
+                                    "position": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "center center"
+                                    },
+                                    "sources": {
+                                        "type": "JSON_LITERAL",
+                                        "value": [
+                                            
+                                        ]
+                                    },
+                                    "src": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "/x_snc_plants_db.Plantipedia2.png"
+                                    },
+                                    "width": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "image_1",
+                                        "styles": {
+                                            "flex": "none",
+                                            "height": "",
+                                            "max-height": "",
+                                            "min-height": ""
+                                        }
+                                    }
+                                ],
+                                "root": null,
+                                "rules": {
+                                    "flex-direction": "row"
+                                },
+                                "styles": {
+                                    "align-items": "flex-start",
+                                    "border-color": "RGB(var(--now-color--neutral-5))",
+                                    "border-radius": "var(--now-static-border-radius--md)",
+                                    "border-style": "outset",
+                                    "border-width": "var(--now-static-space--xxl)",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "center",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
                     "preset": null,
                     "propertyValues": {
-                        "hasNoMargin": {
+                        "slotWrapperBehavior": {
                             "type": "JSON_LITERAL",
-                            "value": false
-                        },
-                        "label": {
-                            "type": "TRANSLATION_LITERAL",
-                            "value": {
-                                "code": null,
-                                "comment": "",
-                                "message": "Plantipedia"
-                            }
-                        },
-                        "level": {
-                            "type": "JSON_LITERAL",
-                            "value": "1"
-                        },
-                        "variant": {
-                            "type": "JSON_LITERAL",
-                            "value": "header-primary"
-                        },
-                        "wontWrap": {
-                            "type": "JSON_LITERAL",
-                            "value": false
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "align-items": "flex-start",
+                                            "border-color": "RGB(var(--now-color--neutral-5))",
+                                            "border-radius": "var(--now-static-border-radius--md)",
+                                            "border-style": "outset",
+                                            "border-width": "var(--now-static-space--xxl)",
+                                            "box-sizing": "border-box",
+                                            "flex-direction": "column",
+                                            "height": "100%",
+                                            "justify-content": "center",
+                                            "overflow": "auto"
+                                        }
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
                         }
                     },
                     "slot": null,
                     "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__cloiiqgznyaaaaeeeeddffhhqdpyfbbepr__column_1",
+                            "styles": {
+                                "display": "contents",
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "grid-template-columns": "100fr",
+                        "grid-template-rows": "1fr",
+                        "height": "",
+                        "max-height": "",
+                        "min-height": "",
+                        "width": "100%"
+                    },
+                    "type": "grid"
                 },
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [
+                                
+                            ],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "box-sizing": "border-box",
+                                "grid-template-columns": "1fr",
+                                "grid-template-rows": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content",
+                                "width": "100%"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "contents"
+            }
+        },
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "box-sizing": "border-box",
+                                    "grid-template-columns": "1fr",
+                                    "grid-template-rows": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content",
+                                    "width": "100%"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 100
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {
+                                "display": "contents",
+                                "width": "100%"
+                            },
+                            "internal": {
+                                "box-sizing": "border-box",
+                                "grid-template-rows": "1fr",
+                                "height": "",
+                                "max-height": "",
+                                "min-height": "",
+                                "width": "100%"
+                            }
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "content",
+        "elementLabel": "Content",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
                 {
                     "definition": {
                         "id": "d356d14b6e293a3020a244b63d278d8f",
@@ -2628,12 +2853,6 @@
                     "children": null,
                     "items": [
                         {
-                            "element_id": "title",
-                            "styles": {
-                                "align-self": "center"
-                            }
-                        },
-                        {
                             "element_id": "search_container",
                             "styles": {}
                         },
@@ -2906,6 +3125,13 @@
         "children": null,
         "items": [
             {
+                "element_id": "column_layout_1",
+                "styles": {
+                    "display": "contents",
+                    "width": "100%"
+                }
+            },
+            {
                 "element_id": "content",
                 "styles": {
                     "width": "calc(100% - 3rem)"
@@ -2948,9 +3174,6 @@
   "comment" : ""
 }, {
   "message" : "Pet safe:",
-  "comment" : ""
-}, {
-  "message" : "Plantipedia",
   "comment" : ""
 }, {
   "message" : "Potting mix:",
@@ -3001,13 +3224,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-06 17:57:11</sys_created_on>
         <sys_id>2bc0131c97fdb11055cbb8d0f053af8c</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_ux_macroponent_2bc0131c97fdb11055cbb8d0f053af8c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-23 20:05:21</sys_updated_on>
+        <sys_updated_on>2023-10-30 03:38:13</sys_updated_on>
     </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=2bc0131c97fdb11055cbb8d0f053af8c"/>
 </record_update>
