@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <banner_image/>
+        <banner_image_url/>
+        <description/>
+        <icon/>
+        <icon_url/>
+        <name>New Plant</name>
+        <order>300</order>
+        <parent_topic/>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-29 19:26:47</sys_created_on>
+        <sys_id>43b10a3f47063110984fc88bd36d43a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New Plant</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>topic_43b10a3f47063110984fc88bd36d43a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-29 19:58:32</sys_updated_on>
+        <taxonomy display_value="Plant Taxonomy">caa18efb47063110984fc88bd36d435f</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>New Plant</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=43b10a3f47063110984fc88bd36d43a4"/>
+</record_update>
