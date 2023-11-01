@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5ade515847d27110e315c787a46d4342</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plants_db_pot_info">
+    <x_snc_plants_db_pot_info action="INSERT_OR_UPDATE">
+        <depth>5</depth>
+        <diameter>1.75</diameter>
+        <plant display_value="Solanum tuberosum">3b0ed9d447d27110e315c787a46d43f8</plant>
+        <pot_size_uom>inch</pot_size_uom>
+        <repot_season>winter</repot_season>
+        <repotted_date>2023-10-30</repotted_date>
+        <soil>Yes</soil>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 06:13:40</sys_created_on>
+        <sys_id>5ade515847d27110e315c787a46d4342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 06:13:40</sys_updated_on>
+        <type>plastic</type>
+    </x_snc_plants_db_pot_info>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-31 06:19:32</sys_created_on>
+        <sys_id>00e0211c47d27110e315c787a46d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2023-10-30 23:13:40</sys_name>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sys_metadata_link_00e0211c47d27110e315c787a46d434b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-31 06:19:32</sys_updated_on>
+        <tablename>x_snc_plants_db_pot_info</tablename>
+    </sys_metadata_link>
+</record_update>
