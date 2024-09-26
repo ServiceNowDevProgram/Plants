@@ -29,7 +29,6 @@
         &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
         &lt;compressed&gt;true&lt;/compressed&gt;
         &lt;content_type&gt;image/jpeg&lt;/content_type&gt;
-        &lt;encryption_context/&gt;
         &lt;file_name&gt;image&lt;/file_name&gt;
         &lt;hash&gt;9d01c2acf49348b8c13c1b1384ea552ba77503feda7a99f0b00fd4ca4a05522c&lt;/hash&gt;
         &lt;image_height&gt;467&lt;/image_height&gt;
@@ -70,14 +69,14 @@
         <sys_created_by>ronald.karim</sys_created_by>
         <sys_created_on>2023-10-09 21:14:26</sys_created_on>
         <sys_id>16ba17154739b510da816241e36d438a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Wheatgrass</sys_name>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_16ba17154739b510da816241e36d438a</sys_update_name>
-        <sys_updated_by>ronald.karim</sys_updated_by>
-        <sys_updated_on>2023-10-09 21:14:26</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-26 09:11:05</sys_updated_on>
         <tablename>x_snc_plants_db_plantipedia</tablename>
     </sys_metadata_link>
 </record_update>
