@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bd618cbf3b3d8650a891257aa5e45a9f</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-05-01 23:40:48</sys_created_on>
+        <sys_id>892a6b533b3d4650a891257aa5e45a88</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sp_instance_892a6b533b3d4650a891257aa5e45a88</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:03:26</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h2 class=\"white\">Designing Apps: A practical guide to thinking like a developer</h2>\r\n<p class=\"white\" style=\"font-size: 24pt;\">CCL1195</p>",
+		"displayValue": "<h2 class=\"white\">Designing Apps: A practical guide to thinking like a developer</h2>\n<p class=\"white\" style=\"font-size: 24pt;\">CCL1195</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=892a6b533b3d4650a891257aa5e45a88"/>
+</record_update>

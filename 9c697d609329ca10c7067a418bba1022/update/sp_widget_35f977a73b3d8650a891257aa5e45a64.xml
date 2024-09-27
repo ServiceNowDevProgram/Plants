@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>img {
+  padding-bottom: 10px;
+  border-radius: 50%;
+}
+
+p {
+  text-align: center;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>speaker_contact</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Speaker Contact</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-05-02 19:28:25</sys_created_on>
+        <sys_id>35f977a73b3d8650a891257aa5e45a64</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Speaker Contact</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sp_widget_35f977a73b3d8650a891257aa5e45a64</sys_update_name>
+        <sys_updated_by>paige.duffey@snc</sys_updated_by>
+        <sys_updated_on>2024-05-06 21:45:52</sys_updated_on>
+        <template><![CDATA[<div class="panel">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      Speakers
+    </h4>
+  </div>
+  <div class="panel-body">
+<div class="row">
+  <div class="col-sm-6">
+    <p>
+      <a href="https://popl.co/profile/mGOhaG5w/dash" target="new">
+      <img src="x_snc_plant_mgmt.paige.png"/>
+    	<br />Paige Duffey</a>
+    </p>
+   </div>
+  <div class="col-sm-6 speakers">
+    <p>
+    <a href="https://popl.co/card/v4OBWulm/1/dash" target="new">
+    <img src="x_snc_plant_mgmt.andrew.jpg"/>
+    <br />
+    Andrew Barnes</a>
+    </p>
+  </div>
+</div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>
