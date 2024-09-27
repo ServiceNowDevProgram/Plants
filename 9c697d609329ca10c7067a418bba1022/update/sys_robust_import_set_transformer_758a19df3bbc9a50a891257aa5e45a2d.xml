@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_size>10</batch_size>
+        <description>RTE definition for Plant Wiki Data Mapping</description>
+        <name>Plant Wiki Data Mapping_rte_ihub</name>
+        <properties/>
+        <robust_transform_engine display_value="Plant Wiki Data Mapping_etl_ihub">798a19df3bbc9a50a891257aa5e45a2a</robust_transform_engine>
+        <source_table>x_snc_plant_mgmt_ihub_import_ed8a15df3bbc9a50a891257aa5e45a85</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-09-27 16:21:42</sys_created_on>
+        <sys_id>758a19df3bbc9a50a891257aa5e45a2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plant Wiki Data Mapping_rte_ihub</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_758a19df3bbc9a50a891257aa5e45a2d</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:21:42</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+</record_update>
