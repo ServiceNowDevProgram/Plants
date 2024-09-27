@@ -29,6 +29,7 @@
         &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
         &lt;compressed&gt;true&lt;/compressed&gt;
         &lt;content_type&gt;image/jpeg&lt;/content_type&gt;
+        &lt;encryption_context/&gt;
         &lt;file_name&gt;image&lt;/file_name&gt;
         &lt;hash&gt;2e9e31c1ad3e5943537a4127e000994e7947fee6b923c990616a8fb50ffdcd1b&lt;/hash&gt;
         &lt;image_height&gt;480&lt;/image_height&gt;
@@ -69,14 +70,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-28 12:01:25</sys_created_on>
         <sys_id>8c16a7f5973211105dfe79100153af22</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Tomato Plant</sys_name>
-        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_8c16a7f5973211105dfe79100153af22</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-28 12:01:25</sys_updated_on>
+        <sys_updated_by>amit.verma</sys_updated_by>
+        <sys_updated_on>2024-09-27 04:19:18</sys_updated_on>
         <tablename>x_snc_plants_db_plantipedia</tablename>
     </sys_metadata_link>
 </record_update>

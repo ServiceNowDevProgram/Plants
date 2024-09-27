@@ -29,6 +29,7 @@
         &lt;chunk_size_bytes&gt;700000&lt;/chunk_size_bytes&gt;
         &lt;compressed&gt;true&lt;/compressed&gt;
         &lt;content_type&gt;image/jpeg&lt;/content_type&gt;
+        &lt;encryption_context/&gt;
         &lt;file_name&gt;image&lt;/file_name&gt;
         &lt;hash&gt;22cadda055e6ebaac9baad0721cee5a6c3e5b2fcdc551b1c2218c2885998fac0&lt;/hash&gt;
         &lt;image_height&gt;1051&lt;/image_height&gt;
@@ -69,14 +70,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-18 12:20:50</sys_created_on>
         <sys_id>3de67b0c9782f1102b9ebde3f153af7f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Daisy</sys_name>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_3de67b0c9782f1102b9ebde3f153af7f</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-18 12:20:50</sys_updated_on>
+        <sys_updated_by>amit.verma</sys_updated_by>
+        <sys_updated_on>2024-09-27 04:18:35</sys_updated_on>
         <tablename>x_snc_plants_db_plantipedia</tablename>
     </sys_metadata_link>
 </record_update>

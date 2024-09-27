@@ -29,6 +29,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>image</file_name>
         <hash>e74339692516135099c25c9c567cc7dc2ba9e31bc45afb2e0bafc01d058453ea</hash>
         <image_height>368</image_height>
@@ -69,14 +70,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-02 01:52:33</sys_created_on>
         <sys_id>d6adcf3697617510e4fc3e66f053afb1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>African  Violet</sys_name>
         <sys_package display_value="My Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
         <sys_update_name>sys_metadata_link_d6adcf3697617510e4fc3e66f053afb1</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-02 01:52:33</sys_updated_on>
+        <sys_updated_by>amit.verma</sys_updated_by>
+        <sys_updated_on>2024-09-27 04:19:37</sys_updated_on>
         <tablename>x_snc_plants_db_plantipedia</tablename>
     </sys_metadata_link>
 </record_update>
