@@ -2,9 +2,9 @@
     <element db_object_id="4e7ab5e09329ca10c7067a418bba10bd" extends="task" label="Maintenance Tasks" max_length="40" name="x_snc_plant_mgmt_tasks" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Maintenance Task" mandatory="true" max_length="40" name="maintenance_task" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Fertilize" sequence="1" value="fertilize"/>
-                <element inactive_on_update="false" label="Repot" sequence="2" value="repot"/>
                 <element inactive_on_update="false" label="Water" sequence="0" value="water"/>
+                <element inactive_on_update="false" label="Repot" sequence="2" value="repot"/>
+                <element inactive_on_update="false" label="Fertilize" sequence="1" value="fertilize"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Plant" mandatory="true" max_length="32" name="plant" reference="x_snc_plant_mgmt_plants" type="reference"/>
