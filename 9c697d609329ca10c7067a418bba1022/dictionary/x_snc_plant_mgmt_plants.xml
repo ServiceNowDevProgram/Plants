@@ -25,6 +25,7 @@
                 <element inactive_on_update="false" label="Bugs" sequence="2" value="Bugs"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Date Planted" max_length="40" name="planted_by_date" type="glide_date"/>
         <element choice="1" label="USDA Plant Hardiness Zone " max_length="40" name="hardiness_zone" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1b" sequence="1" value="1b"/>
@@ -71,6 +72,7 @@
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plant_mgmt_plant_wiki" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Growth Method" max_length="40" name="growth_method" type="string"/>
         <index name="index">
             <element name="location"/>
         </index>
