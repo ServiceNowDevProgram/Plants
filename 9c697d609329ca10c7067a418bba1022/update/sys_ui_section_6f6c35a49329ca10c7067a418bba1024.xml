@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>944264b4c3c192101036d60d0501318b</sys_id>
+            <sys_created_on>2024-10-02 04:51:02</sys_created_on>
+            <sys_id>1d6c687cc34592101036d60d05013185</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>9c4264b4c3c192101036d60d050131a4</sys_id>
+            <sys_created_on>2024-10-02 04:51:02</sys_created_on>
+            <sys_id>916c687cc34592101036d60d05013186</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>plant_type</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>144264b4c3c192101036d60d050131a5</sys_id>
+            <sys_created_on>2024-10-02 04:51:02</sys_created_on>
+            <sys_id>196c687cc34592101036d60d05013186</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_fertilising_schedule</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>984264b4c3c192101036d60d050131a5</sys_id>
+            <sys_created_on>2024-10-02 04:51:02</sys_created_on>
+            <sys_id>9d6c687cc34592101036d60d05013186</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>status</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>104264b4c3c192101036d60d050131a6</sys_id>
+            <sys_created_on>2024-10-02 04:51:02</sys_created_on>
+            <sys_id>156c687cc34592101036d60d05013187</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>issue</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>944264b4c3c192101036d60d050131a6</sys_id>
+            <sys_created_on>2024-10-02 04:51:02</sys_created_on>
+            <sys_id>996c687cc34592101036d60d05013187</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,69 +88,97 @@
             <element>other_issue</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>1c4264b4c3c192101036d60d050131a6</sys_id>
+            <sys_created_on>2024-10-02 04:51:03</sys_created_on>
+            <sys_id>116c687cc34592101036d60d05013188</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_last_watered</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 04:51:03</sys_created_on>
+            <sys_id>956c687cc34592101036d60d05013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 04:51:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>904264b4c3c192101036d60d050131a7</sys_id>
+            <sys_created_on>2024-10-02 04:51:03</sys_created_on>
+            <sys_id>1d6c687cc34592101036d60d05013188</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>image</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>184264b4c3c192101036d60d050131a7</sys_id>
+            <sys_created_on>2024-10-02 04:51:03</sys_created_on>
+            <sys_id>916c687cc34592101036d60d05013189</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>located_outdoors</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 04:51:03</sys_created_on>
+            <sys_id>296c687cc34592101036d60d05013189</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 04:51:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>9c4264b4c3c192101036d60d050131a7</sys_id>
+            <sys_created_on>2024-10-02 04:51:03</sys_created_on>
+            <sys_id>ad6c687cc34592101036d60d05013189</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:03</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:43</sys_created_on>
-            <sys_id>144264b4c3c192101036d60d050131a8</sys_id>
+            <sys_created_on>2024-10-02 04:51:03</sys_created_on>
+            <sys_id>256c687cc34592101036d60d0501318a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:43</sys_updated_on>
+            <sys_updated_on>2024-10-02 04:51:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

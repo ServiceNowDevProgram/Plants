@@ -9,6 +9,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="description" type="string"/>
         <element label="Patent" max_length="40" name="patent" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Last Watered" max_length="40" name="date_last_watered" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Issue" max_length="40" name="issue" type="string">
             <choice>
                 <element inactive_on_update="false" label="Blight" sequence="1" value="Blight"/>
@@ -58,6 +59,7 @@
         </element>
         <element label="Notes" max_length="4000" name="notes" type="journal"/>
         <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Located outdoors?" max_length="40" name="located_outdoors" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Other Issue" max_length="100" name="other_issue" type="string"/>
         <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Fertilising schedule" max_length="1024" name="u_fertilising_schedule" type="glide_list"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
@@ -72,7 +74,13 @@
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plant_mgmt_plant_wiki" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Growth Method" max_length="40" name="growth_method" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Growth Method" max_length="40" name="growth_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Tissue Culture" sequence="2" value="Tissue Culture"/>
+                <element inactive_on_update="false" label="Seed" sequence="0" value="seed"/>
+                <element inactive_on_update="false" label="Propagation" sequence="1" value="propagation"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="location"/>
         </index>
