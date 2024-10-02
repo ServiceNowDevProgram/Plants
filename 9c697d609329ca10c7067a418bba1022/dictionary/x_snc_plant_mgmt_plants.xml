@@ -2,6 +2,14 @@
     <element audit="true" db_object_id="036cf1a49329ca10c7067a418bba10da" label="Plants" max_length="40" name="x_snc_plant_mgmt_plants" type="collection">
         <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Fertilising schedule" max_length="1024" name="u_fertilising_schedule" type="glide_list"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element choice="1" label="Plant location" mandatory="true" max_length="40" name="plant_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
+                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+                <element inactive_on_update="false" label="In ground" sequence="2" value="In ground"/>
+                <element inactive_on_update="false" label="In pot" sequence="3" value="In pot"/>
+            </choice>
+        </element>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Poor" sequence="1" value="poor"/>
@@ -10,19 +18,19 @@
                 <element inactive_on_update="false" label="Sick" sequence="2" value="sick"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Image" max_length="40" name="image" type="user_image"/>
-        <element label="Patent" max_length="40" name="patent" type="string"/>
-        <element label="Name" max_length="40" name="name" type="string"/>
-        <element label="Notes" max_length="4000" name="notes" type="journal"/>
         <element choice="1" label="Tissue Culture" max_length="40" name="tissue_culture" type="choice">
             <choice>
-                <element inactive_on_update="false" label="IC0003" sequence="2" value="ic0003"/>
                 <element inactive_on_update="false" label="IC0001" sequence="0" value="ic0001"/>
+                <element inactive_on_update="false" label="IC0003" sequence="2" value="ic0003"/>
                 <element inactive_on_update="false" label="IC0002" sequence="1" value="ic0002"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Patent" max_length="40" name="patent" type="string"/>
         <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plant_mgmt_plant_wiki" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
         <index name="index">
             <element name="location"/>
         </index>
