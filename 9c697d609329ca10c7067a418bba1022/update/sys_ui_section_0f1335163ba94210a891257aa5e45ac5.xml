@@ -3,28 +3,28 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>notes</element>
             <position>0</position>
-            <sys_created_by>paige.duffey</sys_created_by>
-            <sys_created_on>2024-04-16 02:11:15</sys_created_on>
-            <sys_id>302375163ba94210a891257aa5e45a22</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 22:32:58</sys_created_on>
+            <sys_id>aa09255dc34dda101036d60d050131ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">0f1335163ba94210a891257aa5e45ac5</sys_ui_section>
-            <sys_updated_by>paige.duffey</sys_updated_by>
-            <sys_updated_on>2024-04-16 02:11:15</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 22:32:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
             <position>1</position>
-            <sys_created_by>paige.duffey</sys_created_by>
-            <sys_created_on>2024-04-16 02:11:18</sys_created_on>
-            <sys_id>b42375163ba94210a891257aa5e45a22</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-03 22:32:58</sys_created_on>
+            <sys_id>2609255dc34dda101036d60d050131ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">0f1335163ba94210a891257aa5e45ac5</sys_ui_section>
-            <sys_updated_by>paige.duffey</sys_updated_by>
-            <sys_updated_on>2024-04-16 02:11:18</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-03 22:32:58</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
