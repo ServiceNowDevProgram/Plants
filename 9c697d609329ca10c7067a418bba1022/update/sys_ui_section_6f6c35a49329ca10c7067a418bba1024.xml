@@ -43,7 +43,7 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>patent</element>
+            <element>u_fertilising_schedule</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-10-02 03:38:20</sys_created_on>
@@ -85,7 +85,7 @@
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status</element>
+            <element>other_issue</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-10-02 03:38:20</sys_created_on>
@@ -124,7 +124,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-10-02 03:38:20</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
