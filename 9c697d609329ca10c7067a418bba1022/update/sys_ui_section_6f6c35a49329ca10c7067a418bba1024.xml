@@ -110,7 +110,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-10-03 22:26:12</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
