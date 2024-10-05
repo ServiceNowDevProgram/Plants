@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Status" section_id="4c3bd07cc34192101036d60d05013132" sys_domain="global" table="x_snc_plant_mgmt_plants" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 03:35:53</sys_created_on>
+            <sys_id>603b147cc34192101036d60d0501313f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Status" display_value="Status" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">4c3bd07cc34192101036d60d05013132</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 03:35:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_issue</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 03:35:53</sys_created_on>
+            <sys_id>e43b147cc34192101036d60d0501313f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Status" display_value="Status" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">4c3bd07cc34192101036d60d05013132</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 03:35:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 03:35:53</sys_created_on>
+            <sys_id>6c3b147cc34192101036d60d0501313f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Status" display_value="Status" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">4c3bd07cc34192101036d60d05013132</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 03:35:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>issue</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 03:35:53</sys_created_on>
+            <sys_id>e03b147cc34192101036d60d05013140</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Status" display_value="Status" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">4c3bd07cc34192101036d60d05013132</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 03:35:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Status</caption>
+            <header>false</header>
+            <name>x_snc_plant_mgmt_plants</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 03:35:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c3bd07cc34192101036d60d05013132</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_plant_mgmt_plants</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_ui_section_4c3bd07cc34192101036d60d05013132</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 03:35:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>3f39e585db460adcebdd2a591396191f</instance_id>
+        <instance_name>dev264036</instance_name>
+        <name>sys_ui_section_4c3bd07cc34192101036d60d05013132</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Status" section_id="4c3bd07cc34192101036d60d05013132" sys_domain="global" table="x_snc_plant_mgmt_plants" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-02 03:35:53</sys_created_on><sys_id>603b147cc34192101036d60d0501313f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Status" display_value="Status" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">4c3bd07cc34192101036d60d05013132</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-02 03:35:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>other_issue</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-02 03:35:53</sys_created_on><sys_id>e43b147cc34192101036d60d0501313f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Status" display_value="Status" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">4c3bd07cc34192101036d60d05013132</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-02 03:35:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-02 03:35:53</sys_created_on><sys_id>6c3b147cc34192101036d60d0501313f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Status" display_value="Status" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">4c3bd07cc34192101036d60d05013132</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-02 03:35:53</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>issue</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-02 03:35:53</sys_created_on><sys_id>e03b147cc34192101036d60d05013140</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Status" display_value="Status" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">4c3bd07cc34192101036d60d05013132</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-02 03:35:53</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Status</caption><header>false</header><name>x_snc_plant_mgmt_plants</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-02 03:35:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4c3bd07cc34192101036d60d05013132</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_plant_mgmt_plants</sys_name><sys_overrides/><sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package><sys_policy/><sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope><sys_update_name>sys_ui_section_4c3bd07cc34192101036d60d05013132</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-02 03:35:51</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-703563920</payload_hash>
+        <record_name>Plants</record_name>
+        <reverted_from/>
+        <source>65f54c34c34d52101036d60d050131cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 03:35:54</sys_created_on>
+        <sys_id>643b147cc34192101036d60d05013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1924b4c725a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 03:35:54</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>e83b147ce5419210f1225a691c5f7741</update_guid>
+        <update_guid_history>e83b147ce5419210f1225a691c5f7741:-703563920</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 03:37:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>73060571df574fcc916853213c883749</sys_id>
+        <sys_metadata>4c3bd07cc34192101036d60d05013132</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent display_value="Plants">036cf1a49329ca10c7067a418bba10da</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_4c3bd07cc34192101036d60d05013132</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_4c3bd07cc34192101036d60d05013132">643b147cc34192101036d60d05013142</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 03:37:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
