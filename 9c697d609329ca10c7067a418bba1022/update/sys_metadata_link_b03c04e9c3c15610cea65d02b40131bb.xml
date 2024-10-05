@@ -4,17 +4,21 @@
         <documentkey>52724c69c3815610cea65d02b4013141</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
     <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <date_last_watered/>
         <description>A tiny succulent with bubble-like leaves</description>
+        <growth_method/>
         <hardiness_zone>9a</hardiness_zone>
         <image>3f4a44e5c3c15610cea65d02b4013193</image>
         <issue/>
-        <location display_value="Greenfield">9b184865c3c15610cea65d02b4013199</location>
+        <located_outdoors>false</located_outdoors>
+        <location display_value="">9b184865c3c15610cea65d02b4013199</location>
         <name>Haworthia Cooperi</name>
         <notes/>
         <number>PLANT0001004</number>
         <other_issue/>
         <patent/>
         <plant_type/>
+        <planted_by_date/>
         <status>good</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 10:16:21</sys_created_on>
@@ -30,6 +34,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>image</file_name>
         <hash>0d15c837ddd8475832a72d161d8a5bd5d253fe4e90d6b69650df7e4d41003be3</hash>
         <image_height>3024</image_height>
@@ -70,14 +75,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 10:25:48</sys_created_on>
         <sys_id>b03c04e9c3c15610cea65d02b40131bb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Haworthia Cooperi</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_b03c04e9c3c15610cea65d02b40131bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-04 10:25:48</sys_updated_on>
+        <sys_updated_on>2024-10-05 07:37:01</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
