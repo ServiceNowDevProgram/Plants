@@ -4,17 +4,31 @@
         <documentkey>0d665a89838512104dddb329feaad382</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
     <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <amount_of_water_required_mm/>
+        <date_last_watered/>
+        <date_planted/>
+        <days_since_last_full_water/>
         <description/>
+        <growth_method/>
         <hardiness_zone/>
         <image>3d969689838512104dddb329feaad38b</image>
         <issue/>
+        <located_outdoors>false</located_outdoors>
         <location/>
         <name>Bougainvillea</name>
         <notes/>
         <number>PLANT0001001</number>
         <other_issue/>
         <patent/>
+        <placement/>
         <plant_type/>
+        <planting_method/>
+        <pottery_condition/>
+        <pottery_notes/>
+        <pottery_type/>
+        <rain_in_last_24_hours/>
+        <rain_since_last_full_water/>
+        <size/>
         <status>good</status>
         <sys_created_by>amit.verma</sys_created_by>
         <sys_created_on>2024-10-03 07:13:17</sys_created_on>
@@ -24,13 +38,15 @@
         <sys_updated_on>2024-10-03 07:14:10</sys_updated_on>
         <tissue_culture/>
         <u_fertilising_schedule/>
+        <u_last_rain_recorded/>
+        <u_water_every_days/>
+        <u_watering_due/>
     </x_snc_plant_mgmt_plants>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#8f5a64</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>image</file_name>
         <hash>6afcb2ff7964b8d1e8da5f4d0b2075d39f97157dfbf302acf054319f1e5cad7b</hash>
         <image_height>1000</image_height>
@@ -71,14 +87,14 @@
         <sys_created_by>amit.verma</sys_created_by>
         <sys_created_on>2024-10-03 07:15:39</sys_created_on>
         <sys_id>21175a89838512104dddb329feaad394</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Bougainvillea</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_21175a89838512104dddb329feaad394</sys_update_name>
-        <sys_updated_by>amit.verma</sys_updated_by>
-        <sys_updated_on>2024-10-03 07:15:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-06 17:08:23</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
