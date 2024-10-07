@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="planted_by_date" table="x_snc_plant_mgmt_plants">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="pottery_condition" table="x_snc_plant_mgmt_plants">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Date Planted</column_label>
+        <column_label>Pottery Condition</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>need_to_replace</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,13 +21,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>planted_by_date</element>
+        <element>pottery_condition</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_date</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_snc_plant_mgmt_plants</name>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-02 04:06:41</sys_created_on>
-        <sys_name>Date Planted</sys_name>
+        <sys_created_on>2024-10-01 08:42:07</sys_created_on>
+        <sys_name>Pottery Condition</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_plant_mgmt_plants_planted_by_date</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_plant_mgmt_plants_pottery_condition</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 04:06:41</sys_updated_on>
+        <sys_updated_on>2024-10-01 09:08:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
