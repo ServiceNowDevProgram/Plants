@@ -4,13 +4,13 @@
             <element>location</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:45</sys_created_on>
-            <sys_id>644264b4c3c192101036d60d050131bb</sys_id>
+            <sys_created_on>2024-10-03 22:27:45</sys_created_on>
+            <sys_id>d6d7e595c34dda101036d60d050131ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Static Plant Data" display_value="Static Plant Data" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">db3224b4c3c192101036d60d050131f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:45</sys_updated_on>
+            <sys_updated_on>2024-10-03 22:27:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>tissue_culture</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:45</sys_created_on>
-            <sys_id>e84264b4c3c192101036d60d050131bb</sys_id>
+            <sys_created_on>2024-10-03 22:27:45</sys_created_on>
+            <sys_id>5ed7e595c34dda101036d60d050131ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Static Plant Data" display_value="Static Plant Data" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">db3224b4c3c192101036d60d050131f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:45</sys_updated_on>
+            <sys_updated_on>2024-10-03 22:27:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>growth_method</element>
+            <element>planting_method</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:45</sys_created_on>
-            <sys_id>604264b4c3c192101036d60d050131bc</sys_id>
+            <sys_created_on>2024-10-03 22:27:45</sys_created_on>
+            <sys_id>d2d72995c34dda101036d60d05013100</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Static Plant Data" display_value="Static Plant Data" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">db3224b4c3c192101036d60d050131f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:45</sys_updated_on>
+            <sys_updated_on>2024-10-03 22:27:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:45</sys_created_on>
-            <sys_id>e44264b4c3c192101036d60d050131bc</sys_id>
+            <sys_created_on>2024-10-03 22:27:45</sys_created_on>
+            <sys_id>5ad72995c34dda101036d60d05013100</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Static Plant Data" display_value="Static Plant Data" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">db3224b4c3c192101036d60d050131f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:45</sys_updated_on>
+            <sys_updated_on>2024-10-03 22:27:45</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>hardiness_zone</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:45</sys_created_on>
-            <sys_id>6c4264b4c3c192101036d60d050131bc</sys_id>
+            <sys_created_on>2024-10-03 22:27:45</sys_created_on>
+            <sys_id>ded72995c34dda101036d60d05013100</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Static Plant Data" display_value="Static Plant Data" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">db3224b4c3c192101036d60d050131f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:45</sys_updated_on>
+            <sys_updated_on>2024-10-03 22:27:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,27 +74,27 @@
             <element>patent</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:45</sys_created_on>
-            <sys_id>e04264b4c3c192101036d60d050131bd</sys_id>
+            <sys_created_on>2024-10-03 22:27:45</sys_created_on>
+            <sys_id>56d72995c34dda101036d60d05013101</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Static Plant Data" display_value="Static Plant Data" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">db3224b4c3c192101036d60d050131f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:45</sys_updated_on>
+            <sys_updated_on>2024-10-03 22:27:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>planted_by_date</element>
+            <element>date_planted</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-02 04:06:45</sys_created_on>
-            <sys_id>684264b4c3c192101036d60d050131bd</sys_id>
+            <sys_created_on>2024-10-03 22:27:45</sys_created_on>
+            <sys_id>dad72995c34dda101036d60d05013101</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Static Plant Data" display_value="Static Plant Data" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">db3224b4c3c192101036d60d050131f6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-02 04:06:45</sys_updated_on>
+            <sys_updated_on>2024-10-03 22:27:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
