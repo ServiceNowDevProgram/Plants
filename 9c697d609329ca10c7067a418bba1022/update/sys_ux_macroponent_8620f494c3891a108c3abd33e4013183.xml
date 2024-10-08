@@ -12,7 +12,9 @@
         },
         "elementId": "container_1",
         "elementLabel": "Main",
-        "eventMappings": [],
+        "eventMappings": [
+            
+        ],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -26,7 +28,9 @@
                     },
                     "elementId": "container_2",
                     "elementLabel": "Header",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -40,7 +44,9 @@
                                 },
                                 "elementId": "container_3",
                                 "elementLabel": "Container 3",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    
+                                ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -54,7 +60,9 @@
                                             },
                                             "elementId": "heading_1",
                                             "elementLabel": "Hello",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                
+                                            ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -98,7 +106,9 @@
                                             },
                                             "elementId": "stylized_text_1",
                                             "elementLabel": "Stylized text 1",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                
+                                            ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -199,7 +209,9 @@
                                 },
                                 "elementId": "container_4",
                                 "elementLabel": "Container 4",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    
+                                ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -213,7 +225,9 @@
                                             },
                                             "elementId": "image_1",
                                             "elementLabel": "Itsaplant",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                
+                                            ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -469,7 +483,9 @@
         },
         "elementId": "grid_container_1",
         "elementLabel": "Plants Reading",
-        "eventMappings": [],
+        "eventMappings": [
+            
+        ],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -483,7 +499,9 @@
                     },
                     "elementId": "single_score_1",
                     "elementLabel": "My Plants",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -492,7 +510,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -531,7 +551,9 @@
                                         "color": "842431cdd7500200b96d45a3ce610331",
                                         "iconColor": "1b62e7b70f0002104919700d7b767eda",
                                         "metric": "ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzQnNZVzUwY3pFM01qYzNNVFV4TWpNek1UZz0xNzI3NzE1MTI1OTU1",
-                                        "rules": []
+                                        "rules": [
+                                            
+                                        ]
                                     }
                                 ]
                             }
@@ -550,7 +572,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -982,7 +1006,51 @@
                     },
                     "elementId": "single_score_2",
                     "elementLabel": "Water Tasks",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "cmccaaqvbbiihaabbwlddffhhuyaksaaccffv",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_snc_plant_mgmt.NAV_ITEM_SELECTED_RELAY_8620f494c3891a108c3abd33e4013183",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "external": null,
+                                                "fields": null,
+                                                "multiInstField": null,
+                                                "navigationOptions": null,
+                                                "params": null,
+                                                "passiveNavigation": null,
+                                                "redirect": false,
+                                                "route": "view-all",
+                                                "targetRoute": null,
+                                                "title": null
+                                            }
+                                        },
+                                        "sysId": "74a7523a8385d6102e2b10c5eeaad3d1"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmccaaqvbbiihaabbwmddffhhueedqvwchk",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -991,7 +1059,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -1041,7 +1111,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -1236,7 +1308,7 @@
                                         },
                                         "id": {
                                             "type": "JSON_LITERAL",
-                                            "value": "ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzUmhjMnR6TVRjeU56Y3hOekEyTURNd01BPT0xNzI3NzE3MDYzMjI0"
+                                            "value": "ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzUmhjMnR6TVRjeU56Y3hOekEyTURNd01BPT0xNzI4NDEwNjg3MTIx"
                                         },
                                         "numberFormat": {
                                             "type": "JSON_LITERAL",
@@ -1473,7 +1545,9 @@
                     },
                     "elementId": "single_score_3",
                     "elementLabel": "Repot Tasks",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -1482,7 +1556,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -1521,7 +1597,9 @@
                                         "color": "842431cdd7500200b96d45a3ce610331",
                                         "iconColor": "93f273bf9f5c73001bb9baac757fcf79",
                                         "metric": "ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzUmhjMnR6TVRjeU56Y3hOekEyTURNd01BPT0xNzI3NzE3MDYzMjI0",
-                                        "rules": []
+                                        "rules": [
+                                            
+                                        ]
                                     }
                                 ]
                             }
@@ -1540,7 +1618,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -1972,7 +2052,9 @@
                     },
                     "elementId": "single_score_4",
                     "elementLabel": "Fertilize Tasks",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -1981,7 +2063,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -2020,7 +2104,9 @@
                                         "color": "842431cdd7500200b96d45a3ce610331",
                                         "iconColor": "d6ed4551d7100200b96d45a3ce610320",
                                         "metric": "ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzUmhjMnR6TVRjeU56Y3hOekEyTURNd01BPT0xNzI3NzE3MDYzMjI0",
-                                        "rules": []
+                                        "rules": [
+                                            
+                                        ]
                                     }
                                 ]
                             }
@@ -2039,7 +2125,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -2547,7 +2635,9 @@
         },
         "elementId": "grid_container_2",
         "elementLabel": "Plants Overview",
-        "eventMappings": [],
+        "eventMappings": [
+            
+        ],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -2561,7 +2651,9 @@
                     },
                     "elementId": "donut_1",
                     "elementLabel": "Plants Type",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -2570,7 +2662,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -2620,7 +2714,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -2915,7 +3011,9 @@
                         },
                         "selectedElements": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "showAbsolutePeriod": {
                             "type": "JSON_LITERAL",
@@ -3128,7 +3226,9 @@
                     },
                     "elementId": "vertical_bar_1",
                     "elementLabel": "Vertical bar 1",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -3137,7 +3237,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -3191,7 +3293,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -3494,7 +3598,9 @@
                         },
                         "selectedElements": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "showAbsolutePeriod": {
                             "type": "JSON_LITERAL",
@@ -3771,7 +3877,9 @@
                     },
                     "elementId": "geomap_1",
                     "elementLabel": "Geomap 1",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -3840,7 +3948,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -4151,7 +4261,9 @@
                         },
                         "selectedElements": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "showAbsolutePeriod": {
                             "type": "JSON_LITERAL",
@@ -4455,14 +4567,14 @@
     }
 ]</composition>
         <da_relay_models/>
-        <data>[]</data>
+        <data>[
+    
+]</data>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events/>
+        <dispatched_events>74a7523a8385d6102e2b10c5eeaad3d1</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <form_factors>{}</form_factors>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -4501,7 +4613,9 @@
         <macroponent_dependencies/>
         <name>Default</name>
         <output_prop_mapping/>
-        <props>[]</props>
+        <props>[
+    
+]</props>
         <required_translations>[ {
   "message" : "Fertilize Tasks",
   "comment" : ""
@@ -4543,20 +4657,19 @@
         <root_component_config/>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_persistence_config/>
         <state_properties/>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 15:50:30</sys_created_on>
         <sys_id>8620f494c3891a108c3abd33e4013183</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_ux_macroponent_8620f494c3891a108c3abd33e4013183</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-30 18:28:53</sys_updated_on>
+        <sys_updated_on>2024-10-08 18:17:25</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=8620f494c3891a108c3abd33e4013183"/>
 </record_update>
