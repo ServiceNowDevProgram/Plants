@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-10 17:10:38</sys_created_on>
+        <sys_id>8977ce609369ca10c7067a418bba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_plant_mgmt_tasks.x_snc_plant_mgmt.admin</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_security_acl display_value="x_snc_plant_mgmt_tasks">c977ce609369ca10c7067a418bba1061</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8977ce609369ca10c7067a418bba108e</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-10 17:10:38</sys_updated_on>
+        <sys_user_role display_value="x_snc_plant_mgmt.admin" name="x_snc_plant_mgmt.admin">2fd9b5a09329ca10c7067a418bba1075</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

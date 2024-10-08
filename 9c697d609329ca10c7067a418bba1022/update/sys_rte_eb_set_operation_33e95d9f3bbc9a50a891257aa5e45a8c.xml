@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_set_operation">
+    <sys_rte_eb_set_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>SET_sn_ihub_target_plant_type</name>
+        <operation_group/>
+        <order>0</order>
+        <overwrite_existing_value>false</overwrite_existing_value>
+        <set_value/>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_set_operation</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-09-27 16:19:07</sys_created_on>
+        <sys_id>33e95d9f3bbc9a50a891257aa5e45a8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SET_sn_ihub_target_plant_type</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Plants Data Mapping_etl_ihub">d899959f3bbc9a50a891257aa5e45af4</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_snc_plant_mgmt_plants">efe95d9f3bbc9a50a891257aa5e45a51</sys_rte_eb_entity>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_rte_eb_set_operation_33e95d9f3bbc9a50a891257aa5e45a8c</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:19:07</sys_updated_on>
+        <target_sys_rte_eb_field display_value="sn_ihub_target_plant_type">37e95d9f3bbc9a50a891257aa5e45a69</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Set">c588011e730000102b6265a751ab9e4a</type>
+    </sys_rte_eb_set_operation>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_integration_instance">
+    <sn_ihub_integration_instance action="INSERT_OR_UPDATE">
+        <description>Data mapping instance for table Plants</description>
+        <integration_table>sys_data_source</integration_table>
+        <integration_type/>
+        <internal_name/>
+        <name>Plants Data Mapping</name>
+        <record_id>3389d19f3bbc9a50a891257aa5e45afc</record_id>
+        <sys_class_name>sn_ihub_integration_instance</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-09-27 16:17:29</sys_created_on>
+        <sys_id>fb89d19f3bbc9a50a891257aa5e45afa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Plants Data Mapping</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sn_ihub_integration_instance_fb89d19f3bbc9a50a891257aa5e45afa</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:17:29</sys_updated_on>
+    </sn_ihub_integration_instance>
+</record_update>

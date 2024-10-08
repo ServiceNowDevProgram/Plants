@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>date_last_watered</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 04:51:57</sys_created_on>
+        <sys_id>499ce4bcc34592101036d60d05013192</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date_last_watered</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_ui_policy_action_499ce4bcc34592101036d60d05013192</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 04:51:57</sys_updated_on>
+        <table>x_snc_plant_mgmt_plants</table>
+        <ui_policy display_value="Default UI Policies (No Conditions)">e5d02034c3c192101036d60d0501311f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=499ce4bcc34592101036d60d05013192"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>3f39e585db460adcebdd2a591396191f</instance_id>
+        <instance_name>dev264036</instance_name>
+        <name>sys_ui_policy_action_499ce4bcc34592101036d60d05013192</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>date_last_watered</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-02 04:51:57</sys_created_on><sys_id>499ce4bcc34592101036d60d05013192</sys_id><sys_mod_count>0</sys_mod_count><sys_name>date_last_watered</sys_name><sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package><sys_policy/><sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope><sys_update_name>sys_ui_policy_action_499ce4bcc34592101036d60d05013192</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-02 04:51:57</sys_updated_on><table>x_snc_plant_mgmt_plants</table><ui_policy display_value="Default UI Policies (No Conditions)">e5d02034c3c192101036d60d0501311f</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=499ce4bcc34592101036d60d05013192"/></record_update>]]></payload>
+        <payload_hash>-392108789</payload_hash>
+        <record_name>date_last_watered</record_name>
+        <reverted_from/>
+        <source>65f54c34c34d52101036d60d050131cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 04:51:57</sys_created_on>
+        <sys_id>f69c6c3cc34592101036d60d05013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1924b9214ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 04:51:57</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ba9c6c3c9545921010d6698d8553d563</update_guid>
+        <update_guid_history>ba9c6c3c9545921010d6698d8553d563:-392108789</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-04 07:51:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1eba7f0f214d4da2ae5392e0713b6df1</sys_id>
+        <sys_metadata>499ce4bcc34592101036d60d05013192</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date_last_watered</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent display_value="Default UI Policies (No Conditions)">e5d02034c3c192101036d60d0501311f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_499ce4bcc34592101036d60d05013192</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_499ce4bcc34592101036d60d05013192">f69c6c3cc34592101036d60d05013164</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-04 07:51:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

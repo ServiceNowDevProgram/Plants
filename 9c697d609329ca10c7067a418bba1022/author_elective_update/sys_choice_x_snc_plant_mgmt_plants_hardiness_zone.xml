@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="hardiness_zone" table="x_snc_plant_mgmt_plants" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>hardiness_zone</element>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:21:00</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>hardiness_zone</sys_name>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_choice_x_snc_plant_mgmt_plants_hardiness_zone</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:21:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:21:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>1a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:21:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>1b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:21:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>2a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:21:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>2b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:21:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>3a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:21:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>3b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:22:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>4a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:22:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>4b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:22:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>5a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:22:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>5b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:23:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>6a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:23:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>6b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:23:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>7a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>7b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:23:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>7b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:23:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>8a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:23:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>8b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>9a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>9b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>9b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>10a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>10b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>11a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>11b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>12a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>12b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>13a</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>13a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hardiness_zone</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>13b</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-02 02:24:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-02 02:24:48</sys_updated_on>
+            <value>13b</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

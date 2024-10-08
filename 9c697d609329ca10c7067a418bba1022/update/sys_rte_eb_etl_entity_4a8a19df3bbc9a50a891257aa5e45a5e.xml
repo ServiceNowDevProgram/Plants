@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity">
+    <sys_rte_eb_etl_entity action="INSERT_OR_UPDATE">
+        <child_id_field/>
+        <name>Target_x_snc_plant_mgmt_plant_wiki</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>x_snc_plant_mgmt_plant_wiki</path>
+        <run_business_rules>true</run_business_rules>
+        <synchronize_inserts>false</synchronize_inserts>
+        <sys_class_name>sys_rte_eb_etl_entity</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-09-27 16:21:43</sys_created_on>
+        <sys_id>4a8a19df3bbc9a50a891257aa5e45a5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Target_x_snc_plant_mgmt_plant_wiki</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Plant Wiki Data Mapping_etl_ihub">798a19df3bbc9a50a891257aa5e45a2a</sys_rte_eb_definition>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_entity_4a8a19df3bbc9a50a891257aa5e45a5e</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:21:43</sys_updated_on>
+        <table>x_snc_plant_mgmt_plant_wiki</table>
+    </sys_rte_eb_etl_entity>
+</record_update>

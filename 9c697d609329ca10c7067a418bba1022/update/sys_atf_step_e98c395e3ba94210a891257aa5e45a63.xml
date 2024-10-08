@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open the 'Plants' form with id '{{Step 1: Record Insert.Record}}'</description>
+        <display_name>Open an Existing Record</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Open "Bob's Plant"</notes>
+        <order>3</order>
+        <step_config display_value="Open an Existing Record">5f2e0e535332120028bc29cac2dc34d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:45</sys_created_on>
+        <sys_id>e98c395e3ba94210a891257aa5e45a63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open an Existing Record</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_atf_step_e98c395e3ba94210a891257aa5e45a63</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:45</sys_updated_on>
+        <table>x_snc_plant_mgmt_plants</table>
+        <test display_value="Validate Access">4cab3d1e3ba94210a891257aa5e45a28</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e98c395e3ba94210a891257aa5e45a63"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e98c395e3ba94210a891257aa5e45a63</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:46</sys_created_on>
+        <sys_id>0dac795e3ba94210a891257aa5e45a06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:46</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Selected Tab Index">c2eb56e853422110248dddeeff7b1261</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e98c395e3ba94210a891257aa5e45a63</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:46</sys_created_on>
+        <sys_id>49ac795e3ba94210a891257aa5e45a06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:46</sys_updated_on>
+        <value/>
+        <variable display_value="View">6e55da4e53a0220002c6435723dc34a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e98c395e3ba94210a891257aa5e45a63</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:46</sys_created_on>
+        <sys_id>81ac795e3ba94210a891257aa5e45a07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:46</sys_updated_on>
+        <value>x_snc_plant_mgmt_plants</value>
+        <variable display_value="Table">b124164e53a0220002c6435723dc34c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e98c395e3ba94210a891257aa5e45a63</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:46</sys_created_on>
+        <sys_id>85ac795e3ba94210a891257aa5e45a06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:46</sys_updated_on>
+        <value/>
+        <variable display_value="Record">ad351a4e53a0220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e98c395e3ba94210a891257aa5e45a63</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:45</sys_created_on>
+        <sys_id>c1ac795e3ba94210a891257aa5e45a06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:45</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">17d732a9c7a333005e5c45b881c26007</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e98c395e3ba94210a891257aa5e45a63</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:46</sys_created_on>
+        <sys_id>cdac795e3ba94210a891257aa5e45a06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:46</sys_updated_on>
+        <value>record</value>
+        <variable display_value="Record path">74d6e7a0a3023110571967d1361e616b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e98c395e3ba94210a891257aa5e45a63"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>e98c395e3ba94210a891257aa5e45a63</id>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:45</sys_created_on>
+        <sys_id>c9ac795e3ba94210a891257aa5e45a05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:45</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value>{{step['2b1cf15e3ba94210a891257aa5e45a36'].record_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>selected_tab_index</field>
+        <id>e98c395e3ba94210a891257aa5e45a63</id>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:45</sys_created_on>
+        <sys_id>41ac795e3ba94210a891257aa5e45a06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:45</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>view</field>
+        <id>e98c395e3ba94210a891257aa5e45a63</id>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:52:45</sys_created_on>
+        <sys_id>8dac795e3ba94210a891257aa5e45a05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:52:45</sys_updated_on>
+        <table>var__m_atf_input_variable_5f2e0e535332120028bc29cac2dc34d3</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

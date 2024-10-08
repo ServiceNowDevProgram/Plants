@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>latitude</name>
+        <rest_message_function display_value="Default GET">2e2fe0bc4741121081267212d16d43fd</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 05:05:39</sys_created_on>
+        <sys_id>45bf60704781121081267212d16d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>latitude</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_45bf60704781121081267212d16d4317</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 05:05:39</sys_updated_on>
+        <type>string</type>
+        <value>52.52</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

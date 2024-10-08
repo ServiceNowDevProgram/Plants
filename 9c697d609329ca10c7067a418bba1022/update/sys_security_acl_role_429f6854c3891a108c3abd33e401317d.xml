@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-09-30 15:48:03</sys_created_on>
+        <sys_id>429f6854c3891a108c3abd33e401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.174725.my-plants.*.canvas_user</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_security_acl display_value="x.174725.my-plants.*">ce9f6854c3891a108c3abd33e401314c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_429f6854c3891a108c3abd33e401317d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-09-30 15:48:03</sys_updated_on>
+        <sys_user_role display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
