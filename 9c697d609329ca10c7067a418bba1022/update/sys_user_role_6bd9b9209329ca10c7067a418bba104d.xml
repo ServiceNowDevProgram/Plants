@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_plant_mgmt.hortic</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_snc_plant_mgmt.hortic</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-10 16:11:16</sys_created_on>
+        <sys_id>6bd9b9209329ca10c7067a418bba104d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_plant_mgmt.hortic</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_user_role_6bd9b9209329ca10c7067a418bba104d</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-10 16:11:16</sys_updated_on>
+    </sys_user_role>
+</record_update>

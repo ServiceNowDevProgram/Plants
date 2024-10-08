@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="creation" table="var__m_sys_hub_flow_input_16226eec93a9ca10c7067a418bba1018" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>creation</element>
+            <name>var__m_sys_hub_flow_input_16226eec93a9ca10c7067a418bba1018</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>paige.duffey</sys_created_by>
+            <sys_created_on>2024-04-16 01:30:25</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>creation</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_flow_input_16226eec93a9ca10c7067a418bba1018_creation</sys_update_name>
+            <sys_updated_by>paige.duffey</sys_updated_by>
+            <sys_updated_on>2024-04-16 01:30:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>creation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_16226eec93a9ca10c7067a418bba1018</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>paige.duffey</sys_created_by>
+            <sys_created_on>2024-04-10 22:42:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>paige.duffey</sys_updated_by>
+            <sys_updated_on>2024-04-11 20:25:55</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>creation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Daily</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_16226eec93a9ca10c7067a418bba1018</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>paige.duffey</sys_created_by>
+            <sys_created_on>2024-04-10 22:42:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>paige.duffey</sys_updated_by>
+            <sys_updated_on>2024-04-11 20:25:55</sys_updated_on>
+            <value>daily</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>creation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Advance</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_16226eec93a9ca10c7067a418bba1018</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>paige.duffey</sys_created_by>
+            <sys_created_on>2024-04-10 22:42:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>paige.duffey</sys_updated_by>
+            <sys_updated_on>2024-04-11 20:25:55</sys_updated_on>
+            <value>advance</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -26,7 +26,7 @@ See the Issues tab for ideas on what to work on. Make sure to leave a comment on
 
 Along with new features, or working on any issues that appear in this repo's issues tab, we welcome you to simply submit a plant too!
 
-1. Go to the `x_snc_plants_db_plantipedia` table on your instance (see above)
+1. Go to the `x_snc_plant_mgmt_plants` table on your instance (see above)
 2. Submit a new plant with a picture
 3. Open the application in App Engine Studio (AES)
 4. In the data section, click the preview button on the Plants row

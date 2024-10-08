@@ -9,6 +9,7 @@ Let's create a new plant app! Should we track the plants we have? Track when the
 🔔🔔🔔
 
 ## Getting started
+**Important Information: ** If you are using the App from last year OR you imported this app prior to 10-1-2024 you will need to remove the application from your instance and reimport it from this repo. The application has been *replaced* with a new scope/app files.
 
 1. Fork this repo
 2. Go to your ServiceNow instance

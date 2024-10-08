@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>import_plants</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Import Plants</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-10 23:11:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a0a9b6893adca10c7067a418bba10cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import Plants</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_1a0a9b6893adca10c7067a418bba10cf</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-10 23:11:27</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_hub_action_input action="delete_multiple" query="model=1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_hub_action_output action="delete_multiple" query="model=1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_1a0a9b6893adca10c7067a418bba10cf"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=1a0a9b6893adca10c7067a418bba10cf"/>
+</record_update>

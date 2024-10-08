@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>0b785ee093a9ca10c7067a418bba108e</answer>
+        <condition table="var__m_sys_decision_input_b7bb46a49369ca10c7067a418bba10fc">u_maintenance_task=fertilize^EQ<item display_value="Fertilize" endquery="false" field="u_maintenance_task" goto="false" newquery="false" operator="=" or="false" value="fertilize"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Maintenance Schedule">b7bb46a49369ca10c7067a418bba10fc</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_b7bb46a49369ca10c7067a418bba10fc</input_table>
+        <label>Maintenance Schedule_200</label>
+        <marked_for_deletion>false</marked_for_deletion>
+        <order>200</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-10 18:45:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>104d1a6893a9ca10c7067a418bba108e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Maintenance Schedule_200</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_decision_question_104d1a6893a9ca10c7067a418bba108e</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-10 18:45:57</sys_updated_on>
+    </sys_decision_question>
+</record_update>

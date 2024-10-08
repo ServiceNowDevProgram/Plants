@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity">
+    <sys_rte_eb_etl_entity action="DELETE">
+        <child_id_field/>
+        <name>IHUB_TARGET_TEMP_x_snc_plant_mgmt_plant_wiki</name>
+        <parent_entity/>
+        <parent_id_field/>
+        <path>Temp_x_snc_plant_mgmt_plant_wiki</path>
+        <run_business_rules>false</run_business_rules>
+        <synchronize_inserts>false</synchronize_inserts>
+        <sys_class_name>sys_rte_eb_etl_entity</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-09-27 16:21:44</sys_created_on>
+        <sys_id>028a19df3bbc9a50a891257aa5e45a68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_TARGET_TEMP_x_snc_plant_mgmt_plant_wiki</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Plant Wiki Data Mapping_etl_ihub">798a19df3bbc9a50a891257aa5e45a2a</sys_rte_eb_definition>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_entity_028a19df3bbc9a50a891257aa5e45a68</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:21:44</sys_updated_on>
+        <table/>
+    </sys_rte_eb_etl_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>bb87df401b4cc21839a54089bd4bcb8f</instance_id>
+        <instance_name>plants</instance_name>
+        <name>sys_rte_eb_etl_entity_028a19df3bbc9a50a891257aa5e45a68</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_entity"><sys_rte_eb_etl_entity action="INSERT_OR_UPDATE"><child_id_field/><name>IHUB_TARGET_TEMP_x_snc_plant_mgmt_plant_wiki</name><parent_entity/><parent_id_field/><path>Temp_x_snc_plant_mgmt_plant_wiki</path><run_business_rules>false</run_business_rules><synchronize_inserts>false</synchronize_inserts><sys_class_name>sys_rte_eb_etl_entity</sys_class_name><sys_created_by>paige.duffey</sys_created_by><sys_created_on>2024-09-27 16:21:44</sys_created_on><sys_id>028a19df3bbc9a50a891257aa5e45a68</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IHUB_TARGET_TEMP_x_snc_plant_mgmt_plant_wiki</sys_name><sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package><sys_policy/><sys_rte_eb_definition display_value="Plant Wiki Data Mapping_etl_ihub">798a19df3bbc9a50a891257aa5e45a2a</sys_rte_eb_definition><sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope><sys_update_name>sys_rte_eb_etl_entity_028a19df3bbc9a50a891257aa5e45a68</sys_update_name><sys_updated_by>paige.duffey</sys_updated_by><sys_updated_on>2024-09-27 16:21:44</sys_updated_on><table/></sys_rte_eb_etl_entity></record_update>]]></payload>
+        <payload_hash>1502545041</payload_hash>
+        <record_name>IHUB_TARGET_TEMP_x_snc_plant_mgmt_plant_wiki</record_name>
+        <reverted_from/>
+        <source>9559519f3bbc9a50a891257aa5e45ab2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-09-27 16:21:44</sys_created_on>
+        <sys_id>ce8a19df3bbc9a50a891257aa5e45a69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1923449cb1e0000001</sys_recorded_at>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:21:44</sys_updated_on>
+        <type>ETL Entity</type>
+        <update_guid>c28a19df05bc9a50b629812adc4b8f69</update_guid>
+        <update_guid_history>c28a19df05bc9a50b629812adc4b8f69:1502545041</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-09-27 16:22:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_entity">sys_rte_eb_etl_entity</sys_db_object>
+        <sys_id>4da7e03872ca4a06a6319da4028b5de4</sys_id>
+        <sys_metadata>028a19df3bbc9a50a891257aa5e45a68</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_TARGET_TEMP_x_snc_plant_mgmt_plant_wiki</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_entity_028a19df3bbc9a50a891257aa5e45a68</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_entity_028a19df3bbc9a50a891257aa5e45a68">ce8a19df3bbc9a50a891257aa5e45a69</sys_update_version>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:22:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
