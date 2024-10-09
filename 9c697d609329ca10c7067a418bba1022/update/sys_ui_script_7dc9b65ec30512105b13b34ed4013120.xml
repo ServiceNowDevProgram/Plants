@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_snc_plant_mgmt.jquery.qrcode.min</name>
+        <script><![CDATA[(function(r) {
+    r.fn.qrcode = function(h) {
+        var s;
+
+        function u(a) {
+            this.mode = s;
+            this.data = a
+        }
+
+        function o(a, c) {
+            this.typeNumber = a;
+            this.errorCorrectLevel = c;
+            this.modules = null;
+            this.moduleCount = 0;
+            this.dataCache = null;
+            this.dataList = []
+        }
+
+        function q(a, c) {
+            if (void 0 == a.length) throw Error(a.length + "/" + c);
+            for (var d = 0; d < a.length && 0 == a[d];) d++;
+            this.num = Array(a.length - d + c);
+            for (var b = 0; b < a.length - d; b++) this.num[b] = a[b + d]
+        }
+
+        function p(a, c) {
+            this.totalCount = a;
+            this.dataCount = c
+        }
+
+        function t() {
+            this.buffer = [];
+            this.length = 0
+        }
+        u.prototype = {
+            getLength: function() {
+                return this.data.length
+            },
+            write: function(a) {
+                for (var c = 0; c < this.data.length; c++) a.put(this.data.charCodeAt(c), 8)
+            }
+        };
+        o.prototype = {
+            addData: function(a) {
+                this.dataList.push(new u(a));
+                this.dataCache = null
+            },
+            isDark: function(a, c) {
+                if (0 > a || this.moduleCount <= a || 0 > c || this.moduleCount <= c) throw Error(a + "," + c);
+                return this.modules[a][c]
+            },
+            getModuleCount: function() {
+                return this.moduleCount
+            },
+            make: function() {
+                if (1 > this.typeNumber) {
+                    for (var a = 1, a = 1; 40 > a; a++) {
+                        for (var c = p.getRSBlocks(a, this.errorCorrectLevel), d = new t, b = 0, e = 0; e < c.length; e++) b += c[e].dataCount;
+                        for (e = 0; e < this.dataList.length; e++) c = this.dataList[e], d.put(c.mode, 4), d.put(c.getLength(), j.getLengthInBits(c.mode, a)), c.write(d);
+                        if (d.getLengthInBits() <= 8 * b) break
+                    }
+                    this.typeNumber = a
+                }
+                this.makeImpl(!1, this.getBestMaskPattern())
+            },
+            makeImpl: function(a, c) {
+                this.moduleCount = 4 * this.typeNumber + 17;
+                this.modules = Array(this.moduleCount);
+                for (var d = 0; d < this.moduleCount; d++) {
+                    this.modules[d] = Array(this.moduleCount);
+                    for (var b = 0; b < this.moduleCount; b++) this.modules[d][b] = null
+                }
+                this.setupPositionProbePattern(0, 0);
+                this.setupPositionProbePattern(this.moduleCount - 7, 0);
+                this.setupPositionProbePattern(0, this.moduleCount - 7);
+                this.setupPositionAdjustPattern();
+                this.setupTimingPattern();
+                this.setupTypeInfo(a, c);
+                7 <= this.typeNumber && this.setupTypeNumber(a);
+                null == this.dataCache && (this.dataCache = o.createData(this.typeNumber, this.errorCorrectLevel, this.dataList));
+                this.mapData(this.dataCache, c)
+            },
+            setupPositionProbePattern: function(a, c) {
+                for (var d = -1; 7 >= d; d++)
+                    if (!(-1 >= a + d || this.moduleCount <= a + d))
+                        for (var b = -1; 7 >= b; b++) - 1 >= c + b || this.moduleCount <= c + b || (this.modules[a + d][c + b] =
+                            0 <= d && 6 >= d && (0 == b || 6 == b) || 0 <= b && 6 >= b && (0 == d || 6 == d) || 2 <= d && 4 >= d && 2 <= b && 4 >= b ? !0 : !1)
+            },
+            getBestMaskPattern: function() {
+                for (var a = 0, c = 0, d = 0; 8 > d; d++) {
+                    this.makeImpl(!0, d);
+                    var b = j.getLostPoint(this);
+                    if (0 == d || a > b) a = b, c = d
+                }
+                return c
+            },
+            createMovieClip: function(a, c, d) {
+                a = a.createEmptyMovieClip(c, d);
+                this.make();
+                for (c = 0; c < this.modules.length; c++)
+                    for (var d = 1 * c, b = 0; b < this.modules[c].length; b++) {
+                        var e = 1 * b;
+                        this.modules[c][b] && (a.beginFill(0, 100), a.moveTo(e, d), a.lineTo(e + 1, d), a.lineTo(e + 1, d + 1), a.lineTo(e, d + 1), a.endFill())
+                    }
+                return a
+            },
+            setupTimingPattern: function() {
+                for (var a = 8; a < this.moduleCount - 8; a++) null == this.modules[a][6] && (this.modules[a][6] = 0 == a % 2);
+                for (a = 8; a < this.moduleCount - 8; a++) null == this.modules[6][a] && (this.modules[6][a] = 0 == a % 2)
+            },
+            setupPositionAdjustPattern: function() {
+                for (var a = j.getPatternPosition(this.typeNumber), c = 0; c < a.length; c++)
+                    for (var d = 0; d < a.length; d++) {
+                        var b = a[c],
+                            e = a[d];
+                        if (null == this.modules[b][e])
+                            for (var f = -2; 2 >= f; f++)
+                                for (var i = -2; 2 >= i; i++) this.modules[b + f][e + i] = -2 == f || 2 == f || -2 == i || 2 == i || 0 == f && 0 == i ? !0 : !1
+                    }
+            },
+            setupTypeNumber: function(a) {
+                for (var c = j.getBCHTypeNumber(this.typeNumber), d = 0; 18 > d; d++) {
+                    var b = !a && 1 == (c >> d & 1);
+                    this.modules[Math.floor(d / 3)][d % 3 + this.moduleCount - 8 - 3] = b
+                }
+                for (d = 0; 18 > d; d++) b = !a && 1 == (c >> d & 1), this.modules[d % 3 + this.moduleCount - 8 - 3][Math.floor(d / 3)] = b
+            },
+            setupTypeInfo: function(a, c) {
+                for (var d = j.getBCHTypeInfo(this.errorCorrectLevel << 3 | c), b = 0; 15 > b; b++) {
+                    var e = !a && 1 == (d >> b & 1);
+                    6 > b ? this.modules[b][8] = e : 8 > b ? this.modules[b + 1][8] = e : this.modules[this.moduleCount - 15 + b][8] = e
+                }
+                for (b = 0; 15 > b; b++) e = !a && 1 == (d >> b & 1), 8 > b ? this.modules[8][this.moduleCount - b - 1] = e : 9 > b ? this.modules[8][15 - b - 1 + 1] = e : this.modules[8][15 - b - 1] = e;
+                this.modules[this.moduleCount - 8][8] = !a
+            },
+            mapData: function(a, c) {
+                for (var d = -1, b = this.moduleCount - 1, e = 7, f = 0, i = this.moduleCount - 1; 0 < i; i -= 2)
+                    for (6 == i && i--;;) {
+                        for (var g = 0; 2 > g; g++)
+                            if (null == this.modules[b][i - g]) {
+                                var n = !1;
+                                f < a.length && (n = 1 == (a[f] >>> e & 1));
+                                j.getMask(c, b, i - g) && (n = !n);
+                                this.modules[b][i - g] = n, e--; - 1 == e && (f++, e = 7)
+                            }
+                        b += d;
+                        if (0 > b || this.moduleCount <= b) {
+                            b -= d;
+                            d = -d;
+                            break
+                        }
+                    }
+            }
+        };
+        o.PAD0 = 236;
+        o.PAD1 = 17;
+        o.createData = function(a, c, d) {
+            for (var c = p.getRSBlocks(a, c), b = new t, e = 0; e < d.length; e++) {
+                var f = d[e];
+                b.put(f.mode, 4);
+                b.put(f.getLength(), j.getLengthInBits(f.mode, a));
+                f.write(b)
+            }
+            for (e = a = 0; e < c.length; e++) a += c[e].dataCount;
+            if (b.getLengthInBits() > 8 * a) throw Error("code length overflow. (" + b.getLengthInBits() + ">" + 8 * a + ")");
+            for (b.getLengthInBits() + 4 <= 8 * a && b.put(0, 4); 0 != b.getLengthInBits() % 8;) b.putBit(!1);
+            for (; !(b.getLengthInBits() >= 8 * a);) {
+                b.put(o.PAD0, 8);
+                if (b.getLengthInBits() >= 8 * a) break;
+                b.put(o.PAD1, 8)
+            }
+            return o.createBytes(b, c)
+        };
+        o.createBytes = function(a, c) {
+            for (var d = 0, b = 0, e = 0, f = Array(c.length), i = Array(c.length), g = 0; g < c.length; g++) {
+                var n = c[g].dataCount,
+                    h = c[g].totalCount - n,
+                    b = Math.max(b, n),
+                    e = Math.max(e, h);
+                f[g] = Array(n);
+                for (var k = 0; k < f[g].length; k++) f[g][k] = 255 & a.buffer[k + d];
+                d += n;
+                k = j.getErrorCorrectPolynomial(h);
+                n = (new q(f[g], k.getLength() - 1)).mod(k);
+                i[g] = Array(k.getLength() - 1);
+                for (k = 0; k < i[g].length; k++) h = k + n.getLength() - i[g].length, i[g][k] = 0 <= h ? n.get(h) : 0
+            }
+            for (k = g = 0; k < c.length; k++)
+                for (g += c[k].dataCount; g < n; g++) e[g] = i[k][g - c[k].dataCount];
+            return e
+        };
+        return this
+    }
+})(jQuery);]]></script>
+        <script_name>jquery.qrcode.min</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 07:02:39</sys_created_on>
+        <sys_id>7dc9b65ec30512105b13b34ed4013120</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_plant_mgmt.jquery.qrcode.min</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_ui_script_7dc9b65ec30512105b13b34ed4013120</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 07:06:01</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>
