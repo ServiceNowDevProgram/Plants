@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>name</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>100</maximum_entries>
+        <order>1</order>
+        <order_by>sys_updated_on</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3149448753c1525000b51901a0490e43</sp_column>
+        <sp_page display_value="ticket">84af292247132100ba13a5554ee4909e</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 02:03:57</sys_created_on>
+        <sys_id>ca49448753c1525000b51901a0490e4c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My Service Tasks</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sp_instance_vlist_ca49448753c1525000b51901a0490e4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 02:13:49</sys_updated_on>
+        <table>x_snc_plants_db_my_plants</table>
+        <title>My Service Tasks</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"displayValue": false,
+		"value": false
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "picture,plant_type,last_watered,last_fertilized,location",
+		"displayValue": "picture,plant_type,last_watered,last_fertilized,location"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": false,
+		"value": false
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca49448753c1525000b51901a0490e4c"/>
+</record_update>
