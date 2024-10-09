@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>breadcrumbs-container</class_name>
+        <container_class_name/>
+        <name>My Plants page - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="my_plants_page">7149c08753c1525000b51901a0490e35</sp_page>
+        <subheader>true</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 02:03:56</sys_created_on>
+        <sys_id>f149c08753c1525000b51901a0490e39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Plants page - Container 1</sys_name>
+        <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+        <sys_update_name>sp_container_f149c08753c1525000b51901a0490e39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 02:04:48</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>
