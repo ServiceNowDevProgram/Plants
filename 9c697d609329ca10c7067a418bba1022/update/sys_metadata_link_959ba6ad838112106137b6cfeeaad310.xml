@@ -4,21 +4,28 @@
         <documentkey>c4336eed834112106137b6cfeeaad3ec</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
     <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <amount_of_water_required_mm/>
         <date_last_watered/>
-        <description/>
+        <date_planted/>
+        <days_since_last_full_water/>
         <growth_method>propagation</growth_method>
         <hardiness_zone>7a</hardiness_zone>
         <image>d2a3eae1838112106137b6cfeeaad3c7</image>
         <issue/>
         <located_outdoors>false</located_outdoors>
         <location display_value="">e146ae29838112106137b6cfeeaad395</location>
-        <name>Rose</name>
         <notes/>
         <number>PLANT0001002</number>
         <other_issue/>
         <patent/>
-        <plant_type display_value="">8547e2a9838112106137b6cfeeaad39f</plant_type>
-        <planted_by_date/>
+        <placement/>
+        <planting_method/>
+        <pottery_condition/>
+        <pottery_notes/>
+        <pottery_type/>
+        <rain_in_last_24_hours/>
+        <rain_since_last_full_water/>
+        <size/>
         <status>good</status>
         <sys_created_by>daniel.aagren.seehartrai.madsen</sys_created_by>
         <sys_created_on>2024-10-04 21:27:24</sys_created_on>
@@ -26,15 +33,16 @@
         <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>daniel.aagren.seehartrai.madsen</sys_updated_by>
         <sys_updated_on>2024-10-04 21:44:35</sys_updated_on>
-        <tissue_culture/>
         <u_fertilising_schedule/>
+        <u_last_rain_recorded/>
+        <u_water_every_days/>
+        <u_watering_due/>
     </x_snc_plant_mgmt_plants>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#754752</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>image</file_name>
         <hash>699dd720790d141e499b84a04453339b5b2244e94b480c03c72c09806bfcf10f</hash>
         <image_height>426</image_height>
@@ -75,14 +83,14 @@
         <sys_created_by>daniel.aagren.seehartrai.madsen</sys_created_by>
         <sys_created_on>2024-10-04 22:02:09</sys_created_on>
         <sys_id>959ba6ad838112106137b6cfeeaad310</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Rose</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PLANT0001002</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_959ba6ad838112106137b6cfeeaad310</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-05 07:37:05</sys_updated_on>
+        <sys_updated_on>2024-10-10 15:38:01</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
