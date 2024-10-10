@@ -34,6 +34,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>image</file_name>
         <hash>f8f9a2016d0756b779fcb97514ac3d340535f12de8615df4ebd8490847bd5390</hash>
         <image_height>2679</image_height>
@@ -81,7 +82,11 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_d0e579f083cd1250ae0854b6feaad31b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
+<<<<<<< HEAD
+        <sys_updated_on>2024-10-05 07:37:05</sys_updated_on>
+=======
         <sys_updated_on>2024-10-04 22:10:00</sys_updated_on>
+>>>>>>> upstream/main
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
