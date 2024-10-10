@@ -4,21 +4,28 @@
         <documentkey>a00d287dc3019e102f84fc84e40131e2</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
     <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <amount_of_water_required_mm/>
         <date_last_watered>2024-10-05</date_last_watered>
-        <description>Renowned for digestion for human Health</description>
+        <date_planted/>
+        <days_since_last_full_water/>
         <growth_method>seed</growth_method>
         <hardiness_zone/>
         <image>8d7de87dc3019e102f84fc84e40131d8</image>
         <issue/>
         <located_outdoors>false</located_outdoors>
         <location display_value="India">fca681f5931631003b4bb095e57ffb8d</location>
-        <name>Ajwain</name>
         <notes/>
         <number>PLANT0001001</number>
         <other_issue/>
         <patent/>
-        <plant_type display_value="Ajwain">bbad2871c3419e102f84fc84e4013197</plant_type>
-        <planted_by_date>2023-06-05</planted_by_date>
+        <placement/>
+        <planting_method/>
+        <pottery_condition/>
+        <pottery_notes/>
+        <pottery_type/>
+        <rain_in_last_24_hours/>
+        <rain_since_last_full_water/>
+        <size/>
         <status/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-05 07:29:18</sys_created_on>
@@ -26,15 +33,16 @@
         <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-05 07:33:16</sys_updated_on>
-        <tissue_culture/>
         <u_fertilising_schedule>2</u_fertilising_schedule>
+        <u_last_rain_recorded/>
+        <u_water_every_days/>
+        <u_watering_due/>
     </x_snc_plant_mgmt_plants>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#636955</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>image</file_name>
         <hash>f564c64efba039d78d4f76826d1d4786570edfec008f931f38bfc161db05a442</hash>
         <image_height>1280</image_height>
@@ -75,14 +83,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-05 07:37:04</sys_created_on>
         <sys_id>362f6435c3419e102f84fc84e4013121</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Ajwain</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PLANT0001001</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_362f6435c3419e102f84fc84e4013121</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-05 07:37:04</sys_updated_on>
+        <sys_updated_on>2024-10-10 15:38:00</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
