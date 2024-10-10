@@ -4,21 +4,28 @@
         <documentkey>78d4b344c3051a108c3abd33e4013142</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
     <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <amount_of_water_required_mm/>
         <date_last_watered/>
-        <description/>
+        <date_planted/>
+        <days_since_last_full_water/>
         <growth_method/>
         <hardiness_zone/>
         <image>89318494c3451a108c3abd33e40131f0</image>
         <issue/>
         <located_outdoors>false</located_outdoors>
         <location display_value="100 South Charles Street, Baltimore,MD">25ab9c4d0a0a0bb300f7dabdc0ca7c1c</location>
-        <name>Bamboo</name>
         <notes/>
         <number>PLANT0001003</number>
         <other_issue/>
         <patent/>
-        <plant_type display_value="">82f3f7c0c3051a108c3abd33e40131ea</plant_type>
-        <planted_by_date/>
+        <placement/>
+        <planting_method/>
+        <pottery_condition>need_to_replace</pottery_condition>
+        <pottery_notes/>
+        <pottery_type/>
+        <rain_in_last_24_hours/>
+        <rain_since_last_full_water/>
+        <size/>
         <status>good</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 11:31:33</sys_created_on>
@@ -26,15 +33,16 @@
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-30 12:25:38</sys_updated_on>
-        <tissue_culture>ic0001</tissue_culture>
         <u_fertilising_schedule/>
+        <u_last_rain_recorded/>
+        <u_water_every_days/>
+        <u_watering_due/>
     </x_snc_plant_mgmt_plants>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#c4c1a8</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>image</file_name>
         <hash>7ba041ddb16db3b5e25b6d209f451aa7a116394d71568c4792692ba7b3fda2b4</hash>
         <image_height>1000</image_height>
@@ -76,17 +84,13 @@
         <sys_created_on>2024-09-30 12:27:44</sys_created_on>
         <sys_id>bfb18898c3451a108c3abd33e40131d6</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>Bamboo</sys_name>
+        <sys_name>PLANT0001003</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_bfb18898c3451a108c3abd33e40131d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-<<<<<<< HEAD
-        <sys_updated_on>2024-10-05 07:37:02</sys_updated_on>
-=======
-        <sys_updated_on>2024-10-04 22:09:58</sys_updated_on>
->>>>>>> upstream/main
+        <sys_updated_on>2024-10-10 15:37:53</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
