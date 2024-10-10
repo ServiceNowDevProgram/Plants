@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="sn_ihub_target_name">23e95d9f3bbc9a50a891257aa5e45a65</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-09-27 16:19:07</sys_created_on>
+        <sys_id>b3e95d9f3bbc9a50a891257aa5e45aac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Plants Data Mapping_etl_ihub">d899959f3bbc9a50a891257aa5e45af4</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="IHUB_TEMP_TARGET_MAPPING">7fe95d9f3bbc9a50a891257aa5e45aa7</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_b3e95d9f3bbc9a50a891257aa5e45aac</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:19:07</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Name">f499d59f3bbc9a50a891257aa5e45a66</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="Maintenance Schedule">b7bb46a49369ca10c7067a418bba10fc</decision_table>
+        <label>Days: 4,320</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-10 18:38:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cfab5ae493a9ca10c7067a418bba1069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Days: 4,320</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_decision_multi_result_cfab5ae493a9ca10c7067a418bba1069</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-10 18:38:58</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=cfab5ae493a9ca10c7067a418bba1069"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>cfab5ae493a9ca10c7067a418bba1069</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-10 18:38:58</sys_created_on>
+        <sys_id>c3ab5ae493a9ca10c7067a418bba106a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-10 18:38:58</sys_updated_on>
+        <value>4320</value>
+        <variable display_value="Days">52785ee093a9ca10c7067a418bba1050</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>bb87df401b4cc21839a54089bd4bcb8f</instance_id>
+        <instance_name>plants</instance_name>
+        <name>sys_decision_multi_result_cfab5ae493a9ca10c7067a418bba1069</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="Maintenance Schedule">b7bb46a49369ca10c7067a418bba10fc</decision_table><label>Days: 4,320</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>paige.duffey</sys_created_by><sys_created_on>2024-04-10 18:38:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cfab5ae493a9ca10c7067a418bba1069</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Days: 4,320</sys_name><sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package><sys_policy/><sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope><sys_update_name>sys_decision_multi_result_cfab5ae493a9ca10c7067a418bba1069</sys_update_name><sys_updated_by>paige.duffey</sys_updated_by><sys_updated_on>2024-04-10 18:38:58</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=cfab5ae493a9ca10c7067a418bba1069"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>cfab5ae493a9ca10c7067a418bba1069</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>paige.duffey</sys_created_by><sys_created_on>2024-04-10 18:38:58</sys_created_on><sys_id>c3ab5ae493a9ca10c7067a418bba106a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>paige.duffey</sys_updated_by><sys_updated_on>2024-04-10 18:38:58</sys_updated_on><value>4320</value><variable display_value="Days">52785ee093a9ca10c7067a418bba1050</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1175253698</payload_hash>
+        <record_name>Days: 4,320</record_name>
+        <reverted_from/>
+        <source>8079a55a3b694210a891257aa5e45adb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 01:29:56</sys_created_on>
+        <sys_id>3fa96d5a3b694210a891257aa5e45a02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ee48664e70000001</sys_recorded_at>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 01:29:56</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>fba96d5a7d69421014c262f9f7bb0a02</update_guid>
+        <update_guid_history>fba96d5a7d69421014c262f9f7bb0a02:1175253698</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-08-03 06:24:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>198a49f68dd04334832f874469a834e4</sys_id>
+        <sys_metadata>cfab5ae493a9ca10c7067a418bba1069</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Days: 4,320</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_cfab5ae493a9ca10c7067a418bba1069</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_cfab5ae493a9ca10c7067a418bba1069">3fa96d5a3b694210a891257aa5e45a02</sys_update_version>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-08-03 06:24:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

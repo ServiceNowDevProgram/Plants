@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>closed_at</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-16 02:41:49</sys_created_on>
+        <sys_id>7c2a35da3ba94210a891257aa5e45a04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>closed_at</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7c2a35da3ba94210a891257aa5e45a04</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-16 02:41:49</sys_updated_on>
+        <table>x_snc_plant_mgmt_tasks</table>
+        <ui_policy display_value="Show closed only when state = closed">b02af1da3ba94210a891257aa5e45a90</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c2a35da3ba94210a891257aa5e45a04"/>
+</record_update>
