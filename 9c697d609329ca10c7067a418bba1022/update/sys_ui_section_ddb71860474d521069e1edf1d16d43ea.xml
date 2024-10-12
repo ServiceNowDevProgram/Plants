@@ -4,13 +4,13 @@
             <element>pottery_type</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-01 08:42:10</sys_created_on>
-            <sys_id>adb75860474d521069e1edf1d16d4300</sys_id>
+            <sys_created_on>2024-10-12 04:35:17</sys_created_on>
+            <sys_id>dcb8c448839112107e799796feaad312</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pottery Details" display_value="Pottery Details" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">ddb71860474d521069e1edf1d16d43ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-01 08:42:10</sys_updated_on>
+            <sys_updated_on>2024-10-12 04:35:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>placement</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-01 08:42:10</sys_created_on>
-            <sys_id>e9b75860474d521069e1edf1d16d4301</sys_id>
+            <sys_created_on>2024-10-12 04:35:17</sys_created_on>
+            <sys_id>54b8c448839112107e799796feaad313</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pottery Details" display_value="Pottery Details" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">ddb71860474d521069e1edf1d16d43ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-01 08:42:10</sys_updated_on>
+            <sys_updated_on>2024-10-12 04:35:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>pottery_notes</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-01 08:42:10</sys_created_on>
-            <sys_id>e1b75860474d521069e1edf1d16d4302</sys_id>
+            <sys_created_on>2024-10-12 04:35:17</sys_created_on>
+            <sys_id>d4b8c448839112107e799796feaad313</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pottery Details" display_value="Pottery Details" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">ddb71860474d521069e1edf1d16d43ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-01 08:42:10</sys_updated_on>
+            <sys_updated_on>2024-10-12 04:35:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-01 08:42:10</sys_created_on>
-            <sys_id>e9b75860474d521069e1edf1d16d4302</sys_id>
+            <sys_created_on>2024-10-12 04:35:17</sys_created_on>
+            <sys_id>58b8c448839112107e799796feaad313</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pottery Details" display_value="Pottery Details" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">ddb71860474d521069e1edf1d16d43ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-01 08:42:10</sys_updated_on>
+            <sys_updated_on>2024-10-12 04:35:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>size</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-01 08:42:10</sys_created_on>
-            <sys_id>e1b75860474d521069e1edf1d16d4303</sys_id>
+            <sys_created_on>2024-10-12 04:35:17</sys_created_on>
+            <sys_id>d8b8c448839112107e799796feaad313</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pottery Details" display_value="Pottery Details" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">ddb71860474d521069e1edf1d16d43ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-01 08:42:10</sys_updated_on>
+            <sys_updated_on>2024-10-12 04:35:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,27 @@
             <element>pottery_condition</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-01 08:42:10</sys_created_on>
-            <sys_id>e9b75860474d521069e1edf1d16d4303</sys_id>
+            <sys_created_on>2024-10-12 04:35:17</sys_created_on>
+            <sys_id>5cb8c448839112107e799796feaad313</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Pottery Details" display_value="Pottery Details" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">ddb71860474d521069e1edf1d16d43ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-01 08:42:10</sys_updated_on>
+            <sys_updated_on>2024-10-12 04:35:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-12 04:35:17</sys_created_on>
+            <sys_id>dcb8c448839112107e799796feaad313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Pottery Details" display_value="Pottery Details" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">ddb71860474d521069e1edf1d16d43ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-12 04:35:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
