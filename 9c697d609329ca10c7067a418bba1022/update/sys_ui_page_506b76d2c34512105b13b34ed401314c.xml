@@ -1,72 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
-        <client_script><![CDATA[$j('#qrcode').qrcode('${sysparm_url}');
-
-function SendEmail() {
-    var a = document.getElementsByTagName("canvas")[0].toDataURL();
-    var ga = new GlideAjax("SendEmail");
-    ga.addParam('sysparm_name', 'SendEmailUtils');
-    ga.addParam('sysparm_img_name', a);
-    ga.addParam('sysparm_email_id', "admin@example.com");
-    ga.getXML(sendUserEmail);
-
-    function sendUserEmail(response) {
-        var answer = response.responseXML.documentElement.getAttribute("answer");
-    }
-    document.getElementById("popup_close_image").click();
-}
-
-function SendPrint() {
-    var a = document.getElementsByTagName("canvas")[0].toDataURL();
-    var windowContent = '<!DOCTYPE html>';
-    windowContent += '<html>';
-    windowContent += '<head><title>Print canvas</title></head>';
-    windowContent += '<body>';
-    windowContent += '<img src="' + a + '">';
-    windowContent += '</body>';
-    windowContent += '</html>';
-    var printWin = window.open('', '', 'width=' + screen.availWidth + ',height=' + screen.availHeight);
-    printWin.document.open();
-    printWin.document.write(windowContent);
-    printWin.document.addEventListener('load', function() {
-        printWin.focus();
+        <client_script><![CDATA[// Check if the QR code plugin is loaded, and generate the QR code if it is
+if (typeof $j.fn.qrcode !== "undefined") {
+    $j("#qrcode").qrcode("${sysparm_url}");
+  } else {
+    console.error("QR Code plugin not loaded.");
+  }
+  
+  function printQrCode() {
+      // Find the QR code canvas element
+      var canvas = document.getElementsByTagName("canvas")[0];
+      if (!canvas) {
+        console.error("QR code canvas not found.");
+        return;
+      }
+    
+      // Convert the canvas content to a Data URL for the image
+      var dataUrl = canvas.toDataURL();
+    
+      // Build the HTML content for the new print window, containing only the QR code image
+      var windowContent = '<!DOCTYPE html>';
+      windowContent += '<html>';
+      windowContent += '<head><title>Plant QR Code</title></head>';
+      windowContent += '<body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">';
+      windowContent += '<img src="' + dataUrl + '" style="max-width: 100%; max-height: 100%;">';
+      windowContent += '</body>';
+      windowContent += '</html>';
+    
+      // Open a new window for printing
+      var printWin = window.open('', '', 'width=600,height=600');
+      printWin.document.open();
+      printWin.document.write(windowContent);
+      printWin.document.close();
+    
+      // Wait for the content to load, then trigger the print dialog and close the window after printing
+      printWin.addEventListener('load', function () {
         printWin.print();
-        printWin.document.close();
-        printWin.close();
-    }, true);
-}]]></client_script>
+        printWin.close(); // Close the window after printing
+      });
+  }
+  ]]></client_script>
         <description>UI Page for glide dialog window of QR Code</description>
         <direct>false</direct>
-        <endpoint>x_snc_plant_mgmt_QRLink_Page.do</endpoint>
-        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+        <endpoint>x_snc_plant_mgmt_qrlink_page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
-    <script src="/jquery.qrcode.min.jsdbx"></script>
-    <div id="qrcode"></div>
-    <br />
-    <g:ui_reference name="user_list" id="user_list" table="sys_user" query="${jvar_assessor_query}" />
-    <br />
-    <button class="btn btn-info" style="margin-right:10px" OnClick="SendEmail()">
-        <span class="glyphicon glyphicon-envelope"><label style="margin-left:3px;font-family: sans-serif"><b>Email</b></label></span>
-    </button>
-    <button class="btn btn-success" OnClick="SendPrint()">
-        <span class="glyphicon glyphicon-print"><label style="margin-left:3px;font-family: sans-serif"><b>Print</b></label></span>
-    </button>
+    <g:requires name="x_snc_plant_mgmt.jquery.qrcode.min.jsdbx" />
+    <!-- Bootstrap Panel Wrapper -->
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <!-- QR Code Display -->
+            <div id="qrcode" style="padding: 10px;"></div>
+            <!-- Button Group -->
+            <div class="btn-group" style="width: 100%;">
+                <button class="btn btn-success btn-block" onclick="printQrCode()">
+                    <span class="glyphicon glyphicon-print" style="margin-right: 3px;"></span>
+                    <span style="font-family: sans-serif;">
+                        <b>Print</b>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
 </j:jelly>]]></html>
-        <name>QRLink_Page</name>
+        <name>qrlink_page</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-07 07:09:24</sys_created_on>
         <sys_id>506b76d2c34512105b13b34ed401314c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>QRLink_Page</sys_name>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>qrlink_page</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_ui_page_506b76d2c34512105b13b34ed401314c</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-07 07:33:44</sys_updated_on>
+        <sys_updated_by>ivan.betev</sys_updated_by>
+        <sys_updated_on>2024-10-12 17:51:20</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>506b76d2c34512105b13b34ed401314c</id>
