@@ -38,7 +38,7 @@
         <name>x_snc_plant_mgmt_plant_trading</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_plant_mgmt_plant_trading_end_date</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-09 12:11:25</sys_updated_on>
+        <sys_updated_on>2024-10-11 12:39:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
