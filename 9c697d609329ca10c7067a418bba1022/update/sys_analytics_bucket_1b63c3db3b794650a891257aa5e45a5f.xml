@@ -4,6 +4,7 @@
         <application_name>Designing Apps: A practical guide to thi</application_name>
         <bucket_document_id>50f2cb9b3b794650a891257aa5e45a6e</bucket_document_id>
         <bucket_metadata/>
+        <bucket_metadata_customer_override/>
         <bucket_table_name>sp_portal</bucket_table_name>
         <bucket_type>service_portal</bucket_type>
         <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
