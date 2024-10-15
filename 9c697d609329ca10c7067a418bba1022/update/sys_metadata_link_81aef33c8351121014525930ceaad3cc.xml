@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>194eb33c8351121014525930ceaad32f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_care_instructions">
+    <x_snc_plant_mgmt_care_instructions action="INSERT_OR_UPDATE">
+        <diseases/>
+        <fertilizing_schedule display_value="Americas">b1992362eb601100fcfb858ad106fe16</fertilizing_schedule>
+        <number>CARE0001001</number>
+        <pests/>
+        <plant_id display_value="LuckyBamboo-Plant">80f3517c83d1121040737765eeaad350</plant_id>
+        <pruning_guidelines>Trim any yellow or damaged leaves as needed. Prune to maintain shape and encourage healthy growth.</pruning_guidelines>
+        <special_care_notes>Keep in indirect sunlight to prevent leaf burn. Lucky Bamboo prefers warm, humid environments. Rotate the plant occasionally for even growth.&#13;
+&#13;
+</special_care_notes>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 06:25:00</sys_created_on>
+        <sys_id>194eb33c8351121014525930ceaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 06:25:00</sys_updated_on>
+        <watering_schedule display_value="24 x 7">38fa64edc0a8016400f4a5724b0434b8</watering_schedule>
+    </x_snc_plant_mgmt_care_instructions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 06:25:19</sys_created_on>
+        <sys_id>81aef33c8351121014525930ceaad3cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CARE0001001</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_81aef33c8351121014525930ceaad3cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 06:25:19</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_care_instructions</tablename>
+    </sys_metadata_link>
+</record_update>
