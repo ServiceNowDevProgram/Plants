@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">8620f494c3891a108c3abd33e4013183</macroponent>
+        <name>set client state parameters</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+
+    if(api.state.Title == event.payload.params.listTitle)
+    {
+        api.setState("HideList",true);
+        api.setState("Title","");
+    }
+    else{
+    api.setState("Title",event.payload.params.listTitle);
+    api.setState("Table",event.payload.params.table);
+    api.setState("query",event.payload.params.query);
+    api.setState("HideList",false);
+    
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 07:33:06</sys_created_on>
+        <sys_id>04337194c31112109421b71ed4013158</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>set client state parameters</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_ux_client_script_04337194c31112109421b71ed4013158</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 16:11:13</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
