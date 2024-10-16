@@ -91,5 +91,81 @@
             <sys_updated_on>2024-10-04 07:39:58</sys_updated_on>
             <value>Temprature</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_task</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weeding</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_tasks</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:13:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:15:36</sys_updated_on>
+            <value>weeding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_task</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pruning</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_tasks</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:14:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:15:39</sys_updated_on>
+            <value>pruning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_task</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inspect Pests</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_tasks</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:14:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:15:43</sys_updated_on>
+            <value>Pests</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>maintenance_task</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mulching</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_tasks</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 15:15:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 15:15:45</sys_updated_on>
+            <value>Mulching</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
