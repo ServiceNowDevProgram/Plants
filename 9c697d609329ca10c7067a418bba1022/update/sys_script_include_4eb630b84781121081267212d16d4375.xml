@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_plant_mgmt.yesterdays_precip</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Gets yesterdays precipitation from a web API</description>
+        <mobile_callable>true</mobile_callable>
+        <name>yesterdays_precip</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var yesterdays_precip = Class.create();
+yesterdays_precip.prototype = {
+    initialize: function() {},
+
+    getPrecipitation: function(lat, lon) {
+        var precip = new sn_ws.RESTMessageV2('Weather API', 'Default GET');
+		precip.setStringParameterNoEscape('latitude', lat);
+		precip.setStringParameterNoEscape('longitude', lon);
+		var response = precip.execute();
+		var responseBody = JSON.parse(response.getBody());
+		
+		// Get the precipitation value from the returned payload.
+		var precipData = parseFloat(responseBody.daily.precipitation_sum[0]);
+
+		return precipData;
+
+    },
+
+    type: 'yesterdays_precip'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 05:53:20</sys_created_on>
+        <sys_id>4eb630b84781121081267212d16d4375</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>yesterdays_precip</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_script_include_4eb630b84781121081267212d16d4375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 23:08:05</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>4eb630b84781121081267212d16d4375</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 05:53:19</sys_created_on>
+        <sys_id>f5aaf0f04781121081267212d16d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 05:53:19</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

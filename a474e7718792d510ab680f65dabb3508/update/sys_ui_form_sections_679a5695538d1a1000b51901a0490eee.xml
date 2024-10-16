@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="679a5695538d1a1000b51901a0490eee" sys_domain="global" table="x_snc_plants_db_my_plants" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_plants_db_my_plants</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 02:10:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>679a5695538d1a1000b51901a0490eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_plants_db_my_plants</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Mushnik's Plants" source="x_snc_plants_db">a474e7718792d510ab680f65dabb3508</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mushnik's Plants">a474e7718792d510ab680f65dabb3508</sys_scope>
+            <sys_update_name>sys_ui_form_sections_679a5695538d1a1000b51901a0490eee</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 02:10:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="service_portal" name="service_portal">5f7a1295538d1a1000b51901a0490e52</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
