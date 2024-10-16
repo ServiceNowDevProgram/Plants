@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="61bbb5649329ca10c7067a418bba105f" label="Plant Wiki" max_length="40" name="x_snc_plant_mgmt_plant_wiki" type="collection">
-        <element display="true" label="Common Name" max_length="40" name="common_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Last import" max_length="40" name="last_import" type="glide_date"/>
+
         <element choice="2" label="Type" max_length="100" name="type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Herb/Succulent" value="Herb/Succulent"/>
@@ -21,5 +18,4 @@
             </choice>
         </element>
         <element label="Scientific Name" max_length="40" name="scientific_name" type="string"/>
-    </element>
-</database>
+
