@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="plant_type" table="x_snc_plant_mgmt_plants" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>plant_type</element>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:31:24</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>plant_type</sys_name>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_choice_x_snc_plant_mgmt_plants_plant_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:31:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Air Plant</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:36:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>airplant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bonsai</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:34:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>bonsai</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cactus</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:34:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>cactus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flowering</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:31:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>flowering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fruit-bearing</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:35:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>fruit-bearing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indoor Plant</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:36:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>indoorplant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medicinal</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:35:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>medicinal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Succulent</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:33:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>succulent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vegetable</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:35:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>vegetable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pothos</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-16 08:45:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-16 08:45:32</sys_updated_on>
+            <value>Pothos</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
