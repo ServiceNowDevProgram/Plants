@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Plants" name="Plants">9063cc418359d250ae0854b6feaad300</category>
+        <collection>x_snc_plant_mgmt_plants</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_snc_plant_mgmt.WateringDay</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>true</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<table style="border-collapse: collapse; width: 100%; border-style: none; height: 620px;" border="0">
+<tbody>
+<tr><!-- Image cell -->
+<td style="width: 34.0081%; text-align: left; vertical-align: top;"><img src="/sys_attachment.do?sys_id=587700418359d250ae0854b6feaad391" alt="Plant Image" width="612" height="612" /></td>
+<!-- Text cell -->
+<td style="width: 65.9919%; text-align: left; vertical-align: top;">
+<p style="font-size: 14pt; font-family: 'times new roman', times;">Hello ${sys_created_by},</p>
+<p style="font-size: 14pt; font-family: 'times new roman', times;">This is a reminder that the task <strong>${number}</strong> named <strong>${name}</strong> is due today: <strong>${u_watering_due}</strong>.</p>
+<p style="font-size: 14pt; font-family: 'times new roman', times;">Please complete the watering activity and mark the plant as watered before the end of the day.</p>
+<p style="text-decoration: underline; font-size: 14pt; font-family: 'times new roman', times;"><strong>Plant Details:</strong></p>
+<ul style="font-size: 14pt; font-family: 'times new roman', times;">
+<li><strong>Number:</strong> ${number}</li>
+<li><strong>Plant Name:</strong> ${name}</li>
+<li><strong>Watering Due:</strong> ${u_watering_due}</li>
+</ul>
+<p style="font-size: 14pt; font-family: 'times new roman', times;">You can view more details by clicking this: ${mail_script:plantURL}.</p>
+<p style="font-size: 14pt; font-family: 'times new roman', times;">Thank you.</p>
+</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Sending the notification when its due</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>sys_created_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Reminder: Watering is Due today for ${number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 07:48:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f52340018359d250ae0854b6feaad37a</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Sending the notification when its due</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sysevent_email_action_f52340018359d250ae0854b6feaad37a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 13:08:43</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
