@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="name" table="x_snc_plant_mgmt_plants">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_pruning_interval" table="x_snc_plant_mgmt_plants">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Name</column_label>
+        <column_label>Pruning Interval (in days)</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -16,18 +16,18 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>name</element>
+        <element>u_pruning_interval</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_snc_plant_mgmt_plants</name>
@@ -45,15 +45,15 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>paige.duffey</sys_created_by>
-        <sys_created_on>2024-04-16 01:37:58</sys_created_on>
-        <sys_name>Name</sys_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 20:56:32</sys_created_on>
+        <sys_name>Pruning Interval (in days)</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_plant_mgmt_plants_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_plant_mgmt_plants_u_pruning_interval</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 06:12:25</sys_updated_on>
+        <sys_updated_on>2024-10-16 20:56:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
