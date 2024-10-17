@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="plantlist">ccbc53d5834112109822fdc6feaad32c</map>
+        <reference_value_field/>
+        <source_field>u_fertilizer</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_snc_plant_mgmt_importplantdata</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-04 07:08:32</sys_created_on>
+        <sys_id>430f13d9834112109822fdc6feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_fertilizer</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_transform_entry_430f13d9834112109822fdc6feaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-04 07:08:32</sys_updated_on>
+        <target_field>fertilizer</target_field>
+        <target_table>x_snc_plant_mgmt_plantpathologist</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

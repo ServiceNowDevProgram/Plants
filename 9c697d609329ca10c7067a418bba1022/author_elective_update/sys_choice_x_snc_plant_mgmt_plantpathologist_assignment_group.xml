@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="assignment_group" table="x_snc_plant_mgmt_plantpathologist" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:40:28</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>assignment_group</sys_name>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_choice_x_snc_plant_mgmt_plantpathologist_assignment_group</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:40:28</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assignment_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EMEAPlantPathologists</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 07:52:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 07:52:13</sys_updated_on>
+            <value>EMEAPlantPathologists</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assignment_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INDPlantPathologist</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:40:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:40:28</sys_updated_on>
+            <value>indplantpathologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assignment_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USAPlantPathologists</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 07:52:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 07:52:14</sys_updated_on>
+            <value>USAPlantPathologists</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assignment_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AUSPlantPathologist</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:40:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:40:28</sys_updated_on>
+            <value>ausplantpathologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assignment_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAPlantPathologist</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:40:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:40:28</sys_updated_on>
+            <value>saplantpathologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assignment_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EMEAPlantPathologist</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:40:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:40:28</sys_updated_on>
+            <value>emeaplantpathologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assignment_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USAPlantPathologist</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:40:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:40:28</sys_updated_on>
+            <value>usaplantpathologist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>assignment_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TropicalPlantPathologist</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:40:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:40:28</sys_updated_on>
+            <value>tropicalplantpathologist</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
