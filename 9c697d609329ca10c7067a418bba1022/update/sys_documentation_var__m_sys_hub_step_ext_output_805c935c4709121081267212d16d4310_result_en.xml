@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="result" label="Result" language="en" table="var__m_sys_hub_step_ext_output_805c935c4709121081267212d16d4310">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>result</element>
+            <help/>
+            <hint/>
+            <label>Result</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_805c935c4709121081267212d16d4310</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-01 05:05:50</sys_created_on>
+            <sys_id>a436231c4749121081267212d16d43f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Result</sys_name>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_805c935c4709121081267212d16d4310_result_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-01 05:05:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

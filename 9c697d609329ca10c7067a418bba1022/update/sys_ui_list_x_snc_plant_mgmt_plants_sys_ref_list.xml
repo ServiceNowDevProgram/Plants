@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_plant_mgmt_plants" element="NULL" name="x_snc_plant_mgmt_plants" parent="NULL" relationship="NULL" sys_domain="global" view="e384f0717d31311076daf29f52070d7d">c3b80ae983d11210aabecc50ceaad34e</list_id>
+            <list_id display_value="x_snc_plant_mgmt_plants" element="NULL" name="x_snc_plant_mgmt_plants" parent="NULL" relationship="NULL" sys_domain="global" view="df3bb362f832021008dd9cfea425ac28">c3b80ae983d11210aabecc50ceaad34e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_snc_plant_mgmt_plants" element="NULL" name="x_snc_plant_mgmt_plants" parent="NULL" relationship="NULL" sys_domain="global" view="e384f0717d31311076daf29f52070d7d">c3b80ae983d11210aabecc50ceaad34e</list_id>
+            <list_id display_value="x_snc_plant_mgmt_plants" element="NULL" name="x_snc_plant_mgmt_plants" parent="NULL" relationship="NULL" sys_domain="global" view="df3bb362f832021008dd9cfea425ac28">c3b80ae983d11210aabecc50ceaad34e</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -55,7 +55,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-10-17 05:45:36</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">e384f0717d31311076daf29f52070d7d</view>
+            <view display_value="Reference List" name="sys_ref_list">df3bb362f832021008dd9cfea425ac28</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

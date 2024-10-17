@@ -20,6 +20,7 @@
         <label_cache/>
         <latest_snapshot/>
         <master_snapshot/>
+        <master_snapshot_digest/>
         <name>Import Plants</name>
         <natlang/>
         <outputs/>

@@ -6,6 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>paige.duffey</sys_created_by>
             <sys_created_on>2024-04-16 01:38:12</sys_created_on>
+            <sys_id>0ef63c35c39512106d84f73ed4013191</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>tissue_culture</sys_name>
             <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
@@ -29,6 +30,7 @@
             <sys_created_on>2024-04-16 01:38:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a5730f9c39512106d84f73ed4013161</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>paige.duffey</sys_updated_by>
             <sys_updated_on>2024-04-16 01:38:12</sys_updated_on>
@@ -48,6 +50,7 @@
             <sys_created_on>2024-04-16 01:38:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a5730f9c39512106d84f73ed4013162</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>paige.duffey</sys_updated_by>
             <sys_updated_on>2024-04-16 01:38:12</sys_updated_on>
@@ -67,6 +70,7 @@
             <sys_created_on>2024-04-16 01:38:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e5730f9c39512106d84f73ed4013163</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>paige.duffey</sys_updated_by>
             <sys_updated_on>2024-04-16 01:38:12</sys_updated_on>

@@ -47,6 +47,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-02 04:54:19</sys_created_on>
+        <sys_id>e5f6f835c39512106d84f73ed4013146</sys_id>
         <sys_name>Watering due</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>

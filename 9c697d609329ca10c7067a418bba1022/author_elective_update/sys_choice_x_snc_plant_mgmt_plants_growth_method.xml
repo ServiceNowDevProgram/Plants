@@ -6,6 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-10-02 04:06:45</sys_created_on>
+            <sys_id>0ef63c35c39512106d84f73ed4013141</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>growth_method</sys_name>
             <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
@@ -29,6 +30,7 @@
             <sys_created_on>2024-10-02 04:06:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd577cb9c39512106d84f73ed401317a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-10-02 04:06:44</sys_updated_on>
@@ -48,6 +50,7 @@
             <sys_created_on>2024-10-02 04:06:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>71577cb9c39512106d84f73ed401317c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-10-02 04:06:45</sys_updated_on>
@@ -67,6 +70,7 @@
             <sys_created_on>2024-10-02 04:40:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1577cb9c39512106d84f73ed401317d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-10-02 04:40:39</sys_updated_on>
