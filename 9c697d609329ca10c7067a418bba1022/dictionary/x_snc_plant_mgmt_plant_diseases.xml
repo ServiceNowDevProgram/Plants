@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5d7dea6997d112109790fefce053afdd" label="Plant Diseases" max_length="40" name="x_snc_plant_mgmt_plant_diseases" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" reference_qual="null" reference_qual_condition="null" type="string"/>
+        <element label="Solution" max_length="4000" name="solution" type="string"/>
+        <element label="Family" max_length="100" name="family" type="string"/>
+        <element label="Common name" max_length="100" name="common_name" type="string"/>
+        <element label="Host" max_length="300" name="host" type="string"/>
+        <element label="Scientific name" max_length="300" name="scientific_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
