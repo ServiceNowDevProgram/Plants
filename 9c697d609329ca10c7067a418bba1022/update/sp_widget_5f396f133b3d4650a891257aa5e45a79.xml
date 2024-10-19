@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>lab_links</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Lab Links</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-05-01 23:36:51</sys_created_on>
+        <sys_id>5f396f133b3d4650a891257aa5e45a79</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Lab Links</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sp_widget_5f396f133b3d4650a891257aa5e45a79</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-05-07 16:45:15</sys_updated_on>
+        <template><![CDATA[<div class="panel">
+  <div class="panel-heading">
+    <h4 class="panel-title">
+      Lab links
+    </h4>
+  </div>
+  <div class="panel-body">
+    <a href="https://servicenow-events-or-lab-guidebo.gitbook.io/ccl1187-k24/" target="_new1">Guidebook</a>
+    <br /><br />
+    Instance: <a href="https://clabs.link/CCL1187-k24" target="_new2">https://clabs.link/CCL1187-k24</a>
+    <br />
+    Reservation code: 26DWM
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

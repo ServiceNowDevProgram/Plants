@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_definition">
+    <sys_rte_eb_etl_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>true</copy_empty_fields>
+        <description>ETL definition for Plant Wiki Data Mapping</description>
+        <name>Plant Wiki Data Mapping_etl_ihub</name>
+        <on_after_script><![CDATA[(function onAfter(source, target, importLog) {
+
+	// Add your on after code here
+
+})(source, target, importLog);]]></on_after_script>
+        <on_after_script_bool>false</on_after_script_bool>
+        <on_before_script><![CDATA[(function onBefore(source, target, importLog) {
+
+	// Add your on before code here
+
+})(source, target, importLog);]]></on_before_script>
+        <on_before_script_bool>false</on_before_script_bool>
+        <sys_class_name>sys_rte_eb_etl_definition</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-09-27 16:21:42</sys_created_on>
+        <sys_id>798a19df3bbc9a50a891257aa5e45a2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plant Wiki Data Mapping_etl_ihub</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_definition_798a19df3bbc9a50a891257aa5e45a2a</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-09-27 16:21:42</sys_updated_on>
+    </sys_rte_eb_etl_definition>
+</record_update>

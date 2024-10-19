@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">87404c7f3b3d8650a891257aa5e45ae4</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-05-02 19:56:10</sys_created_on>
+        <sys_id>5450087f3b3d8650a891257aa5e45aaa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sp_instance_5450087f3b3d8650a891257aa5e45aaa</sys_update_name>
+        <sys_updated_by>paige.duffey@snc</sys_updated_by>
+        <sys_updated_on>2024-05-06 22:35:06</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h3 class=\"white\">Other sessions of interest...</h3>\r\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1699563734447001h9IE\" target=\"_blank\" rel=\"noopener\">CCB1197: Designing Apps: A discussion of leading practices</a></p>\r\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1699908020770001nl1f\" target=\"_blank\" rel=\"noopener\">CCL1311: Accelerating development with GenerativeAI tools</a></p>\r\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1699563313312001J1ih\" target=\"_blank\" rel=\"noopener\">CCL1195: Application deployment: AEMC managing it all by configuring the pipeline</a></p>\r\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1699563512647001eVrz\" target=\"_blank\" rel=\"noopener\">CCL1196: Application deployment: AEMC taking the next steps with the pipeline</a></p>\r\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1702672546467001YQsd\" target=\"_blank\" rel=\"noopener\">SES1424: Citizen developer 201 - Leverage AEMC to scale citizen development</a></p>\r\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1697783151715001Ntk3\" target=\"_blank\" rel=\"noopener\">CCL1067: Press continue for excellence: How developers elevate Gen AI-generated flows</a></p>",
+		"displayValue": "<h3 class=\"white\">Other sessions of interest...</h3>\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1699563734447001h9IE\" target=\"_blank\" rel=\"noopener\">CCB1197: Designing Apps: A discussion of leading practices</a></p>\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1699908020770001nl1f\" target=\"_blank\" rel=\"noopener\">CCL1311: Accelerating development with GenerativeAI tools</a></p>\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1699563313312001J1ih\" target=\"_blank\" rel=\"noopener\">CCL1195: Application deployment: AEMC managing it all by configuring the pipeline</a></p>\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1699563512647001eVrz\" target=\"_blank\" rel=\"noopener\">CCL1196: Application deployment: AEMC taking the next steps with the pipeline</a></p>\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1702672546467001YQsd\" target=\"_blank\" rel=\"noopener\">SES1424: Citizen developer 201 - Leverage AEMC to scale citizen development</a></p>\n<p class=\"white\"><a href=\"https://knowledge.servicenow.com/flow/servicenow/k24/sessions/page/catalog/session/1697783151715001Ntk3\" target=\"_blank\" rel=\"noopener\">CCL1067: Press continue for excellence: How developers elevate Gen AI-generated flows</a></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=5450087f3b3d8650a891257aa5e45aaa"/>
+</record_update>

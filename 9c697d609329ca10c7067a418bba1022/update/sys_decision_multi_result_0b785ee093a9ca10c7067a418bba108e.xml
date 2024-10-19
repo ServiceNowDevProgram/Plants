@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Maintenance Schedule">b7bb46a49369ca10c7067a418bba10fc</decision_table>
+        <label>Days: 60</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-10 18:25:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b785ee093a9ca10c7067a418bba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Days: 60</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_decision_multi_result_0b785ee093a9ca10c7067a418bba108e</sys_update_name>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-10 18:25:03</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=0b785ee093a9ca10c7067a418bba108e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>0b785ee093a9ca10c7067a418bba108e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>paige.duffey</sys_created_by>
+        <sys_created_on>2024-04-10 18:25:03</sys_created_on>
+        <sys_id>0b785ee093a9ca10c7067a418bba108f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>paige.duffey</sys_updated_by>
+        <sys_updated_on>2024-04-10 18:25:03</sys_updated_on>
+        <value>60</value>
+        <variable display_value="Days">52785ee093a9ca10c7067a418bba1050</variable>
+    </sys_variable_value>
+</record_update>
