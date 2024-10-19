@@ -4,13 +4,13 @@
             <element>u_water_every_days</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 13:08:19</sys_created_on>
-            <sys_id>5e7426115319161000b51901a0490e22</sys_id>
+            <sys_created_on>2024-10-19 05:17:13</sys_created_on>
+            <sys_id>a2655c5ec3119210a7b2f3cc0501318b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">d52da47c4741121081267212d16d43f7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:08:19</sys_updated_on>
+            <sys_updated_on>2024-10-19 05:17:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_watering_due</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 13:08:19</sys_created_on>
-            <sys_id>567426115319161000b51901a0490e23</sys_id>
+            <sys_created_on>2024-10-19 05:17:13</sys_created_on>
+            <sys_id>6e655c5ec3119210a7b2f3cc0501318b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">d52da47c4741121081267212d16d43f7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:08:19</sys_updated_on>
+            <sys_updated_on>2024-10-19 05:17:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>amount_of_water_required_mm</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 13:08:19</sys_created_on>
-            <sys_id>5e7426115319161000b51901a0490e23</sys_id>
+            <sys_created_on>2024-10-19 05:17:13</sys_created_on>
+            <sys_id>e2655c5ec3119210a7b2f3cc0501318c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">d52da47c4741121081267212d16d43f7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:08:19</sys_updated_on>
+            <sys_updated_on>2024-10-19 05:17:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>days_since_last_full_water</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 13:08:19</sys_created_on>
-            <sys_id>567426115319161000b51901a0490e24</sys_id>
+            <sys_created_on>2024-10-19 05:17:13</sys_created_on>
+            <sys_id>6a655c5ec3119210a7b2f3cc0501318c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">d52da47c4741121081267212d16d43f7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:08:19</sys_updated_on>
+            <sys_updated_on>2024-10-19 05:17:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 13:08:19</sys_created_on>
-            <sys_id>5e7426115319161000b51901a0490e24</sys_id>
+            <sys_created_on>2024-10-19 05:17:13</sys_created_on>
+            <sys_id>ee655c5ec3119210a7b2f3cc0501318c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">d52da47c4741121081267212d16d43f7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:08:19</sys_updated_on>
+            <sys_updated_on>2024-10-19 05:17:13</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_last_rain_recorded</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 13:08:19</sys_created_on>
-            <sys_id>567426115319161000b51901a0490e25</sys_id>
+            <sys_created_on>2024-10-19 05:17:13</sys_created_on>
+            <sys_id>66655c5ec3119210a7b2f3cc0501318d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">d52da47c4741121081267212d16d43f7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:08:19</sys_updated_on>
+            <sys_updated_on>2024-10-19 05:17:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>rain_in_last_24_hours</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 13:08:19</sys_created_on>
-            <sys_id>5e7426115319161000b51901a0490e25</sys_id>
+            <sys_created_on>2024-10-19 05:17:13</sys_created_on>
+            <sys_id>ea655c5ec3119210a7b2f3cc0501318d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">d52da47c4741121081267212d16d43f7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:08:19</sys_updated_on>
+            <sys_updated_on>2024-10-19 05:17:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,27 @@
             <element>rain_since_last_full_water</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-16 13:08:19</sys_created_on>
-            <sys_id>567426115319161000b51901a0490e26</sys_id>
+            <sys_created_on>2024-10-19 05:17:13</sys_created_on>
+            <sys_id>62655c5ec3119210a7b2f3cc0501318e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">d52da47c4741121081267212d16d43f7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-16 13:08:19</sys_updated_on>
+            <sys_updated_on>2024-10-19 05:17:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-19 05:17:13</sys_created_on>
+            <sys_id>e6655c5ec3119210a7b2f3cc0501318e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">d52da47c4741121081267212d16d43f7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-19 05:17:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
