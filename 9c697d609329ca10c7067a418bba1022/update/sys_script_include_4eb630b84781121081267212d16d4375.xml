@@ -8,7 +8,6 @@
         <description>Gets yesterdays precipitation from a web API</description>
         <mobile_callable>true</mobile_callable>
         <name>yesterdays_precip</name>
-        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var yesterdays_precip = Class.create();
 yesterdays_precip.prototype = {
     initialize: function() {},

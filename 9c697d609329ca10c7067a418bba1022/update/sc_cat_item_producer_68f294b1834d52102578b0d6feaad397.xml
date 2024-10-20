@@ -47,7 +47,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Arlesha Moore">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture>99ffd87cc3111210bbce341d05013152</picture>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 

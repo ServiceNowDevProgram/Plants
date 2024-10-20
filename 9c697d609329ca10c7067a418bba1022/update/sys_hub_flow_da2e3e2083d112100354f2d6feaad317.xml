@@ -17,6 +17,7 @@
         <internal_name>plant_trading</internal_name>
         <label_cache>[{"name":"10ee61e4-f2e0-47b9-9f9c-494b484af005.record.purchaser.email","label":"10 - Update Record➛Plant Trading Record➛Purchaser➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"30253905-55e9-455a-9070-e373fac384b3":["ah_cc"]}},{"name":"05b596e5-1595-41d7-b177-97b1a25d19d3.record.purchaser.email","label":"4 - Update Record➛Plant Trading Record➛Purchaser➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"43dfa2b6-c889-49c7-b4fb-9919e1b68cf1":["ah_cc"]}},{"name":"10ee61e4-f2e0-47b9-9f9c-494b484af005.record.plant_owner","label":"10 - Update Record➛Plant Trading Record➛Plant owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_plant_mgmt_plant_trading","column_name":"plant_owner","usedInstances":{"30253905-55e9-455a-9070-e373fac384b3":[null]}},{"name":"10ee61e4-f2e0-47b9-9f9c-494b484af005.record.number","label":"10 - Update Record➛Plant Trading Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_plant_mgmt_plant_trading","column_name":"number","usedInstances":{"30253905-55e9-455a-9070-e373fac384b3":[null]}},{"name":"10ee61e4-f2e0-47b9-9f9c-494b484af005.record.purchaser","label":"10 - Update Record➛Plant Trading Record➛Purchaser","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_plant_mgmt_plant_trading","column_name":"purchaser","usedInstances":{"30253905-55e9-455a-9070-e373fac384b3":[null]}},{"name":"10ee61e4-f2e0-47b9-9f9c-494b484af005.record.plant","label":"10 - Update Record➛Plant Trading Record➛Plant","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"reference","base_type":"reference","parent_table_name":"x_snc_plant_mgmt_plant_trading","column_name":"plant","usedInstances":{"30253905-55e9-455a-9070-e373fac384b3":["ah_subject"]}},{"name":"10ee61e4-f2e0-47b9-9f9c-494b484af005.record","label":"10 - Update Record➛Plant Trading Record","reference":"x_snc_plant_mgmt_plant_trading","reference_display":"Plant Trading","type":"reference","base_type":"reference","usedInstances":{"30253905-55e9-455a-9070-e373fac384b3":["ah_to"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c5e4c528-27da-4342-92fe-9ae273cbc60c.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"0e7903ee-bc5b-4ef3-a882-72a54db7c0a2":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"75bedbf5-611c-4304-9f51-ed8a66a6fced.record","label":"1 - Update Record➛Plant Trading Record","reference":"x_snc_plant_mgmt_plant_trading","reference_display":"Plant Trading","type":"reference","base_type":"reference","usedInstances":{"05b596e5-1595-41d7-b177-97b1a25d19d3":["record"],"10ee61e4-f2e0-47b9-9f9c-494b484af005":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.plant_owner","label":"Trigger - Record Updated➛Plant Trading Record➛Plant owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_plant_mgmt_plant_trading","column_name":"plant_owner","usedInstances":{"c5e4c528-27da-4342-92fe-9ae273cbc60c":["approval_conditions"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Plant Trading Record","reference":"x_snc_plant_mgmt_plant_trading","reference_display":"Plant Trading","type":"reference","base_type":"reference","usedInstances":{"75bedbf5-611c-4304-9f51-ed8a66a6fced":["record"],"c5e4c528-27da-4342-92fe-9ae273cbc60c":["record"]},"attributes":{}},{"name":"05b596e5-1595-41d7-b177-97b1a25d19d3.record","label":"4 - Update Record➛Plant Trading Record","reference":"x_snc_plant_mgmt_plant_trading","reference_display":"Plant Trading","type":"reference","base_type":"reference","usedInstances":{"43dfa2b6-c889-49c7-b4fb-9919e1b68cf1":["record"],"0fb15fad-ee1a-403a-805b-4eac20a88942":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"05b596e5-1595-41d7-b177-97b1a25d19d3.record.purchaser","label":"4 - Update Record➛Plant Trading Record➛Purchaser","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_plant_mgmt_plant_trading","column_name":"purchaser","usedInstances":{"43dfa2b6-c889-49c7-b4fb-9919e1b68cf1":["ah_to",null]}},{"name":"05b596e5-1595-41d7-b177-97b1a25d19d3.record.plant","label":"4 - Update Record➛Plant Trading Record➛Plant","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"reference","base_type":"reference","parent_table_name":"x_snc_plant_mgmt_plant_trading","column_name":"plant","usedInstances":{"43dfa2b6-c889-49c7-b4fb-9919e1b68cf1":["ah_subject"]}},{"name":"05b596e5-1595-41d7-b177-97b1a25d19d3.record.number","label":"4 - Update Record➛Plant Trading Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_plant_mgmt_plant_trading","column_name":"number","usedInstances":{"43dfa2b6-c889-49c7-b4fb-9919e1b68cf1":[null]}}]</label_cache>
         <master_snapshot>eeaf4ba0831912100354f2d6feaad303</master_snapshot>
+        <master_snapshot_digest/>
         <name>Plant trading</name>
         <natlang/>
         <outputs/>
@@ -43,8 +44,9 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_hub_flow_da2e3e2083d112100354f2d6feaad317</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 08:54:32</sys_updated_on>
+        <sys_updated_on>2024-10-20 07:45:45</sys_updated_on>
         <type>flow</type>
+        <version/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=da2e3e2083d112100354f2d6feaad317"/>
     <sys_variable_value action="delete_multiple" query="document_key=da2e3e2083d112100354f2d6feaad317"/>
@@ -88,69 +90,6 @@
         <trigger display_value="">9baf8ba0831912100354f2d6feaad319</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=da2e3e2083d112100354f2d6feaad317^sys_idNOT IN0cc5db20839912100354f2d6feaad37a"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=da2e3e2083d112100354f2d6feaad317^sys_idNOT IN81dfbe2483d112100354f2d6feaad3e9"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Plant trading">da2e3e2083d112100354f2d6feaad317</flow>
-        <name>Updated</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 07:12:23</sys_created_on>
-        <sys_id>81dfbe2483d112100354f2d6feaad3e9</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 08:48:10</sys_updated_on>
-        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>record_update</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=81dfbe2483d112100354f2d6feaad3e9"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>81dfbe2483d112100354f2d6feaad3e9</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 07:12:23</sys_created_on>
-        <sys_id>4ddffe2483d112100354f2d6feaad303</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 07:12:23</sys_updated_on>
-        <value>x_snc_plant_mgmt_plant_trading</value>
-        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>81dfbe2483d112100354f2d6feaad3e9</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 07:12:23</sys_created_on>
-        <sys_id>89dffe2483d112100354f2d6feaad303</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 07:12:23</sys_updated_on>
-        <value>purchaserISNOTEMPTY</value>
-        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>81dfbe2483d112100354f2d6feaad3e9</document_key>
-        <order>101</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 07:12:23</sys_created_on>
-        <sys_id>c1dfbe2483d112100354f2d6feaad3ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 07:12:23</sys_updated_on>
-        <value>every</value>
-        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=81dfbe2483d112100354f2d6feaad3e9"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=da2e3e2083d112100354f2d6feaad317"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=da2e3e2083d112100354f2d6feaad317^sys_idNOT IN5e2e3e2083d112100354f2d6feaad31a"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -349,7 +288,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ee9284bef8f2021008dd9cfea425ac2d</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">3bbab03d7df1311076daf29f52070dd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -443,6 +382,69 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f8dfbe2483d112100354f2d6feaad3df"/>
     <sys_hub_flow_output action="delete_multiple" query="model=da2e3e2083d112100354f2d6feaad317"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=da2e3e2083d112100354f2d6feaad317"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=da2e3e2083d112100354f2d6feaad317^sys_idNOT IN81dfbe2483d112100354f2d6feaad3e9"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Plant trading">da2e3e2083d112100354f2d6feaad317</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 07:12:23</sys_created_on>
+        <sys_id>81dfbe2483d112100354f2d6feaad3e9</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 08:48:10</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=81dfbe2483d112100354f2d6feaad3e9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>81dfbe2483d112100354f2d6feaad3e9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 07:12:23</sys_created_on>
+        <sys_id>4ddffe2483d112100354f2d6feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 07:12:23</sys_updated_on>
+        <value>x_snc_plant_mgmt_plant_trading</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>81dfbe2483d112100354f2d6feaad3e9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 07:12:23</sys_created_on>
+        <sys_id>89dffe2483d112100354f2d6feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 07:12:23</sys_updated_on>
+        <value>purchaserISNOTEMPTY</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>81dfbe2483d112100354f2d6feaad3e9</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 07:12:23</sys_created_on>
+        <sys_id>c1dfbe2483d112100354f2d6feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 07:12:23</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=81dfbe2483d112100354f2d6feaad3e9"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=da2e3e2083d112100354f2d6feaad317^sys_idNOT IN0602cba0831512100354f2d6feaad383,85dffe2483d112100354f2d6feaad313,8602cba0831512100354f2d6feaad35c,89dffe2483d112100354f2d6feaad309,8ddffe2483d112100354f2d6feaad31f,abd38fa0835512100354f2d6feaad3e9,afd3cfa0835512100354f2d6feaad300"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1120,7 +1122,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=afd3cfa0835512100354f2d6feaad300"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=afd3cfa0835512100354f2d6feaad300"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=da2e3e2083d112100354f2d6feaad317"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=da2e3e2083d112100354f2d6feaad317^sys_idNOT IN0202cba0831512100354f2d6feaad361,05dffe2483d112100354f2d6feaad317,0602cba0831512100354f2d6feaad386,27d3cfa0835512100354f2d6feaad304,6fd38fa0835512100354f2d6feaad3e2"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -1361,6 +1362,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=6fd38fa0835512100354f2d6feaad3e2"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6fd38fa0835512100354f2d6feaad3e2"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6fd38fa0835512100354f2d6feaad3e2"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=da2e3e2083d112100354f2d6feaad317"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=da2e3e2083d112100354f2d6feaad317^sys_idNOT IN2bd3cfa0835512100354f2d6feaad32d,4202cba0831512100354f2d6feaad396,67d3cfa0835512100354f2d6feaad32d,8202cba0831512100354f2d6feaad389,afd3cfa0835512100354f2d6feaad32c"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>da2e3e2083d112100354f2d6feaad317</attached_to>
@@ -1562,72 +1564,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-14 08:48:08</sys_updated_on>
         <type>flow</type>
+        <version/>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=eeaf4ba0831912100354f2d6feaad303"/>
     <sys_variable_value action="delete_multiple" query="document_key=eeaf4ba0831912100354f2d6feaad303"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=eeaf4ba0831912100354f2d6feaad303^sys_idNOT INc3af4ba0831912100354f2d6feaad3cf"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Plant trading">eeaf4ba0831912100354f2d6feaad303</flow>
-        <name>Updated</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:21:37</sys_created_on>
-        <sys_id>c3af4ba0831912100354f2d6feaad3cf</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 08:48:10</sys_updated_on>
-        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>record_update</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=c3af4ba0831912100354f2d6feaad3cf"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>c3af4ba0831912100354f2d6feaad3cf</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:21:37</sys_created_on>
-        <sys_id>03af4ba0831912100354f2d6feaad3d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 08:21:37</sys_updated_on>
-        <value>purchaserISNOTEMPTY</value>
-        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>c3af4ba0831912100354f2d6feaad3cf</document_key>
-        <order>101</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:21:37</sys_created_on>
-        <sys_id>4faf4ba0831912100354f2d6feaad3d0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 08:21:37</sys_updated_on>
-        <value>every</value>
-        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>c3af4ba0831912100354f2d6feaad3cf</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 08:21:37</sys_created_on>
-        <sys_id>c3af4ba0831912100354f2d6feaad3d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 08:21:37</sys_updated_on>
-        <value>x_snc_plant_mgmt_plant_trading</value>
-        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=c3af4ba0831912100354f2d6feaad3cf"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=eeaf4ba0831912100354f2d6feaad303"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=eeaf4ba0831912100354f2d6feaad303^sys_idNOT INa6af4ba0831912100354f2d6feaad305"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1826,7 +1766,7 @@
         <sys_mod_count>101</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
-        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ee9284bef8f2021008dd9cfea425ac2d</sys_package>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">3bbab03d7df1311076daf29f52070dd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global">global</sys_scope>
         <sys_update_name/>
@@ -1920,6 +1860,69 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b6af4ba0831912100354f2d6feaad33c"/>
     <sys_hub_flow_output action="delete_multiple" query="model=eeaf4ba0831912100354f2d6feaad303"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=eeaf4ba0831912100354f2d6feaad303"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=eeaf4ba0831912100354f2d6feaad303^sys_idNOT INc3af4ba0831912100354f2d6feaad3cf"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Plant trading">eeaf4ba0831912100354f2d6feaad303</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 08:21:37</sys_created_on>
+        <sys_id>c3af4ba0831912100354f2d6feaad3cf</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 08:48:10</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c3af4ba0831912100354f2d6feaad3cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c3af4ba0831912100354f2d6feaad3cf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 08:21:37</sys_created_on>
+        <sys_id>03af4ba0831912100354f2d6feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 08:21:37</sys_updated_on>
+        <value>purchaserISNOTEMPTY</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c3af4ba0831912100354f2d6feaad3cf</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 08:21:37</sys_created_on>
+        <sys_id>4faf4ba0831912100354f2d6feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 08:21:37</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>c3af4ba0831912100354f2d6feaad3cf</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 08:21:37</sys_created_on>
+        <sys_id>c3af4ba0831912100354f2d6feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 08:21:37</sys_updated_on>
+        <value>x_snc_plant_mgmt_plant_trading</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=c3af4ba0831912100354f2d6feaad3cf"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=eeaf4ba0831912100354f2d6feaad303^sys_idNOT IN03af4ba0831912100354f2d6feaad3ac,07af4ba0831912100354f2d6feaad3be,0faf4ba0831912100354f2d6feaad3cc,7eaf4ba0831912100354f2d6feaad39a,87af4ba0831912100354f2d6feaad3c4,cbaf4ba0831912100354f2d6feaad3b6,cfaf4ba0831912100354f2d6feaad3a4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -2597,7 +2600,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cfaf4ba0831912100354f2d6feaad3a4"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cfaf4ba0831912100354f2d6feaad3a4"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=eeaf4ba0831912100354f2d6feaad303"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=eeaf4ba0831912100354f2d6feaad303^sys_idNOT IN3aaf4ba0831912100354f2d6feaad392,7aaf4ba0831912100354f2d6feaad381,7aaf4ba0831912100354f2d6feaad38f,7eaf4ba0831912100354f2d6feaad386,baaf4ba0831912100354f2d6feaad38c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
@@ -2838,6 +2840,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=baaf4ba0831912100354f2d6feaad38c"/>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=baaf4ba0831912100354f2d6feaad38c"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=baaf4ba0831912100354f2d6feaad38c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=eeaf4ba0831912100354f2d6feaad303"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=eeaf4ba0831912100354f2d6feaad303^sys_idNOT IN03af4ba0831912100354f2d6feaad3d2,07af4ba0831912100354f2d6feaad3d2,0baf4ba0831912100354f2d6feaad3d1,83af4ba0831912100354f2d6feaad3d2,8faf4ba0831912100354f2d6feaad3d1"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>eeaf4ba0831912100354f2d6feaad303</attached_to>
@@ -2943,7 +2946,7 @@
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_eeaf4ba0831912100354f2d6feaad303_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-14 08:21:36</sys_updated_on>
         <url/>
@@ -2966,7 +2969,7 @@
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_eeaf4ba0831912100354f2d6feaad303_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-14 08:21:36</sys_updated_on>
         <url/>
@@ -2989,7 +2992,7 @@
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_eeaf4ba0831912100354f2d6feaad303_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-14 08:21:36</sys_updated_on>
         <url/>
