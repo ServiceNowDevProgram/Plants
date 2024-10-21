@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>listConfigId</name>
+        <page display_value="Plant Management">8bf996ba56d95210d756726eafb30d22</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 04:13:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>03f996ba13d95210e95f9ca3d57f7311</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_ux_page_property_03f996ba13d95210e95f9ca3d57f7311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 04:13:28</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_snc_plant_mgmt.8bf996ba56d95210d756726eafb30d22.root.global.listConfigId</unique_name>
+        <value>480ad6bac3d95210336a7c65e40131af</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=03f996ba13d95210e95f9ca3d57f7311"/>
+</record_update>
