@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="DELETE">
+        <directory>update</directory>
+        <documentkey>f10cc6f9971112109790fefce053af7f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Scab</common_name>
+        <description>How Peach scab (Cladosporium carpophilum) occurs?
+Phytophthora reproduces asexually by producing spores and primarily spreads through their dispersal. The spores can be carried by wind, rain, or human activities like pruning or handling infected plants. When they land on susceptible plants, they germinate and cause infection. Sexual reproduction occurs through the formation of overwintering structures called chlamydospores. These chlamydospores can germinate in the next growing season, leading to new fungal growth and further infections.
+
+</description>
+        <family/>
+        <host>peach,</host>
+        <number>PLD0001021</number>
+        <scientific_name>Fusicladium (syn. Cladosporium) carpophilum</scientific_name>
+        <solution>Cultural Practices
+•	Avoid over-fertilization, as excessive nitrogen can promote disease development. Implement proper irrigation practices to minimize moisture on plant surfaces.
+
+•	Consider planting peach varieties that are known to have some level of resistance to peach scab.
+
+•	Inspect trees regularly for early detection of peach scab symptoms, allowing for timely intervention.
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 00:38:29</sys_created_on>
+        <sys_id>f10cc6f9971112109790fefce053af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 00:38:29</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 00:41:32</sys_created_on>
+        <sys_id>eebcca3d971112109790fefce053af01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001021</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_eebcca3d971112109790fefce053af01</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 00:41:32</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>fe8018addbf63554ae4c9027c596196a</instance_id>
+        <instance_name>dev227453</instance_name>
+        <name>sys_metadata_link_eebcca3d971112109790fefce053af01</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_metadata_link"&gt;&lt;sys_metadata_link action="INSERT_OR_UPDATE"&gt;&lt;directory&gt;update&lt;/directory&gt;&lt;documentkey&gt;f10cc6f9971112109790fefce053af7f&lt;/documentkey&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_snc_plant_mgmt_plant_diseases"&gt;
+    &lt;x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE"&gt;
+        &lt;common_name&gt;Scab&lt;/common_name&gt;
+        &lt;description&gt;How Peach scab (Cladosporium carpophilum) occurs?
+Phytophthora reproduces asexually by producing spores and primarily spreads through their dispersal. The spores can be carried by wind, rain, or human activities like pruning or handling infected plants. When they land on susceptible plants, they germinate and cause infection. Sexual reproduction occurs through the formation of overwintering structures called chlamydospores. These chlamydospores can germinate in the next growing season, leading to new fungal growth and further infections.
+
+&lt;/description&gt;
+        &lt;family/&gt;
+        &lt;host&gt;peach,&lt;/host&gt;
+        &lt;number&gt;PLD0001021&lt;/number&gt;
+        &lt;scientific_name&gt;Fusicladium (syn. Cladosporium) carpophilum&lt;/scientific_name&gt;
+        &lt;solution&gt;Cultural Practices
+•	Avoid over-fertilization, as excessive nitrogen can promote disease development. Implement proper irrigation practices to minimize moisture on plant surfaces.
+
+•	Consider planting peach varieties that are known to have some level of resistance to peach scab.
+
+•	Inspect trees regularly for early detection of peach scab symptoms, allowing for timely intervention.
+
+
+&lt;/solution&gt;
+        &lt;sys_class_name&gt;x_snc_plant_mgmt_plant_diseases&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-10-18 00:38:29&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;f10cc6f9971112109790fefce053af7f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-10-18 00:38:29&lt;/sys_updated_on&gt;
+    &lt;/x_snc_plant_mgmt_plant_diseases&gt;
+&lt;/record_update&gt;
+]]&gt;&lt;/payload&gt;&lt;sys_class_name&gt;sys_metadata_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-18 00:41:32&lt;/sys_created_on&gt;&lt;sys_id&gt;eebcca3d971112109790fefce053af01&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;PLD0001021&lt;/sys_name&gt;&lt;sys_package display_value="Plant Management" source="x_snc_plant_mgmt"&gt;9c697d609329ca10c7067a418bba1022&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Plant Management"&gt;9c697d609329ca10c7067a418bba1022&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_metadata_link_eebcca3d971112109790fefce053af01&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-18 00:41:32&lt;/sys_updated_on&gt;&lt;tablename&gt;x_snc_plant_mgmt_plant_diseases&lt;/tablename&gt;&lt;/sys_metadata_link&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1332840694</payload_hash>
+        <record_name>PLD0001021</record_name>
+        <reverted_from/>
+        <source>d2ba6261975112109790fefce053af4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 00:41:32</sys_created_on>
+        <sys_id>aebcca3d971112109790fefce053af03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1929d128ec50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 00:41:32</sys_updated_on>
+        <type>Metadata Snapshot</type>
+        <update_guid>a2bcca3de91112106a8a593659349703</update_guid>
+        <update_guid_history>a2bcca3de91112106a8a593659349703:-1332840694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 04:13:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_metadata_link">sys_metadata_link</sys_db_object>
+        <sys_id>14695bf8db18441cb2897345fb9d72c4</sys_id>
+        <sys_metadata>eebcca3d971112109790fefce053af01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001021</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sys_metadata_link_eebcca3d971112109790fefce053af01</sys_update_name>
+        <sys_update_version display_value="sys_metadata_link_eebcca3d971112109790fefce053af01">aebcca3d971112109790fefce053af03</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 04:13:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
