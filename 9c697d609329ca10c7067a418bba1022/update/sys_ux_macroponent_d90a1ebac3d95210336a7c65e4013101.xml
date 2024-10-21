@@ -1855,46 +1855,12 @@
                                 "isNonDestructive": false,
                                 "items": [],
                                 "overrides": {
-                                    "composition": [
-                                        {
-                                            "definition": {
-                                                "id": "0e238931bce36c9fe3b52475c69c85a3",
-                                                "type": "MACROPONENT"
-                                            },
-                                            "elementId": "attachment",
-                                            "elementLabel": "Attachment tab item",
-                                            "eventMappings": [],
-                                            "extensionPoints": [],
-                                            "isHero": false,
-                                            "isHidden": {
-                                                "type": "JSON_LITERAL",
-                                                "value": null
-                                            },
-                                            "isNonDestructive": false,
-                                            "items": [],
-                                            "overrides": null,
-                                            "preset": {
-                                                "controllerElementId": "record",
-                                                "disabledEventTargetIds": [],
-                                                "id": "91616e506c60c163a00d1ac6f5568746"
-                                            },
-                                            "propertyValues": {},
-                                            "slot": null,
-                                            "styles": null
-                                        }
-                                    ],
+                                    "composition": [],
                                     "layout": {
                                         "default": {
                                             "children": null,
                                             "isInline": null,
-                                            "items": [
-                                                {
-                                                    "element_id": "attachment",
-                                                    "styles": {
-                                                        "position": "relative"
-                                                    }
-                                                }
-                                            ],
+                                            "items": [],
                                             "root": null,
                                             "rules": null,
                                             "styles": {
@@ -2154,7 +2120,7 @@
                         "border-top": "1px solid RGB(var(--now-color--divider-secondary, var(--now-color--neutral-3)))",
                         "margin-top": "calc(2rem * var(--now-scale-space--xl, 1))",
                         "overflow": "hidden",
-                        "width": "100%"
+                        "width": ""
                     },
                     "triggers": [
                         {
@@ -2166,12 +2132,43 @@
             ],
             "layout": {}
         },
-        "preset": {
-            "controllerElementId": "record",
-            "disabledEventTargetIds": [],
-            "id": "e8db8b59f978c9e9329d1140af585dc7"
-        },
+        "preset": null,
         "propertyValues": {
+            "actionBar": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "actionBarConfig": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "leftIcon": "record-activity-details-fill",
+                    "leftTooltip": "Display left pane only",
+                    "middleIcon": "record-activity-stream-outline",
+                    "middleTooltip": "Display both panes",
+                    "rightIcon": "record-activity-outline",
+                    "rightTooltip": "Display right pane only"
+                }
+            },
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "bottomPaneAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Bottom pane"
+                }
+            },
+            "bottomPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+            },
+            "defaultDisplayedPane": {
+                "type": "JSON_LITERAL",
+                "value": "both"
+            },
             "defaultDividerPosition": {
                 "binding": {
                     "address": [
@@ -2190,9 +2187,62 @@
                 },
                 "type": "DATA_OUTPUT_BINDING"
             },
+            "displayDividerButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "dividerAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Resizable panes divider"
+                }
+            },
+            "dividerButtonConfig": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "buttonProps": {
+                        "icon": "chevron-left-outline"
+                    },
+                    "position": "top"
+                }
+            },
+            "dividerHandleTooltip": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Resizable panes divider handle"
+                }
+            },
+            "dividerStyles": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "leftPaneAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Left pane"
+                }
+            },
             "leftPaneConstraints": {
                 "type": "JSON_LITERAL",
                 "value": "{\"minRatio\": 20, \"minPixels\": 508}"
+            },
+            "panesPosition": {
+                "type": "JSON_LITERAL",
+                "value": "left-right"
+            },
+            "rightPaneAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Right pane"
+                }
             },
             "rightPaneConstraints": {
                 "binding": {
@@ -2202,6 +2252,18 @@
                     ]
                 },
                 "type": "DATA_OUTPUT_BINDING"
+            },
+            "topPaneAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Top pane"
+                }
+            },
+            "topPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 20, \"minPixels\": 100}"
             }
         },
         "slot": null,
@@ -4820,6 +4882,9 @@
   "message" : "Attachment",
   "comment" : ""
 }, {
+  "message" : "Bottom pane",
+  "comment" : ""
+}, {
   "message" : "Cancel",
   "comment" : ""
 }, {
@@ -4841,6 +4906,9 @@
   "message" : "Editable record form only",
   "comment" : ""
 }, {
+  "message" : "Left pane",
+  "comment" : ""
+}, {
   "message" : "List of record activities and input fields for posting work notes or comments",
   "comment" : ""
 }, {
@@ -4853,10 +4921,22 @@
   "message" : "RelatedList",
   "comment" : ""
 }, {
+  "message" : "Resizable panes divider",
+  "comment" : ""
+}, {
+  "message" : "Resizable panes divider handle",
+  "comment" : ""
+}, {
+  "message" : "Right pane",
+  "comment" : ""
+}, {
   "message" : "Security constraints prevent access to requested page",
   "comment" : ""
 }, {
   "message" : "Template",
+  "comment" : ""
+}, {
+  "message" : "Top pane",
   "comment" : ""
 }, {
   "message" : "Yes",
@@ -4874,14 +4954,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 04:13:32</sys_created_on>
         <sys_id>d90a1ebac3d95210336a7c65e4013101</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Plants Record Page</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_ux_macroponent_d90a1ebac3d95210336a7c65e4013101</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 04:13:33</sys_updated_on>
+        <sys_updated_on>2024-10-21 12:47:53</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d90a1ebac3d95210336a7c65e4013101"/>
 </record_update>

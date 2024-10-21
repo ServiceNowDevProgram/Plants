@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Plant WIKI">9bd8104bc3959210336a7c65e4013176</action>
+        <active>true</active>
+        <color>secondary</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Plant WIKI</label>
+        <layout_group/>
+        <name>Plant WIKI</name>
+        <order>100</order>
+        <overflow>false</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:27:44</sys_created_on>
+        <sys_id>d7d8104bc3959210336a7c65e401317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plant WIKI</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_d7d8104bc3959210336a7c65e401317a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:27:44</sys_updated_on>
+        <table>x_snc_plant_mgmt_plants</table>
+    </sys_ux_form_action_layout_item>
+</record_update>
