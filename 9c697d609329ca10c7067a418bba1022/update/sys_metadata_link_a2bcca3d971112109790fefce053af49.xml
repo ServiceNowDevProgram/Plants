@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f50ccaf9971112109790fefce053af73</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Powdery mildew (Podosphaera leucotricha)</common_name>
+        <description>How does Powdery Mildew (Podosphaera leucotricha) occur?
+Powdery mildew reproduces through a combination of asexual and sexual methods. It produces asexual spores called conidia, which spread through wind or insects, causing new infections. Under specific conditions, it forms sexual fruiting bodies called chasmothecia, which produce sexual spores called ascospores. These ascospores can survive tough conditions and infect plants in the following seasons. The ability to reproduce both ways helps powdery mildew survive, spread, and adapt as a plant disease.
+
+</description>
+        <family/>
+        <host>quince,</host>
+        <number>PLD0001032</number>
+        <scientific_name>Podosphaera leucotricha</scientific_name>
+        <solution>Biological Control
+•	Plant oil extracts, like sunflower, olive, and canola oils, can control powdery mildew symptoms.
+
+•	Biocontrol organisms (e.g., Ampelomyces mycoparasites, Bacillus species) show varying success.
+
+•	Research is ongoing to identify effective biocontrol agents and naturally derived antimicrobial compounds.
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 00:38:29</sys_created_on>
+        <sys_id>f50ccaf9971112109790fefce053af73</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 04:08:16</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 00:41:32</sys_created_on>
+        <sys_id>a2bcca3d971112109790fefce053af49</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PLD0001032</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_a2bcca3d971112109790fefce053af49</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 04:10:29</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>

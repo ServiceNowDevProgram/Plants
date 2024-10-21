@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_plant_mgmt.get_plant_diseases</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Once of script to get the plant diseases from an external source. Do not run this more than once otherwise duplicates will exist.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>get_plant_diseases</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var get_plant_diseases = Class.create();
+get_plant_diseases.prototype = {
+    initialize: function() {
+    },
+
+	getPlantDiseases: function() {
+        var diseases = new sn_ws.RESTMessageV2('Plant disease import', 'Get Plant Diseases');
+		diseases.setStringParameterNoEscape('key', gs.getProperty('x_snc_plant_mgmt.plant_diseases_api_key'));
+		var response = diseases.execute();
+		var responseBody = JSON.parse(response.getBody());
+		
+		// Get the data value from the returned payload and add to table.
+		for (var i = 0; i < responseBody.data.length; i++) {
+
+			var commonName = responseBody.data[i].common_name.toString();
+			var scientificName = responseBody.data[i].scientific_name.toString();
+			var family = '';
+			if (responseBody.data[i].family) {
+				family = responseBody.data[i].family.toString();
+			}
+			
+			for (var j = 0; j < responseBody.data[i].description.length; j++) {
+				var description = '';
+
+				description = responseBody.data[i].description[j].subtitle.toString() + '\n' + responseBody.data[i].description[j].description.toString() + '\n\n';
+
+			}
+
+			for (var k = 0; k < responseBody.data[i].solution.length; k++) {
+				var solution = '';
+
+				solution = responseBody.data[i].solution[k].subtitle.toString() + '\n' + responseBody.data[i].solution[k].description.toString() + '\n\n';
+				
+			}
+
+			for (var l = 0; l < responseBody.data[i].host.length; l++) {
+				var host = '';
+
+				host = responseBody.data[i].host[l] + ',';
+				
+			}
+
+			var diseaseRecord = new GlideRecord('x_snc_plant_mgmt_plant_diseases');
+			diseaseRecord.initialize();
+			diseaseRecord.common_name = commonName;
+			diseaseRecord.scientific_name = scientificName;
+			diseaseRecord.family = family;
+			diseaseRecord.description = description;
+			diseaseRecord.solution = solution;
+			diseaseRecord.host = host;
+			diseaseRecord.insert();
+			
+
+		}
+		
+		
+		
+
+    },
+
+    type: 'get_plant_diseases'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 00:11:25</sys_created_on>
+        <sys_id>0bb58e71971112109790fefce053af28</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>get_plant_diseases</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_script_include_0bb58e71971112109790fefce053af28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 04:20:28</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0bb58e71971112109790fefce053af28</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-18 00:11:24</sys_created_on>
+        <sys_id>55d586f1971112109790fefce053afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-18 00:11:24</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
