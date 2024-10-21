@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
-        <documentkey>3d0ccaf9971112109790fefce053af74</documentkey>
+        <documentkey>272d160f975112109790fefce053afa6</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
     <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
         <common_name>Powdery mildew (Podosphaera tridactyla)</common_name>
@@ -11,7 +11,7 @@ Erysiphe cichoracearum survives winter as spore-forming structures called cleist
 </description>
         <family/>
         <host>prune,</host>
-        <number>PLD0001035</number>
+        <number>PLD0001030</number>
         <scientific_name>Podosphaera tridactyla</scientific_name>
         <solution>Chemical Control
 •	Available fungicides for powdery mildew control include propiconazole (Orbit, Bumper), thiophanate methyl (Topsin-M), pyraclostrobin/boscalid (Pristine), myclobutanil (Rally), sulfur dust, wettable sulfur, and liquid lime sulfur.
@@ -22,26 +22,26 @@ Erysiphe cichoracearum survives winter as spore-forming structures called cleist
 </solution>
         <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-18 00:38:29</sys_created_on>
-        <sys_id>3d0ccaf9971112109790fefce053af74</sys_id>
+        <sys_created_on>2024-10-21 23:05:50</sys_created_on>
+        <sys_id>272d160f975112109790fefce053afa6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 04:08:24</sys_updated_on>
+        <sys_updated_on>2024-10-21 23:06:28</sys_updated_on>
     </x_snc_plant_mgmt_plant_diseases>
 </record_update>
 ]]></payload>
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-18 00:41:28</sys_created_on>
-        <sys_id>e5bc4a3d971112109790fefce053afaa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>PLD0001035</sys_name>
+        <sys_created_on>2024-10-21 23:07:03</sys_created_on>
+        <sys_id>6d7d1a0f975112109790fefce053af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001030</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name>sys_metadata_link_e5bc4a3d971112109790fefce053afaa</sys_update_name>
+        <sys_update_name>sys_metadata_link_6d7d1a0f975112109790fefce053af89</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 04:10:27</sys_updated_on>
+        <sys_updated_on>2024-10-21 23:07:03</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
     </sys_metadata_link>
 </record_update>

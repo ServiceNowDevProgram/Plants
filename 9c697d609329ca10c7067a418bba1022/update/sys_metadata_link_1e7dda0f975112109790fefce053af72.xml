@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
     <sys_metadata_link action="INSERT_OR_UPDATE">
         <directory>update</directory>
-        <documentkey>f10ccaf9971112109790fefce053af75</documentkey>
+        <documentkey>6f2d160f975112109790fefce053afa6</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
     <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
         <common_name>Powdery mildew (Sphaerotheca pannosa)</common_name>
@@ -11,7 +11,7 @@ Powdery mildew begins with fungal spores in favorable conditions. It spreads thr
 </description>
         <family/>
         <host>various trees and shrubs,</host>
-        <number>PLD0001036</number>
+        <number>PLD0001031</number>
         <scientific_name>Sphaerotheca pannosa</scientific_name>
         <solution>Chemical control
 In severe cases, Options include sulfur-based fungicides for organic gardening and synthetic fungicides such as triazoles, strobilurins, and demethylation inhibitors (DMIs). Consult local gardening or agricultural authorities for recommended fungicides and application timings.
@@ -19,26 +19,26 @@ In severe cases, Options include sulfur-based fungicides for organic gardening a
 </solution>
         <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-18 00:38:29</sys_created_on>
-        <sys_id>f10ccaf9971112109790fefce053af75</sys_id>
+        <sys_created_on>2024-10-21 23:05:50</sys_created_on>
+        <sys_id>6f2d160f975112109790fefce053afa6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 04:08:07</sys_updated_on>
+        <sys_updated_on>2024-10-21 23:06:44</sys_updated_on>
     </x_snc_plant_mgmt_plant_diseases>
 </record_update>
 ]]></payload>
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-18 00:41:32</sys_created_on>
-        <sys_id>eebcca3d971112109790fefce053af04</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>PLD0001036</sys_name>
+        <sys_created_on>2024-10-21 23:07:07</sys_created_on>
+        <sys_id>1e7dda0f975112109790fefce053af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001031</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name>sys_metadata_link_eebcca3d971112109790fefce053af04</sys_update_name>
+        <sys_update_name>sys_metadata_link_1e7dda0f975112109790fefce053af72</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 04:10:29</sys_updated_on>
+        <sys_updated_on>2024-10-21 23:07:07</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
     </sys_metadata_link>
 </record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a72d9ecb975112109790fefce053af84</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Fungi Nuisance</common_name>
+        <description>How does Nuisance fungi (Panaeolus foenisecii) Occur?
+Dog vomit fungus, or Fuligo septica reproduces through spores released by the fungus. When conditions are suitable, the spores germinate and form a plasmodium, a mass of protoplasm that moves and feeds on decaying organic matter. The plasmodium matures into the characteristic slime mold, resembling vomit. Within the slime mold, sporangia develop, producing and releasing spores to complete the reproductive cycle.
+
+</description>
+        <family/>
+        <host>all lawn grasses,</host>
+        <number>PLD0001003</number>
+        <scientific_name> Panaeolus foenisecii </scientific_name>
+        <solution>Proper Lawn Maintenance
+•	Regularly mow the lawn at the appropriate height to promote healthy grass growth.
+•	Avoid overwatering or poor drainage conditions, as excessive moisture can contribute to mushroom growth.
+•	Reduce thatch buildup by dethatching the lawn when necessary.
+•	Ensure proper disposal of organic debris and avoid burying it in the lawn.
+•	Use a lawn aerator to improve water penetration and reduce the development of dense fungal mats.
+•	Regularly pick or remove mushrooms as soon as they appear to prevent the spread of spores.
+•	Apply nitrogen fertilizer at a rate of 1 pound of actual nitrogen per 1,000 square feet of lawn to hasten the decomposition of organic matter and discourage mushroom growth.
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:49</sys_created_on>
+        <sys_id>a72d9ecb975112109790fefce053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:49</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:08</sys_created_on>
+        <sys_id>e27dda0f975112109790fefce053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001003</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_e27dda0f975112109790fefce053af88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:08</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>
