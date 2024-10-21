@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
     <par_dashboard_user_metadata action="INSERT_OR_UPDATE">
         <background_color/>
-        <cache_expiration_time/>
+        <cache_expiration_time>24</cache_expiration_time>
         <card_bg_image/>
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <created_on>2022-05-29 16:29:20</created_on>
@@ -18,8 +18,8 @@
         <include_thresholds>false</include_thresholds>
         <include_trends>false</include_trends>
         <include_widget_notification>false</include_widget_notification>
-        <last_updated_on>2023-04-25 19:19:30</last_updated_on>
-        <po_project_id_list/>
+        <last_updated_on>2024-10-21 05:11:56</last_updated_on>
+        <po_project_id_list>[]</po_project_id_list>
         <refresh_information>false</refresh_information>
         <refresh_interval/>
         <requested_by_user/>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3f996badcd95210bc0e868d3065641a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>par_dashboard_user_metadata_c3f996badcd95210bc0e868d3065641a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 04:13:27</sys_updated_on>
+        <sys_updated_on>2024-10-21 05:11:56</sys_updated_on>
         <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
     </par_dashboard_user_metadata>
