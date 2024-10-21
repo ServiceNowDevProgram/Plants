@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_cannot_read_mtom">
+    <kb_uc_cannot_read_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="Plant Care Manual">9bc0994fc3111210f77799cc050131fc</kb_knowledge_base>
+        <sys_class_name>kb_uc_cannot_read_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 17:33:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5521994fc3111210f77799cc0501311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plant Care Manual.Guest User</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>kb_uc_cannot_read_mtom_5521994fc3111210f77799cc0501311f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 17:33:37</sys_updated_on>
+        <user_criteria display_value="Guest User">76f09af6cb1200108ad442fcf7076dbf</user_criteria>
+    </kb_uc_cannot_read_mtom>
+</record_update>
