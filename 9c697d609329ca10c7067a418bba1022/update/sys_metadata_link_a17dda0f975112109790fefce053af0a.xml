@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2b2d9ecb975112109790fefce053af83</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Fairy ring</common_name>
+        <description>How Does Fairy Ring Occur?
+Fairy rings are formed when underground fungal mycelia expand in a circular pattern. They release spores from mushrooms at the ring's edge, which can spread through air, animals, or water to create new colonies. The mycelia consume nutrients and cause the circular pattern to grow, resulting in fairy rings.
+
+</description>
+        <family/>
+        <host>all lawn grasses,</host>
+        <number>PLD0001002</number>
+        <scientific_name>Agrocybe</scientific_name>
+        <solution>Chemical Treatment
+•  Propiconazole, thiophanate-methyl, Azoxystrobin (Heritage) and flutolanil (Prostar WG) are fungicides that can hinder the growth of fairy ring-causing fungi. These fungicides either inhibit the fungi's respiration process or disrupt their cell membrane synthesis.
+ Follow the manufacturer's instructions carefully.
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:49</sys_created_on>
+        <sys_id>2b2d9ecb975112109790fefce053af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:49</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:04</sys_created_on>
+        <sys_id>a17dda0f975112109790fefce053af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001002</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_a17dda0f975112109790fefce053af0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:04</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>
