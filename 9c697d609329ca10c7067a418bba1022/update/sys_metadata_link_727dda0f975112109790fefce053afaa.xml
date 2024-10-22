@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>af2d160f975112109790fefce053afa2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>European canker (Necria canker)</common_name>
+        <description>How does European canker (Neonectria ditissima) occur?
+Apple canker is caused by a fungal pathogen that reproduces through spores. Infection occurs through leaf scars, wounds, pruning cuts, or broken twigs. Rain or irrigation spreads the spores, while airborne spores from older cankers can intensify the disease. The fungus invades the tree, damaging the bark and cambium layer, leading to the formation of cankers. These cankers produce spore-bearing structures, contributing to further spread and reproduction. 
+
+</description>
+        <family/>
+        <host>pear,</host>
+        <number>PLD0001024</number>
+        <scientific_name>Nectria galligena</scientific_name>
+        <solution>Fungicide Application (if necessary)
+•	For the control of European canker, fungicides like Captan 80 WDG, copper-based products (such as Bordeaux 8-8-100), C-O-C-S WDG, Copper-Count-N, Cuprofix Ultra 40 Disperss, Kocide 3000, Nu-Cop 50 DF, and Ziram 76 DF have been used.
+
+•	Each fungicide has specific application rates and reentry intervals. It is important to consult local regulations and experts for accurate and up-to-date information on fungicide availability and usage for European canker control in your area.
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:50</sys_created_on>
+        <sys_id>af2d160f975112109790fefce053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:50</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:09</sys_created_on>
+        <sys_id>727dda0f975112109790fefce053afaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001024</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_727dda0f975112109790fefce053afaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:09</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>
