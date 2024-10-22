@@ -11,7 +11,7 @@ g_modal.showFrame({
 	size:'lg',
 	height:500,
 });
-//dialog.render();
+
 }]]></client_script_v2>
         <comments/>
         <condition/>
@@ -34,7 +34,7 @@ g_modal.showFrame({
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Plant WIKI</name>
+        <name>Plant Wiki</name>
         <onclick>showPlantPopup()</onclick>
         <order>100</order>
         <script/>
@@ -48,15 +48,15 @@ g_modal.showFrame({
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32f69487c3959210336a7c65e4013169</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Plant WIKI</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Plant Wiki</sys_name>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_ui_action_32f69487c3959210336a7c65e4013169</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 13:37:35</sys_updated_on>
+        <sys_updated_on>2024-10-22 03:53:23</sys_updated_on>
         <table>x_snc_plant_mgmt_plants</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
