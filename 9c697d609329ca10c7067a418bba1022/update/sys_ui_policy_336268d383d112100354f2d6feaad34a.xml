@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_snc_plant_mgmt_plant_trading">trade_type=trade^EQ<item display_value="Trade" endquery="false" field="trade_type" goto="false" newquery="false" operator="=" or="false" value="trade"/>
+        <conditions table="x_snc_plant_mgmt_plant_trading">trade_status=completed^ORtrade_status=rejected^EQ<item display_value="Completed" endquery="false" field="trade_status" goto="false" newquery="false" operator="=" or="false" value="completed"/>
+            <item display_value="Rejected" endquery="false" field="trade_status" goto="false" newquery="false" operator="=" or="true" value="rejected"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -21,22 +22,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Show Plant cost and Trade Terms &amp; Conditions if Trade type is Trade</short_description>
+        <short_description>Make all fields read-only when Trade status is Completed or Rejected</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-09 12:34:02</sys_created_on>
+        <sys_created_on>2024-10-22 08:48:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9f599a07830552100354f2d6feaad321</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Show Plant cost and Trade Terms &amp; Conditions if Trade type is Trade</sys_name>
+        <sys_id>336268d383d112100354f2d6feaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make all fields read-only when Trade status is Completed or Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name>sys_ui_policy_9f599a07830552100354f2d6feaad321</sys_update_name>
+        <sys_update_name>sys_ui_policy_336268d383d112100354f2d6feaad34a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 08:44:21</sys_updated_on>
+        <sys_updated_on>2024-10-22 08:48:40</sys_updated_on>
         <table>x_snc_plant_mgmt_plant_trading</table>
         <ui_type>0</ui_type>
         <view/>

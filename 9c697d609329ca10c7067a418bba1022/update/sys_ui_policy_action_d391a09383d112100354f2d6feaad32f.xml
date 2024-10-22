@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>trade_terms_conditions</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 08:44:33</sys_created_on>
+        <sys_id>d391a09383d112100354f2d6feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trade_terms_conditions</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d391a09383d112100354f2d6feaad32f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 08:44:33</sys_updated_on>
+        <table>x_snc_plant_mgmt_plant_trading</table>
+        <ui_policy display_value="Show Plant cost and Trade Terms &amp; Conditions if Trade type is Trade">9f599a07830552100354f2d6feaad321</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=d391a09383d112100354f2d6feaad32f"/>
+</record_update>
