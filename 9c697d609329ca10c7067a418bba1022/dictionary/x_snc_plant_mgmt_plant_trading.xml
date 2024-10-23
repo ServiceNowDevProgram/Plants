@@ -18,7 +18,7 @@
         </element>
         <element label="Trade Terms &amp; Conditions" max_length="400" name="trade_terms_conditions" type="translated_text"/>
         <element label="Plant photo" max_length="40" name="plant_photo" type="user_image"/>
-        <element label="Plant Location" max_length="32" name="plant_location" reference="x_snc_plant_mgmt_plants" type="reference"/>
+        <element label="Plant Location" max_length="40" name="plant_location" read_only="true" type="translated_text"/>
         <element label="Plant cost" max_length="20" name="plant_cost" type="currency"/>
         <element label="Start date" max_length="40" name="start_date" read_only="true" type="glide_date_time"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
