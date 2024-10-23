@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>af2d9ecb975112109790fefce053af88</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Brown rot</common_name>
+        <description>How does Brown rot (monilinia ssp) occur? 
+The disease occurs when the fungal pathogen enters fruit trees through wounds or direct contact with infected material or airborne spores. It thrives in warm and humid conditions. 
+The fungus can infect fruit through wounds, such as insect bites, cracks, or bruises, or by direct contact with infected plant material. Once the fungus enters the fruit, it rapidly spreads, causing the fruit to rot and develop a fuzzy fungal growth. Spores produced by the fungus can be carried by wind, rain, or insects to infect other fruit or nearby trees, leading to further spread of the disease. 
+
+</description>
+        <family/>
+        <host>stone fruit,</host>
+        <number>PLD0001011</number>
+        <scientific_name>Monilinia spp.</scientific_name>
+        <solution>Chemical Control
+To prevent and control this fungal disease in fruit trees, use fungicides like Captan, Myclobutanil, Thiophanate-methyl, and Propiconazole. Copper fungicides and sulfur powders can be applied weekly, while Tanglefoot® Pruning Sealer is used to seal cuts and wounds. Organocide® Plant Doctor and Bonide® Orchard Spray are eco-friendly options that can be applied as foliar sprays.
+
+Consult with a professional to determine the best treatment option for brown rot, follow the instructions provided by the fungicide manufacturer carefully, and spray all parts of the plant thoroughly, especially new shoots.
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:49</sys_created_on>
+        <sys_id>af2d9ecb975112109790fefce053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:49</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:09</sys_created_on>
+        <sys_id>727dda0f975112109790fefce053afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001011</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_727dda0f975112109790fefce053afad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:09</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>
