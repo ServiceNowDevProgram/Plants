@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>eb2d160f975112109790fefce053af9c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Crown gall</common_name>
+        <description>How does crown gall (Agrobacterium tumefaciens) occur? 
+Crown gall occurs when plants become infected with Agrobacterium tumefaciens. The bacterium enters the plant through wounds or natural openings and transfers its DNA, known as T-DNA, into the plant cells. 
+This DNA becomes integrated into the plant's genetic material, causing the cells to divide uncontrollably and resulting in the formation of galls. The infection can spread within the plant and to other plants through various means such as soil, water, or infected plant parts.
+
+
+</description>
+        <family/>
+        <host>caneberry,</host>
+        <number>PLD0001013</number>
+        <scientific_name>Agrobacterium tumefaciens</scientific_name>
+        <solution>Chemical Control and Biocontrol
+•	Consult with local agricultural extension services for chemical control options.
+
+•	Chemical control options for crown gall include Agrobacterium radiobacter strain K84, copper-based fungicides, and antibiotics like streptomycin or tetracycline.
+
+•	Biocontrol products like Bacillus subtilis-based products, Trichoderma spp., and Pseudomonas fluorescens-based products can also be used. 
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:49</sys_created_on>
+        <sys_id>eb2d160f975112109790fefce053af9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:49</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:10</sys_created_on>
+        <sys_id>df7dda0f975112109790fefce053afd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001013</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_df7dda0f975112109790fefce053afd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:10</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>

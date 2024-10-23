@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Enter your API key obtained from https://perenual.com into the value fild</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_plant_mgmt.plant_diseases_api_key</name>
+        <read_roles/>
+        <suffix>plant_diseases_api_key</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 04:19:04</sys_created_on>
+        <sys_id>8f1b5afa971112109790fefce053af8a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_snc_plant_mgmt.plant_diseases_api_key</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_properties_8f1b5afa971112109790fefce053af8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:09:35</sys_updated_on>
+        <type>string</type>
+        <value/>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=8f1b5afa971112109790fefce053af8a"/>
+</record_update>
