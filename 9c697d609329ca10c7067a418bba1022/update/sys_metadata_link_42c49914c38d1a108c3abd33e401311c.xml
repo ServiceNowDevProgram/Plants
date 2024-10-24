@@ -8,17 +8,21 @@
         <date_last_watered/>
         <date_planted/>
         <days_since_last_full_water/>
+        <description/>
         <growth_method/>
         <hardiness_zone/>
         <image>41af8598c34d1a108c3abd33e401316c</image>
         <issue/>
         <located_outdoors>false</located_outdoors>
         <location display_value="10065 East Harvard Avenue, Denver,CO">25ab8f300a0a0bb300d99f69c3ac24cd</location>
+        <name>Dahlia 'Jowey Linda'</name>
         <notes/>
         <number>PLANT0001009</number>
         <other_issue/>
         <patent/>
         <placement/>
+        <plant_location/>
+        <plant_type/>
         <planting_method/>
         <pottery_condition>need_to_replace</pottery_condition>
         <pottery_notes/>
@@ -30,11 +34,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 18:03:44</sys_created_on>
         <sys_id>3dae4518c34d1a108c3abd33e40131a7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-30 18:08:03</sys_updated_on>
+        <sys_updated_on>2024-10-23 15:35:27</sys_updated_on>
+        <tissue_culture/>
         <u_fertilising_schedule/>
+        <u_last_prune_date/>
         <u_last_rain_recorded/>
+        <u_next_prune_date/>
+        <u_pruning_interval/>
         <u_water_every_days/>
         <u_watering_due/>
     </x_snc_plant_mgmt_plants>
@@ -43,6 +51,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>image</file_name>
         <hash>5152726a407cfa91dc96b0816a5423419319e20632e7bb143e686022d31cc358</hash>
         <image_height>225</image_height>
@@ -83,14 +92,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 18:30:31</sys_created_on>
         <sys_id>42c49914c38d1a108c3abd33e401311c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>PLANT0001009</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Dahlia 'Jowey Linda'</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_42c49914c38d1a108c3abd33e401311c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-10 15:37:49</sys_updated_on>
+        <sys_updated_on>2024-10-23 15:42:57</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
