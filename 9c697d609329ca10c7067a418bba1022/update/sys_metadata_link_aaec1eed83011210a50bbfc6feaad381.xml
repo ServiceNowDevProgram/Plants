@@ -51,7 +51,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>image</file_name>
         <hash>2b6e8a88a8e58c3af7c1f2bbf27f6028e39229f84542b1918edb7372ca0daeb3</hash>
         <image_height>2576</image_height>
@@ -92,14 +91,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 20:58:05</sys_created_on>
         <sys_id>aaec1eed83011210a50bbfc6feaad381</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Venus flytrap</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_aaec1eed83011210a50bbfc6feaad381</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-23 15:43:03</sys_updated_on>
+        <sys_updated_on>2024-10-24 11:30:01</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>

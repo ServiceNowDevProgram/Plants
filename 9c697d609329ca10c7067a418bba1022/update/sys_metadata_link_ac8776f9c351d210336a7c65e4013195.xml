@@ -21,6 +21,7 @@
         <other_issue/>
         <patent/>
         <placement>outdoor</placement>
+        <plant_location/>
         <plant_type/>
         <planting_method>Tissue Culture</planting_method>
         <pottery_condition>good</pottery_condition>
@@ -38,7 +39,10 @@
         <sys_updated_on>2024-10-17 10:00:03</sys_updated_on>
         <tissue_culture/>
         <u_fertilising_schedule>10,11,12</u_fertilising_schedule>
+        <u_last_prune_date/>
         <u_last_rain_recorded>2024-10-16 10:00:03</u_last_rain_recorded>
+        <u_next_prune_date/>
+        <u_pruning_interval/>
         <u_water_every_days>4</u_water_every_days>
         <u_watering_due>2024-10-21 10:00:03</u_watering_due>
     </x_snc_plant_mgmt_plants>
@@ -47,7 +51,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>image</file_name>
         <hash>55ae6c61bc62ee6a7d134acfc0e461d1162c07540e3a362d57b201bae0ee0bf2</hash>
         <image_height>355</image_height>
@@ -88,14 +91,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-18 03:48:28</sys_created_on>
         <sys_id>ac8776f9c351d210336a7c65e4013195</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Sugarcane</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_ac8776f9c351d210336a7c65e4013195</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-18 03:48:28</sys_updated_on>
+        <sys_updated_on>2024-10-24 11:29:46</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>

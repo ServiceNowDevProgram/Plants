@@ -51,7 +51,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
-        <encryption_context/>
         <file_name>image</file_name>
         <hash>da285b549517afe230cb8a2c0b197bb285128ee4825e2d38eb274ed5b3f92259</hash>
         <image_height>408</image_height>
@@ -92,14 +91,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-01 07:22:23</sys_created_on>
         <sys_id>b075806847c9521069e1edf1d16d43c9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Floribunda Rose</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_b075806847c9521069e1edf1d16d43c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-23 15:43:11</sys_updated_on>
+        <sys_updated_on>2024-10-24 11:30:10</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>

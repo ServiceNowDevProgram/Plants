@@ -51,7 +51,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>image</file_name>
         <hash>4542872f40d37e7fc584b00510d91eb58b3590fb79378925eae1984a0265cfca</hash>
         <image_height>635</image_height>
@@ -92,14 +91,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-04 16:19:12</sys_created_on>
         <sys_id>ed1d95218305529086dfcc50ceaad3c4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Sunflower</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_ed1d95218305529086dfcc50ceaad3c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-23 15:42:56</sys_updated_on>
+        <sys_updated_on>2024-10-24 11:29:23</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>

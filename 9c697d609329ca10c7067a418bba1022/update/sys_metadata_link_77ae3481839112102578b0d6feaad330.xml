@@ -8,6 +8,8 @@
         <date_last_watered/>
         <date_planted/>
         <days_since_last_full_water/>
+        <description/>
+        <growth_method/>
         <hardiness_zone/>
         <image>df9ef041839112102578b0d6feaad371</image>
         <issue/>
@@ -37,7 +39,10 @@
         <sys_updated_on>2024-10-15 11:04:48</sys_updated_on>
         <tissue_culture/>
         <u_fertilising_schedule/>
+        <u_last_prune_date/>
         <u_last_rain_recorded/>
+        <u_next_prune_date/>
+        <u_pruning_interval/>
         <u_water_every_days/>
         <u_watering_due/>
     </x_snc_plant_mgmt_plants>
@@ -86,14 +91,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-15 11:05:07</sys_created_on>
         <sys_id>77ae3481839112102578b0d6feaad330</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>VioletAfrica</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_77ae3481839112102578b0d6feaad330</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:05:07</sys_updated_on>
+        <sys_updated_on>2024-10-24 11:29:35</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>

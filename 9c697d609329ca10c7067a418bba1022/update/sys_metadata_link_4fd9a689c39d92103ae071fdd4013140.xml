@@ -14,7 +14,7 @@
         <image/>
         <issue/>
         <located_outdoors>false</located_outdoors>
-        <location display_value="Botanical Graden">8d0166b8c35952103ae071fdd4013168</location>
+        <location display_value="">8d0166b8c35952103ae071fdd4013168</location>
         <name>Balsam</name>
         <notes/>
         <number>PLANT0001008</number>
@@ -41,7 +41,10 @@ The plant prefers shallow but wide containers to accommodate its root spread.</p
         <sys_updated_on>2024-10-15 18:53:05</sys_updated_on>
         <tissue_culture/>
         <u_fertilising_schedule>11,12,1,2,3,4,5,6,7,8,9,10</u_fertilising_schedule>
+        <u_last_prune_date/>
         <u_last_rain_recorded/>
+        <u_next_prune_date/>
+        <u_pruning_interval/>
         <u_water_every_days>3</u_water_every_days>
         <u_watering_due>2024-10-18 00:00:00</u_watering_due>
     </x_snc_plant_mgmt_plants>
@@ -99,14 +102,14 @@ The plant prefers shallow but wide containers to accommodate its root spread.</p
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-15 18:53:22</sys_created_on>
         <sys_id>4fd9a689c39d92103ae071fdd4013140</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Balsam</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_4fd9a689c39d92103ae071fdd4013140</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 18:53:22</sys_updated_on>
+        <sys_updated_on>2024-10-24 11:29:34</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
