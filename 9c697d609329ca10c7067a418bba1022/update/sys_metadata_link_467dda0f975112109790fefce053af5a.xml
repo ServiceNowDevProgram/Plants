@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>672d160f975112109790fefce053afa2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Apple scab</common_name>
+        <description>How does Apple Scab (Venturia inaequalis) occur?
+Apple scab is caused by the fungus Venturia inaequalis. It reproduces through spores that are produced by the fungus and overwinter on fallen diseased leaves. In spring, the fungus releases spores into the air, which are carried by wind to new leaves, flowers, fruit, or twigs. Moisture on the plant surface is necessary for the spores to cause new infections. These infections develop into visible spots and produce more spores within 9 to 17 days. The spores are then spread by wind, rain, or irrigation, continuing the cycle of infection.
+
+</description>
+        <family/>
+        <host>apple,</host>
+        <number>PLD0001023</number>
+        <scientific_name>Venturia inaequalis</scientific_name>
+        <solution>Fungicides Application
+•	Apply fungicides to protect healthy leaves from infection during spring emergence.
+
+•	Start spraying when the first green leaf tips appear and continue until flower petals have fallen.
+
+•	Adjust spray intervals based on weather conditions and past scab problems.
+Note: Fungicides should not be applied to already infected trees; it is advisable to consult a certified arborist for large trees.
+
+ The specific fungicides mentioned include Tebuconazole, Myclobutanil, Captan, Chlorothalonil, Propiconazole, Mancozeb, Sulfur/lime sulfur, Neem oil, and Copper, For ornamental crabapples only. or ornamental crabapples and some edible varieties.
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:50</sys_created_on>
+        <sys_id>672d160f975112109790fefce053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:50</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:06</sys_created_on>
+        <sys_id>467dda0f975112109790fefce053af5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001023</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_467dda0f975112109790fefce053af5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:06</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>

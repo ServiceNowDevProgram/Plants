@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="051c891bc3915210fcd1b3edd4013181" sys_domain="global" table="x_snc_plant_mgmt_plants" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 11:49:58</sys_created_on>
+            <sys_id>411cc91bc3915210fcd1b3edd4013140</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 11:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>plant_type</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 11:49:58</sys_created_on>
+            <sys_id>8d1cc91bc3915210fcd1b3edd4013140</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 11:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 11:49:58</sys_created_on>
+            <sys_id>051cc91bc3915210fcd1b3edd4013141</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 11:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 11:49:58</sys_created_on>
+            <sys_id>891cc91bc3915210fcd1b3edd4013141</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 11:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 11:49:58</sys_created_on>
+            <sys_id>011cc91bc3915210fcd1b3edd4013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 11:49:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 11:49:58</sys_created_on>
+            <sys_id>851cc91bc3915210fcd1b3edd4013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 11:49:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_snc_plant_mgmt_plants</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 11:49:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>051c891bc3915210fcd1b3edd4013181</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_plant_mgmt_plants</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_ui_section_051c891bc3915210fcd1b3edd4013181</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 11:49:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>569fc526db5e31144162684e139619ed</instance_id>
+        <instance_name>dev206758</instance_name>
+        <name>sys_ui_section_051c891bc3915210fcd1b3edd4013181</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="051c891bc3915210fcd1b3edd4013181" sys_domain="global" table="x_snc_plant_mgmt_plants" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 11:49:58</sys_created_on><sys_id>411cc91bc3915210fcd1b3edd4013140</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 11:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>plant_type</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 11:49:58</sys_created_on><sys_id>8d1cc91bc3915210fcd1b3edd4013140</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 11:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 11:49:58</sys_created_on><sys_id>051cc91bc3915210fcd1b3edd4013141</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 11:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 11:49:58</sys_created_on><sys_id>891cc91bc3915210fcd1b3edd4013141</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 11:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 11:49:58</sys_created_on><sys_id>011cc91bc3915210fcd1b3edd4013142</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 11:49:58</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>image</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 11:49:58</sys_created_on><sys_id>851cc91bc3915210fcd1b3edd4013142</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">051c891bc3915210fcd1b3edd4013181</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 11:49:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_snc_plant_mgmt_plants</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 11:49:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>051c891bc3915210fcd1b3edd4013181</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_plant_mgmt_plants</sys_name><sys_overrides/><sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package><sys_policy/><sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope><sys_update_name>sys_ui_section_051c891bc3915210fcd1b3edd4013181</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 11:49:57</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>6089573</payload_hash>
+        <record_name>Plants</record_name>
+        <reverted_from/>
+        <source>8ee534d2c3d99610fcd1b3edd4013132</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 11:49:58</sys_created_on>
+        <sys_id>4d1cc91bc3915210fcd1b3edd4013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b40ff8a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 11:49:58</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c11cc91b90915210b522528d0df85044</update_guid>
+        <update_guid_history>c11cc91b90915210b522528d0df85044:6089573</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 11:50:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3df94245f17d4d9487552c3117b4ae10</sys_id>
+        <sys_metadata>051c891bc3915210fcd1b3edd4013181</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent display_value="Plants">036cf1a49329ca10c7067a418bba10da</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_051c891bc3915210fcd1b3edd4013181</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_051c891bc3915210fcd1b3edd4013181">4d1cc91bc3915210fcd1b3edd4013144</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 11:50:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

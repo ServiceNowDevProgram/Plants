@@ -2,33 +2,48 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_plant_mgmt_plant_wiki" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_id</element>
-            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="db1ab0509000021087de3cfccdb0d629">1c0b11133bfc9a50a891257aa5e45a72</list_id>
+            <element>common_name</element>
+            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="25cac060d9313110cedf7dffddb48f4f">fdc7f388c3051a108c3abd33e40131a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>paige.duffey</sys_created_by>
-            <sys_created_on>2024-09-27 16:23:47</sys_created_on>
-            <sys_id>580b11133bfc9a50a891257aa5e45a73</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-30 11:44:11</sys_created_on>
+            <sys_id>8ec7f388c3051a108c3abd33e40131a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>paige.duffey</sys_updated_by>
-            <sys_updated_on>2024-09-27 16:23:47</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-30 11:44:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>common_name</element>
-            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="db1ab0509000021087de3cfccdb0d629">1c0b11133bfc9a50a891257aa5e45a72</list_id>
+            <element>scientific_name</element>
+            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="25cac060d9313110cedf7dffddb48f4f">fdc7f388c3051a108c3abd33e40131a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>paige.duffey</sys_created_by>
-            <sys_created_on>2024-09-27 16:23:47</sys_created_on>
-            <sys_id>5c0b11133bfc9a50a891257aa5e45a73</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-30 11:44:11</sys_created_on>
+            <sys_id>06c7f388c3051a108c3abd33e40131a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>paige.duffey</sys_updated_by>
-            <sys_updated_on>2024-09-27 16:23:47</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-30 11:44:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>last_import</element>
+            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="25cac060d9313110cedf7dffddb48f4f">fdc7f388c3051a108c3abd33e40131a4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-30 11:44:11</sys_created_on>
+            <sys_id>8ac7f388c3051a108c3abd33e40131a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-30 11:44:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -41,21 +56,21 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>paige.duffey</sys_created_by>
-            <sys_created_on>2024-09-27 16:23:47</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-30 11:44:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1c0b11133bfc9a50a891257aa5e45a72</sys_id>
+            <sys_id>fdc7f388c3051a108c3abd33e40131a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_plant_mgmt_plant_wiki</sys_name>
             <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
             <sys_policy/>
             <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_plant_mgmt_plant_wiki_sys_ref_list</sys_update_name>
-            <sys_updated_by>paige.duffey</sys_updated_by>
-            <sys_updated_on>2024-09-27 16:23:47</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-30 11:44:11</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">db1ab0509000021087de3cfccdb0d629</view>
+            <view display_value="Reference List" name="sys_ref_list">25cac060d9313110cedf7dffddb48f4f</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>ivan.betev</sys_created_by>
+        <sys_created_on>2024-10-12 17:27:05</sys_created_on>
+        <sys_id>4e49fa84c3ddd690e908f73ed40131ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>SendEmail</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_scope_privilege_4e49fa84c3ddd690e908f73ed40131ba</sys_update_name>
+        <sys_updated_by>ivan.betev</sys_updated_by>
+        <sys_updated_on>2024-10-12 17:35:30</sys_updated_on>
+        <target_name>SendEmail</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>ab5b40dfdb16bd1038f1172913961986</instance_id>
+        <instance_name>dev209359</instance_name>
+        <name>sys_scope_privilege_4e49fa84c3ddd690e908f73ed40131ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>ivan.betev</sys_created_by><sys_created_on>2024-10-12 17:27:05</sys_created_on><sys_id>4e49fa84c3ddd690e908f73ed40131ba</sys_id><sys_mod_count>2</sys_mod_count><sys_name>SendEmail</sys_name><sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package><sys_policy/><sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope><sys_update_name>sys_scope_privilege_4e49fa84c3ddd690e908f73ed40131ba</sys_update_name><sys_updated_by>ivan.betev</sys_updated_by><sys_updated_on>2024-10-12 17:35:30</sys_updated_on><target_name>SendEmail</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_script_include</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>1462122784</payload_hash>
+        <record_name>SendEmail</record_name>
+        <reverted_from/>
+        <source>241286c0c319d690e908f73ed40131df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ivan.betev</sys_created_by>
+        <sys_created_on>2024-10-12 17:35:30</sys_created_on>
+        <sys_id>414bf288c3ddd690e908f73ed4013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19281ccb7650000001</sys_recorded_at>
+        <sys_updated_by>ivan.betev</sys_updated_by>
+        <sys_updated_on>2024-10-12 17:35:30</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>c54bf288b7ddd6908b402fa577342908</update_guid>
+        <update_guid_history>c54bf288b7ddd6908b402fa577342908:1462122784,b75abe08aaddd690dd7cca7d8f6bf631:1360203138,3d59b6840fddd690555348c31dcf9deb:-346837446</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ivan.betev</sys_created_by>
+        <sys_created_on>2024-10-12 17:39:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>251caec602f8412b883178ae7d0016b1</sys_id>
+        <sys_metadata>4e49fa84c3ddd690e908f73ed40131ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SendEmail</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_4e49fa84c3ddd690e908f73ed40131ba</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_4e49fa84c3ddd690e908f73ed40131ba">414bf288c3ddd690e908f73ed4013109</sys_update_version>
+        <sys_updated_by>ivan.betev</sys_updated_by>
+        <sys_updated_on>2024-10-12 17:39:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
