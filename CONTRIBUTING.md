@@ -16,7 +16,7 @@ See the Issues tab for ideas on what to work on. Make sure to leave a comment on
 2. Go to your ServiceNow instance
 3. Go to `System Applications` => `Studio`
 4. Once Studio loads, select `Import From Source Control`
-5. Use your forked repo to [Import your application](https://developer.servicenow.com/dev.do#!/learn/learning-plans/quebec/new_to_servicenow/app_store_learnv2_devenvironment_quebec_importing_an_application_from_source_control)
+5. Use your forked repo to [Import your application](https://developer.servicenow.com/dev.do#!/learn/learning-plans/latest/new_to_servicenow/app_store_learnv2_devenvironment_latest_importing_an_application_from_source_control)
 6. Make updates to the application
 7. In Studio, commit your changes to source control
 8. Submit a pull request to the ServiceNowNextExperience/Plants `main` branch
