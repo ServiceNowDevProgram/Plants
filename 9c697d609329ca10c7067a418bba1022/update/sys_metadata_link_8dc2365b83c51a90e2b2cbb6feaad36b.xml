@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ad3f529783c11a90e2b2cbb6feaad3e6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_snc_plant_mgmt_tasks">
+    <x_snc_plant_mgmt_tasks action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description>Water&#13;
+Water every 1-2 weeks, allowing soil to dry out between waterings. Expect to water more often in brighter light and less often in lower light. Pro tip: Monsteras can benefit from filtered water or water left out overnight before using!</description>
+        <due_date>2024-10-25 07:38:32</due_date>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <maintenance_task>water</maintenance_task>
+        <number>TASK0023936</number>
+        <opened_at>2024-10-10 07:37:29</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <parent/>
+        <plant display_value="PLANT0001005">abdb969f83811a90e2b2cbb6feaad3ec</plant>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <route_reason/>
+        <service_offering/>
+        <short_description>Watering schedule</short_description>
+        <sla_due/>
+        <state>1</state>
+        <sys_class_name>x_snc_plant_mgmt_tasks</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 07:38:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad3f529783c11a90e2b2cbb6feaad3e6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 09:02:46</sys_updated_on>
+        <task_effective_number>TASK0023936</task_effective_number>
+        <time_worked/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_snc_plant_mgmt_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-10 09:02:55</sys_created_on>
+        <sys_id>8dc2365b83c51a90e2b2cbb6feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TASK0023936</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_8dc2365b83c51a90e2b2cbb6feaad36b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-10 09:02:55</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

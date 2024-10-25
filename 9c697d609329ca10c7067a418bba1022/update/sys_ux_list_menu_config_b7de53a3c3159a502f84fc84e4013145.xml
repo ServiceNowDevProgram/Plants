@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>List Menu for Plants</description>
+        <name>Plant Workspace</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 17:10:06</sys_created_on>
+        <sys_id>b7de53a3c3159a502f84fc84e4013145</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plant Workspace</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_b7de53a3c3159a502f84fc84e4013145</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 17:10:06</sys_updated_on>
+    </sys_ux_list_menu_config>
+</record_update>

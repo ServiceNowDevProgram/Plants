@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2f2d9ecb975112109790fefce053af87</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Armillaria root rot (Oak root fungus)</common_name>
+        <description>How does Armillaria root rot (Armillaria mellea) occur?
+Armillaria root rot spreads through root-to-root contact between plants and by releasing spores through mushrooms. The fungus reproduces vegetatively when roots come into contact with each other. It also reproduces sexually by releasing spores that can colonize dead stumps or woody debris nearby. To establish new growth, two spores with half the parent's genetic material must fuse in the same wood. This process leads to the mushroom formation and spore release for further dissemination.
+
+</description>
+        <family/>
+        <host>walnut,</host>
+        <number>PLD0001009</number>
+        <scientific_name>Armillaria mellea</scientific_name>
+        <solution>Chemical Control
+•	Here are a few fungicides commonly used for controlling Armillaria root rot: phosphite-based fungicides (e.g., potassium phosphite), thiophanate-methyl, metalaxyl, propiconazole, and fluazinam. These fungicides can be effective in managing the disease, 
+
+• It is important to follow label instructions and consult with professionals for specific recommendations.
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:49</sys_created_on>
+        <sys_id>2f2d9ecb975112109790fefce053af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:49</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:05</sys_created_on>
+        <sys_id>757dda0f975112109790fefce053af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001009</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_757dda0f975112109790fefce053af51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:05</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>

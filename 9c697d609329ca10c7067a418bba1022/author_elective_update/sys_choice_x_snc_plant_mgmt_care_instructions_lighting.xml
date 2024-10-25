@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="lighting" table="x_snc_plant_mgmt_care_instructions" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>lighting</element>
+            <name>x_snc_plant_mgmt_care_instructions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 00:10:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>lighting</sys_name>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_choice_x_snc_plant_mgmt_care_instructions_lighting</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 00:10:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lighting</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_care_instructions</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 00:11:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 00:11:07</sys_updated_on>
+            <value>high</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lighting</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_care_instructions</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 00:10:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 00:10:42</sys_updated_on>
+            <value>low</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>lighting</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_care_instructions</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 00:10:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 00:10:56</sys_updated_on>
+            <value>medium</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

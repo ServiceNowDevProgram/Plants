@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition/>
+        <condition>!current.isNewRecord()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -30,9 +30,17 @@
         <name>Mark Plant as Watered</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.setValue('date_last_watered', new GlideDate());
-current.update();
-action.setRedirectURL(current);]]></script>
+        <script><![CDATA[current.setValue('date_last_watered', new GlideDateTime()); // Set the current date-time to `date_last_watered`
+
+var dat = new GlideDateTime(); // Use GlideDateTime instead of GlideDate
+if (current.u_water_every_days != "") {
+    dat.addDaysLocalTime(parseInt(current.u_water_every_days)); // Add days to the current date based on `u_water_every_days`
+
+    current.setValue("u_watering_due", dat); // Update `u_due_date` field with the new date
+}
+
+current.update(); // Save the record
+action.setRedirectURL(current); // Redirect to the updated record]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -43,7 +51,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8fcc68fcc34592101036d60d05013182</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Mark Plant as Watered</sys_name>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
@@ -51,7 +59,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_ui_action_8fcc68fcc34592101036d60d05013182</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 05:00:05</sys_updated_on>
+        <sys_updated_on>2024-10-16 13:35:57</sys_updated_on>
         <table>x_snc_plant_mgmt_plants</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
@@ -59,11 +67,11 @@ action.setRedirectURL(current);]]></script>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>8fcc68fcc34592101036d60d05013182</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-02 04:56:49</sys_created_on>
-        <sys_id>42bdec30c38592101036d60d0501310b</sys_id>
+        <sys_created_on>2024-10-16 13:28:36</sys_created_on>
+        <sys_id>a7192e155319161000b51901a0490e1c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 04:56:49</sys_updated_on>
+        <sys_updated_on>2024-10-16 13:28:36</sys_updated_on>
         <table>sys_ui_action</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

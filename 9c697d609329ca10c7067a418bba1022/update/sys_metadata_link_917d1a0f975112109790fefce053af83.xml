@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>232d160f975112109790fefce053afa4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Papery bark (Sappy bark)</common_name>
+        <description>How does Sappy bark, Turkey tail (Trametes versicolor) occur?
+The disease enters tree limbs and larger branches through pruning cuts. Infected bark and wood tissues decay, leading to a spongy and discolored appearance. The affected bark may peel away, revealing decayed tissue underneath. In humid conditions, the bark looks spongy, while in dry conditions, it appears papery. Dark sap may ooze from diseased areas, and spore-producing structures can form along the edges. Bark cankers can encircle branches or, if on the trunk, cause tree death.
+
+</description>
+        <family/>
+        <host>walnut,</host>
+        <number>PLD0001026</number>
+        <scientific_name>Trametes versicolor</scientific_name>
+        <solution>Trearment
+•	Practice proper pruning techniques to remove dead or diseased branches from trees. This helps minimize the risk of infection.
+
+•	Fungicides: In some cases, fungicides may be used as a preventive measure. Fungicides such as copper-based, triazole, and dicarboximide fungicides can be used to prevent and control Trametes versicolor.
+
+•	 Consult with a professional arborist or plant pathologist for guidance on appropriate fungicide applications.
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:50</sys_created_on>
+        <sys_id>232d160f975112109790fefce053afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:50</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:02</sys_created_on>
+        <sys_id>917d1a0f975112109790fefce053af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001026</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_917d1a0f975112109790fefce053af83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:02</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -4,7 +4,10 @@
         <documentkey>48a8f4e853c592105b8172d0a0490e8d</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
     <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <amount_of_water_required_mm/>
         <date_last_watered/>
+        <date_planted/>
+        <days_since_last_full_water/>
         <description/>
         <growth_method/>
         <hardiness_zone/>
@@ -12,22 +15,36 @@
         <issue/>
         <located_outdoors>false</located_outdoors>
         <location display_value="11770 Bernardo Plaza Court, San Diego,CA">f48b24090a0a0ba70017da613796b4ae</location>
-        <name>Rose-Mose Purslane</name>
+        <name>Portulaca Plant</name>
         <notes/>
         <number>PLANT0001001</number>
         <other_issue/>
         <patent/>
+        <placement/>
+        <plant_location/>
         <plant_type/>
-        <planted_by_date/>
+        <planting_method/>
+        <pottery_condition>need_to_replace</pottery_condition>
+        <pottery_notes/>
+        <pottery_type/>
+        <rain_in_last_24_hours/>
+        <rain_since_last_full_water/>
+        <size/>
         <status>good</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-01 11:06:54</sys_created_on>
         <sys_id>48a8f4e853c592105b8172d0a0490e8d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 11:09:53</sys_updated_on>
+        <sys_updated_on>2024-10-23 15:35:54</sys_updated_on>
         <tissue_culture/>
         <u_fertilising_schedule/>
+        <u_last_prune_date/>
+        <u_last_rain_recorded/>
+        <u_next_prune_date/>
+        <u_pruning_interval/>
+        <u_water_every_days/>
+        <u_watering_due/>
     </x_snc_plant_mgmt_plants>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
@@ -84,18 +101,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-01 11:16:00</sys_created_on>
         <sys_id>b6eaf4ac53c592105b8172d0a0490e6b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Rose-Mose Purslane</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Portulaca Plant</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_b6eaf4ac53c592105b8172d0a0490e6b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-<<<<<<< HEAD
-        <sys_updated_on>2024-10-05 07:36:58</sys_updated_on>
-=======
-        <sys_updated_on>2024-10-04 22:09:55</sys_updated_on>
->>>>>>> upstream/main
+        <sys_updated_on>2024-10-23 15:42:58</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
