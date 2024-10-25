@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="61bbb5649329ca10c7067a418bba105f" label="Plant Wiki" max_length="40" name="x_snc_plant_mgmt_plant_wiki" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Last import" max_length="40" name="last_import" type="glide_date"/>
         <element label="Scientific Name" max_length="40" name="scientific_name" type="string"/>
         <element display="true" label="Common Name" max_length="40" name="common_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last import" max_length="40" name="last_import" type="glide_date"/>
     </element>
 </database>

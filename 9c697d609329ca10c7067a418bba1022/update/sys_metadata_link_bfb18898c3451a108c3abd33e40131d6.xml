@@ -4,11 +4,15 @@
         <documentkey>78d4b344c3051a108c3abd33e4013142</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
     <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <description/>
+        <hardiness_zone/>
         <image>89318494c3451a108c3abd33e40131f0</image>
+        <issue/>
         <location display_value="100 South Charles Street, Baltimore,MD">25ab9c4d0a0a0bb300f7dabdc0ca7c1c</location>
         <name>Bamboo</name>
         <notes/>
         <number>PLANT0001003</number>
+        <other_issue/>
         <patent/>
         <plant_type display_value="">82f3f7c0c3051a108c3abd33e40131ea</plant_type>
         <status>good</status>
@@ -66,14 +70,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 12:27:44</sys_created_on>
         <sys_id>bfb18898c3451a108c3abd33e40131d6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Bamboo</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_bfb18898c3451a108c3abd33e40131d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 11:16:01</sys_updated_on>
+        <sys_updated_on>2024-10-25 11:31:32</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
