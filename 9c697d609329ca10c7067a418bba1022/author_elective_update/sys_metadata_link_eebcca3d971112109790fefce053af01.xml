@@ -88,7 +88,7 @@ Phytophthora reproduces asexually by producing spores and primarily spreads thro
         <reverted_from/>
         <source>d2ba6261975112109790fefce053af4a</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-18 00:41:32</sys_created_on>
         <sys_id>aebcca3d971112109790fefce053af03</sys_id>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 23:50:00</entered_time>
+        <max_drift/>
+        <name>Daily Rainfall Logger for Plants</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-10-26 18:49:25</run_start>
+        <run_time>1970-01-01 23:50:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var gr = new GlideRecord("x_snc_plant_mgmt_plants");
+gr.addQuery("rain_in_last_24_hours", "");
+gr.query();
+
+while (gr.next()) {
+    // Check if the location and its coordinates are defined
+    if (gr.location && gr.location.latitude && gr.location.longitude) {
+        var latitude = gr.location.latitude;
+        var longitude = gr.location.longitude;
+
+        try {
+            var r = new sn_ws.RESTMessageV2('x_snc_plant_mgmt.Weather API', 'Default GET');
+            r.setStringParameterNoEscape('latitude', latitude);
+            r.setStringParameterNoEscape('longitude', longitude);
+
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+
+            if (httpStatus === 200) {
+                var responseObj = JSON.parse(responseBody);
+                
+                // Get precipitation for the current day (index 1)
+                var precipitationSum = responseObj.daily.precipitation_sum[1]; 
+
+                // Update only if there's precipitation
+                if (precipitationSum > 0) {
+                    var gdt = new GlideDateTime(dateString);
+                    // Update the GlideRecord with the precipitation data
+                    gr.rain_in_last_24_hours = precipitationSum;
+                    gr.update(); // Save the changes
+                } else {
+                    gs.info("No precipitation today for plant: " + gr.sys_id);
+                }
+            } else {
+                gs.error("Failed to fetch weather data for plant " + gr.sys_id + ": " + httpStatus + " - " + responseBody);
+            }
+        } catch (ex) {
+            gs.error("Error executing API call for plant " + gr.sys_id + ": " + ex.message);
+        }
+    } else {
+        gs.warn("Plant record missing location data: " + gr.sys_id);
+    }
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-26 19:39:19</sys_created_on>
+        <sys_id>dc721bec83211210ae0854b6feaad3fa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Daily Rainfall Logger for Plants</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sysauto_script_dc721bec83211210ae0854b6feaad3fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-26 20:05:47</sys_updated_on>
+        <time_zone>floating</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

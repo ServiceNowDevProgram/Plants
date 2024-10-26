@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>common_name</element>
-            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="25cac060d9313110cedf7dffddb48f4f">fdc7f388c3051a108c3abd33e40131a4</list_id>
+            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="df3bb362f832021008dd9cfea425ac28">fdc7f388c3051a108c3abd33e40131a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>scientific_name</element>
-            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="25cac060d9313110cedf7dffddb48f4f">fdc7f388c3051a108c3abd33e40131a4</list_id>
+            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="df3bb362f832021008dd9cfea425ac28">fdc7f388c3051a108c3abd33e40131a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>last_import</element>
-            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="25cac060d9313110cedf7dffddb48f4f">fdc7f388c3051a108c3abd33e40131a4</list_id>
+            <list_id display_value="x_snc_plant_mgmt_plant_wiki" element="NULL" name="x_snc_plant_mgmt_plant_wiki" parent="NULL" relationship="NULL" sys_domain="global" view="df3bb362f832021008dd9cfea425ac28">fdc7f388c3051a108c3abd33e40131a4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -70,7 +70,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-09-30 11:44:11</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">25cac060d9313110cedf7dffddb48f4f</view>
+            <view display_value="Reference List" name="sys_ref_list">df3bb362f832021008dd9cfea425ac28</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
