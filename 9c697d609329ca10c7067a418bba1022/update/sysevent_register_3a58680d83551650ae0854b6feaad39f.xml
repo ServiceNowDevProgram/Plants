@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>Event will be triggered by the scheduled job</description>
+        <event_name>x_snc_plant_mgmt.WateringDay</event_name>
+        <fired_by>Scheduled jobs</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>WateringDay</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 09:28:37</sys_created_on>
+        <sys_id>3a58680d83551650ae0854b6feaad39f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_plant_mgmt.WateringDay</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sysevent_register_3a58680d83551650ae0854b6feaad39f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 09:37:56</sys_updated_on>
+        <table>x_snc_plant_mgmt_plants</table>
+    </sysevent_register>
+</record_update>

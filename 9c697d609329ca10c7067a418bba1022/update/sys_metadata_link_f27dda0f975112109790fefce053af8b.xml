@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ab2d160f975112109790fefce053afa0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Dollar spot</common_name>
+        <description>How does Dollar Spot (Clarireedia jacksonii) occur?
+Dollar spot (Clarireedia jacksonii) reproduces through spore production and spread. The fungus survives in infected plants or debris, as well as stromata (masses of mycelium) on leaf surfaces. It becomes active in temperatures between 60-90 °F, favoring warm days, cool nights, and heavy dew. The pathogen is spread by mowers, golf carts, wind, and water. Inadequate nitrogen fertility and dry soils increase disease severity. 
+
+</description>
+        <family/>
+        <host>zoysiagrass,</host>
+        <number>PLD0001020</number>
+        <scientific_name>Sclerotinia homoecarpa  Lanzia</scientific_name>
+        <solution>Applications of Fungicide 
+• There are Many fungicides available to cure Dollere spot such as  Benzimidazoles (e.g., thiophanate-methyl), demethylation inhibitors (e.g., propiconazole), dicarboximides (e.g., iprodione), carboxamides (e.g., boscalid), chlorothalonil, Emerald, Honor, Curalan, Eagle, and Torque.
+
+•	 Adhere to label instructions for proper application.
+
+•	Avoid repeated use of fungicides from the same class or FRAC code to minimize resistance.
+
+•	Consider tank mixing or alternating fungicides with different modes of action.
+
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:50</sys_created_on>
+        <sys_id>ab2d160f975112109790fefce053afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:50</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:08</sys_created_on>
+        <sys_id>f27dda0f975112109790fefce053af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001020</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_f27dda0f975112109790fefce053af8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:08</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>
