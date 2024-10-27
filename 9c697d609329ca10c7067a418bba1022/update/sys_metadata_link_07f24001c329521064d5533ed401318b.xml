@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>89a288cdc3e5521064d5533ed4013128</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
+    <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <amount_of_water_required_mm/>
+        <date_last_watered/>
+        <date_planted/>
+        <days_since_last_full_water/>
+        <description>created Alocasia Jacklyn tree </description>
+        <growth_method/>
+        <hardiness_zone/>
+        <image>80e2048dc3e5521064d5533ed40131ea</image>
+        <issue/>
+        <located_outdoors>false</located_outdoors>
+        <location/>
+        <name>Alocasia Jacklyn</name>
+        <notes/>
+        <number>PLANT0001005</number>
+        <other_issue/>
+        <patent/>
+        <placement/>
+        <plant_location/>
+        <plant_type/>
+        <planting_method>Seed</planting_method>
+        <pottery_condition>need_to_replace</pottery_condition>
+        <pottery_notes/>
+        <pottery_type>clay</pottery_type>
+        <rain_in_last_24_hours/>
+        <rain_since_last_full_water/>
+        <size/>
+        <status/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 16:59:23</sys_created_on>
+        <sys_id>89a288cdc3e5521064d5533ed4013128</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 16:59:30</sys_updated_on>
+        <tissue_culture/>
+        <u_fertilising_schedule/>
+        <u_last_prune_date/>
+        <u_last_rain_recorded/>
+        <u_next_prune_date/>
+        <u_pruning_interval/>
+        <u_water_every_days/>
+        <u_watering_due/>
+    </x_snc_plant_mgmt_plants>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#524c4d</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>image</file_name>
+        <hash>a78d5ad212e6a968e6e4e7a5c291731d2d63bd7b128ee26a330835452395b0d1</hash>
+        <image_height>251</image_height>
+        <image_width>201</image_width>
+        <size_bytes>4906</size_bytes>
+        <size_compressed>4896</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 16:59:30</sys_created_on>
+        <sys_id>80e2048dc3e5521064d5533ed40131ea</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 16:59:30</sys_updated_on>
+        <table_name>ZZ_YYx_snc_plant_mgmt_plants</table_name>
+        <table_sys_id>89a288cdc3e5521064d5533ed4013128</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="80e2048dc3e5521064d5533ed40131ea">80e2048dc3e5521064d5533ed40131ea</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 16:59:30</sys_created_on>
+        <sys_id>c0e2048dc3e5521064d5533ed40131ea</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6516</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="80e2048dc3e5521064d5533ed40131ea">80e2048dc3e5521064d5533ed40131ea</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 16:59:30</sys_created_on>
+        <sys_id>44e2048dc3e5521064d5533ed40131ea</sys_id>
+    </sys_attachment_doc>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 17:00:00</sys_created_on>
+        <sys_id>07f24001c329521064d5533ed401318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alocasia Jacklyn</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_07f24001c329521064d5533ed401318b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 17:00:00</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plants</tablename>
+    </sys_metadata_link>
+</record_update>
