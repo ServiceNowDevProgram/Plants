@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4c1f9ffc83e91210f80e7965eeaad34f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>White rot</common_name>
+        <description>White rot is a serious fungal disease that affects onions, garlic, and leeks: &#13;
+Symptoms&#13;
+The first signs of white rot are yellowing and wilting leaves, starting with the older leaves. The plant may also appear stunted. As the roots rot, the plant becomes easy to pull out of the ground. A white, fluffy fungal growth appears around the base of the plant, and later in the year, small, black, round structures called sclerotia form. &#13;
+Cause&#13;
+White rot is caused by the soil-borne fungus Stromatinia cepivora. The fungus can survive in the soil for many years. &#13;
+When to look&#13;
+Symptoms are usually visible from mid-summer until early autumn. &#13;
+&#13;
+</description>
+        <family/>
+        <host>Onion</host>
+        <number>PLD0001005</number>
+        <scientific_name>Phanerochaete chrysosporium</scientific_name>
+        <solution>How to manage&#13;
+The best way to manage white rot is to avoid it and practice sanitation. Make sure your onion sets are disease-free before planting. Affected onions will deteriorate and rot further in storage, so use them immediately. </solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 14:24:59</sys_created_on>
+        <sys_id>4c1f9ffc83e91210f80e7965eeaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 14:24:59</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 14:25:53</sys_created_on>
+        <sys_id>b9bfd378836d1210f80e7965eeaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001005</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_b9bfd378836d1210f80e7965eeaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 14:25:53</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>
