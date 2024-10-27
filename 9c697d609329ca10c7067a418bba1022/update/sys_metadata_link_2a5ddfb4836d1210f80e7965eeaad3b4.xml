@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>423c1b74836d1210f80e7965eeaad3f5</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Red rot</common_name>
+        <description>Red rot is a serious disease of sugarcane that's caused by the fungus Colletotrichum falcatum (Glomerella tucumanensis). It's also known as the "cancer" of sugarcane</description>
+        <family/>
+        <host>fungus Glomerella tucumanensis</host>
+        <number>PLD0001001</number>
+        <scientific_name>Glomerella tucumanensis</scientific_name>
+        <solution>Red rot disease in sugarcane can be controlled using chemical, biological, and cultural methods: &#13;
+&#13;
+Chemical treatments: &#13;
+&#13;
+Some fungicides that can be used to control red rot include: &#13;
+Amistar Top Fungicide: A broad-spectrum fungicide that can be mixed with water at a ratio of 1 ml per liter &#13;
+Carbendazim: Soak setts in a 0.1% solution for 15 minutes before planting &#13;
+Triadimefon: Soak setts in a 0.05% solution for 15 minutes before planting &#13;
+Tebusul fungicide: Mix with water at a ratio of 2.5 grams per liter &#13;
+Thiophanate methyl: A fungicide that can be used to treat setts &#13;
+&#13;
+Biological control: Use antagonistic microorganisms to control the disease &#13;
+&#13;
+Cultural methods: &#13;
+&#13;
+Select healthy plants from disease-free areas for planting &#13;
+Rotate the field with rice for one season and other crops for two seasons &#13;
+Grow resistant varieties like Co 86032, Co 86249, CoSi 95071, CoG 93076, CoC 22, CoSi 6, and CoG 5 &#13;
+Uproot and burn infected plants, and then apply bleaching powder to the area &#13;
+Red rot is also known as the "cancer" of sugarcane. It usually spreads during the rainy season. The disease can occur when a particular variety is sown for a long time without changing, or when seeds and soil are not treated properly.</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 14:15:21</sys_created_on>
+        <sys_id>423c1b74836d1210f80e7965eeaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 14:15:21</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 14:15:34</sys_created_on>
+        <sys_id>2a5ddfb4836d1210f80e7965eeaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001001</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_2a5ddfb4836d1210f80e7965eeaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 14:15:34</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>
