@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c8e0675d834112109822fdc6feaad3ab" sys_domain="global" table="x_snc_plant_mgmt_plantpathologist" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:16:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ce0675d834112109822fdc6feaad3ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plant_mgmt_plantpathologist" name="x_snc_plant_mgmt_plantpathologist" sys_domain="global" view="Default view">c8e0675d834112109822fdc6feaad3ab</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plantpathologist" sys_domain="global" view="Default view">006f5f99834112109822fdc6feaad39a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:16:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:16:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48e0675d834112109822fdc6feaad3af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plant_mgmt_plantpathologist" name="x_snc_plant_mgmt_plantpathologist" sys_domain="global" view="Default view">c8e0675d834112109822fdc6feaad3ab</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_plant_mgmt_plantpathologist" sys_domain="global" view="Default view">48e0675d834112109822fdc6feaad3aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:16:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:16:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8e0675d834112109822fdc6feaad3ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_plant_mgmt_plantpathologist</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c8e0675d834112109822fdc6feaad3ab</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:16:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="plant_placed_in" table="x_snc_plant_mgmt_plantpathologist" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>plant_placed_in</element>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:16:32</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>plant_placed_in</sys_name>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_choice_x_snc_plant_mgmt_plantpathologist_plant_placed_in</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:16:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_placed_in</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Brazil</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-15 07:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-15 07:52:15</sys_updated_on>
+            <value>Brazil</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_placed_in</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indoor</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:16:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:16:32</sys_updated_on>
+            <value>indoor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_placed_in</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Outdoor (water garden)</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:19:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:40:28</sys_updated_on>
+            <value>Outdoor (water garden)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_placed_in</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outdoor</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:16:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:16:32</sys_updated_on>
+            <value>outdoor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>plant_placed_in</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indoor/Outdoor</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-04 07:16:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-04 07:16:32</sys_updated_on>
+            <value>indoor/outdoor</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
