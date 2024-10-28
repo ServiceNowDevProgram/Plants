@@ -23,7 +23,9 @@
         },
         "elementId": "list_viewport_modal",
         "elementLabel": "List Viewport Modal",
-        "eventMappings": [],
+        "eventMappings": [
+            
+        ],
         "extensionPoints": [
             {
                 "controllerElementId": "list_controller",
@@ -35,7 +37,9 @@
         "overrides": null,
         "preset": {
             "controllerElementId": "list_controller",
-            "disabledEventTargetIds": [],
+            "disabledEventTargetIds": [
+                
+            ],
             "id": "431df4d94fc3e404af2a7a1604dd08d6"
         },
         "propertyValues": {
@@ -58,7 +62,9 @@
         },
         "elementId": "container_1",
         "elementLabel": "Main",
-        "eventMappings": [],
+        "eventMappings": [
+            
+        ],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -72,7 +78,9 @@
                     },
                     "elementId": "container_2",
                     "elementLabel": "Header",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -86,7 +94,9 @@
                                 },
                                 "elementId": "container_3",
                                 "elementLabel": "Container 3",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    
+                                ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -100,7 +110,9 @@
                                             },
                                             "elementId": "heading_1",
                                             "elementLabel": "Hello",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                
+                                            ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -144,7 +156,9 @@
                                             },
                                             "elementId": "stylized_text_1",
                                             "elementLabel": "Stylized text 1",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                
+                                            ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -245,7 +259,9 @@
                                 },
                                 "elementId": "container_4",
                                 "elementLabel": "Container 4",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    
+                                ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -259,7 +275,9 @@
                                             },
                                             "elementId": "image_1",
                                             "elementLabel": "Itsaplant",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                
+                                            ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
                                                 "value": null
@@ -515,7 +533,9 @@
         },
         "elementId": "grid_container_1",
         "elementLabel": "Plants Reading",
-        "eventMappings": [],
+        "eventMappings": [
+            
+        ],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -587,7 +607,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -626,7 +648,9 @@
                                         "color": "842431cdd7500200b96d45a3ce610331",
                                         "iconColor": "",
                                         "metric": "ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzQnNZVzUwY3pFM01qYzNNVFV4TWpNek1UZz0xNzI3NzE1MTI1OTU1",
-                                        "rules": []
+                                        "rules": [
+                                            
+                                        ]
                                     }
                                 ]
                             }
@@ -645,7 +669,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -1075,6 +1101,560 @@
                         "id": "d24d53f60350de7a652caf3188a46ed2",
                         "type": "MACROPONENT"
                     },
+                    "elementId": "workdesk_plants",
+                    "elementLabel": "WorkDesk Plants",
+                    "eventMappings": [
+                        {
+                            "eventMappingId": "cmcchhiijtzsaaffkpddjiiggfnyqbbffqa",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": {
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {}
+                                        },
+                                        "sysId": "04337194c31112109421b71ed4013158"
+                                    },
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": null,
+                                    "operation": null,
+                                    "targetId": "cmcchhjjqddbhaaffmgddjiiggbbxddmjtua",
+                                    "type": "CLIENT_SCRIPT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_snc_plant_mgmt.UXR_APP_SHELL_DATA_SOURCE_1_REFRESH_RELAY_8620f494c3891a108c3abd33e4013183",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {}
+                                        },
+                                        "sysId": "51bbf118c35112109421b71ed4013176"
+                                    },
+                                    "operation": null,
+                                    "targetId": "cmcchhczsddeaabbyiddjiiggeijoeeyffg",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "additionalGroupByConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "allowChangeDateRange": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "applyDateRange": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "backgroundRefreshInterval": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "bareBorder": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "cacheExpirationTime": {
+                            "type": "JSON_LITERAL",
+                            "value": 0
+                        },
+                        "chartExtraConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "chartSize": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "colorConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "type": "singleColor",
+                                "values": [
+                                    {
+                                        "color": "0c2b2cd75b712110e5ba6e8a1d81c7ba",
+                                        "iconColor": "65b3027ca9fe3dba00d5b649d600fe09",
+                                        "metric": "ZEdGaWJHVnpZMTl5WlhGZmFYUmxiVEUzTXpBeE1qRTFNVFV5TWpVPTE3MzAxMjE1MTU5MzU=",
+                                        "rules": [
+                                            
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "componentId": {
+                            "type": "JSON_LITERAL",
+                            "value": "klmwfzr9"
+                        },
+                        "configPropModifiers": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "configVersion": {
+                            "type": "JSON_LITERAL",
+                            "value": "23.0.0-ci-SNAPSHOT"
+                        },
+                        "contextMenuActions": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "dataCategory": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "dataPassthrough": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "dataSources": {
+                            "container": [
+                                {
+                                    "container": {
+                                        "allowRealTime": {
+                                            "type": "JSON_LITERAL",
+                                            "value": true
+                                        },
+                                        "dataCategories": {
+                                            "type": "JSON_LITERAL",
+                                            "value": [
+                                                "trend",
+                                                "group",
+                                                "simple"
+                                            ]
+                                        },
+                                        "filterQuery": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "cat_item=87ca338dc3ed921017637205e401316a^requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=3"
+                                        },
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "dGFibGVzY19yZXFfaXRlbTE3MzAxMjE1MTUyMjU="
+                                        },
+                                        "isDatabaseView": {
+                                            "type": "JSON_LITERAL",
+                                            "value": false
+                                        },
+                                        "label": {
+                                            "type": "TRANSLATION_LITERAL",
+                                            "value": {
+                                                "code": null,
+                                                "comment": "",
+                                                "message": "Requested Item"
+                                            }
+                                        },
+                                        "preferredVisualizations": {
+                                            "type": "JSON_LITERAL",
+                                            "value": [
+                                                "d24d53f60350de7a652caf3188a46ed2"
+                                            ]
+                                        },
+                                        "reportSourceSysId": {
+                                            "type": "JSON_LITERAL"
+                                        },
+                                        "sourceType": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "table"
+                                        },
+                                        "tableOrViewName": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "sc_req_item"
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                }
+                            ],
+                            "type": "LIST_CONTAINER"
+                        },
+                        "dateFormat": {
+                            "type": "JSON_LITERAL",
+                            "value": "default"
+                        },
+                        "description": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Plants from my workdesk, which are approved."
+                            }
+                        },
+                        "emptyStateAlignment": {
+                            "type": "JSON_LITERAL",
+                            "value": "vertical-centered"
+                        },
+                        "emptyStateContent": {
+                            "type": "JSON_LITERAL",
+                            "value": "There are no scores available for the selected criteria. Contact your admin for more info."
+                        },
+                        "emptyStateHeading": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "No data available."
+                            }
+                        },
+                        "emptyStateIllustration": {
+                            "type": "JSON_LITERAL",
+                            "value": "no-data"
+                        },
+                        "enableClickAndStay": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "enableCustomEmptyState": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "enableDrilldown": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "enableRealTimeUpdate": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "endTime": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "filterConfigurations": {
+                            "binding": {
+                                "address": [
+                                    "parFilters"
+                                ]
+                            },
+                            "type": "STATE_BINDING"
+                        },
+                        "followFilters": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "forecastConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "formats": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "groupBy": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "groupByConfig": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "headerTitle": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "My Work Desk Plants"
+                            }
+                        },
+                        "headingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": 2
+                        },
+                        "headingPosition": {
+                            "type": "JSON_LITERAL",
+                            "value": "top"
+                        },
+                        "hideDevSettings": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideMatrixAggregate": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "iconStyle": {
+                            "type": "JSON_LITERAL",
+                            "value": "no-background"
+                        },
+                        "metrics": {
+                            "container": [
+                                {
+                                    "container": {
+                                        "aggregateFunction": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "COUNT"
+                                        },
+                                        "axisId": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "primary"
+                                        },
+                                        "dataSource": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "dGFibGVzY19yZXFfaXRlbTE3MzAxMjE1MTUyMjU="
+                                        },
+                                        "id": {
+                                            "type": "JSON_LITERAL",
+                                            "value": "ZEdGaWJHVnpZMTl5WlhGZmFYUmxiVEUzTXpBeE1qRTFNVFV5TWpVPTE3MzAxMjE1MTU5MzU="
+                                        },
+                                        "numberFormat": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "customFormat": false
+                                            }
+                                        }
+                                    },
+                                    "type": "MAP_CONTAINER"
+                                }
+                            ],
+                            "type": "LIST_CONTAINER"
+                        },
+                        "newReporting": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "numberOfPeriods": {
+                            "type": "JSON_LITERAL",
+                            "value": 3
+                        },
+                        "pageId": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "period": {
+                            "type": "JSON_LITERAL",
+                            "value": "M"
+                        },
+                        "refreshFrequency": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "refreshRequest": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "scoreIcon": {
+                            "type": "JSON_LITERAL",
+                            "value": "emoji-positive-fill"
+                        },
+                        "scoreSize": {
+                            "type": "JSON_LITERAL",
+                            "value": "md"
+                        },
+                        "scoreType": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "showAbsolutePeriod": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showAdditionalGroupBySelector": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showBorder": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showCacheTime": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showChange": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showChangeFrom": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showChangePercentage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showComment": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showConfidenceBand": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showDataPassthrough": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showDataTable": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showDateRangeByDefault": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showFilterIcon": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showFirstGroupAggregate": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showForecast": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showForecastRange": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showGapPercentage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showHeader": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showHeaderSeparator": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showMaximumRange": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showMetricLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showRefresh": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showScoreDate": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showScoreUpdateTime": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showSecondGroupAggregate": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showSparkline": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showSubAggregate": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showTarget": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showThreshold": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showTotalAggregate": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showTotalValue": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "showTrend": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showZero": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "sortBy": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "sortByOrder": {
+                            "type": "JSON_LITERAL",
+                            "value": "desc"
+                        },
+                        "sparklineStyle": {
+                            "type": "JSON_LITERAL",
+                            "value": "area"
+                        },
+                        "standardFormatData": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "startTime": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "telemetry": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "title": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "trendBy": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "useDataCache": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "useRelativeScoreTime": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "wrapTitle": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "d24d53f60350de7a652caf3188a46ed2",
+                        "type": "MACROPONENT"
+                    },
                     "elementId": "single_score_2",
                     "elementLabel": "Water Tasks",
                     "eventMappings": [
@@ -1135,7 +1715,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -1185,7 +1767,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -1675,7 +2259,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -1714,7 +2300,9 @@
                                         "color": "842431cdd7500200b96d45a3ce610331",
                                         "iconColor": "93f273bf9f5c73001bb9baac757fcf79",
                                         "metric": "ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzUmhjMnR6TVRjeU56Y3hOekEyTURNd01BPT0xNzI3NzE3MDYzMjI0",
-                                        "rules": []
+                                        "rules": [
+                                            
+                                        ]
                                     }
                                 ]
                             }
@@ -1733,7 +2321,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -2223,7 +2813,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -2262,7 +2854,9 @@
                                         "color": "842431cdd7500200b96d45a3ce610331",
                                         "iconColor": "d6ed4551d7100200b96d45a3ce610320",
                                         "metric": "ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzUmhjMnR6TVRjeU56Y3hOekEyTURNd01BPT0xNzI3NzE3MDYzMjI0",
-                                        "rules": []
+                                        "rules": [
+                                            
+                                        ]
                                     }
                                 ]
                             }
@@ -2281,7 +2875,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -2716,6 +3312,12 @@
                             "styles": {}
                         },
                         {
+                            "element_id": "workdesk_plants",
+                            "styles": {
+                                "background": "rgb(var(--now-color_background--primary))"
+                            }
+                        },
+                        {
                             "element_id": "single_score_2",
                             "styles": {}
                         },
@@ -2789,7 +3391,9 @@
         },
         "elementId": "container_5",
         "elementLabel": "Container 5",
-        "eventMappings": [],
+        "eventMappings": [
+            
+        ],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -2808,7 +3412,9 @@
                     },
                     "elementId": "list_bundle",
                     "elementLabel": "Record List",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "binding": {
                             "address": [
@@ -2831,11 +3437,15 @@
                                 },
                                 "elementId": "record_list_header_1",
                                 "elementLabel": "Record List Header",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    
+                                ],
                                 "isHidden": null,
                                 "preset": {
                                     "controllerElementId": "list_controller",
-                                    "disabledEventTargetIds": [],
+                                    "disabledEventTargetIds": [
+                                        
+                                    ],
                                     "id": "7390b78659717406599eca6a55e68c44"
                                 },
                                 "propertyValues": {},
@@ -2853,7 +3463,9 @@
                                 },
                                 "elementId": "resizable_panes_1",
                                 "elementLabel": "Resizable panes 1",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    
+                                ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -2872,11 +3484,15 @@
                                             },
                                             "elementId": "presentational_list_1",
                                             "elementLabel": "Presentational List",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                
+                                            ],
                                             "isHidden": null,
                                             "preset": {
                                                 "controllerElementId": "list_controller",
-                                                "disabledEventTargetIds": [],
+                                                "disabledEventTargetIds": [
+                                                    
+                                                ],
                                                 "id": "33f6672f7d096e5a32e4e96b497748e4"
                                             },
                                             "propertyValues": {
@@ -2901,7 +3517,9 @@
                                             },
                                             "elementId": "list_panel_viewport",
                                             "elementLabel": "List Panel Viewport",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                
+                                            ],
                                             "extensionPoints": [
                                                 {
                                                     "appShell": "76a83a645b122010b913030a1d81c780",
@@ -2911,7 +3529,9 @@
                                                     "inUse": false,
                                                     "isControllerPresent": true,
                                                     "name": "List Page Panes",
-                                                    "subroutes": [],
+                                                    "subroutes": [
+                                                        
+                                                    ],
                                                     "sysId": "4d9e0c2143efa11041505119ebb8f270",
                                                     "sysScope": {
                                                         "displayValue": "now-list-commons",
@@ -2939,7 +3559,9 @@
                                 },
                                 "preset": {
                                     "controllerElementId": "list_controller",
-                                    "disabledEventTargetIds": [],
+                                    "disabledEventTargetIds": [
+                                        
+                                    ],
                                     "id": "c98d4a8dfa4f61d096e06642b002039f"
                                 },
                                 "propertyValues": {},
@@ -2958,11 +3580,15 @@
                                 },
                                 "elementId": "pagination_control_1",
                                 "elementLabel": "Pagination control",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    
+                                ],
                                 "isHidden": null,
                                 "preset": {
                                     "controllerElementId": "list_controller",
-                                    "disabledEventTargetIds": [],
+                                    "disabledEventTargetIds": [
+                                        
+                                    ],
                                     "id": "47d85e949cd381e3930037367b16fdaa"
                                 },
                                 "propertyValues": {},
@@ -2980,7 +3606,9 @@
                                 },
                                 "elementId": "record_list_footer_container_1",
                                 "elementLabel": "Footer Container",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    
+                                ],
                                 "isHidden": {
                                     "operation": {
                                         "operand": {
@@ -3010,11 +3638,15 @@
                                             },
                                             "elementId": "view_all_link_1",
                                             "elementLabel": "View All Link",
-                                            "eventMappings": [],
+                                            "eventMappings": [
+                                                
+                                            ],
                                             "isHidden": null,
                                             "preset": {
                                                 "controllerElementId": "list_controller",
-                                                "disabledEventTargetIds": [],
+                                                "disabledEventTargetIds": [
+                                                    
+                                                ],
                                                 "id": "420a0cb7b684a7db1915765e1b4d64d1"
                                             },
                                             "propertyValues": {
@@ -3040,13 +3672,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "padding": "var(--now-scalable-space--lg)",
-                                                "padding-bottom": "var(--now-scalable-space--lg)",
-                                                "padding-left": "var(--now-scalable-space--lg)",
-                                                "padding-right": "var(--now-scalable-space--lg)",
-                                                "padding-top": "var(--now-scalable-space--lg)"
-                                            }
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -3057,7 +3683,12 @@
                                                     "element_id": "view_all_link_1",
                                                     "styles": {
                                                         "font-size": "var(--now-global-font-size--md)",
-                                                        "margin-left": "var(--now-scalable-space--lg)"
+                                                        "margin-left": "var(--now-scalable-space--lg)",
+                                                        "padding": "var(--now-scalable-space--lg)",
+                                                        "padding-bottom": "var(--now-scalable-space--lg)",
+                                                        "padding-left": "var(--now-scalable-space--lg)",
+                                                        "padding-right": "var(--now-scalable-space--lg)",
+                                                        "padding-top": "var(--now-scalable-space--lg)"
                                                     }
                                                 }
                                             ],
@@ -3251,7 +3882,9 @@
         },
         "elementId": "grid_container_2",
         "elementLabel": "Plants Overview",
-        "eventMappings": [],
+        "eventMappings": [
+            
+        ],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -3265,7 +3898,9 @@
                     },
                     "elementId": "donut_1",
                     "elementLabel": "Plants Type",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -3274,7 +3909,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -3324,7 +3961,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -3619,7 +4258,9 @@
                         },
                         "selectedElements": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "showAbsolutePeriod": {
                             "type": "JSON_LITERAL",
@@ -3823,14 +4464,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {
-                        "flex": "none",
-                        "height": "250px",
-                        "max-height": "400px",
-                        "max-width": "",
-                        "min-height": "",
-                        "width": "30%"
-                    }
+                    "styles": null
                 },
                 {
                     "definition": {
@@ -3839,7 +4473,9 @@
                     },
                     "elementId": "donut_2",
                     "elementLabel": "Plant location",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -3848,7 +4484,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -3902,7 +4540,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -4232,7 +4872,9 @@
                         },
                         "selectedElements": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "showAbsolutePeriod": {
                             "type": "JSON_LITERAL",
@@ -4549,14 +5191,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {
-                        "flex": "none",
-                        "height": "250px",
-                        "max-height": "400px",
-                        "max-width": "",
-                        "min-height": "",
-                        "width": "30%"
-                    }
+                    "styles": null
                 },
                 {
                     "definition": {
@@ -4565,7 +5200,9 @@
                     },
                     "elementId": "vertical_bar_1",
                     "elementLabel": "Vertical bar 1",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -4574,7 +5211,9 @@
                     "propertyValues": {
                         "additionalGroupByConfig": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "allowChangeDateRange": {
                             "type": "JSON_LITERAL",
@@ -4628,7 +5267,9 @@
                         },
                         "contextMenuActions": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "dataCategory": {
                             "type": "JSON_LITERAL",
@@ -4931,7 +5572,9 @@
                         },
                         "selectedElements": {
                             "type": "JSON_LITERAL",
-                            "value": []
+                            "value": [
+                                
+                            ]
                         },
                         "showAbsolutePeriod": {
                             "type": "JSON_LITERAL",
@@ -5199,12 +5842,7 @@
                         }
                     },
                     "slot": null,
-                    "styles": {
-                        "height": "250px",
-                        "max-height": "",
-                        "max-width": "",
-                        "width": "30%"
-                    }
+                    "styles": null
                 }
             ],
             "layout": {
@@ -5305,7 +5943,9 @@
         },
         "elementId": "column_layout_1",
         "elementLabel": "Column layout 1",
-        "eventMappings": [],
+        "eventMappings": [
+            
+        ],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -5319,7 +5959,9 @@
                     },
                     "elementId": "__cmbbrtdjjgeaaccddtddffhhuuicckljjhhff__column_1",
                     "elementLabel": "__cmbbrtdjjgeaaccddtddffhhuuicckljjhhff__Column 1",
-                    "eventMappings": [],
+                    "eventMappings": [
+                        
+                    ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -5333,7 +5975,9 @@
                                 },
                                 "elementId": "geomap_1",
                                 "elementLabel": "Geomap 1",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    
+                                ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -5402,7 +6046,9 @@
                                     },
                                     "contextMenuActions": {
                                         "type": "JSON_LITERAL",
-                                        "value": []
+                                        "value": [
+                                            
+                                        ]
                                     },
                                     "dataCategory": {
                                         "type": "JSON_LITERAL",
@@ -5713,7 +6359,9 @@
                                     },
                                     "selectedElements": {
                                         "type": "JSON_LITERAL",
-                                        "value": []
+                                        "value": [
+                                            
+                                        ]
                                     },
                                     "showAbsolutePeriod": {
                                         "type": "JSON_LITERAL",
@@ -6021,7 +6669,9 @@
                         "layout": {
                             "children": null,
                             "isInline": null,
-                            "items": [],
+                            "items": [
+                                
+                            ],
                             "root": null,
                             "rules": null,
                             "styles": {
@@ -6513,15 +7163,36 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "1a3364d2439d211017b739603ab8f23e",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "filter_and_sort__related_items_1",
+        "elementLabel": "Filter and Sort - Related Items 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "inputData": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "sortCategoriesArray": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <dispatched_events>c0337194c31112109421b71ed4013158,51bbf118c35112109421b71ed4013176</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
-        <form_factors>{}</form_factors>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -6571,7 +7242,9 @@
         <macroponent_dependencies/>
         <name>Default</name>
         <output_prop_mapping/>
-        <props>[]</props>
+        <props>[
+    
+]</props>
         <required_translations>[ {
   "message" : "Fertilize Tasks",
   "comment" : ""
@@ -6580,6 +7253,9 @@
   "comment" : ""
 }, {
   "message" : "Maintenance Tasks",
+  "comment" : ""
+}, {
+  "message" : "My Work Desk Plants",
   "comment" : ""
 }, {
   "message" : "No data available.",
@@ -6600,10 +7276,16 @@
   "message" : "Plants Type",
   "comment" : ""
 }, {
+  "message" : "Plants from my workdesk, which are approved.",
+  "comment" : ""
+}, {
   "message" : "Plants location",
   "comment" : ""
 }, {
   "message" : "Repot Tasks",
+  "comment" : ""
+}, {
+  "message" : "Requested Item",
   "comment" : ""
 }, {
   "message" : "Total Plants",
@@ -6616,7 +7298,6 @@
         <root_component_config/>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
-        <state_persistence_config/>
         <state_properties>[
     {
         "id": "",
@@ -6664,14 +7345,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 15:50:30</sys_created_on>
         <sys_id>8620f494c3891a108c3abd33e4013183</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_ux_macroponent_8620f494c3891a108c3abd33e4013183</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 16:42:21</sys_updated_on>
+        <sys_updated_on>2024-10-28 13:56:46</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=8620f494c3891a108c3abd33e4013183"/>
 </record_update>
