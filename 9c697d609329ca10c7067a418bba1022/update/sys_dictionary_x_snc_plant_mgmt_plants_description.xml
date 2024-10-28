@@ -5,7 +5,7 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Description</column_label>
@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>256</max_length>
         <name>x_snc_plant_mgmt_plants</name>
         <next_element/>
         <primary>false</primary>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_plant_mgmt_plants_description</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 03:37:42</sys_updated_on>
+        <sys_updated_on>2024-10-27 11:25:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

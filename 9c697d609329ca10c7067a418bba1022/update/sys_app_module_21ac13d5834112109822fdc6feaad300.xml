@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Plant Management">564ab5e09329ca10c7067a418bba1042</application>
+        <application display_value="System Import Sets">import_sets</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -10,10 +10,10 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Plant Diseases</mobile_title>
+        <mobile_title>importplantdata</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_snc_plant_mgmt_plant_diseases</name>
-        <order/>
+        <name>x_snc_plant_mgmt_importplantdata</name>
+        <order>1100</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -21,21 +21,21 @@
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-17 08:27:01</sys_created_on>
+        <sys_created_on>2024-10-04 06:58:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>afad2ee1975112109790fefce053aff4</sys_id>
+        <sys_id>21ac13d5834112109822fdc6feaad300</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Plant Diseases</sys_name>
+        <sys_name>importplantdata</sys_name>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name>sys_app_module_afad2ee1975112109790fefce053aff4</sys_update_name>
+        <sys_update_name>sys_app_module_21ac13d5834112109822fdc6feaad300</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 08:27:01</sys_updated_on>
+        <sys_updated_on>2024-10-04 06:58:03</sys_updated_on>
         <timeline_page/>
-        <title>Plant Diseases</title>
+        <title>importplantdata</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
