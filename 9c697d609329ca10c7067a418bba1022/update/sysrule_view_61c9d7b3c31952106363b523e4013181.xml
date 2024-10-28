@@ -2,7 +2,9 @@
     <sysrule_view action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>false</advanced>
-        <condition/>
+        <condition table="x_snc_plant_mgmt_plants">sys_created_onISNOTEMPTY^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <description/>
         <device_type>browser</device_type>
         <match_conditions>ALL</match_conditions>
@@ -21,7 +23,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>61c9d7b3c31952106363b523e4013181</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Set Quick_Details View</sys_name>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
@@ -29,7 +31,7 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sysrule_view_61c9d7b3c31952106363b523e4013181</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-24 11:27:13</sys_updated_on>
+        <sys_updated_on>2024-10-28 13:16:07</sys_updated_on>
         <table>x_snc_plant_mgmt_plants</table>
         <view>Quick_Details</view>
     </sysrule_view>
