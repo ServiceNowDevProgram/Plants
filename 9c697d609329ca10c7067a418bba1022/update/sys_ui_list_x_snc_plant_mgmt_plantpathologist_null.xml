@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_plant_mgmt_plantpathologist" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>5c8b94aa830112109822fdc6feaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>dc8b94aa830112109822fdc6feaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>508b94aa830112109822fdc6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>country</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>d08b94aa830112109822fdc6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>548b94aa830112109822fdc6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>diseases</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>d48b94aa830112109822fdc6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fertilizer</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>588b94aa830112109822fdc6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ideal_temperature</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>d88b94aa830112109822fdc6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>plant_name</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>5c8b94aa830112109822fdc6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>plant_placed_in</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>dc8b94aa830112109822fdc6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_snc_plant_mgmt_plantpathologist" element="NULL" name="x_snc_plant_mgmt_plantpathologist" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">508b94aa830112109822fdc6feaad342</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_id>508b94aa830112109822fdc6feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_plant_mgmt_plantpathologist</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-07 14:06:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>508b94aa830112109822fdc6feaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_plant_mgmt_plantpathologist</sys_name>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_plant_mgmt_plantpathologist_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-07 14:06:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
