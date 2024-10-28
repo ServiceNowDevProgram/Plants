@@ -56,6 +56,13 @@
                 <element inactive_on_update="false" label="IC0003" sequence="2" value="ic0003"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Plant Condition" max_length="40" name="plant_condition" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Good" sequence="0" value="Good"/>
+                <element inactive_on_update="false" label="About ot Die" sequence="2" value="About ot Die"/>
+                <element inactive_on_update="false" label="Bad" sequence="1" value="Bad"/>
+            </choice>
+        </element>
         <element label="Notes" max_length="4000" name="notes" type="journal"/>
         <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Fertilising schedule" max_length="1024" name="u_fertilising_schedule" type="glide_list"/>
         <element label="Water every X days" max_length="40" name="u_water_every_days" type="integer"/>
