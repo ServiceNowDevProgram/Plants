@@ -34,15 +34,4 @@
         <table>x_snc_plant_mgmt_plants</table>
         <view>default</view>
     </sysrule_view>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>8f959434c32dda141036d60d0501317e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-27 00:06:35</sys_created_on>
-        <sys_id>da0bd0b0c36dda141036d60d05013116</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-27 00:06:35</sys_updated_on>
-        <table>sysrule_view</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>
