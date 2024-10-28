@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ff9f24d583299210f80e7965eeaad358</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>RED DOT SUGARCANE DISEASE</common_name>
+        <description>Red rot is a major disease in sugarcane that can cause severe loss to production and productivity. To manage the disease, sugarcane breeders screen for disease resistance to develop high yielding varieties.&#13;
+&#13;
+The host of red rot disease in sugarcane is the sugarcane plant. Red rot is a serious disease caused by the fungus Colletotrichum falcatum (Glomerella tucumanensis). Symptoms of red rot include: &#13;
+Stems: Large red blotches on the outside and internal red rots with white patches &#13;
+Leaves: Small red oval spots on the midrib and upper surface of the leaf &#13;
+Smell: A sour alcoholic odor when the cane is split open &#13;
+Plants: Wilt and shrivel, and there is a reduction of sucrose content &#13;
+</description>
+        <family/>
+        <host/>
+        <number>PLD0001121</number>
+        <scientific_name>Colletotrichum falcatum</scientific_name>
+        <solution>Treatment for Red Spots on Skin&#13;
+Topical Medications: Corticosteroid creams or ointments to diminish inflammation and itching. Antifungal creams or powders for fungal infections. Antihistamines or calamine lotion for insect bites or allergic reactions.</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 14:55:15</sys_created_on>
+        <sys_id>ff9f24d583299210f80e7965eeaad358</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 14:55:38</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 14:56:22</sys_created_on>
+        <sys_id>ce407cdd83299210f80e7965eeaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001121</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_ce407cdd83299210f80e7965eeaad3fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 14:56:22</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>
