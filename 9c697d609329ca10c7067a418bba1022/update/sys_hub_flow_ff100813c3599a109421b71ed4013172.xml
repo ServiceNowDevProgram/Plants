@@ -17,7 +17,6 @@
         <internal_name>check_rainfall_everyday</internal_name>
         <label_cache>[]</label_cache>
         <master_snapshot>a6408053c3599a109421b71ed4013116</master_snapshot>
-        <master_snapshot_digest/>
         <name>Check Rainfall Everyday</name>
         <natlang/>
         <outputs/>
@@ -46,7 +45,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-22 06:25:33</sys_updated_on>
         <type>flow</type>
-        <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=ff100813c3599a109421b71ed4013172"/>
     <sys_variable_value action="delete_multiple" query="document_key=ff100813c3599a109421b71ed4013172"/>
@@ -108,6 +106,7 @@
         <upgrade_safe>true</upgrade_safe>
     </sys_flow_trigger_auto_script>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=ff100813c3599a109421b71ed4013172"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=ff100813c3599a109421b71ed4013172^sys_idNOT INbf100813c3599a109421b71ed4013173"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -125,162 +124,24 @@
     <sys_hub_flow_input action="delete_multiple" query="model=ff100813c3599a109421b71ed4013172"/>
     <sys_hub_flow_output action="delete_multiple" query="model=ff100813c3599a109421b71ed4013172"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ff100813c3599a109421b71ed4013172"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172^sys_idNOT IN4d404013c3599a109421b71ed40131bc"/>
-    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Check Rainfall Everyday">ff100813c3599a109421b71ed4013172</flow>
-        <name>Daily</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-22 06:18:45</sys_created_on>
-        <sys_id>4d404013c3599a109421b71ed40131bc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 06:18:50</sys_updated_on>
-        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/21SS0vEMBD+K5LzWtLt+upNkAUPKqh4ESnTZLobmCYxTVer+N+dtHVR2ZLLzDfzPYY+fwqCGkmU4tG0KBbC2IjBAj0OHrm7IaOxihPWgtUQXRhEGUOPC+GCxiDKXMqF2AH1+DB015rXeNhCmwjm1RHlMr84k8cy53e0LEop+THqIfB0TFyfQm0N6YBWlM8v7CfRFaBXqJVUxZI/KZfnq7w+Lep8qQtAPGGKfzH+qscDYX57x/eIViNLNUAdHkgaEPSdpWE/seVDTUFbeO/MB85UARtk8wonUG2dUXjno3F26kSo6Qd01Lf2drLKtcYGeopP862403dYafTJXJKbtZuHrXu7/xFaGzsmmUFyCmhfQYzB1H3ELp0WCVsmqlrw3thN5YPbmXGZvbTZeJ+sIffGop3Z2AxUMp7xLSBbc/9qbD9BMCnFDdPw8teYunrtk+6UY3ZcTaF5QJvOEwxrgzT/H50KxsdLFtjhbPfr5Ru5/ksXkAIAAA==</trigger_inputs>
-        <trigger_outputs/>
-        <trigger_type>daily</trigger_type>
-    </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172^sys_idNOT IN01404053c3599a109421b71ed4013163"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Check Rainfall data today">6bbf7703c3599a109421b71ed401310d</action_type>
-        <action_type_parent display_value="Check Rainfall data today">2f9f3fcfc3199a109421b71ed401310c</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Check Rainfall Everyday">ff100813c3599a109421b71ed4013172</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-22 06:18:45</sys_created_on>
-        <sys_id>01404053c3599a109421b71ed4013163</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 06:18:45</sys_updated_on>
-        <ui_id>31c88b22-549d-46a7-b1c2-077d0ce2109b</ui_id>
-        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=ff100813c3599a109421b71ed4013172"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=ff100813c3599a109421b71ed4013172"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ff100813c3599a109421b71ed4013172"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ff100813c3599a109421b71ed4013172"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ff100813c3599a109421b71ed4013172"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ff100813c3599a109421b71ed4013172"/>
-    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
-        <access>public</access>
-        <acls/>
-        <active>true</active>
-        <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
-        <authored_on_release_version>26000</authored_on_release_version>
-        <callable_by_client_api>false</callable_by_client_api>
-        <category/>
-        <copied_from/>
-        <copied_from_name/>
-        <description/>
-        <flow_priority>MEDIUM</flow_priority>
-        <internal_name>check_rainfall_everyday</internal_name>
-        <label_cache>[]</label_cache>
-        <master>true</master>
-        <name>Check Rainfall Everyday</name>
-        <natlang/>
-        <outputs/>
-        <parent_flow display_value="Check Rainfall Everyday">ff100813c3599a109421b71ed4013172</parent_flow>
-        <remote_trigger_id/>
-        <run_as>user</run_as>
-        <run_with_roles/>
-        <sc_callable>false</sc_callable>
-        <status>published</status>
-        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-22 06:18:50</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>a6408053c3599a109421b71ed4013116</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 06:18:50</sys_updated_on>
-        <type>flow</type>
-        <version>2</version>
-    </sys_hub_flow_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=a6408053c3599a109421b71ed4013116"/>
-    <sys_variable_value action="delete_multiple" query="document_key=a6408053c3599a109421b71ed4013116"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=a6408053c3599a109421b71ed4013116^sys_idNOT INa6408053c3599a109421b71ed4013117"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>a6408053c3599a109421b71ed4013116</id>
-        <name>Check Rainfall Everyday</name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-22 06:18:50</sys_created_on>
-        <sys_id>a6408053c3599a109421b71ed4013117</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 06:18:50</sys_updated_on>
-    </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a6408053c3599a109421b71ed4013117"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_flow_input action="delete_multiple" query="model=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_flow_output action="delete_multiple" query="model=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a6408053c3599a109421b71ed4013116"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116^sys_idNOT IN6a408053c3599a109421b71ed401311a"/>
-    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Check Rainfall Everyday">a6408053c3599a109421b71ed4013116</flow>
-        <name>Daily</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-22 06:18:50</sys_created_on>
-        <sys_id>6a408053c3599a109421b71ed401311a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 06:18:50</sys_updated_on>
-        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/21SS0vEMBD+K5LzWtLt+upNkAUPKqh4ESnTZLobmCYxTVer+N+dtHVR2ZLLzDfzPYY+fwqCGkmU4tG0KBbC2IjBAj0OHrm7IaOxihPWgtUQXRhEGUOPC+GCxiDKXMqF2AH1+DB015rXeNhCmwjm1RHlMr84k8cy53e0LEop+THqIfB0TFyfQm0N6YBWlM8v7CfRFaBXqJVUxZI/KZfnq7w+Lep8qQtAPGGKfzH+qscDYX57x/eIViNLNUAdHkgaEPSdpWE/seVDTUFbeO/MB85UARtk8wonUG2dUXjno3F26kSo6Qd01Lf2drLKtcYGeopP862403dYafTJXJKbtZuHrXu7/xFaGzsmmUFyCmhfQYzB1H3ELp0WCVsmqlrw3thN5YPbmXGZvbTZeJ+sIffGop3Z2AxUMp7xLSBbc/9qbD9BMCnFDdPw8teYunrtk+6UY3ZcTaF5QJvOEwxrgzT/H50KxsdLFtjhbPfr5Ru5/ksXkAIAAA==</trigger_inputs>
-        <trigger_outputs/>
-        <trigger_type>daily</trigger_type>
-    </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116^sys_idNOT INa2408053c3599a109421b71ed401311a"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Check Rainfall data today">6bbf7703c3599a109421b71ed401310d</action_type>
-        <action_type_parent display_value="Check Rainfall data today">2f9f3fcfc3199a109421b71ed401310c</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>6bbf7703c3599a109421b71ed401310d</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Check Rainfall Everyday">a6408053c3599a109421b71ed4013116</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-22 06:18:50</sys_created_on>
-        <sys_id>a2408053c3599a109421b71ed401311a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 06:18:50</sys_updated_on>
-        <ui_id>31c88b22-549d-46a7-b1c2-077d0ce2109b</ui_id>
-        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=a6408053c3599a109421b71ed4013116"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a6408053c3599a109421b71ed4013116"/>
@@ -292,23 +153,6 @@
         <latest_snapshot>a6408053c3599a109421b71ed4013116</latest_snapshot>
         <compiler_build/>
     </sys_hub_flow>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ff100813c3599a109421b71ed4013172^sys_idNOT IN6e408053c3599a109421b71ed4013123"/>
-    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
-        <plan_id>ff100813c3599a109421b71ed4013172</plan_id>
-        <snapshot>a6408053c3599a109421b71ed4013116</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-22 06:18:50</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>6e408053c3599a109421b71ed4013123</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 06:18:50</sys_updated_on>
-        <trigger display_value="">e2408053c3599a109421b71ed4013122</trigger>
-    </sys_flow_trigger_plan>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ff100813c3599a109421b71ed4013172"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ff100813c3599a109421b71ed4013172"/>
 </record_update>

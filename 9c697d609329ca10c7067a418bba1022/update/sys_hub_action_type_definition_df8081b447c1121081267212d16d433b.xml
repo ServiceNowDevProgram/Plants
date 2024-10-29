@@ -18,7 +18,6 @@
         <internal_name>check_previous_days_precipitation</internal_name>
         <label_cache>[{"name":"{{action.latitude}}","label":"action➛Latitude","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.longitude}}","label":"action➛Longitude","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[f4fc591b-bfbd-437c-8f86-a8774eab6cbc].returned_data}}","label":"step➛Script step➛Returned data","type":"step","ref":"","reference_display":"","base_type":"decimal","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Floating Point Number","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"float","uiUniqueId":"68a15569-68a9-4119-a72c-fc9b09b33931"}}]</label_cache>
         <master_snapshot>d411013847c1121081267212d16d43bb</master_snapshot>
-        <master_snapshot_digest/>
         <name>Check previous days precipitation</name>
         <natlang/>
         <outputs/>
@@ -31,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>df8081b447c1121081267212d16d433b</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Check previous days precipitation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
@@ -39,7 +38,7 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_df8081b447c1121081267212d16d433b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 23:24:24</sys_updated_on>
+        <sys_updated_on>2024-10-28 20:16:36</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -188,18 +187,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5b01cdf447c1121081267212d16d43fb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5b01cdf447c1121081267212d16d43fb</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-02 06:21:17</sys_created_on>
-        <sys_id>6701013847c1121081267212d16d4308</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 06:21:17</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>lat</field>
         <id>5b01cdf447c1121081267212d16d43fb</id>
         <sys_created_by>admin</sys_created_by>
@@ -223,21 +210,8 @@
         <table>var__m_sys_hub_step_ext_input_5b01cdf447c1121081267212d16d43fb</table>
         <value>{{action.longitude}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5b01cdf447c1121081267212d16d43fb</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-02 06:21:18</sys_created_on>
-        <sys_id>6f01013847c1121081267212d16d4308</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 06:21:18</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5b01cdf447c1121081267212d16d43fb^id=5b01cdf447c1121081267212d16d43fb"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5b01cdf447c1121081267212d16d43fb"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=5b01cdf447c1121081267212d16d43fb"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=5b01cdf447c1121081267212d16d43fb^sys_idNOT IN00238db847c1121081267212d16d4328,04238db847c1121081267212d16d432b"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -504,11 +478,11 @@
         <sys_created_on>2024-10-02 23:24:19</sys_created_on>
         <sys_id>553bac4d4701121081267212d16d4386</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Returned data</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5b01cdf447c1121081267212d16d43fb_returned_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 23:24:19</sys_updated_on>
         <url/>
@@ -971,11 +945,11 @@
         <sys_created_on>2024-10-02 06:21:17</sys_created_on>
         <sys_id>d701cdf447c1121081267212d16d43f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Latitude</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_df8081b447c1121081267212d16d433b_latitude_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 06:21:17</sys_updated_on>
         <url/>
@@ -994,11 +968,11 @@
         <sys_created_on>2024-10-02 06:21:17</sys_created_on>
         <sys_id>db01cdf447c1121081267212d16d43f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Longitude</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_df8081b447c1121081267212d16d433b_longitude_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 06:21:17</sys_updated_on>
         <url/>
@@ -1019,11 +993,11 @@
         <sys_created_on>2024-10-02 23:24:19</sys_created_on>
         <sys_id>153bac4d4701121081267212d16d43a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Precipitation</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_df8081b447c1121081267212d16d433b_precipitation_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 23:24:19</sys_updated_on>
         <url/>
@@ -1042,11 +1016,11 @@
         <sys_created_on>2024-10-02 06:21:18</sys_created_on>
         <sys_id>a701013847c1121081267212d16d4310</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_df8081b447c1121081267212d16d433b___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 06:21:18</sys_updated_on>
         <url/>
@@ -1065,11 +1039,11 @@
         <sys_created_on>2024-10-02 06:21:18</sys_created_on>
         <sys_id>e301013847c1121081267212d16d431b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_df8081b447c1121081267212d16d433b___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 06:21:18</sys_updated_on>
         <url/>
@@ -1277,18 +1251,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=dc11013847c1121081267212d16d43c8"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>dc11013847c1121081267212d16d43c8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-02 06:21:21</sys_created_on>
-        <sys_id>5c11013847c1121081267212d16d43d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 06:21:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>lat</field>
         <id>dc11013847c1121081267212d16d43c8</id>
         <sys_created_by>admin</sys_created_by>
@@ -1312,21 +1274,8 @@
         <table>var__m_sys_hub_step_ext_input_dc11013847c1121081267212d16d43c8</table>
         <value>{{action.longitude}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>dc11013847c1121081267212d16d43c8</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-02 06:21:21</sys_created_on>
-        <sys_id>1011013847c1121081267212d16d43d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 06:21:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_dc11013847c1121081267212d16d43c8^id=dc11013847c1121081267212d16d43c8"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=dc11013847c1121081267212d16d43c8"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=dc11013847c1121081267212d16d43c8"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=dc11013847c1121081267212d16d43c8^sys_idNOT IN1a43c1f847c1121081267212d16d434d,5a43c1f847c1121081267212d16d4349"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1593,11 +1542,11 @@
         <sys_created_on>2024-10-02 23:24:23</sys_created_on>
         <sys_id>da3bec4d4701121081267212d16d4372</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Returned data</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_dc11013847c1121081267212d16d43c8_returned_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 23:24:23</sys_updated_on>
         <url/>
@@ -2060,11 +2009,11 @@
         <sys_created_on>2024-10-02 06:21:21</sys_created_on>
         <sys_id>1011013847c1121081267212d16d43c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Latitude</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d411013847c1121081267212d16d43bb_latitude_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 06:21:21</sys_updated_on>
         <url/>
@@ -2083,11 +2032,11 @@
         <sys_created_on>2024-10-02 06:21:21</sys_created_on>
         <sys_id>9011013847c1121081267212d16d43c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Longitude</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d411013847c1121081267212d16d43bb_longitude_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 06:21:21</sys_updated_on>
         <url/>
@@ -2108,11 +2057,11 @@
         <sys_created_on>2024-10-02 06:21:22</sys_created_on>
         <sys_id>6011013847c1121081267212d16d43f0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d411013847c1121081267212d16d43bb___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 06:21:22</sys_updated_on>
         <url/>
@@ -2131,11 +2080,11 @@
         <sys_created_on>2024-10-02 06:21:22</sys_created_on>
         <sys_id>6411013847c1121081267212d16d43d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d411013847c1121081267212d16d43bb___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 06:21:22</sys_updated_on>
         <url/>
@@ -2154,11 +2103,11 @@
         <sys_created_on>2024-10-02 23:24:23</sys_created_on>
         <sys_id>d23bec4d4701121081267212d16d4385</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Precipitation</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d411013847c1121081267212d16d43bb_precipitation_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 23:24:23</sys_updated_on>
         <url/>

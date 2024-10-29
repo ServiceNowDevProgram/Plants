@@ -996,7 +996,6 @@
         <sys_domain_path>/</sys_domain_path>
         <sys_id>92203894c3891a108c3abd33e4013174</sys_id>
         <sys_mod_count>12</sys_mod_count>
-
         <sys_name>Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
@@ -1004,7 +1003,6 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_ux_screen_92203894c3891a108c3abd33e4013174</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-
         <sys_updated_on>2024-10-25 16:21:55</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=92203894c3891a108c3abd33e4013174"/>

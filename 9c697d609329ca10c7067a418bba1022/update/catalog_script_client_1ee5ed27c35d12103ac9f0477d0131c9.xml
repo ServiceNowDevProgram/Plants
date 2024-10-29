@@ -71,15 +71,4 @@ function plantData(answer)
         <variable_set/>
         <view/>
     </catalog_script_client>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>1ee5ed27c35d12103ac9f0477d0131c9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-23 08:21:50</sys_created_on>
-        <sys_id>c206ed27c35d12103ac9f0477d0131cf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-23 08:21:50</sys_updated_on>
-        <table>catalog_script_client</table>
-        <use_es_latest>false</use_es_latest>
-    </sys_es_latest_script>
 </record_update>
