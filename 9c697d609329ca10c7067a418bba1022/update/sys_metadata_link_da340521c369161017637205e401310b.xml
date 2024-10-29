@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>38c209adc329161017637205e401316d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_care_instructions">
+    <x_snc_plant_mgmt_care_instructions action="INSERT_OR_UPDATE">
+        <diseases/>
+        <fertilizing_schedule display_value="Weekends">a618d80e0a0a0b53150f5245edbeb5b6</fertilizing_schedule>
+        <lightin0/>
+        <lighting/>
+        <number>CARE0001001</number>
+        <pests/>
+        <plant_id display_value="Tecomella">1d97f01cc3e5121017637205e4013161</plant_id>
+        <pruning_guidelines>&#13;
+The best time to prune is early spring, just before new growth commences. Pruning at this time encourages vigorous flowering and maintains a manageable size</pruning_guidelines>
+        <special_care_notes>This plant often require low water and are drought tolerant. The soil on which they are supposed to be planted must be Sandy, rich with calcium and well-drained. Keep the plants in a well drained soil with a drainage hole at the bottom. This will help to avoid over watering. Take care as to not leave stagnant water on top of the soil. Fertilise the plant once in 2-3 weeks during its blooming period.</special_care_notes>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 11:01:11</sys_created_on>
+        <sys_id>38c209adc329161017637205e401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 11:01:11</sys_updated_on>
+        <watering_schedule/>
+    </x_snc_plant_mgmt_care_instructions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 11:01:58</sys_created_on>
+        <sys_id>da340521c369161017637205e401310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CARE0001001</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_da340521c369161017637205e401310b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 11:01:58</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_care_instructions</tablename>
+    </sys_metadata_link>
+</record_update>
