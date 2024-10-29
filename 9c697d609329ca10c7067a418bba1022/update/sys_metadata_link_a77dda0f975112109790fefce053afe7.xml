@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>ef2d9ecb975112109790fefce053af84</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Grease spot (Pythium blight)</common_name>
+        <description>How does Pythium Blight occur?
+Pythium blight reproduces through both asexual and sexual methods. In humid conditions, it releases zoospores that can swim in water and infect nearby turfgrass. It also produces durable sexual spores that help it survive in soil and plant debris. These reproductive strategies allow Pythium blight to spread and persist, causing damage to susceptible plants in turfgrass environments.
+
+</description>
+        <family/>
+        <host>various vegetables and melons,</host>
+        <number>PLD0001004</number>
+        <scientific_name>Pythium spp.</scientific_name>
+        <solution>Apply fungicides
+Here are some commonly used fungicides for the management of Pythium blight (grease spot) in turfgrass.
+
+•	Azoxystrobin (Brand name: Heritage)
+•	Fosetyl-al (Brand names: Aliette WDG, Prodigy, Chipco Signature)
+•	Mancozeb (Brand names: Fore 80WP, Dithane M-45)
+•	Mefenoxam (Brand names: Subdue MAXX, Ridomil Gold SL)
+•	Chlorothalonil (Brand names: Daconil, Bravo)
+•	Propamocarb (Brand name: Banol)
+
+•	Please note that the use of fungicides should be in accordance with local regulations, product labels, and the advice of professionals or local extension services.
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:49</sys_created_on>
+        <sys_id>ef2d9ecb975112109790fefce053af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:49</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:11</sys_created_on>
+        <sys_id>a77dda0f975112109790fefce053afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001004</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_a77dda0f975112109790fefce053afe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:11</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">974d492283511210742c7fdfeeaad33c</canvas>
+        <component display_value="Column">2bd5dc19a7ad083941b7c992a966dd78</component>
+        <component_props>{"showDataLabels":true,"disableTooltip":true,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","chartVariation":"stacked","extensionType":"bar","newReporting":false,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"sortByOrder":"desc","showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":true,"enableCustomEmptyState":true,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":null,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"filterConfigurations":[],"description":"This report shows the list of plants by  last watered date.","componentId":"h7lguq7k","configVersion":"23.0.0-ci-SNAPSHOT","sortBy":"value","colorConfig":{"type":"palette","palette":"f08a294943300210c25373e60db8f245"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Plants","sourceType":"table","tableOrViewName":"x_snc_plant_mgmt_plants","filterQuery":"nameISNOTEMPTY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X3NuY19wbGFudF9tZ210X3BsYW50czE3MjkzOTc1NjMyNDc=","dataCategories":["trend","group","simple"]}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4X3NuY19wbGFudF9tZ210X3BsYW50czE3MjkzOTc1NjMyNDc=","groupByField":"date_last_watered","isRange":true,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"metrics":[{"dataSource":"dGFibGV4X3NuY19wbGFudF9tZ210X3BsYW50czE3MjkzOTc1NjMyNDc=","id":"ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzQnNZVzUwY3pFM01qa3pPVGMxTmpNeU5EYz0xNzI5Mzk3NTY1Mjc4","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"dataCategory":"group","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVjRYM051WTE5d2JHRnVkRjl0WjIxMFgzQnNZVzUwY3pFM01qa3pPVGMxTmpNeU5EYz0xNzI5Mzk3NTY1Mjc4"}]},"headerTitle":"Plants by last watered Date.","id":"headerTitle","value":"Plants by last watered Date.","noDebounce":true,"propLabel":"Chart title"}</component_props>
+        <h>17</h>
+        <name>Plants by watered date</name>
+        <stored_component display_value="Plants by watered date">f082592a83511210742c7fdfeeaad3c8</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 04:23:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4db2dd2a83511210742c7fdfeeaad3ea</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Plants by watered date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>par_dashboard_widget_4db2dd2a83511210742c7fdfeeaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 05:12:34</sys_updated_on>
+        <visualization/>
+        <w>26</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

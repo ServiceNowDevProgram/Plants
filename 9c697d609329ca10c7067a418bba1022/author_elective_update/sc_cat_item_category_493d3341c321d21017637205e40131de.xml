@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Order Your Plants">87ca338dc3ed921017637205e401316a</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 11:13:11</sys_created_on>
+        <sys_id>493d3341c321d21017637205e40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Order Your Plants</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sc_cat_item_category_493d3341c321d21017637205e40131de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 11:13:11</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>b08e0e191b8ac650168f4089bd4bcb79</instance_id>
+        <instance_name>dev265116</instance_name>
+        <name>sc_cat_item_category_493d3341c321d21017637205e40131de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Order Your Plants">87ca338dc3ed921017637205e401316a</sc_cat_item><sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-28 11:13:11</sys_created_on><sys_id>493d3341c321d21017637205e40131de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office.Order Your Plants</sys_name><sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package><sys_policy/><sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope><sys_update_name>sc_cat_item_category_493d3341c321d21017637205e40131de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-28 11:13:11</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-753473877</payload_hash>
+        <record_name>Office.Order Your Plants</record_name>
+        <reverted_from/>
+        <source>0ca3e898c325121017637205e4013115</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 11:13:12</sys_created_on>
+        <sys_id>453d3341c321d21017637205e40131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d2d475560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 11:13:12</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>493d3341b421d210d4c24e691e3903e1</update_guid>
+        <update_guid_history>493d3341b421d210d4c24e691e3903e1:-753473877</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5ed4401dc321d21017637205e40131b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 11:46:36</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>9ea654c47a4642a0945b6b10b7c71c40</sys_id>
+        <sys_metadata>493d3341c321d21017637205e40131de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Order Your Plants</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_493d3341c321d21017637205e40131de</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_493d3341c321d21017637205e40131de">453d3341c321d21017637205e40131e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 11:46:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

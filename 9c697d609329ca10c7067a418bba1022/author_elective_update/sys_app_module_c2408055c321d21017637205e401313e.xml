@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Plant Inventory">c6408055c321d21017637205e401313a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Plant Inventories</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_plant_mgmt_plant_inventory</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_snc_plant_mgmt.plant_inventory_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 11:26:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2408055c321d21017637205e401313e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plant Inventories</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_app_module_c2408055c321d21017637205e401313e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 11:26:39</sys_updated_on>
+        <timeline_page/>
+        <title>Plant Inventories</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>b08e0e191b8ac650168f4089bd4bcb79</instance_id>
+        <instance_name>dev265116</instance_name>
+        <name>sys_app_module_c2408055c321d21017637205e401313e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Plant Inventory">c6408055c321d21017637205e401313a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Plant Inventories</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_plant_mgmt_plant_inventory</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_snc_plant_mgmt.plant_inventory_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-28 11:26:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c2408055c321d21017637205e401313e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Plant Inventories</sys_name><sys_overrides/><sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package><sys_policy/><sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope><sys_update_name>sys_app_module_c2408055c321d21017637205e401313e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-28 11:26:39</sys_updated_on><timeline_page/><title>Plant Inventories</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1440801363</payload_hash>
+        <record_name>Plant Inventories</record_name>
+        <reverted_from/>
+        <source>0ca3e898c325121017637205e4013115</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 11:26:39</sys_created_on>
+        <sys_id>0a408055c321d21017637205e4013141</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d2e0c8930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 11:26:39</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0e4080550621d210c4cd22ff9ca7a140</update_guid>
+        <update_guid_history>0e4080550621d210c4cd22ff9ca7a140:1440801363</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2e70c455c321d21017637205e4013161</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 11:27:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>160234bc4bff48ec913dc10792ddcd90</sys_id>
+        <sys_metadata>c2408055c321d21017637205e401313e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plant Inventories</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sys_app_module_c2408055c321d21017637205e401313e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c2408055c321d21017637205e401313e">0a408055c321d21017637205e4013141</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 11:27:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

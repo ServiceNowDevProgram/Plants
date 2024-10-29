@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e32d160f975112109790fefce053afa1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_diseases">
+    <x_snc_plant_mgmt_plant_diseases action="INSERT_OR_UPDATE">
+        <common_name>Fusarium patch (Microdochium patch or pink snow mold)</common_name>
+        <description>How does Fusarium patch, pink snow mold (Microdochium nivale) occur?
+Microdochium patch reproduces through spore dispersal. The fungal spores are found in infected plant debris or soil. When the weather is wet and cool, the spores germinate and infect the turfgrass. The fungus grows and spreads through fungal threads called mycelium within the turfgrass. In snowy or wet conditions, the fungus produces white to pink spore masses (sporodochia). These spore masses help the fungus spread and infect other susceptible turfgrass plants, completing its reproductive cycle.
+
+</description>
+        <family/>
+        <host>zoysiagrass,</host>
+        <number>PLD0001021</number>
+        <scientific_name>Microdochium nivale</scientific_name>
+        <solution>Fungicide Application
+•	In high-risk areas or severe cases, consider preventive fungicide applications following the manufacturer's instructions.
+
+•	Common fungicides used for the control of pink snow mold (Microdochium nivale) disease include azoxystrobin, chlorothalonil, fludioxonil, propiconazole, thiophanate-methyl, and trifloxystrobin.
+•	Use fungicides with different modes of action to minimize resistance.
+
+•	Follow label instructions and repeat applications during high disease pressure.
+
+
+
+</solution>
+        <sys_class_name>x_snc_plant_mgmt_plant_diseases</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:05:50</sys_created_on>
+        <sys_id>e32d160f975112109790fefce053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:05:50</sys_updated_on>
+    </x_snc_plant_mgmt_plant_diseases>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 23:07:09</sys_created_on>
+        <sys_id>437dda0f975112109790fefce053afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PLD0001021</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_437dda0f975112109790fefce053afb0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 23:07:09</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_diseases</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,91 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="036cf1a49329ca10c7067a418bba10da" label="Plants" max_length="40" name="x_snc_plant_mgmt_plants" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Watering due" max_length="40" name="u_watering_due" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Other Issue" max_length="100" name="other_issue" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Last Prune Date" max_length="40" name="u_last_prune_date" type="glide_date"/>
-        <element label="Notes" max_length="4000" name="notes" type="journal"/>
-        <element choice="1" label="USDA Plant Hardiness Zone" max_length="40" name="hardiness_zone" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="2a" sequence="2" value="2a"/>
-                <element inactive_on_update="false" label="6b" sequence="11" value="6b"/>
-                <element inactive_on_update="false" label="3a" sequence="4" value="3a"/>
-                <element inactive_on_update="false" label="7b" sequence="13" value="7b"/>
-                <element inactive_on_update="false" label="4a" sequence="6" value="4a"/>
-                <element inactive_on_update="false" label="8b" sequence="15" value="8b"/>
-                <element inactive_on_update="false" label="1a" sequence="0" value="1a"/>
-                <element inactive_on_update="false" label="5b" sequence="9" value="5b"/>
-                <element inactive_on_update="false" label="9b" sequence="17" value="9b"/>
-                <element inactive_on_update="false" label="13a" sequence="24" value="13a"/>
-                <element inactive_on_update="false" label="11a" sequence="20" value="11a"/>
-                <element inactive_on_update="false" label="12a" sequence="22" value="12a"/>
-                <element inactive_on_update="false" label="2b" sequence="3" value="2b"/>
-                <element inactive_on_update="false" label="7a" sequence="12" value="7a"/>
-                <element inactive_on_update="false" label="3b" sequence="5" value="3b"/>
-                <element inactive_on_update="false" label="8a" sequence="14" value="8a"/>
-                <element inactive_on_update="false" label="4b" sequence="7" value="4b"/>
-                <element inactive_on_update="false" label="5a" sequence="8" value="5a"/>
-                <element inactive_on_update="false" label="9a" sequence="16" value="9a"/>
-                <element inactive_on_update="false" label="1b" sequence="1" value="1b"/>
-                <element inactive_on_update="false" label="6a" sequence="10" value="6a"/>
-                <element inactive_on_update="false" label="10a" sequence="18" value="10a"/>
-                <element inactive_on_update="false" label="13b" sequence="25" value="13b"/>
-                <element inactive_on_update="false" label="10b" sequence="19" value="10b"/>
-                <element inactive_on_update="false" label="11b" sequence="21" value="11b"/>
-                <element inactive_on_update="false" label="12b" sequence="23" value="12b"/>
-            </choice>
-        </element>
-        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Date Planted" max_length="40" name="date_planted" type="glide_date"/>
         <element label="Water every X days" max_length="40" name="u_water_every_days" type="integer"/>
-        <element label="Patent" max_length="40" name="patent" type="string"/>
         <element label="Image" max_length="40" name="image" type="user_image"/>
-        <element choice="1" label="Placement" max_length="40" name="placement" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
-                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
-            </choice>
-        </element>
-        <element label="Days since last full water" max_length="40" name="days_since_last_full_water" read_only="true" type="integer"/>
-        <element choice="1" label="Pottery type" max_length="40" name="pottery_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Clay" sequence="0" value="clay"/>
-                <element inactive_on_update="false" label="Plastic" sequence="2" value="plastic"/>
-                <element inactive_on_update="false" label="Biodegradable Pot" sequence="4" value="biodegradable_pot"/>
-                <element inactive_on_update="false" label="Ceramic" sequence="1" value="ceramic"/>
-                <element inactive_on_update="false" label="Fiberglass" sequence="3" value="fiberglass"/>
-            </choice>
-        </element>
-        <element label="Rain since last full water" max_length="15" name="rain_since_last_full_water" type="decimal"/>
-        <element label="Pottery Notes" max_length="400" name="pottery_notes" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Growth Method" max_length="40" name="growth_method" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Propagation" sequence="1" value="propagation"/>
-                <element inactive_on_update="false" label="Seed" sequence="0" value="seed"/>
-                <element inactive_on_update="false" label="Tissue Culture" sequence="2" value="Tissue Culture"/>
-            </choice>
-        </element>
-        <element choice="1" label="Size" max_length="40" name="size" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Small" sequence="0" value="small"/>
-                <element inactive_on_update="false" label="Large" sequence="2" value="large"/>
-                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
-            </choice>
-        </element>
+        <element attributes="edge_encryption_enabled=true" label="Next Prune Date" max_length="40" name="u_next_prune_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="256" name="description" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element label="Pruning Interval (in days)" max_length="40" name="u_pruning_interval" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Date Last Watered" max_length="40" name="date_last_watered" type="glide_date"/>
-        <element choice="1" label="Plant location" mandatory="true" max_length="40" name="plant_location" type="choice">
+        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Fertilising schedule" max_length="1024" name="u_fertilising_schedule" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Issue" max_length="100" name="other_issue" type="string"/>
+        <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plant_mgmt_plant_wiki" type="reference"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Planted" max_length="40" name="date_planted" type="glide_date"/>
+        <element choice="1" label="Tissue Culture" max_length="40" name="tissue_culture" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
-                <element inactive_on_update="false" label="In ground" sequence="2" value="In ground"/>
-                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
-                <element inactive_on_update="false" label="In pot" sequence="3" value="In pot"/>
+                <element inactive_on_update="false" label="IC0002" sequence="1" value="ic0002"/>
+                <element inactive_on_update="false" label="IC0001" sequence="0" value="ic0001"/>
+                <element inactive_on_update="false" label="IC0003" sequence="2" value="ic0003"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Planting Method" max_length="40" name="planting_method" type="string">
+        <element choice="3" default="need_to_replace" label="Pottery Condition" max_length="40" name="pottery_condition" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Propagation" sequence="1" value="Propagation"/>
-                <element inactive_on_update="false" label="Seed" sequence="0" value="Seed"/>
-                <element inactive_on_update="false" label="Tissue Culture" sequence="2" value="Tissue Culture"/>
+                <element inactive_on_update="false" label="Need To Replaced" sequence="3" value="need_to_replace"/>
+                <element inactive_on_update="false" label="Damaged" sequence="1" value="damaged"/>
+                <element inactive_on_update="false" label="Broken" sequence="0" value="broken"/>
+                <element inactive_on_update="false" label="Good" sequence="2" value="good"/>
             </choice>
         </element>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
@@ -96,47 +35,125 @@
                 <element inactive_on_update="false" label="Sick" sequence="2" value="sick"/>
             </choice>
         </element>
-        <element label="Plant Type" max_length="32" name="plant_type" reference="x_snc_plant_mgmt_plant_wiki" type="reference"/>
-        <element choice="3" default="need_to_replace" label="Pottery Condition" max_length="40" name="pottery_condition" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Soil Type" max_length="40" name="u_choice_1" type="string">
             <choice>
-                <element inactive_on_update="false" label="Damaged" sequence="1" value="damaged"/>
-                <element inactive_on_update="false" label="Need To Replaced" sequence="3" value="need_to_replace"/>
-                <element inactive_on_update="false" label="Broken" sequence="0" value="broken"/>
-                <element inactive_on_update="false" label="Good" sequence="2" value="good"/>
+                <element inactive_on_update="false" label="Sandy" sequence="0" value="sandy"/>
+                <element inactive_on_update="false" label="Silt" sequence="2" value="silt"/>
+                <element inactive_on_update="false" label="Peat" sequence="4" value="peat"/>
+                <element inactive_on_update="false" label="Clay" sequence="1" value="clay"/>
+                <element inactive_on_update="false" label="Loam" sequence="3" value="loam"/>
+                <element inactive_on_update="false" label="Chalk" sequence="5" value="chalk"/>
             </choice>
         </element>
-        <element display="true" label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="array=denormalized,no_sort=true,slushbucket_ref_no_expand=true" label="Fertilising schedule" max_length="1024" name="u_fertilising_schedule" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Issue" max_length="40" name="issue" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Planting Method" max_length="40" name="planting_method" type="string">
             <choice>
-                <element inactive_on_update="false" label="Bugs" sequence="2" value="Bugs"/>
-                <element inactive_on_update="false" label="Disease" sequence="4" value="Disease"/>
-                <element inactive_on_update="false" label="Other" sequence="12" value="Other"/>
-                <element inactive_on_update="false" label="Humidity Issue" sequence="6" value="Humidity Issue"/>
-                <element inactive_on_update="false" label="Nitrogen Burn" sequence="8" value="Nitrogen Burn"/>
-                <element inactive_on_update="false" label="Underwatered" sequence="10" value="Underwatered"/>
-                <element inactive_on_update="false" label="Blight" sequence="1" value="Blight"/>
-                <element inactive_on_update="false" label="Burned" sequence="3" value="Burned"/>
-                <element inactive_on_update="false" label="Fungal Infection" sequence="5" value="Fungal Infection"/>
-                <element inactive_on_update="false" label="Mechanical Damage" sequence="7" value="Mechanical Damage"/>
-                <element inactive_on_update="false" label="Root Rot" sequence="9" value="Root Rot"/>
-                <element inactive_on_update="false" label="Virus" sequence="11" value="Virus"/>
+                <element inactive_on_update="false" label="Seed" sequence="0" value="Seed"/>
+                <element inactive_on_update="false" label="Propagation" sequence="1" value="Propagation"/>
+                <element inactive_on_update="false" label="Tissue Culture" sequence="2" value="Tissue Culture"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Size" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Shrubs(Medium)" sequence="1" value="shrubs"/>
+                <element inactive_on_update="false" label="Herbs(Small)" sequence="0" value="herbs"/>
+                <element inactive_on_update="false" label="Trees(Big)" sequence="2" value="trees"/>
+            </choice>
+        </element>
+        <element choice="1" label="Size" max_length="40" name="size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Small" sequence="0" value="small"/>
+                <element inactive_on_update="false" label="Large" sequence="2" value="large"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+            </choice>
+        </element>
+        <element label="Pottery Notes" max_length="400" name="pottery_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Prune Date" max_length="40" name="u_last_prune_date" type="glide_date"/>
+        <element choice="1" label="Placement" max_length="40" name="placement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
+                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+            </choice>
+        </element>
+        <element choice="1" label="USDA Plant Hardiness Zone" max_length="40" name="hardiness_zone" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3a" sequence="4" value="3a"/>
+                <element inactive_on_update="false" label="7a" sequence="12" value="7a"/>
+                <element inactive_on_update="false" label="11b" sequence="21" value="11b"/>
+                <element inactive_on_update="false" label="4a" sequence="6" value="4a"/>
+                <element inactive_on_update="false" label="8b" sequence="15" value="8b"/>
+                <element inactive_on_update="false" label="12b" sequence="23" value="12b"/>
+                <element inactive_on_update="false" label="5a" sequence="8" value="5a"/>
+                <element inactive_on_update="false" label="9b" sequence="17" value="9b"/>
+                <element inactive_on_update="false" label="1b" sequence="1" value="1b"/>
+                <element inactive_on_update="false" label="6a" sequence="10" value="6a"/>
+                <element inactive_on_update="false" label="10b" sequence="19" value="10b"/>
+                <element inactive_on_update="false" label="1a" sequence="0" value="1a"/>
+                <element inactive_on_update="false" label="3b" sequence="5" value="3b"/>
+                <element inactive_on_update="false" label="7b" sequence="13" value="7b"/>
+                <element inactive_on_update="false" label="8a" sequence="14" value="8a"/>
+                <element inactive_on_update="false" label="12a" sequence="22" value="12a"/>
+                <element inactive_on_update="false" label="4b" sequence="7" value="4b"/>
+                <element inactive_on_update="false" label="9a" sequence="16" value="9a"/>
+                <element inactive_on_update="false" label="13a" sequence="24" value="13a"/>
+                <element inactive_on_update="false" label="13b" sequence="25" value="13b"/>
+                <element inactive_on_update="false" label="5b" sequence="9" value="5b"/>
+                <element inactive_on_update="false" label="10a" sequence="18" value="10a"/>
+                <element inactive_on_update="false" label="2a" sequence="2" value="2a"/>
+                <element inactive_on_update="false" label="2b" sequence="3" value="2b"/>
+                <element inactive_on_update="false" label="6b" sequence="11" value="6b"/>
+                <element inactive_on_update="false" label="11a" sequence="20" value="11a"/>
+            </choice>
+        </element>
+        <element label="Patent" max_length="40" name="patent" type="string"/>
+        <element label="Rain in last 24 hours" max_length="15" name="rain_in_last_24_hours" read_only="true" type="decimal"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Rain since last full water" max_length="15" name="rain_since_last_full_water" type="decimal"/>
+        <element choice="1" label="Plant location" mandatory="true" max_length="40" name="plant_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In pot" sequence="3" value="In pot"/>
+                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
+                <element inactive_on_update="false" label="In ground" sequence="2" value="In ground"/>
+            </choice>
+        </element>
+        <element label="Located outdoors?" max_length="40" name="located_outdoors" type="boolean"/>
+        <element choice="1" label="Pottery type" max_length="40" name="pottery_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fiberglass" sequence="3" value="fiberglass"/>
+                <element inactive_on_update="false" label="Ceramic" sequence="1" value="ceramic"/>
+                <element inactive_on_update="false" label="Biodegradable Pot" sequence="4" value="biodegradable_pot"/>
+                <element inactive_on_update="false" label="Clay" sequence="0" value="clay"/>
+                <element inactive_on_update="false" label="Plastic" sequence="2" value="plastic"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Last rain recorded" max_length="40" name="u_last_rain_recorded" read_only="true" type="glide_date_time"/>
-        <element label="Rain in last 24 hours" max_length="15" name="rain_in_last_24_hours" read_only="true" type="decimal"/>
-        <element label="Located outdoors?" max_length="40" name="located_outdoors" type="boolean"/>
-        <element label="Pruning Interval (in days)" max_length="40" name="u_pruning_interval" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Next Prune Date" max_length="40" name="u_next_prune_date" type="glide_date"/>
-        <element choice="1" label="Tissue Culture" max_length="40" name="tissue_culture" type="choice">
+        <element label="Days since last full water" max_length="40" name="days_since_last_full_water" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Watering due" max_length="40" name="u_watering_due" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Growth Method" max_length="40" name="growth_method" type="choice">
             <choice>
-                <element inactive_on_update="false" label="IC0001" sequence="0" value="ic0001"/>
-                <element inactive_on_update="false" label="IC0003" sequence="2" value="ic0003"/>
-                <element inactive_on_update="false" label="IC0002" sequence="1" value="ic0002"/>
+                <element inactive_on_update="false" label="Propagation" sequence="1" value="propagation"/>
+                <element inactive_on_update="false" label="Seed" sequence="0" value="seed"/>
+                <element inactive_on_update="false" label="Tissue Culture" sequence="2" value="Tissue Culture"/>
             </choice>
         </element>
         <element label="Amount of water required (mm)" max_length="15" name="amount_of_water_required_mm" type="decimal"/>
-        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Issue" max_length="40" name="issue" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Root Rot" sequence="9" value="Root Rot"/>
+                <element inactive_on_update="false" label="Bugs" sequence="2" value="Bugs"/>
+                <element inactive_on_update="false" label="Virus" sequence="11" value="Virus"/>
+                <element inactive_on_update="false" label="Disease" sequence="4" value="Disease"/>
+                <element inactive_on_update="false" label="Mechanical Damage" sequence="7" value="Mechanical Damage"/>
+                <element inactive_on_update="false" label="Blight" sequence="1" value="Blight"/>
+                <element inactive_on_update="false" label="Underwatered" sequence="10" value="Underwatered"/>
+                <element inactive_on_update="false" label="Burned" sequence="3" value="Burned"/>
+                <element inactive_on_update="false" label="Other" sequence="12" value="Other"/>
+                <element inactive_on_update="false" label="Fungal Infection" sequence="5" value="Fungal Infection"/>
+                <element inactive_on_update="false" label="Humidity Issue" sequence="6" value="Humidity Issue"/>
+                <element inactive_on_update="false" label="Nitrogen Burn" sequence="8" value="Nitrogen Burn"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="location"/>
         </index>

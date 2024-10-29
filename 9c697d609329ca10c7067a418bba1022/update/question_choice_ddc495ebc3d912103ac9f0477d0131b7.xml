@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>130</order>
+        <published_ref/>
+        <question display_value="Pottery type">578415ebc3d912103ac9f0477d013154</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 07:06:57</sys_created_on>
+        <sys_id>ddc495ebc3d912103ac9f0477d0131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fiberglass</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>question_choice_ddc495ebc3d912103ac9f0477d0131b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:06:57</sys_updated_on>
+        <text>Fiberglass</text>
+        <value>fiber_glass</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=ddc495ebc3d912103ac9f0477d0131b7"/>
+</record_update>

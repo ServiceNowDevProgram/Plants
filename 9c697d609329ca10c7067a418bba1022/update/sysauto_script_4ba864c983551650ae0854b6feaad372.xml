@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Scheduled job for checking water due date</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-10-15 09:28:57</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var plantDue = new GlideRecord("x_snc_plant_mgmt_plants");
+
+// encoded query to find records with u_watering_due set to today's date
+plantDue.addEncodedQuery("u_watering_dueBETWEENjavascript:gs.beginningOfToday()@javascript:gs.endOfToday()");
+
+// Query the table
+plantDue.query();
+
+// Process each record returned
+while (plantDue.next()) {
+    // Trigger the event 'x_snc_plant_mgmt.WateringDay' with the relevant details
+    var userRec = new GlideRecord("sys_user");
+    userRec.addQuery("user_name", plantDue.sys_created_by);
+    userRec.query();
+    if (userRec.next()) {
+        gs.eventQueue("x_snc_plant_mgmt.WateringDay", plantDue, plantDue.number, userRec.email);
+    }
+
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 09:34:13</sys_created_on>
+        <sys_id>4ba864c983551650ae0854b6feaad372</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Scheduled job for checking water due date</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sysauto_script_4ba864c983551650ae0854b6feaad372</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 04:51:16</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

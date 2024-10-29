@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="71e1d48d831dd2109822fdc6feaad378" extends="sys_import_set_row" label="sampleplantdata" max_length="40" name="x_snc_plant_mgmt_sampleplantdata" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="40" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Diseases" label="Diseases" max_length="44" name="u_diseases" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Country" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ideal temperature" label="Ideal temperature" max_length="40" name="u_ideal_temperature" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assignment Group" label="Assignment Group" max_length="40" name="u_assignment_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Plant placed in" label="Plant placed in" max_length="40" name="u_plant_placed_in" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Plant Name" label="Plant Name" max_length="40" name="u_plant_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fertilizer" label="Fertilizer" max_length="47" name="u_fertilizer" type="string"/>
+    </element>
+</database>
