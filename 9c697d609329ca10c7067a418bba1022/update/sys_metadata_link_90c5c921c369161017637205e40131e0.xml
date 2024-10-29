@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7c55cd61c369161017637205e40131ba</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_care_instructions">
+    <x_snc_plant_mgmt_care_instructions action="INSERT_OR_UPDATE">
+        <diseases/>
+        <fertilizing_schedule/>
+        <lightin0/>
+        <lighting/>
+        <number>CARE0001002</number>
+        <pests/>
+        <plant_id display_value="MarigoldAfrica">2a961d81831512102578b0d6feaad34d</plant_id>
+        <pruning_guidelines>Prune in the spring after the last frost while the plant is still young and growing vigorously.</pruning_guidelines>
+        <special_care_notes>Water regularly, about once a week, and provide about one inch of water. Container plants may need to be watered every day or every other day during the summer. Avoid wetting the foliage, especially later in the day, to prevent rot and fungal issues. &#13;
+Soil: African marigolds can tolerate many types of soil, but they prefer well-drained soil with a pH between 6.0 and 7.5. If you're working with heavy clay soil, you can add grit and sand to loosen the earth. &#13;
+Planting: Space plants 12 to 16 inches apart. &#13;
+Feeding: Feed regularly throughout the summer with a high potash liquid feed when you water. Avoid fertilizers with a lot of nitrogen, as too much can cause your marigolds to become bushy. &#13;
+Deadheading: Remove spent flowers to encourage continuous blooming. &#13;
+Weeding: Remove any weeds and grass from the site. &#13;
+Pests: Keep an eye out for Japanese beetles, red spider mites, slugs, and snails. &#13;
+Containers: African marigolds can grow quite large, so use a large container, at least ten inches in diameter. Make sure the container drains well and don't use saucers.</special_care_notes>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 11:08:28</sys_created_on>
+        <sys_id>7c55cd61c369161017637205e40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 11:08:28</sys_updated_on>
+        <watering_schedule display_value="Weekends">a618d80e0a0a0b53150f5245edbeb5b6</watering_schedule>
+    </x_snc_plant_mgmt_care_instructions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-29 11:08:40</sys_created_on>
+        <sys_id>90c5c921c369161017637205e40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CARE0001002</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_90c5c921c369161017637205e40131e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-29 11:08:40</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_care_instructions</tablename>
+    </sys_metadata_link>
+</record_update>
