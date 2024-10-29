@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8efe4cf4938d5210f438bd6cebba1064" label="Care Instructions" max_length="40" name="x_snc_plant_mgmt_care_instructions" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Fertilizing Schedule" max_length="32" name="fertilizing_schedule" reference="cmn_schedule" type="reference"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Plant ID" max_length="32" name="plant_id" reference="x_snc_plant_mgmt_plants" type="reference"/>
-        <element label="Pruning Guidelines" max_length="2000" name="pruning_guidelines" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Diseases" max_length="4000" name="diseases" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Watering Schedule" max_length="32" name="watering_schedule" reference="cmn_schedule" type="reference"/>
         <element label="Special Care Notes" max_length="2000" name="special_care_notes" type="string"/>
         <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Pests" max_length="4000" name="pests" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Plant ID" max_length="32" name="plant_id" reference="x_snc_plant_mgmt_plants" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Diseases" max_length="4000" name="diseases" type="glide_list"/>
         <element choice="1" label="Lighting" max_length="40" name="lightin0" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Low" value="Low"/>
-                <element inactive_on_update="false" label="High" value="High"/>
                 <element inactive_on_update="false" label="Medium" value="Medium"/>
+                <element inactive_on_update="false" label="High" value="High"/>
             </choice>
         </element>
+        <element label="Pruning Guidelines" max_length="2000" name="pruning_guidelines" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Watering Schedule" max_length="32" name="watering_schedule" reference="cmn_schedule" type="reference"/>
         <element choice="1" label="Lighting" max_length="40" name="lighting" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Low" value="low"/>
-                <element inactive_on_update="false" label="High" value="high"/>
                 <element inactive_on_update="false" label="Medium" value="medium"/>
+                <element inactive_on_update="false" label="High" value="high"/>
             </choice>
         </element>
         <index name="index">
