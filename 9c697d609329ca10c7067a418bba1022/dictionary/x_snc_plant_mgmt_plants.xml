@@ -5,10 +5,9 @@
         <element label="Rain since last full water" max_length="15" name="rain_since_last_full_water" type="decimal"/>
         <element choice="1" label="Plant location" mandatory="true" max_length="40" name="plant_location" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
-                <element inactive_on_update="false" label="In pot" sequence="3" value="In pot"/>
-                <element inactive_on_update="false" label="In ground" sequence="2" value="In ground"/>
-                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
+                <element inactive_on_update="false" label="IC0002" sequence="1" value="ic0002"/>
+                <element inactive_on_update="false" label="IC0001" sequence="0" value="ic0001"/>
+                <element inactive_on_update="false" label="IC0003" sequence="2" value="ic0003"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
@@ -118,9 +117,10 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Issue" max_length="40" name="issue" type="string">
             <choice>
-                <element inactive_on_update="false" label="Burned" sequence="3" value="Burned"/>
+                <element inactive_on_update="false" label="Root Rot" sequence="9" value="Root Rot"/>
+                <element inactive_on_update="false" label="Bugs" sequence="2" value="Bugs"/>
                 <element inactive_on_update="false" label="Virus" sequence="11" value="Virus"/>
-                <element inactive_on_update="false" label="Fungal Infection" sequence="5" value="Fungal Infection"/>
+                <element inactive_on_update="false" label="Disease" sequence="4" value="Disease"/>
                 <element inactive_on_update="false" label="Mechanical Damage" sequence="7" value="Mechanical Damage"/>
                 <element inactive_on_update="false" label="Blight" sequence="1" value="Blight"/>
                 <element inactive_on_update="false" label="Root Rot" sequence="9" value="Root Rot"/>
@@ -128,8 +128,6 @@
                 <element inactive_on_update="false" label="Other" sequence="12" value="Other"/>
                 <element inactive_on_update="false" label="Humidity Issue" sequence="6" value="Humidity Issue"/>
                 <element inactive_on_update="false" label="Nitrogen Burn" sequence="8" value="Nitrogen Burn"/>
-                <element inactive_on_update="false" label="Bugs" sequence="2" value="Bugs"/>
-                <element inactive_on_update="false" label="Underwatered" sequence="10" value="Underwatered"/>
             </choice>
         </element>
         <element label="Patent" max_length="40" name="patent" type="string"/>

@@ -18,7 +18,6 @@
         <internal_name>convert_to_array</internal_name>
         <label_cache>[{"name":"{{action.variable}}","label":"action➛Record","type":"action","ref":"","reference_display":"Plants","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"e9bd7627-2948-4af1-9c73-79a1fbef5e8e"}},{"name":"{{action.current_month}}","label":"action➛Current month","type":"action","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9096c67a-8fa5-407d-ad51-f8880d0bbcad].result}}","label":"step➛Script step➛Result","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"40e7ec9f-be40-44fc-a081-a63300d172fa"}}]</label_cache>
         <master_snapshot>045c535c4709121081267212d16d43ee</master_snapshot>
-        <master_snapshot_digest/>
         <name>Check if fertilising is required</name>
         <natlang/>
         <outputs/>
@@ -31,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d5fb131c4709121081267212d16d43c1</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Check if fertilising is required</sys_name>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
@@ -39,7 +38,7 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d5fb131c4709121081267212d16d43c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 05:05:51</sys_updated_on>
+        <sys_updated_on>2024-10-28 20:16:35</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -230,18 +229,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=db1c1f1c4709121081267212d16d4362"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>db1c1f1c4709121081267212d16d4362</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-01 04:21:48</sys_created_on>
-        <sys_id>df1c1f1c4709121081267212d16d436f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 04:21:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>currentMonth</field>
         <id>db1c1f1c4709121081267212d16d4362</id>
         <sys_created_by>admin</sys_created_by>
@@ -265,21 +252,8 @@
         <table>var__m_sys_hub_step_ext_input_db1c1f1c4709121081267212d16d4362</table>
         <value>{{action.variable}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>db1c1f1c4709121081267212d16d4362</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-01 04:21:48</sys_created_on>
-        <sys_id>971c1f1c4709121081267212d16d4370</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 04:21:48</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_db1c1f1c4709121081267212d16d4362^id=db1c1f1c4709121081267212d16d4362"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=db1c1f1c4709121081267212d16d4362"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=db1c1f1c4709121081267212d16d4362"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=db1c1f1c4709121081267212d16d4362^sys_idNOT IN380f1f104749121081267212d16d439d,b40f1f104749121081267212d16d439a"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -546,11 +520,11 @@
         <sys_created_on>2024-10-01 05:04:32</sys_created_on>
         <sys_id>d1e567d84749121081267212d16d43ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Result</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_db1c1f1c4709121081267212d16d4362_result_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 05:04:32</sys_updated_on>
         <url/>
@@ -1013,11 +987,11 @@
         <sys_created_on>2024-10-01 04:34:27</sys_created_on>
         <sys_id>700f1f104749121081267212d16d4391</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d5fb131c4709121081267212d16d43c1_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 04:34:27</sys_updated_on>
         <url/>
@@ -1036,11 +1010,11 @@
         <sys_created_on>2024-10-01 04:34:28</sys_created_on>
         <sys_id>b40f1f104749121081267212d16d4395</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current month</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d5fb131c4709121081267212d16d43c1_current_month_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 04:34:28</sys_updated_on>
         <url/>
@@ -1061,11 +1035,11 @@
         <sys_created_on>2024-10-01 04:21:48</sys_created_on>
         <sys_id>131c1f1c4709121081267212d16d4390</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d5fb131c4709121081267212d16d43c1___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 04:21:48</sys_updated_on>
         <url/>
@@ -1084,11 +1058,11 @@
         <sys_created_on>2024-10-01 05:04:32</sys_created_on>
         <sys_id>5de567d84749121081267212d16d43de</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Result</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d5fb131c4709121081267212d16d43c1_result_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 05:04:32</sys_updated_on>
         <url/>
@@ -1107,11 +1081,11 @@
         <sys_created_on>2024-10-01 04:21:48</sys_created_on>
         <sys_id>df1c1f1c4709121081267212d16d4384</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d5fb131c4709121081267212d16d43c1___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 04:21:48</sys_updated_on>
         <url/>
@@ -1349,18 +1323,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=805c935c4709121081267212d16d4310"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>805c935c4709121081267212d16d4310</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-01 04:22:41</sys_created_on>
-        <sys_id>585c935c4709121081267212d16d4327</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 04:22:41</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>currentMonth</field>
         <id>805c935c4709121081267212d16d4310</id>
         <sys_created_by>admin</sys_created_by>
@@ -1384,21 +1346,8 @@
         <table>var__m_sys_hub_step_ext_input_805c935c4709121081267212d16d4310</table>
         <value>{{action.variable}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>805c935c4709121081267212d16d4310</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-01 04:22:41</sys_created_on>
-        <sys_id>1c5c935c4709121081267212d16d4327</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-01 04:22:41</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_805c935c4709121081267212d16d4310^id=805c935c4709121081267212d16d4310"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=805c935c4709121081267212d16d4310"/>
-    <sys_translated_text action="delete_multiple" query="documentkey=805c935c4709121081267212d16d4310"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=805c935c4709121081267212d16d4310^sys_idNOT INd436231c4749121081267212d16d43e7,d436231c4749121081267212d16d43eb"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1665,11 +1614,11 @@
         <sys_created_on>2024-10-01 05:05:50</sys_created_on>
         <sys_id>a436231c4749121081267212d16d43f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Result</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_805c935c4709121081267212d16d4310_result_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 05:05:50</sys_updated_on>
         <url/>
@@ -2132,11 +2081,11 @@
         <sys_created_on>2024-10-01 05:05:50</sys_created_on>
         <sys_id>5836231c4749121081267212d16d43e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Current month</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_045c535c4709121081267212d16d43ee_current_month_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 05:05:50</sys_updated_on>
         <url/>
@@ -2155,11 +2104,11 @@
         <sys_created_on>2024-10-01 05:05:50</sys_created_on>
         <sys_id>9036231c4749121081267212d16d43b9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_045c535c4709121081267212d16d43ee_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 05:05:50</sys_updated_on>
         <url/>
@@ -2180,11 +2129,11 @@
         <sys_created_on>2024-10-01 04:22:41</sys_created_on>
         <sys_id>505c935c4709121081267212d16d432f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_045c535c4709121081267212d16d43ee___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 04:22:41</sys_updated_on>
         <url/>
@@ -2203,11 +2152,11 @@
         <sys_created_on>2024-10-01 05:05:51</sys_created_on>
         <sys_id>a436631c4749121081267212d16d4304</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Result</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_045c535c4709121081267212d16d43ee_result_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 05:05:51</sys_updated_on>
         <url/>
@@ -2226,11 +2175,11 @@
         <sys_created_on>2024-10-01 04:22:41</sys_created_on>
         <sys_id>d85c935c4709121081267212d16d4339</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_045c535c4709121081267212d16d43ee___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-01 04:22:41</sys_updated_on>
         <url/>

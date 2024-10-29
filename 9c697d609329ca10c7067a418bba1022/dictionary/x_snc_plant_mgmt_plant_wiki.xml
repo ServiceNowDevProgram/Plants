@@ -1,25 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="61bbb5649329ca10c7067a418bba105f" label="Plant Wiki" max_length="40" name="x_snc_plant_mgmt_plant_wiki" type="collection">
-        <element display="true" label="Common Name" max_length="40" name="common_name" type="string"/>
+
         <element label="Scientific Name" max_length="40" name="scientific_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last import" max_length="40" name="last_import" type="glide_date"/>
-        <element choice="1" label="Type" max_length="100" name="type" type="choice">
+        <element choice="1" label="Season" max_length="40" name="season" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Flowering Tuberous Plant" value="Flowering Tuberous Plant"/>
-                <element inactive_on_update="false" label="Palm" value="Palm"/>
-                <element inactive_on_update="false" label="Flowering Perennial Shrub" value="Flowering Perennial Shrub"/>
-                <element inactive_on_update="false" label="Grass" value="Grass"/>
-                <element inactive_on_update="false" label="Carnivorous Plant" value="Carnivorous Plant"/>
-                <element inactive_on_update="false" label="Fruit-Bearing Shrub" value="Fruit-Bearing Shrub"/>
-                <element inactive_on_update="false" label="Tropical Foliage Plant" value="Tropical Foliage Plant"/>
-                <element inactive_on_update="false" label="Flowering Succulent" value="Flowering Succulent"/>
-                <element inactive_on_update="false" label="Herb/Succulent" value="Herb/Succulent"/>
-                <element inactive_on_update="false" label="Flowering Annual" value="Flowering Annual"/>
-                <element inactive_on_update="false" label="Fruit-Bearing Tree/Shrub" value="Fruit-Bearing Tree/Shrub"/>
-                <element inactive_on_update="false" label="Aquatic Flowering Plant" value="Aquatic Flowering Plant"/>
-                <element inactive_on_update="false" label="Flowering Vine/Shrub" value="Flowering Vine/Shrub"/>
-                <element inactive_on_update="false" label="Succulent/Cactus" value="Succulent/Cactus"/>
+                <element inactive_on_update="false" label="Autumn" sequence="0" value="autumn"/>
+                <element inactive_on_update="false" label="Summer" sequence="0" value="summer"/>
+                <element inactive_on_update="false" label="Winter" sequence="0" value="winter"/>
+                <element inactive_on_update="false" label="Spring" sequence="0" value="spring"/>
             </choice>
         </element>
-    </element>
-</database>
+        <element display="true" label="Common Name" max_length="40" name="common_name" type="string"/>
+        <element choice="1" label="Type" max_length="100" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Flowering Perennial Shrub" sequence="4" value="Flowering Perennial Shrub"/>
+                <element inactive_on_update="false" label="Palm" sequence="12" value="Palm"/>
+                <element inactive_on_update="false" label="Flowering Annual" sequence="2" value="Flowering Annual"/>
+                <element inactive_on_update="false" label="Grass" sequence="10" value="Grass"/>
+                <element inactive_on_update="false" label="Aquatic Flowering Plant" sequence="0" value="Aquatic Flowering Plant"/>
+                <element inactive_on_update="false" label="Fruit-Bearing Shrub" sequence="8" value="Fruit-Bearing Shrub"/>
+                <element inactive_on_update="false" label="Flowering Tuberous Plant" sequence="6" value="Flowering Tuberous Plant"/>
+                <element inactive_on_update="false" label="Tropical Foliage Plant" sequence="14" value="Tropical Foliage Plant"/>
+                <element inactive_on_update="false" label="Flowering Perennial Plant" sequence="3" value="Flowering Perennial Plant"/>
+                <element inactive_on_update="false" label="Herb/Succulent" sequence="11" value="Herb/Succulent"/>
+                <element inactive_on_update="false" label="Carnivorous Plant" sequence="1" value="Carnivorous Plant"/>
+                <element inactive_on_update="false" label="Fruit-Bearing Tree/Shrub" sequence="9" value="Fruit-Bearing Tree/Shrub"/>
+                <element inactive_on_update="false" label="Flowering Vine/Shrub" sequence="7" value="Flowering Vine/Shrub"/>
+                <element inactive_on_update="false" label="Flowering Succulent" sequence="5" value="Flowering Succulent"/>
+                <element inactive_on_update="false" label="Succulent/Cactus" sequence="13" value="Succulent/Cactus"/>

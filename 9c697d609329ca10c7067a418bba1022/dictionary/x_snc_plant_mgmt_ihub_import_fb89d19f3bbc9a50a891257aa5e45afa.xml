@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="98f95d9f3bbc9a50a891257aa5e45a43" extends="sys_import_set_row" label="Plants Data Mapping" max_length="40" name="x_snc_plant_mgmt_ihub_import_fb89d19f3bbc9a50a891257aa5e45afa" type="collection">
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Plant Type" label="Plant Type" max_length="40" name="u_plant_type" type="string"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Picture" label="Picture" max_length="40" name="u_picture" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
     </element>
 </database>
