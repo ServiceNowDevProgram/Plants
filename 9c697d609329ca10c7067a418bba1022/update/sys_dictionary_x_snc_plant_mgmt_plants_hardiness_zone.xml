@@ -13,7 +13,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>USDA Plant Hardiness Zone </column_label>
+        <column_label>USDA Plant Hardiness Zone</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -52,7 +52,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-02 02:20:21</sys_created_on>
-        <sys_name>USDA Plant Hardiness Zone </sys_name>
+        <sys_name>USDA Plant Hardiness Zone</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
