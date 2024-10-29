@@ -2,7 +2,6 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size>1000</batch_size>
         <category/>
-        <connection_alias/>
         <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:3389d19f3bbc9a50a891257aa5e45afc/</connection_url>
@@ -14,12 +13,10 @@
      // Add your code here to insert data to import_set_table
 
 })(import_set_table, data_source, import_log, last_success_import_time);]]></data_loader>
-        <data_stream_action/>
-        <data_stream_action_inputs/>
-        <data_stream_connection_alias/>
         <database_name/>
         <database_port/>
         <discard_arrays>true</discard_arrays>
+        <enable_parallel_loading>false</enable_parallel_loading>
         <expand_node_children>false</expand_node_children>
         <file_path/>
         <file_retrieval_method>Attachment</file_retrieval_method>
@@ -45,6 +42,7 @@
         <offset>0</offset>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
+        <parallel_loading_script/>
         <parsing_script><![CDATA[// The input value can be accessed through the variables named "line", "lineNumber" and "result"// The function uses result variable to return parse result back. (function(line,lineNumber,result) {	// add code here})(line,lineNumber,result);]]></parsing_script>
         <properties/>
         <query>All Rows from Table</query>
@@ -80,5 +78,4 @@
         <xpath_root_node/>
         <zipped>false</zipped>
     </sys_data_source>
-    <sys_variable_value action="delete_multiple" query="document_key=3389d19f3bbc9a50a891257aa5e45afc"/>
 </record_update>
