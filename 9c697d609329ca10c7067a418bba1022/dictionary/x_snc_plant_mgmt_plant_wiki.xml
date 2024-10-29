@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="61bbb5649329ca10c7067a418bba105f" label="Plant Wiki" max_length="40" name="x_snc_plant_mgmt_plant_wiki" type="collection">
+
         <element label="Scientific Name" max_length="40" name="scientific_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last import" max_length="40" name="last_import" type="glide_date"/>
         <element choice="1" label="Season" max_length="40" name="season" type="choice">
@@ -28,8 +27,3 @@
                 <element inactive_on_update="false" label="Flowering Vine/Shrub" sequence="7" value="Flowering Vine/Shrub"/>
                 <element inactive_on_update="false" label="Flowering Succulent" sequence="5" value="Flowering Succulent"/>
                 <element inactive_on_update="false" label="Succulent/Cactus" sequence="13" value="Succulent/Cactus"/>
-            </choice>
-        </element>
-        <element label="Is Seasonal" max_length="40" name="is_seasonal" type="boolean"/>
-    </element>
-</database>
