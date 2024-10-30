@@ -21,6 +21,7 @@
         <other_issue/>
         <patent/>
         <placement/>
+        <plant_location/>
         <plant_type/>
         <planting_method/>
         <pottery_condition>good</pottery_condition>
@@ -47,6 +48,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>image</file_name>
         <hash>0d750787e01275fab766f06747072e180a67e8ea6d4338f9a5b547a6c85d1b94</hash>
         <image_height>768</image_height>
@@ -87,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-10 13:26:47</sys_created_on>
         <sys_id>162f271fc3c51210fcd1b3edd40131b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>hibiscus rosa-sinensis (Chinese)</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_162f271fc3c51210fcd1b3edd40131b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-10 13:26:47</sys_updated_on>
+        <sys_updated_on>2024-10-30 11:04:09</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
