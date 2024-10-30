@@ -66,15 +66,4 @@
         <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=a87c3b6d835d1210aabecc50ceaad3db"/>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>a87c3b6d835d1210aabecc50ceaad3db</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-17 14:16:51</sys_created_on>
-        <sys_id>44cdffe5835d1210aabecc50ceaad392</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-17 14:16:51</sys_updated_on>
-        <table>sys_script</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>

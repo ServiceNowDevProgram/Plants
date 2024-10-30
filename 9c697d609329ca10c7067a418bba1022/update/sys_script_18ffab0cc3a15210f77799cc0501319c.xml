@@ -58,15 +58,4 @@
         <when>before_display</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=18ffab0cc3a15210f77799cc0501319c"/>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>18ffab0cc3a15210f77799cc0501319c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-25 09:06:50</sys_created_on>
-        <sys_id>b08340d0c3255210f77799cc0501317f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-25 09:06:50</sys_updated_on>
-        <table>sys_script</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>
