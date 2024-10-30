@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="61bbb5649329ca10c7067a418bba105f" label="Plant Wiki" max_length="40" name="x_snc_plant_mgmt_plant_wiki" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Last import" max_length="40" name="last_import" type="glide_date"/>
-        <element label="Scientific Name" max_length="40" name="scientific_name" type="string"/>
         <element display="true" label="Common Name" max_length="40" name="common_name" type="string"/>
+        <element label="Historical Background" max_length="255" name="historical_background" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Last import" max_length="40" name="last_import" type="glide_date"/>
+        <element label="Historical Event Related to Plant" max_length="255" name="historical_event_related_to_plant" type="string_full_utf8"/>
+        <element label="Medical Uses" max_length="40" name="medical_uses" type="string"/>
+        <element label="Scientific Name" max_length="40" name="scientific_name" type="string"/>
+        <element label="Used by Popluar Medicine" max_length="40" name="used_by_popluar_medicine" type="string"/>
     </element>
 </database>
