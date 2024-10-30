@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6de438dd83a99210f80e7965eeaad3e8</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
+    <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <amount_of_water_required_mm/>
+        <date_last_watered/>
+        <date_planted/>
+        <days_since_last_full_water/>
+        <description>This plant is also known as the Wood's Cycad. It's so rare that only one male plant exists, found in South Africa. Without a female plant, it can't reproduce naturally. Conservationists are working on preserving this living fossil.</description>
+        <growth_method/>
+        <hardiness_zone/>
+        <image/>
+        <issue/>
+        <located_outdoors>false</located_outdoors>
+        <location/>
+        <name>Encephalartos Woodii</name>
+        <notes/>
+        <number>PLANT0001003</number>
+        <other_issue/>
+        <patent/>
+        <placement/>
+        <plant_location/>
+        <plant_type display_value="Sweetheart Plant">544f23aec3c55210cea65d02b40131a1</plant_type>
+        <planting_method/>
+        <pottery_condition>need_to_replace</pottery_condition>
+        <pottery_notes/>
+        <pottery_type/>
+        <rain_in_last_24_hours/>
+        <rain_since_last_full_water/>
+        <size/>
+        <status>good</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 15:17:01</sys_created_on>
+        <sys_id>6de438dd83a99210f80e7965eeaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 15:17:01</sys_updated_on>
+        <tissue_culture/>
+        <u_choice_1/>
+        <u_choice_2/>
+        <u_fertilising_schedule/>
+        <u_last_prune_date/>
+        <u_last_rain_recorded/>
+        <u_next_prune_date/>
+        <u_pruning_interval/>
+        <u_water_every_days/>
+        <u_watering_due/>
+    </x_snc_plant_mgmt_plants>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 15:17:31</sys_created_on>
+        <sys_id>4825709183e99210f80e7965eeaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Encephalartos Woodii</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_4825709183e99210f80e7965eeaad312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 15:17:31</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plants</tablename>
+    </sys_metadata_link>
+</record_update>

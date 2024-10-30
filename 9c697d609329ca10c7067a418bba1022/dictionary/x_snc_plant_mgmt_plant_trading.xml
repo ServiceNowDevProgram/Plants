@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5d2092c7830152100354f2d6feaad323" label="Plant Trading" max_length="40" name="x_snc_plant_mgmt_plant_trading" type="collection">
-        <element label="Plant" mandatory="true" max_length="32" name="plant" reference="x_snc_plant_mgmt_plants" type="reference"/>
-        <element choice="1" label="Trade type" mandatory="true" max_length="40" name="trade_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Trade" sequence="1" value="trade"/>
-                <element inactive_on_update="false" label="Giveaway" sequence="2" value="giveaway"/>
-            </choice>
-        </element>
+        <element label="Trade Terms &amp; Conditions" max_length="400" name="trade_terms_conditions" type="translated_text"/>
+        <element label="Plant owner" mandatory="true" max_length="32" name="plant_owner" reference="sys_user" type="reference"/>
         <element label="Purchaser" max_length="32" name="purchaser" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Trade status" max_length="40" name="trade_status" read_only="true" type="choice">
             <choice>
@@ -16,15 +11,21 @@
                 <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
             </choice>
         </element>
-        <element label="Trade Terms &amp; Conditions" max_length="400" name="trade_terms_conditions" type="translated_text"/>
-        <element label="Plant photo" max_length="40" name="plant_photo" type="user_image"/>
-        <element label="Plant Location" max_length="32" name="plant_location" read_only="true" reference="cmn_location" type="reference"/>
+        <element choice="1" label="Trade type" mandatory="true" max_length="40" name="trade_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rent" sequence="3" value="rent"/>
+                <element inactive_on_update="false" label="Trade" sequence="1" value="trade"/>
+                <element inactive_on_update="false" label="Giveaway" sequence="2" value="giveaway"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Plant cost" max_length="20" name="plant_cost" type="currency"/>
         <element label="Start date" max_length="40" name="start_date" read_only="true" type="glide_date_time"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="End date" max_length="40" name="end_date" read_only="true" type="glide_date_time"/>
+        <element label="Plant" mandatory="true" max_length="32" name="plant" reference="x_snc_plant_mgmt_plants" type="reference"/>
         <element label="Trade Quantity" max_length="40" name="trade_quantity" type="integer"/>
-        <element label="Plant owner" mandatory="true" max_length="32" name="plant_owner" reference="sys_user" type="reference"/>
+        <element label="End date" max_length="40" name="end_date" read_only="true" type="glide_date_time"/>
+        <element label="Plant Location" max_length="32" name="plant_location" read_only="true" reference="cmn_location" type="reference"/>
+        <element label="Plant photo" max_length="40" name="plant_photo" type="user_image"/>
         <index name="index">
             <element name="plant"/>
         </index>

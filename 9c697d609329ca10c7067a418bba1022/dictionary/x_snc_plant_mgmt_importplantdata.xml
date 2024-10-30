@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="85acdf95834112109822fdc6feaad30a" extends="sys_import_set_row" label="importplantdata" max_length="40" name="x_snc_plant_mgmt_importplantdata" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Plant Name" label="Plant Name" max_length="42" name="u_plant_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Indoor/Outdoor" label="Indoor/Outdoor" max_length="40" name="u_indoor_outdoor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fertilizer" label="Fertilizer" max_length="66" name="u_fertilizer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Commonly Affected Disease" label="Commonly Affected Disease" max_length="40" name="u_commonly_affected_disease" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ideal Temperature (°C)" label="Ideal Temperature (°C)" max_length="40" name="u_ideal_temperature___c_" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Plant Management">564ab5e09329ca10c7067a418bba1042</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Default view</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Full Plant View</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_plant_mgmt_plants</name>
+        <order>150</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-26 23:29:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e67298f0c369da141036d60d050131b2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Default Plant List View</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_app_module_e67298f0c369da141036d60d050131b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-26 23:35:35</sys_updated_on>
+        <timeline_page/>
+        <title>Default Plant List View</title>
+        <uncancelable>false</uncancelable>
+        <view_name>default</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Plant Management">9c697d609329ca10c7067a418bba1022</application>
+        <file_path/>
+        <instance_id>3f39e585db460adcebdd2a591396191f</instance_id>
+        <instance_name>dev264036</instance_name>
+        <name>sys_app_module_e67298f0c369da141036d60d050131b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Plant Management">564ab5e09329ca10c7067a418bba1042</application><assessment/><device_type/><filter/><hint>Default view</hint><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Full Plant View</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_plant_mgmt_plants</name><order>150</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-26 23:29:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e67298f0c369da141036d60d050131b2</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Default Plant List View</sys_name><sys_overrides/><sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package><sys_policy/><sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope><sys_update_name>sys_app_module_e67298f0c369da141036d60d050131b2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-26 23:35:35</sys_updated_on><timeline_page/><title>Default Plant List View</title><uncancelable>false</uncancelable><view_name>default</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1043057396</payload_hash>
+        <record_name>Default Plant List View</record_name>
+        <reverted_from/>
+        <source>bc57671dc3419e101036d60d0501310b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 00:12:45</sys_created_on>
+        <sys_id>b07cd07cc3211e141036d60d050131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192cb5173330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 00:12:45</sys_updated_on>
+        <type>Module</type>
+        <update_guid>10f3d4b0a9a9da14a252cfc53578ba46</update_guid>
+        <update_guid_history>10f3d4b0a9a9da14a252cfc53578ba46:1043057396,7a0c14783a211e14dcf37d2e290d9e4b:202078464,10f3d4b0a9a9da14a252cfc53578ba46:1043057396,77431cfc5d69da1404a2f823e0c7147a:591730209,64c218f4fc69da14c0b8aaab39f98661:-617388383,94a2943c0929da14ade81fd532b77889:-2017660111</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">24be1438c3611e141036d60d05013174</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-27 00:22:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>039b771f4be34794829da0d0e89e7f79</sys_id>
+        <sys_metadata>e67298f0c369da141036d60d050131b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default Plant List View</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_scope_delete display_value="">283fa31445f04ee4a1c2e3751210cbd9</sys_scope_delete>
+        <sys_update_name>sys_app_module_e67298f0c369da141036d60d050131b2</sys_update_name>
+        <sys_update_version display_value="sys_app_module_e67298f0c369da141036d60d050131b2">b07cd07cc3211e141036d60d050131e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-27 00:22:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -23,15 +23,15 @@
             <label>Aquatic Flowering Plant</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:43:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:43:46</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Aquatic Flowering Plant</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -42,15 +42,15 @@
             <label>Carnivorous Plant</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:43:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:43:41</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Carnivorous Plant</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -61,16 +61,35 @@
             <label>Flowering Annual</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:43:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:43:21</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Flowering Annual</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flowering Perennial Plant</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plant_wiki</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 20:39:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
+            <value>Flowering Perennial Plant</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -80,15 +99,15 @@
             <label>Flowering Perennial Shrub</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:44:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:44:03</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Flowering Perennial Shrub</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -99,15 +118,15 @@
             <label>Flowering Succulent</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:43:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:43:35</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Flowering Succulent</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -118,15 +137,15 @@
             <label>Flowering Tuberous Plant</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:44:34</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:44:35</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Flowering Tuberous Plant</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -137,15 +156,15 @@
             <label>Flowering Vine/Shrub</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>7</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:44:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:44:14</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Flowering Vine/Shrub</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -156,15 +175,15 @@
             <label>Fruit-Bearing Shrub</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>8</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:44:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:44:08</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Fruit-Bearing Shrub</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -175,15 +194,15 @@
             <label>Fruit-Bearing Tree/Shrub</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>9</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:44:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:44:25</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Fruit-Bearing Tree/Shrub</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -194,15 +213,15 @@
             <label>Grass</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>10</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:44:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:44:30</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Grass</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -213,15 +232,15 @@
             <label>Herb/Succulent</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>11</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:43:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:43:51</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Herb/Succulent</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -232,15 +251,15 @@
             <label>Palm</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>12</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:43:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:43:57</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Palm</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -251,15 +270,15 @@
             <label>Succulent/Cactus</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>13</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:43:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:43:29</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Succulent/Cactus</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -270,15 +289,15 @@
             <label>Tropical Foliage Plant</label>
             <language>en</language>
             <name>x_snc_plant_mgmt_plant_wiki</name>
-            <sequence/>
+            <sequence>14</sequence>
             <synonyms/>
             <sys_created_by>ivan.betev</sys_created_by>
             <sys_created_on>2024-10-12 14:43:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>ivan.betev</sys_updated_by>
-            <sys_updated_on>2024-10-12 14:43:14</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 20:39:47</sys_updated_on>
             <value>Tropical Foliage Plant</value>
         </sys_choice>
     </sys_choice>
