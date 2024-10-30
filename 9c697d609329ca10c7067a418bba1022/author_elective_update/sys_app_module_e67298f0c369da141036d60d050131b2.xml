@@ -66,7 +66,7 @@
         <update_guid_history>10f3d4b0a9a9da14a252cfc53578ba46:1043057396,7a0c14783a211e14dcf37d2e290d9e4b:202078464,10f3d4b0a9a9da14a252cfc53578ba46:1043057396,77431cfc5d69da1404a2f823e0c7147a:591730209,64c218f4fc69da14c0b8aaab39f98661:-617388383,94a2943c0929da14ade81fd532b77889:-2017660111</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Default Plant List View">24be1438c3611e141036d60d05013174</sys_audit_delete>
+        <sys_audit_delete display_value="">24be1438c3611e141036d60d05013174</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-27 00:22:34</sys_created_on>

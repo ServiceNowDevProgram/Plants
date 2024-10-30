@@ -41,7 +41,7 @@
         <update_guid_history>493d3341b421d210d4c24e691e3903e1:-753473877</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Office.Order Your Plants">5ed4401dc321d21017637205e40131b8</sys_audit_delete>
+        <sys_audit_delete display_value="">5ed4401dc321d21017637205e40131b8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-28 11:46:36</sys_created_on>

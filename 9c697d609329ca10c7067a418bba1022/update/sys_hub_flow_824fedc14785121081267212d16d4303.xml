@@ -19,7 +19,6 @@
         <label_cache>null</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <master_snapshot_digest/>
         <name>Water plant notification</name>
         <natlang/>
         <outputs/>
@@ -48,10 +47,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-03 04:21:44</sys_updated_on>
         <type>subflow</type>
-        <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=824fedc14785121081267212d16d4303"/>
     <sys_variable_value action="delete_multiple" query="document_key=824fedc14785121081267212d16d4303"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=824fedc14785121081267212d16d4303"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=824fedc14785121081267212d16d4303"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=824fedc14785121081267212d16d4303^sys_idNOT INce4fedc14785121081267212d16d4303"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -69,10 +68,9 @@
     <sys_hub_flow_input action="delete_multiple" query="model=824fedc14785121081267212d16d4303"/>
     <sys_hub_flow_output action="delete_multiple" query="model=824fedc14785121081267212d16d4303"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=824fedc14785121081267212d16d4303"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=824fedc14785121081267212d16d4303"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=824fedc14785121081267212d16d4303"/>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=824fedc14785121081267212d16d4303"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=824fedc14785121081267212d16d4303"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=824fedc14785121081267212d16d4303"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=824fedc14785121081267212d16d4303"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=824fedc14785121081267212d16d4303"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=824fedc14785121081267212d16d4303"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=824fedc14785121081267212d16d4303"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_824fedc14785121081267212d16d4303"/>

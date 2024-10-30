@@ -92,15 +92,4 @@
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>f52340018359d250ae0854b6feaad37a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-20 10:03:55</sys_created_on>
-        <sys_id>10a0eee2c3995a10fcd1b3edd401316d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-20 10:03:55</sys_updated_on>
-        <table>sysevent_email_action</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>
