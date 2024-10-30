@@ -4,8 +4,12 @@
         <documentkey>728905133bc11610b6942d6aa5e45a32</documentkey>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
     <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <amount_of_water_required_mm/>
         <date_last_watered>2024-10-11</date_last_watered>
         <date_planted/>
+        <days_since_last_full_water/>
+        <description/>
+        <growth_method/>
         <hardiness_zone/>
         <image>199985133bc11610b6942d6aa5e45a4f</image>
         <issue/>
@@ -16,10 +20,16 @@
         <number>PLANT0001002</number>
         <other_issue/>
         <patent/>
+        <placement/>
         <plant_location/>
         <plant_type/>
         <planting_method/>
+        <pottery_condition/>
+        <pottery_notes/>
+        <pottery_type/>
         <rain_in_last_24_hours/>
+        <rain_since_last_full_water/>
+        <size/>
         <status>good</status>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-10 01:23:16</sys_created_on>
@@ -29,6 +39,7 @@
         <sys_updated_on>2024-10-11 07:21:38</sys_updated_on>
         <tissue_culture/>
         <u_fertilising_schedule>4</u_fertilising_schedule>
+        <u_last_rain_recorded/>
         <u_water_every_days>10</u_water_every_days>
         <u_watering_due>2024-10-21 00:00:00</u_watering_due>
     </x_snc_plant_mgmt_plants>
@@ -78,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-11 07:21:52</sys_created_on>
         <sys_id>a635ebeb3bc5d610b6942d6aa5e45a60</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Indoor palm</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_a635ebeb3bc5d610b6942d6aa5e45a60</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-11 07:21:52</sys_updated_on>
+        <sys_updated_on>2024-10-30 11:04:11</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
