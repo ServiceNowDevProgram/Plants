@@ -29,5 +29,4 @@
         <variable_set/>
         <visible>ignore</visible>
     </catalog_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=7f3121afc31d12103ac9f0477d013188"/>
 </record_update>

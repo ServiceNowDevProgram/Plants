@@ -65,15 +65,4 @@
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=b0f4a5054745121081267212d16d43a0"/>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>b0f4a5054745121081267212d16d43a0</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-03 03:37:11</sys_created_on>
-        <sys_id>9d15a1054745121081267212d16d43f0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 03:37:11</sys_updated_on>
-        <table>sys_script</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>

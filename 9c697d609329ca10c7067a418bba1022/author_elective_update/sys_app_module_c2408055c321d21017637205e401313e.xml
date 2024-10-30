@@ -66,7 +66,7 @@
         <update_guid_history>0e4080550621d210c4cd22ff9ca7a140:1440801363</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Plant Inventories">2e70c455c321d21017637205e4013161</sys_audit_delete>
+        <sys_audit_delete display_value="">2e70c455c321d21017637205e4013161</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-28 11:27:30</sys_created_on>

@@ -27,7 +27,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>Itsaplant.png</file_name>
         <hash>36bc62f3bc0f69c0bf5eba65b625674da5962087975f087da01442b10e1d5f8a</hash>
         <image_height>600</image_height>
