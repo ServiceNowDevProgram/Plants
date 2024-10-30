@@ -15,7 +15,7 @@
         <digest_html/>
         <digest_reply_to/>
         <digest_separator_html><![CDATA[<p>&nbsp;</p>
-<hr />
+<hr>
 <p>&nbsp;</p>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
         <digest_subject/>
@@ -39,7 +39,7 @@
         <message_html><![CDATA[<table style="border-collapse: collapse; width: 100%; border-style: none; height: 620px;" border="0">
 <tbody>
 <tr><!-- Image cell -->
-<td style="width: 34.0081%; text-align: left; vertical-align: top;"><img src="/sys_attachment.do?sys_id=587700418359d250ae0854b6feaad391" alt="Plant Image" width="612" height="612" /></td>
+<td style="width: 34.0081%; text-align: left; vertical-align: top;">${mail_script:plantImage}.</td>
 <!-- Text cell -->
 <td style="width: 65.9919%; text-align: left; vertical-align: top;">
 <p style="font-size: 14pt; font-family: 'times new roman', times;">Hello ${sys_created_by},</p>
@@ -78,7 +78,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f52340018359d250ae0854b6feaad37a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Sending the notification when its due</sys_name>
         <sys_overrides/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
@@ -86,7 +86,7 @@
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sysevent_email_action_f52340018359d250ae0854b6feaad37a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-15 13:08:43</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:21:20</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

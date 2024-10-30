@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2721000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Report a plant sickness to seek advice from plant pathologist</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>reportsickness</internal_name>
+        <label_cache>[{"name":"412bf82f-0fc9-4b6a-a153-93a50ca768b1.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"71d26aac-b336-4bbb-821e-dbf7347cd894":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"412bf82f-0fc9-4b6a-a153-93a50ca768b1":["approval_conditions"]}},{"name":"1709672c-3174-4604-a938-c8655c19e963.manager_approval_required","label":"1 - Get Catalog Variables➛manager_approval_required","reference":"","reference_display":"manager_approval_required","type":"boolean","base_type":"boolean","usedInstances":{"7624fbcb-67b3-4bae-84f7-857337b5c397":["condition"]},"attributes":{"catalogType":"1","catalogTypeLabel":"Yes / No"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"1709672c-3174-4604-a938-c8655c19e963":["requested_item"],"412bf82f-0fc9-4b6a-a153-93a50ca768b1":["record"],"7206e4fd-3209-4718-b1ff-f4fecf6ff65d":["ah_requested_item"],"3be3d6ca-e489-4189-9b55-5d0389627339":["record"],"20c74c3c-b0a7-41f8-9c62-277c476368bf":["ah_requested_item"]},"attributes":{"default_search_field":"number"}}]</label_cache>
+        <master_snapshot>6aa2a8cd83d116109822fdc6feaad36f</master_snapshot>
+        <name>reportsickness</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>b6a2a8cd83d116109822fdc6feaad3cf</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 08:17:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>46481009839dd2109822fdc6feaad395</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>reportsickness</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_hub_flow_46481009839dd2109822fdc6feaad395</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 09:02:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=46481009839dd2109822fdc6feaad395"/>
+    <sys_variable_value action="delete_multiple" query="document_key=46481009839dd2109822fdc6feaad395"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 09:02:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6a2a8cd83d116109822fdc6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 09:02:43</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=46481009839dd2109822fdc6feaad395"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=46481009839dd2109822fdc6feaad395"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=46481009839dd2109822fdc6feaad395"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=46481009839dd2109822fdc6feaad395^sys_idNOT IN02481009839dd2109822fdc6feaad398"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>46481009839dd2109822fdc6feaad395</id>
+        <name>reportsickness</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 08:17:20</sys_created_on>
+        <sys_id>02481009839dd2109822fdc6feaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 08:17:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=02481009839dd2109822fdc6feaad398"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=46481009839dd2109822fdc6feaad395^sys_idNOT IN7b222c4d83d116109822fdc6feaad3f3,af222c4d83d116109822fdc6feaad3ef"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="reportsickness">46481009839dd2109822fdc6feaad395</model>
+        <model_id>46481009839dd2109822fdc6feaad395</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_46481009839dd2109822fdc6feaad395</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 09:00:36</sys_created_on>
+        <sys_id>7b222c4d83d116109822fdc6feaad3f3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 09:02:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7b222c4d83d116109822fdc6feaad3f3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="reportsickness">46481009839dd2109822fdc6feaad395</model>
+        <model_id>46481009839dd2109822fdc6feaad395</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_46481009839dd2109822fdc6feaad395</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-15 09:00:35</sys_created_on>
+        <sys_id>af222c4d83d116109822fdc6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-15 09:00:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=af222c4d83d116109822fdc6feaad3ef"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=46481009839dd2109822fdc6feaad395"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=46481009839dd2109822fdc6feaad395"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=46481009839dd2109822fdc6feaad395"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=46481009839dd2109822fdc6feaad395"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=46481009839dd2109822fdc6feaad395"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=46481009839dd2109822fdc6feaad395"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=46481009839dd2109822fdc6feaad395"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_46481009839dd2109822fdc6feaad395"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_46481009839dd2109822fdc6feaad395"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_46481009839dd2109822fdc6feaad395"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_46481009839dd2109822fdc6feaad395"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6aa2a8cd83d116109822fdc6feaad36f"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>46481009839dd2109822fdc6feaad395</sys_id>
+        <latest_snapshot>6aa2a8cd83d116109822fdc6feaad36f</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=46481009839dd2109822fdc6feaad395"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=46481009839dd2109822fdc6feaad395"/>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Create/Update Plant">efef412bc39912103ac9f0477d01311a</catalog_item>
+        <catalog_variable>IO:578415ebc3d912103ac9f0477d013154</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>104</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 07:41:14</sys_created_on>
+        <sys_id>b4bc9da7c31d12103ac9f0477d01311a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>pottery_type</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b4bc9da7c31d12103ac9f0477d01311a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:41:28</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Request Type is Create">351c9d67c31d12103ac9f0477d013179</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>pottery_type</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_plant_mgmt.RainUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>RainUtil</name>
+        <script><![CDATA[ var RainUtil = Class.create();
+ RainUtil.prototype = {
+     initialize: function() {},
+
+     checkRainFall: function() {
+         var grXSPMP = new GlideAggregate('x_snc_plant_mgmt_plants');
+         grXSPMP.addEncodedQuery("locationISNOTEMPTY^placement=outdoor");
+         grXSPMP.groupBy("location");
+         //grXSPMP.setLimit(1);
+         grXSPMP.query();
+         while (grXSPMP.next()) {
+             try {
+                 var r = new sn_ws.RESTMessageV2('x_snc_plant_mgmt.Weather API', 'Default GET');
+                 r.setStringParameterNoEscape('latitude', grXSPMP.location.latitude);
+                 r.setStringParameterNoEscape('longitude', grXSPMP.location.longitude);
+                 var response = r.execute();
+                 var responseBody = response.getBody();
+                 var httpStatus = response.getStatusCode();
+
+                 if (httpStatus == "200") {
+                     var value = this.checkRaindata(JSON.parse(responseBody), grXSPMP.location.toString());
+                 }
+
+             } catch (ex) {
+                 var message = ex.message;
+             }
+
+         }
+
+     },
+
+
+     checkRaindata: function(data, location_sysid) {
+         var precipitation_today = parseFloat(data.daily.precipitation_sum[1]);
+         if (precipitation_today > 0) {
+
+             var gr = new GlideRecord("x_snc_plant_mgmt_plants");
+             gr.addQuery("location", location_sysid);
+             gr.addQuery("placement", "outdoor");
+             gr.query();
+             while (gr.next()) {
+                 gr.setValue('date_last_watered', new GlideDateTime()); // Set the current date-time to `date_last_watered`
+
+                 var dat = new GlideDateTime(); // Use GlideDateTime instead of GlideDate
+                 if (gr.u_water_every_days != "") {
+                     dat.addDaysLocalTime(parseInt(gr.u_water_every_days)); // Add days to the current date based on `u_water_every_days`
+
+                     gr.setValue("u_watering_due", dat); // Update `u_due_date` field with the new date
+
+                 }
+                 gr.setValue("rain_in_last_24_hours", precipitation_today);
+                 gr.update();
+
+             }
+         }
+
+     },
+
+     type: 'RainUtil'
+ };]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 17:54:06</sys_created_on>
+        <sys_id>b0a59d03c3995a109421b71ed40131fb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>RainUtil</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_script_include_b0a59d03c3995a109421b71ed40131fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 05:52:34</sys_updated_on>
+    </sys_script_include>
+</record_update>
