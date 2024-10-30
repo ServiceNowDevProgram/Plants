@@ -41,7 +41,7 @@
         <update_guid_history>124080555521d210f93a2f2686af7b50:-1768568430</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_plant_mgmt_plant_inventory.x_snc_plant_mgmt.plant_inventory_user">e270c455c321d21017637205e4013136</sys_audit_delete>
+        <sys_audit_delete display_value="">e270c455c321d21017637205e4013136</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-28 11:27:30</sys_created_on>

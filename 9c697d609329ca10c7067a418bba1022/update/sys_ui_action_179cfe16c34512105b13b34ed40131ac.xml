@@ -68,15 +68,4 @@
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>179cfe16c34512105b13b34ed40131ac</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-07 07:16:23</sys_created_on>
-        <sys_id>579d3216c34512105b13b34ed40131d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-07 07:16:23</sys_updated_on>
-        <table>sys_ui_action</table>
-        <use_es_latest>false</use_es_latest>
-    </sys_es_latest_script>
 </record_update>

@@ -19,7 +19,6 @@
         <label_cache>[{"name":"53695c08-63a3-490a-9731-96a8fc4f851a.item.u_watering_due","label":"3 - For Each➛Plants Record➛Watering due","reference":"","reference_display":"Watering due","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_plant_mgmt_plants","column_name":"u_watering_due","usedInstances":{"03a45e22-1d01-4ee1-b8fe-c63c313ab48c":["due_date"]}},{"name":"930c0d1d-f230-460a-854e-7f6c4e5660d8.Count","label":"4 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"71187dd1-c8ea-44ff-b9b4-e018990743fa":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53695c08-63a3-490a-9731-96a8fc4f851a.item","label":"3 - For Each➛Plants Record","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants Record","type":"reference","base_type":"reference","usedInstances":{"930c0d1d-f230-460a-854e-7f6c4e5660d8":["conditions"],"03a45e22-1d01-4ee1-b8fe-c63c313ab48c":["plant"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"6e32e842-6e85-427c-8695-8ae5da37d2d2.Records","label":"2 - Look Up Records➛Plants Records","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants Records","type":"records","base_type":"records","usedInstances":{"53695c08-63a3-490a-9731-96a8fc4f851a":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.nowdatetime","label":"Flow Variables➛nowDateTime","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"6e32e842-6e85-427c-8695-8ae5da37d2d2":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"05fe9ccc-7150-4f0b-bace-cc3a7f8a33f1"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <master_snapshot_digest/>
         <name>Trigger water plants task</name>
         <natlang/>
         <outputs/>
@@ -48,10 +47,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-03 04:34:49</sys_updated_on>
         <type>flow</type>
-        <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1a4ca9cd4745121081267212d16d4305"/>
     <sys_variable_value action="delete_multiple" query="document_key=1a4ca9cd4745121081267212d16d4305"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1a4ca9cd4745121081267212d16d4305"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=1a4ca9cd4745121081267212d16d4305"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=1a4ca9cd4745121081267212d16d4305^sys_idNOT IN564ca9cd4745121081267212d16d4306"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -69,257 +68,11 @@
     <sys_hub_flow_input action="delete_multiple" query="model=1a4ca9cd4745121081267212d16d4305"/>
     <sys_hub_flow_output action="delete_multiple" query="model=1a4ca9cd4745121081267212d16d4305"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1a4ca9cd4745121081267212d16d4305"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=1a4ca9cd4745121081267212d16d4305^sys_idNOT INe28ead414785121081267212d16d43fa"/>
-    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Trigger water plants task">1a4ca9cd4745121081267212d16d4305</flow>
-        <name>Daily</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-03 04:18:30</sys_created_on>
-        <sys_id>e28ead414785121081267212d16d43fa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 04:34:49</sys_updated_on>
-        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/21SS0vEMBD+K5LzWtLt+upNkAUPKqh4ESnTZLobmCYxTVer+N+dtHVR2ZLLzDfzPYY+fwqCGkmU4tG0KBbC2IjBAj0OHrm7IaOxihPWgtUQXRhEGUOPC+GCxiDKXMqF2AH1+DB015rXeNhCmwjm1RHlMr84k8cy53cki7KQpZSMegg8HRPXp1BbQzqgFeXzC/tJdAXoFWolVbHkT8rl+SqvT4s6X+oCEE+Y4l+Mv+rxQJjf3vE9otXIUg1QhweSBgR9Z2nYT2z5UFPQFt4784EzVcAG2bzCCVRbZxTe+WicnToRavoBHfWtvZ2scq2xgZ7i03wr7vQdVhp9MpfkZu3mYeve7n+E1saOSWaQnALaVxBjMHUfsUunRcKWiaoWvDd2U/ngdmZcZi9tNt4na8i9sWhnNjYDlYxnfAvI1ty/GttPEExKccM0vPw1pq5e+6Q75ZgdV1NoHtCm8wTD2iDN/0engvHxkgV2ONv9evkGcnwa+5ACAAA=</trigger_inputs>
-        <trigger_outputs/>
-        <trigger_type>daily</trigger_type>
-    </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=1a4ca9cd4745121081267212d16d4305^sys_idNOT IN228e2d814785121081267212d16d436b,268e2d814785121081267212d16d436e,ee8e2d814785121081267212d16d436c"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
-        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Trigger water plants task">1a4ca9cd4745121081267212d16d4305</flow>
-        <generation_source/>
-        <order>2</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-03 04:18:30</sys_created_on>
-        <sys_id>228e2d814785121081267212d16d436b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 04:34:49</sys_updated_on>
-        <ui_id>6e32e842-6e85-427c-8695-8ae5da37d2d2</ui_id>
-        <values>H4sIAAAAAAAA/9VX207jMBD9lSrPUZXQUljeVrBIPEBXUCGtgLWcZNpa69hZ2+mFqv++4zhJSy9QukWCt3o84zkzc47jPsw8lnhn3mm/HQQ0PD49CYJWKwg6nVZMwyhqdeIoiNqR53uCpoCehkYccDmiPLfrCdEiJhmnwpB0kBr3U6NHwjT+nt6/6RgPGU8UCO/s4cn3MqowkwHlnc1Wtsw0A8JpBBzP61kgjRuLyt+5iBfB60XZBNWSCHe0VInFEvgeTAyIBDBVn3INvpdSkVAj1bS2KKBJV/CFYciEwRM96zzR7BmPPw2sXx+wrBjcXjyULIZuZpgUzuIQuU3J81TcOKS2r9CnOTdVX9GSayAJZBaczVam7t8N5fi2SnTJRFFHucllTHm9osYoFuUGtG06cEjBTolmGRMDkik5YkUwYkmbA46LZp/LMSbVbCCaNLbAm9gL2rxE+0VhvqeK2Squ8RgMRkCM41iJ666WuSrKH5GY57rYUFRod5Y3L3pE/uYWpau6rI+4FqGDjhXLzHcMGEFZytzfidDHwWL2sRQJszn1EqtzMqYWEoxATUlCp/rq7qbb+3H9s/frd7lpW5Pk8Jhjhng2KxoyKmtuCjnGdoBhKczn62I4+Pn7aeh8ufZd+7YxeFMzSzW9sJVqCg+mJoT70XoyKv98cnpLIK7gN1QSn7w67ePFYLVUhrjOLclkndh7U/GSAU9eXOc7gKuCu5ZVjWi6DW/JxL7NsXKvH32de/1T8hABJcQ1lgnORPH9RKCHIWjw+nX0bWXgxZwX9CxsVMfrNKUNIxvP+9+bxVwrou4Asgq8Q0SNnkO5AXh1Y1bHlxxtHYyjraMtHEWGPMxqmHV7NnSyeg/ZGVX+z9afrvojjZYCwvlTzfHz/XKG7815ZHOuiLD1LhUuU8jtXGxh0oEfYVtU5X+kjIcYWuYjTpVkzJIBmEX2yiuRZkz5n037pdRqsRTl/feDrv2qyDrhQlBIdqJA46iWX3QhvhPW74HQd+b9roErYWBQNG9XiFXkNZ00bmuMG4GXdwGrc5Scbh/w6XTQD1bV4Y0yqRr9Jf6q7MvVp39GcR8dTw8AAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Trigger water plants task">1a4ca9cd4745121081267212d16d4305</flow>
-        <generation_source/>
-        <order>6</order>
-        <parent_ui_id>71187dd1-c8ea-44ff-b9b4-e018990743fa</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-03 04:18:30</sys_created_on>
-        <sys_id>268e2d814785121081267212d16d436e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 04:34:49</sys_updated_on>
-        <ui_id>03a45e22-1d01-4ee1-b8fe-c63c313ab48c</ui_id>
-        <values>H4sIAAAAAAAA/+1VTXPbNhD9KxgcbYkmTVuR5JNnEk8vjTt1J5coxoDAUkILggwAylY8+u9dAKTr2M5HO80hmfgic4F9+/bt4/LtHVWSLumsgPx0UcxEWZTlcZ4fz0+KalZWxbEsOcAJnVDDG8CbnlcaWHyY0C3XfQjeMmcE6zQ3njXrxjPP3V8OL0jlMLp786V7YqO0tGDo8u27Ce24RXwPli7vHh35XQdM8wo0wv0RuJDXicvX9vFR8if6ClUex1orA6F8QuHWg5GA9WquHUxow43kvrU7uvS2x4AFLi+N3t3f2CjjEZCGu7dOfUD0eR7u1YCtCUhnYtMqAZedV61JkchgOGx135jXiW2QFmreaz9Ki5HeAZPQBW6h2lC6vtq0N7+PhS6UiW0Mh7oVXN8/ce+tqnoPLggPGhoIg+Jdp8yadbbdqpiMXJpsrfEhq3V7g0WdWpuMi0A8Qyl4doHxlzH8hlsVuvgVYTB5H7tm7/tQN/UxMGapabzghFWdP0e4LQzk9pPRqRLyxScnXFT/TDSa0z1wafTdqs/zUt7dnZazxanI59NZycvpySLn08WLspguZnxei5N6flrwTHlo9vvrhuP4wHDULzo2YdxwdOi17FF0/O9f42Y9iwhBWgTBMm7TWh/EjO2jlAmzltMUAXn9ucOnr9uP3/B/3BvQoDQeSBJq8tXOGgEuFGjpnrHauDiGAmw7FBiWR/F/LY9ilse/b7xCEqHvbIM82NpPdklqKMUCwycOjMHPpNCjg5U5ODgXApwjgePReSRNAmnSO+yT+A2QWrIYaas/QfiMXEUA0vTOEwu+t4ZwEu2RkYB4GRxCTN9U+KMcaevagSfVjhwWRBnyytrWkl/QLDqUuIIkVSSz5UrHT2Ebe3Bk2AOk75BYZ5FqyFnRbEUJr/EFGemFdLjl6FZYIhtLoiAouyDpdRsvZjjX9RpsJnqLNvDZE+XOAtbQ2T1KCB6tzMoMByMaKxmrW8uAi01aDmFe5DBWPX6BCr3vFfIm48ZI8TOctuNbkPeW3Yfx/5zeN55ewI4fk8e4z8/xLGXgkn8ZtuwXcz7+MJw98MuK/qaBO0g+iKNBEQ4HMofhATWOoaHaMxbZ79/9DR6KuT7oCgAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
-        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Trigger water plants task">1a4ca9cd4745121081267212d16d4305</flow>
-        <generation_source/>
-        <order>4</order>
-        <parent_ui_id>53695c08-63a3-490a-9731-96a8fc4f851a</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-03 04:18:30</sys_created_on>
-        <sys_id>ee8e2d814785121081267212d16d436c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 04:34:49</sys_updated_on>
-        <ui_id>930c0d1d-f230-460a-854e-7f6c4e5660d8</ui_id>
-        <values>H4sIAAAAAAAA/9VXTU/jMBD9K1XObZWQtrTcViCkPQASoL2wYE0cp7VwnGzs9IOq/33HcZKWfkDplhUcPZ7xvJl5z3Ee5g4PnTOnH3VcF7xu/9R1fd91ez2fghcEfo8GbtAJnKYjIWboqSEQDJdjELlZT4mSlKQCpCbxMNZEg3pW6BByhdbZr/f86IiLMGPSOXt4bDopZJhHs8w5m69t6VnKiICACTzu3sBoXBtMzb1LeBW8WZJJUC2JtEcnWWiwuE2HTTWTIcNUEQjFmk4MMgSdZLPakjEIb6RYGkZcajzRMc5TxV/w+L5r/CKGZVFm9+go4ZTdpJon0losIruZiDyW1xapaSuLIBe6aitacsVIyFIDzmQrU0d3o2RyWyW65LKoo9wUCQVRr0DrjAe5Zso0nQkWMzMkSFMuhyTNkjEvghFL3B4KXLQjkUwwqeJD2QZqgLexF9C+RPtFYf4FGTdVXOExGIyAuMCxEttdleRZUf6YUJGrYiMDqexZzqLoEfmTG5S26rI+YluEDopmPNU/MGDMylIWzb3o3HWXs6eJDLnJqVY4XbD0d46x4Xze9XuDLnX7rZ4PfqszcKE1OPW91qAH/Yh2on7XgzbXLF4snmLAgTMJ2PGC3/aMCWB9T1AgtRad5WxTIv8r7WGKO1/t1L5d3hq8rfWl9l7ZSu15R9Mewv1s9ZkWfznxvScnW/A7mqKnb067uxysSjJNbOdWRLXJ94OpeMmZCF9d/nuAq4JvDKsawWwX3pKJkcmx9hU4+T5fgS/JQwQUEttYLgWXxdfW3ElHIaj79nU0WBt4MeclPQsbKLpJU2jopPFy+L1ZzLUi6h4gq8A7RNS4tyi3AK9uzOr4kqP+0Tjqn+zgKDLkYV7DrNuzpZPV68nMqPJ/Mf6w7o80WgnwFo81x88Py+l9NOeJybkmQv9DKlylkN252MGkIz/Zdqiq+ZkyHmFomY9YVZIJD4dML7NXXmGiJyCet+2XUqvFUpT3z8+/zpsi63lLQSHZScYUjmr1/efhO2HzHvCa1nzYNfATX2jDonn7Qqwir2DauK0xbgVe3gW8zlFyunPEp9NRP1hVh7fKpGr0t/ixOZSrj38Bl5MRl3sPAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=1a4ca9cd4745121081267212d16d4305"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=1a4ca9cd4745121081267212d16d4305^sys_idNOT IN268e2d814785121081267212d16d436a,6a8e2d814785121081267212d16d436c,ae8e2d814785121081267212d16d436d"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">2a8e2d814785121081267212d16d4369</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Trigger water plants task">1a4ca9cd4745121081267212d16d4305</flow>
-        <flow_variables_assigned>nowdatetime</flow_variables_assigned>
-        <generation_source/>
-        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>1</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-03 04:18:30</sys_created_on>
-        <sys_id>268e2d814785121081267212d16d436a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 04:34:49</sys_updated_on>
-        <ui_id>a5d2bc5d-9ae3-4b6e-901f-f206f7cd32d8</ui_id>
-        <values>H4sIAAAAAAAA/+1WTW/aQBD9Kyuf2hSMDSRQckJK00ZqG6mhuZTIWtZj2Ha96+wHhEb8987YhkRV0kuvnPC+mZ15b3ZmxGNkgq+CdzMzdU4udTT5cdeJpCYMvx8jzUuIJpE2m5x78BJPnWjNVSAUP3PpKsW3t0+IWEmVW2hDVdxiBA82mjz+ZfLbCjLFF6Dw4gVG782a8DJHoN8fQz8fp8PR+DTtp8k47Z+N+mk/T8/y4eBsiH77u0iOrre3X2RMuRBcKplDRnjWGozNiVvSieDBg84BcxdcOehEJdfoaez2gFjg+bVWT8BKat+oLvmDk78xxzAhvwJQpjhUxEgB15WXRjeI5wu1NxoVSv21IU0FhYIH5Z8VNDikDBWRo2xt6uJmZTbf9okupa51tEZlBFeHE/feykXw4OgRgpy9VozG9PmFJwEFJWbPSl5VUi+zypq1rDOigDKuQ8WFMhtkSn0Uc0FqY4zO40vEL2r4lltJ0r9gGLxMGb9reR/gip48OS3gvRCiO0pPk+6wSBbdBRfQFWLAR8WYDwZFGu3q8mb3gQQ2BWtLkzXVRQcnrKz8FCmsUai3AfYYFeB5Z+DxX85R72SuT06mQoBzjHT0prUwRsJYcFgL5lfAijyrEbP4CcLH7KYOwMrgPLPgg9WMs3psYkYRr6ntmA7lAn+kY6YoHHi22LJ3KZOafbDWWPYJO1BRihtoylmTWXOpqIjM1B3lWDuDLFRIrLJIle7Mo3geMV7g7O3p0XV44GWlYIJsLHMrYz0+jWDzkCSDfO8YY8Msl2BjESz2l49rR3rbWhdmPadYrbJDFAJ7cz3XrUHDhn2k1tiP55u359Fut7ujFdJ0QrNl6ol/bXaP2+a4bY7b5rht/mPb5CCkwzgzUnK1/3dDhi0OsBTPoY2xv6i3nrDdH+mCFrgnCQAA</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">628e2d814785121081267212d16d436c</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Trigger water plants task">1a4ca9cd4745121081267212d16d4305</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>3</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-03 04:18:30</sys_created_on>
-        <sys_id>6a8e2d814785121081267212d16d436c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 04:34:49</sys_updated_on>
-        <ui_id>53695c08-63a3-490a-9731-96a8fc4f851a</ui_id>
-        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj8S18mtwFCgh65AV/QyFAYj0YlQWdIkOaln+L+Piu1s6HEni4/ke480B2a6YLvgX8299/Ko2f7n+4pJHTF6D0xDi2zPZMDWsxU7g+piPAwlFjlWm3xdYrVdb/I7vq7K3XZdAW4FFHciF3nygtw44ceRWoX0VkH/9v8M/CSVcDibtODIW0DH9sOXVOgt1goOqEhoZqB+KSjMdqLZZemOF3lZ5GmaV5vsUBaHLBcFoCipbul8nIf+soPITqG78dInusjTFcPPgFogCTWgPK5YC1pAMK5n++A6AhyCeNaqv1WcpA5Ex2Ltp5e/iTtL01jYIE3EcUryk5Ecn22QRk9IgINakkZ1rf4++Yy7xgY6FZZdE9J5rAXaaC7KzdrNj5O5vCxCD1JfB5mTynBQtwhCcPLQBfRx36iwJaK6BWulPtbWmbO8NpOXNjkqCpJGmQuJxrtKgEfjCe0CkgfCv13hN3AyTvFENNQ8Xqeuf3VRd5pjdlxPQ1OB507acE90Z5zNje/xMCcmP12AQC49Cb5G7HE555jo6W9K/i90Me4jWv2LjX8AeO2O1xgDAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">a68e2d814785121081267212d16d436d</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Trigger water plants task">1a4ca9cd4745121081267212d16d4305</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
-        <outputs_assigned/>
-        <parent_ui_id>53695c08-63a3-490a-9731-96a8fc4f851a</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-03 04:18:30</sys_created_on>
-        <sys_id>ae8e2d814785121081267212d16d436d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 04:34:49</sys_updated_on>
-        <ui_id>71187dd1-c8ea-44ff-b9b4-e018990743fa</ui_id>
-        <values>H4sIAAAAAAAA/+VUXWvbMBT9K8XPjpHt2EvyVjoKhW2FtfRlK0aWrhIxWfIkOWkW8t935Y+2rCkd2972Eqxzr+455+qQQ2Q633be3Zpz5+RaR6sv93EkdcDw+xBp2kC0ipjRXHppdNUDcbSlqguFK3FmgRnL3Zk2Hr99ZzVw7ODStYru795sZBupuIWRu6UWGTzYaHX4peT3LVSK1qBw3o23Uq/xuuR4EoSKdMlSlmdlnhGSLeZpXeZ1mvGcAs2xb7p4MVk5+9Aj8aseAx/ibmJC8UFWSuIIHjxojvJXgioHcdRQzak3dv+IWKD8WqsnYCO1x3FRaH5w8gfOzooiNApAjwyGItsYyeC6DUoGxNNaTUWjukZ/GgSHJYOgnfLTkhHpHFQc2qAu0I3c4mZjdp8nokupeydjURlG1eOJevRbdx5ceAFQ0OCgqqFti1uoWmu2sr+MWppkrfCQCGV2SBoClFAWhCe4DJpcIv6+h++olcHFRxyDlweZNXWSVX3YcJy3aOHYr6P63gVBg8HRSjVsAxscs7L158izhVH1MX6Z1GchPRyWOWGEp3wmspzM5iWhs0Uxh9k7UbI5FGVJ+CK5MJ32x+PXjpCc9b+cvAzy3w37F2Ff0kIUKSlOh31engr7iZi/nvDsjYSHp/rNgBNC/tOES1cNSR299eR/HPD7kOaBwQ0B4cCkQyG3Abua/rFDYY8vLdlzaGfst2DhCTv+BBBv7KL7BQAA</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1a4ca9cd4745121081267212d16d4305"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1a4ca9cd4745121081267212d16d4305"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1a4ca9cd4745121081267212d16d4305"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=1a4ca9cd4745121081267212d16d4305"/>
-    <sys_hub_flow_variable action="delete_multiple" query="model=1a4ca9cd4745121081267212d16d4305^sys_idNOT IN228e2d814785121081267212d16d4364"/>
-    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=05fe9ccc-7150-4f0b-bace-cc3a7f8a33f1</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>nowdatetime</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="">glide_date_time</internal_type>
-        <label>nowDateTime</label>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <model display_value="Trigger water plants task">1a4ca9cd4745121081267212d16d4305</model>
-        <model_id>1a4ca9cd4745121081267212d16d4305</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_variable_1a4ca9cd4745121081267212d16d4305</name>
-        <next_element/>
-        <order>0</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-03 04:18:30</sys_created_on>
-        <sys_id>228e2d814785121081267212d16d4364</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-03 04:18:30</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1a4ca9cd4745121081267212d16d4305"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1a4ca9cd4745121081267212d16d4305"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1a4ca9cd4745121081267212d16d4305"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1a4ca9cd4745121081267212d16d4305"/>
