@@ -110,5 +110,43 @@
             <sys_updated_on>2024-10-01 08:48:30</sys_updated_on>
             <value>biodegradable_pot</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pottery_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Terracotta</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-30 18:38:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-30 18:39:16</sys_updated_on>
+            <value>terracotta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pottery_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Self Watering</label>
+            <language>en</language>
+            <name>x_snc_plant_mgmt_plants</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-30 18:39:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-30 18:39:19</sys_updated_on>
+            <value>self_watering</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
