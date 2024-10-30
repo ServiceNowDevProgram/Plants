@@ -14,7 +14,7 @@
         <image>3e54568083115210b36f7fdfeeaad326</image>
         <issue/>
         <located_outdoors>false</located_outdoors>
-        <location display_value="Deoghar">cbc4160483115210b36f7fdfeeaad380</location>
+        <location display_value="">cbc4160483115210b36f7fdfeeaad380</location>
         <name>Pineapple</name>
         <notes/>
         <number>PLANT0001004</number>
@@ -22,7 +22,7 @@
         <patent/>
         <placement>outdoor</placement>
         <plant_location/>
-        <plant_type display_value="Pineapple">e4a65a8483115210b36f7fdfeeaad3be</plant_type>
+        <plant_type display_value="">e4a65a8483115210b36f7fdfeeaad3be</plant_type>
         <planting_method>Seed</planting_method>
         <pottery_condition>good</pottery_condition>
         <pottery_notes/>
@@ -48,6 +48,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>Pineapple.jpg</file_name>
         <hash>3417f146667c6eb21e2689af600b7c75108bbb6ebde78bbd0366e473ad3508fc</hash>
         <image_height>4080</image_height>
@@ -124,14 +125,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-12 15:00:43</sys_created_on>
         <sys_id>f1d79ec483115210b36f7fdfeeaad35c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Pineapple</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_f1d79ec483115210b36f7fdfeeaad35c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-12 15:00:43</sys_updated_on>
+        <sys_updated_on>2024-10-30 11:03:59</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>
