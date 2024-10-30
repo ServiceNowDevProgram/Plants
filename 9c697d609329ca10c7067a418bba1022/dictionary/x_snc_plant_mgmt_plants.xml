@@ -59,6 +59,7 @@
                 <element inactive_on_update="false" label="Sandy" sequence="0" value="sandy"/>
                 <element inactive_on_update="false" label="Chalk" sequence="5" value="chalk"/>
                 <element inactive_on_update="false" label="Clay" sequence="1" value="clay"/>
+                <element inactive_on_update="false" label="Cactus Mix" sequence="6" value="cactus_mix"/>
                 <element inactive_on_update="false" label="Loam" sequence="3" value="loam"/>
             </choice>
         </element>
@@ -106,6 +107,16 @@
                 <element inactive_on_update="false" label="Fungal Infection" sequence="5" value="Fungal Infection"/>
             </choice>
         </element>
+        <element choice="1" label="Watering Frequency" max_length="40" name="watering_frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Daily" sequence="1" value="daily"/>
+                <element inactive_on_update="false" label="Soil Dried" sequence="6" value="soil_dried"/>
+                <element inactive_on_update="false" label="Every 2 days" sequence="2" value="2_days"/>
+                <element inactive_on_update="false" label="Weekly" sequence="3" value="weekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="5" value="monthly"/>
+                <element inactive_on_update="false" label="Every 2 Weeks" sequence="4" value="2_weeks"/>
+            </choice>
+        </element>
         <element label="Scientific Name" max_length="100" name="scientific_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Prune Date" max_length="40" name="u_last_prune_date" type="glide_date"/>
         <element label="Patent" max_length="40" name="patent" type="string"/>
@@ -132,9 +143,11 @@
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element choice="1" label="Pottery type" max_length="40" name="pottery_type" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Terracotta" sequence="5" value="terracotta"/>
                 <element inactive_on_update="false" label="Clay" sequence="0" value="clay"/>
                 <element inactive_on_update="false" label="Plastic" sequence="2" value="plastic"/>
                 <element inactive_on_update="false" label="Biodegradable Pot" sequence="4" value="biodegradable_pot"/>
+                <element inactive_on_update="false" label="Self Watering" sequence="6" value="self_watering"/>
                 <element inactive_on_update="false" label="Ceramic" sequence="1" value="ceramic"/>
                 <element inactive_on_update="false" label="Fiberglass" sequence="3" value="fiberglass"/>
             </choice>
@@ -154,6 +167,13 @@
                 <element inactive_on_update="false" label="Small" sequence="0" value="small"/>
                 <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
                 <element inactive_on_update="false" label="Large" sequence="2" value="large"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sunlight Needs" max_length="40" name="sunlight_needs" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Low" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="Moderate" sequence="20" value="2"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Size" max_length="40" name="u_choice_2" type="string">
