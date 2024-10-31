@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="036cf1a49329ca10c7067a418bba10da" label="Plants" max_length="40" name="x_snc_plant_mgmt_plants" type="collection">
+        <element choice="1" label="Health Status" max_length="40" name="health_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Good" sequence="2" value="good"/>
+                <element inactive_on_update="false" label="Fair" sequence="3" value="fair"/>
+                <element inactive_on_update="false" label="Poor" sequence="4" value="poor"/>
+                <element inactive_on_update="false" label="Excellent" sequence="1" value="excellent"/>
+            </choice>
+        </element>
         <element label="Rain since last full water" max_length="15" name="rain_since_last_full_water" type="decimal"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Water every X days" max_length="40" name="u_water_every_days" type="integer"/>
