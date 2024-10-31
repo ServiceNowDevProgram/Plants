@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_plant_mgmt_plants" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">4c59a19dc34dda101036d60d050131eb</sys_ui_form>
-            <sys_ui_section display_value="">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="Default view">6f6c35a49329ca10c7067a418bba1024</sys_ui_section>
             <sys_updated_by>paige.duffey</sys_updated_by>
             <sys_updated_on>2024-04-16 02:11:10</sys_updated_on>
         </sys_ui_form_section>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_plant_mgmt.getPlantData</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getPlantData</name>
+        <script><![CDATA[var getPlantData = Class.create();
+getPlantData.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	plntData : function(){
+		var p = this.getParameter('sysparm_plant');
+		var gp = new GlideRecord('x_snc_plant_mgmt_plants');
+		if(gp.get(p))
+		{
+			var res = {
+					name : gp.getDisplayValue('name'),
+					amt_of_water : gp.getValue('amount_of_water_required_mm'),
+					plt_method : gp.getDisplayValue('planting_method'),
+					desc : gp.getDisplayValue('description'),
+					pot_type : gp.getDisplayValue('pottery_type'),
+					date : gp.getValue('date_planted'),
+
+			};
+
+			var answer = JSON.stringify(res);
+		}
+		return answer;
+	},
+
+    type: 'getPlantData'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 09:12:57</sys_created_on>
+        <sys_id>a0de6923c39d12103ac9f0477d0131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getPlantData</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_script_include_a0de6923c39d12103ac9f0477d0131a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:12:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

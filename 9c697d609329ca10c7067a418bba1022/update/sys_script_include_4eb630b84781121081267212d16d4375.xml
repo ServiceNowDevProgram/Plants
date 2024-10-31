@@ -6,9 +6,7 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Gets yesterdays precipitation from a web API</description>
-        <mobile_callable>true</mobile_callable>
         <name>yesterdays_precip</name>
-        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var yesterdays_precip = Class.create();
 yesterdays_precip.prototype = {
     initialize: function() {},
@@ -42,15 +40,4 @@ yesterdays_precip.prototype = {
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-02 23:08:05</sys_updated_on>
     </sys_script_include>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>4eb630b84781121081267212d16d4375</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-02 05:53:19</sys_created_on>
-        <sys_id>f5aaf0f04781121081267212d16d4304</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-02 05:53:19</sys_updated_on>
-        <table>sys_script_include</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>

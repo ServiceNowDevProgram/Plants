@@ -17,7 +17,6 @@
         <internal_name>watering_task_subflow</internal_name>
         <label_cache>[{"name":"fc0907a0-b07a-4adf-a7c6-b917c306286e.precipitation","label":"3 - Check previous days precipitation➛Precipitation","reference_display":"Precipitation","type":"decimal","base_type":"decimal","usedInstances":{"947c94c0-9cb8-4ef0-8122-9777d1a68ca9":["u_last_rain_recorded","u_rain_last_24_hours","rain_in_last_24_hours"],"69da4a64-388a-46bf-8bc7-6ad4117695a0":["condition"]},"attributes":{"uiType":"decimal","uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"753ea62e-2093-4632-b99b-33fdc8982173"}},{"name":"cd51df84-1546-4420-9456-bfebd71d1eb0.item","label":"2 - For Each➛Plants Record","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"reference","base_type":"reference","usedInstances":{"947c94c0-9cb8-4ef0-8122-9777d1a68ca9":["record"],"cbca0c8c-8eff-40a2-b097-908bf0421915":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"b63eb1d4-ffd6-4efe-9a3f-09bd0dfc8033.Records","label":"1 - Look Up Records➛x_snc_plant_mgmt_plants Records","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"records","base_type":"records","usedInstances":{"8467ad29-0163-4f76-be3f-adcb1a62e58e":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd51df84-1546-4420-9456-bfebd71d1eb0.item.location.latitude","label":"2 - For Each➛Plants Record➛Location➛Latitude","reference":"","reference_display":"Latitude","type":"float","base_type":"float","parent_table_name":"cmn_location","column_name":"latitude","usedInstances":{"a18015bb-e51b-44ae-9f37-273223824497":["lat-0"],"6f6eb2db-f003-4209-8ffe-e73a27c022ad":["latitude"]}},{"name":"cd51df84-1546-4420-9456-bfebd71d1eb0.item.location.longitude","label":"2 - For Each➛Plants Record➛Location➛Longitude","reference":"","reference_display":"Longitude","type":"float","base_type":"float","parent_table_name":"cmn_location","column_name":"longitude","usedInstances":{"a18015bb-e51b-44ae-9f37-273223824497":["lon-1"],"6f6eb2db-f003-4209-8ffe-e73a27c022ad":["longitude"]}}]</label_cache>
         <master_snapshot>88c5a27c531d521000b51901a0490e14</master_snapshot>
-        <master_snapshot_digest/>
         <name>Watering Task Subflow</name>
         <natlang/>
         <outputs/>
@@ -46,10 +45,10 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-14 23:56:57</sys_updated_on>
         <type>subflow</type>
-        <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3bb5ae3053d9521000b51901a0490e80"/>
     <sys_variable_value action="delete_multiple" query="document_key=3bb5ae3053d9521000b51901a0490e80"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3bb5ae3053d9521000b51901a0490e80"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=3bb5ae3053d9521000b51901a0490e80"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=3bb5ae3053d9521000b51901a0490e80^sys_idNOT INfbb5ae3053d9521000b51901a0490e81"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -67,362 +66,24 @@
     <sys_hub_flow_input action="delete_multiple" query="model=3bb5ae3053d9521000b51901a0490e80"/>
     <sys_hub_flow_output action="delete_multiple" query="model=3bb5ae3053d9521000b51901a0490e80"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3bb5ae3053d9521000b51901a0490e80"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3bb5ae3053d9521000b51901a0490e80"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3bb5ae3053d9521000b51901a0490e80^sys_idNOT IN0cc5627c531d521000b51901a0490e45,80c5627c531d521000b51901a0490e42,c0c5627c531d521000b51901a0490e45,c0c5627c531d521000b51901a0490e47"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">3bb5ae3053d9521000b51901a0490e80</flow>
-        <generation_source/>
-        <order>4</order>
-        <parent_ui_id>cd51df84-1546-4420-9456-bfebd71d1eb0</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>0cc5627c531d521000b51901a0490e45</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>dae5c065-8b8c-4d0d-a8bc-9d87ace7fc73</ui_id>
-        <values>H4sIAAAAAAAA/+1U22obMRD9lbDP3kV78fryVgiBPjSBtOQlDUIrzdoCrXYraZ24xv/e0V4c59oQkodCjTHWSDPnnNHRXO8CKYJlkIEg8SLOeRqnaUJIMs/iIk+LOBEpA4iDSaBZBXjSAK+NwPWGqdYHdjsuprEo51kYT7M8zLKEhItsmodFCYWYxSKGgkTSQbXfY56QtlFsezWkY4SvpRIGdLC8vpkEDTOI5MAEy92jLbdtgCpWgMLE05q3FWh38vUUa7xVxZh9Ocp4LMtj4FoM1an0QdzyfGIyCeDOgRaAcCVTFiZBxbRgrjbbYOlMiwEDTFxotT2cWEvteqUVu7PyN9bPiD9XAkrjhy7UksNF42St+4hjhRo3a9VW+rzn6psIJWuVO2pia4EKaDw3j9ZTKb+v69vLEedM6k7GQEvVnKnDijlnZNE6sL7voKBTX7GmkXpFG1NvZJeMVKpopXARlaq+RUwrVzpi3POOsBMsOsP4aRe+YkZ6Ed+wDCbvO9H0V+txexkDYdpp7gTT7kbwqOVGNu4LFt7AQHM/GfxaTF+7ab64v9ijmveevaNWc4o29BJXlev/2qfufPng+0z7w7M5Oe/ZvFXJg+QXlA22fRAbXDv9MNfOP9u1A/Q/Ztu/mZUkr46loyvt/GmPjGqY1BS/illHk4yu69bYny0hqdjtSk4WZMZIWOBvmDFRhmzGce4u4hlPSZ7Mc4ganGyykY55oc8N4M+AeOfjgAqJOTjpqU3e3L2xwJkEJewz7RxfxwBANwPAYa5/2BOJc9J9/o/3d4z3MYgU9/ubP0QFKYicCAAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
-        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">3bb5ae3053d9521000b51901a0490e80</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:55</sys_created_on>
-        <sys_id>80c5627c531d521000b51901a0490e42</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>b63eb1d4-ffd6-4efe-9a3f-09bd0dfc8033</ui_id>
-        <values>H4sIAAAAAAAA/9VX207jMBD9lSrPUZWQUljeECwSD9AVVEgrhCzHcVprHSdrO72A+Pcdx3Fa2pSWbpHgrZ6L58zMmYn7+OKxxDvzTtNeEODw+PQkCKIoCPr9iOAwjqM+iYO4F3u+J3BGwVLjmFM4TjAvzXmGlCCo4FholI0ybX8qsEiYgt/zh62GZMx4Iqnwzh6ffK/AEiJpKr2zlxWVnhcUcRxTDvcNDZDOrUHl75zEG+f1pEwAd0TCXp3LxGAJfI/ONBUJhVAp5or6XoZFgnUu541EUpwMBF8IxkxouNEzxjPFnuH608DYpRTSItTqyDhnhA4KzXJhJRaRVea8zMStRWrqSlNccu3qCpJSUZTQwoAz0erQ6f04n965QFdMVHnUSp4TzJsT1lqyuNRUmaJTTjNquoSLgokRKmQ+YZUzYMm6Iw6HbsrzKQRVbCS6mBjgXagF7l6B/LISP2DJTBY3cA04AyDGoa3IVlflpazSnyDCS1UpJBbK3uW9VjVCf0uD0mZd54dsicBAEckKfQ4OE1qn8urvROjjYNF7kouEmZhqidUlmmIDiU6onKMEz9X1/e1g+PPm1/D3OrW3WO/H74tlXLvm1OrclmjN9DeymunhwZgOcD+b61qWX4/q28hrE97CYHLybrePF41VudTIVm6Jwus03ZuKV4zy5M2q3QGccx4YVnXi+Sa8NRNTE2Nl5x59n537JXkIgBJkC8sEZ6L6tgHQwxA0eH8d/VhpeNXnBT0rGVZknaa4o/PO8/57s+qrI+oOIJ3jPSDqDC3KFuBuY7rra45GB+NodLSBo8CQx5cGZlOelkq6t4rpkbN/NvZ41R5otOQQvj41HL/YL2b40ZhHJubKEEYfmsJlClnN5QYmHfiBtGGq/M8c4zG41vGQnUo0ZcmI6kV0Z5Xkeor5nzZ9PWrNsFTp/fdjq/fukPXDxUAB2ZGkClq1/NoK4Z2wvgdC34r3WwPXQtNRVbxdITrPGzzr3DUYW4HXu4A1MWpO9w74dDroB8tVuHVMXKG/xd+Ifbn69A/N2SaD6w4AAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Check previous days precipitation">d411013847c1121081267212d16d43bb</action_type>
-        <action_type_parent display_value="Check previous days precipitation">df8081b447c1121081267212d16d433b</action_type_parent>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">3bb5ae3053d9521000b51901a0490e80</flow>
-        <generation_source/>
-        <order>3</order>
-        <parent_ui_id>cd51df84-1546-4420-9456-bfebd71d1eb0</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>c0c5627c531d521000b51901a0490e45</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>fc0907a0-b07a-4adf-a7c6-b917c306286e</ui_id>
-        <values>H4sIAAAAAAAA/+1Ty27bMBD8F54tQZQpSvKtQBGgQNoATZtLEBgrcWUToChFopy4hv+9S8tyUveJwkAvPXJ2ObM75NzvmFZswbjgPOLzTKQl5zGPMh7LNOax4lKJeVGxGbNQI3UacNoNCgnZgBk8tNuVKuGqykTAEyEDIeIoyEUig6LCQqVccSyiUDusQ9OURNDYcOLZ74lJ6b41sL27GGG51kZ1aNni/mHGWuhoeIcdW+zOSm7b4tJAgYZ0b12n7Yqu/6kn08XrF1O+t8lLENJP5E2n/CR8xvDZoVVIYhWYHmesBqvANd2WLVw3ENAhqBtrtqeOtbaOyJjvfe71F2LOoijynRXSViWO1XLd6BJvWm/NiDgozFRszFDbD+Ok3n6sYDBusp+QocelwtZP5/WO4tXtunn6OAldaXtY5Fj0D2FOJ3C0bjE47L3ng/50ZsKIXJ8bjwZrUlzW0LaELNuu2eiDCg1dhytDh7AyzRNN1+uVDaE8PD65BuEV4W8P8B102q/7nmjospf7bPXjgO/8w+apBFkiBDLJikBglAZZmiRBzGWcUyVLEdn+YOnycfBLjSYd7ViOjlJDX3a6dW9ohA0eN9/PpkRFv/o9pXj1VRq7ukykJqLLZeobxouE6ve2nEL1ypcfWPWTWMX/Y/WPYjXP57mMijyII4BAQEFfKxYYQCkhzwspszj/61g9fAUkBqwrqgYAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">3bb5ae3053d9521000b51901a0490e80</flow>
-        <generation_source/>
-        <order>6</order>
-        <parent_ui_id>182be2b2-b870-4b02-9da0-51a190727ef0</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>c0c5627c531d521000b51901a0490e47</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>41b36089-11b9-44f5-bb05-2da32c1c2a48</ui_id>
-        <values>H4sIAAAAAAAA/+1W227jNhD9FUJP26ytSL41l6cAbtoC7QZIgn1ZbwmKHNlsKVIlKSfewP/eISU59zRdbB4KrF9sDudyzszhwJ9uEimSo2QCIssP8xkf5+PxKMtGB5O8mI2LfCTGDCBPBolmFaCnBW6swPOaqSYYbm64mOaiPJgM8+lkNpxMRtnwcDKdDYsSCvFjLnIoslR6qLZbjBPS1YptPnbhaOErqYQFnRx9+jxIamaxkgebHN08uPKbGqhiBSgMnBveVKA9+XWOOV7Loo8+72k8pBVq4Fl02akMRrwKePJskMC1By0Ay5VMORgkFdOCeWM3yZG3DRosMHGm1WbnsZLat0wrdu3kF8w/yYJfCUiN77pgJIez2kujW4tnheovjWoq/aHFGpoIJWuUv9PExgEVUAdsoVoLpbxYmavzvs6p1JFGB0sZztTuxLy3smg8uNB3UBDZV6yupV7S2pq1jMEIpUqXCg9pqcwV1nRyqVPGA+4UO8HSU7TPo/kjszKQ+B3TYPA2kqZ/N6FuS6MDTCPnSJjGiaCr41bW/gQTr6GDuR10ei2mL02aH94O9k7OW81eU6c5RRkGisvKtz/dY3U+7/h1or0MaMiHFs1rmdwLfoZZJ9t7tk6102+m2oO3Vm1X+n8m238TazZ6cS3dGWnUp7sj1AaV4zy1TGrarigQiybLxqIUw7YmiD/itZPYq9a9bJSiVwzl+Mj3scTfosRXPg6oEJgH0kIbvLp7fYJTCUq4J9rZv46uAF13BXZ7/Zs9kXyWxc/39f7f1ntLqLUFhM/rLdy+FJvs7y303t4J5+AcCWD3TyJ6EtCTBpMuiV8BKQWNFlP8Cdyn5CImIFXjPLHgG6sJI1EpKQkZz4JYiG6qAr+kI6YsHXhSbMj7nEhNfrLWWPILqkaFEhfQ9iyCWTOp4uo3UQCOdI+QNDUCqy1CDTGLJF0khJVIs4cXwuGaoXDhCNFY4lbGeuw/J+3L6x1THPByCTbljUU9+DQ6hgFGXlj1OOTqmO2yBOP+Qi90yN2FnmPzL41n6mEJOqK0NJYC46v4jy59fk7HfVINV/eSPSry/jb/mFK+Av4XKhLW0jQO7RsXTlzW0rPY0XunWKYj1Vc6Ru05tgaxe0Cot6f23HctvYWWQmYR9niXFMdCfg4rZY7GS1nBux/QM3ikTIg5Dvi3sKvizTAPd0uXSl2ad8EnnLtC4fjEbLfbz/8Ay19ljsgMAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3bb5ae3053d9521000b51901a0490e80"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3bb5ae3053d9521000b51901a0490e80^sys_idNOT IN04c5627c531d521000b51901a0490e44,0cc5627c531d521000b51901a0490e46"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <block display_value="">84c5627c531d521000b51901a0490e43</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">3bb5ae3053d9521000b51901a0490e80</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>2</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>04c5627c531d521000b51901a0490e44</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>cd51df84-1546-4420-9456-bfebd71d1eb0</ui_id>
-        <values>H4sIAAAAAAAA/51SS2/bMAz+Lzonhh9BUOdWYCjQw1agK3oZCoOWqESYLGmSnNQz/N9HxXZW9DTsFPMj+T0Yjcz20fUxvNj7ENTRsMOPtw1TJmH0PTIl2IEVtZB1kde8KvdVmefl3a5o91VblKICFHu2YQY6pEkVsQtUnkH3qR5HmsO2ELutlGK/3aHEbQ2V3OZ1K3Ih+V1eVdkzcutFmCZaFSo4DcPr/zPwk9LC4xLGgSdvET07jJ9acXDYaGhRk9DCQPv/mnndfFxCf7pBYqfS33jpJ7ko8w3D94hGIAlJ0AE3rAMjIFo/sEP0PQEeQTwZPdwmTspEomNp9j2o38Rd5HkalEiJOM5NfrKK45OLypoZidDqtWl135lvs890a5TQ67jempA+YCPQJXNJbtGW30/28rwKPShzDbI0teWgbxXE6FXbRwzp3qixI6KmA+eUOTbO27O6LpOXLjtqKjKp7YVE0/vLgCfjGd0CsgfCv1zhV/AqpfhKNLQ8XVM3v/qkO+dYHDdzaBoI3CsX74nujIu56S09zJkpzC9AIFeBBF8S9rg++9QY6N9U/CN0sf5nsvoXm/4AsQn3u0ADAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <block display_value="">04c5627c531d521000b51901a0490e46</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">3bb5ae3053d9521000b51901a0490e80</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
-        <outputs_assigned/>
-        <parent_ui_id>cd51df84-1546-4420-9456-bfebd71d1eb0</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>0cc5627c531d521000b51901a0490e46</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>182be2b2-b870-4b02-9da0-51a190727ef0</ui_id>
-        <values>H4sIAAAAAAAA/+VVTW/bMAz9K4HOjiHbidPkVmwoUGBbgbXoZSsMWpITYbLkSXLSLMh/H+WPtttSLNh228WwHym+9ygSPhDT+qb17s5cOifXmqw+PURE6oDh+4FITlakolAlS5awLM2zlNL0YpaUeVYmKc9AQEYioqEWmMmM5tJLo4sOiMgWVBsC19WksYLJRnoI8cnaCvDCTvwG9IRiJpeuUbC/P/sA20jFrRg0N2CRERPI6vBTyO8bUSgohcK6t95Kvcbj5zobD74ZrU3edcjrngMf4m5kMpYHWQmNiHj0QnOB1BUoJyJSg+bgjd0/IWiT32j1DGyk9liOhORHJ79h7XQ+D4mVQI9M9EG2MZKJmyYo6REPpRqDRrW1/tALDs0WFbTKj81GpHWi4KIJ6gLdwF3dbszu40h0JXXnZAgqw0A9fYFHv2XrhQs3IJSosVBRQ9NgF4rGmq3sDqOWOl4r/IgrZXZIGgYvBhaEx9gMiK8Qf9vB92BlcPEey+DhXmYJTrKiG1Is5y1aOHbtKL62QVBvcLBS9N3ABMesbPwl8mzFoPoYDRO+hHk1T+j89BzM8hO3/WK4D4eK0SVdAJ2W+JzOgFdTWLB8Wi6TBctonl7kIv5hno/Hzy2lmTgx+n9b7l8sxhkN+WUxTjfplW1If7MN4VrPXAZK6X+6DdIV/VQP3jryP16GhzDRPYPrB4TjhDkUchew6/GvEAJ7vGnJXkI7Y78EC8/Y8TsI7OegXwYAAA==</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3bb5ae3053d9521000b51901a0490e80"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3bb5ae3053d9521000b51901a0490e80"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3bb5ae3053d9521000b51901a0490e80"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=3bb5ae3053d9521000b51901a0490e80"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=3bb5ae3053d9521000b51901a0490e80"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3bb5ae3053d9521000b51901a0490e80"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3bb5ae3053d9521000b51901a0490e80"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3bb5ae3053d9521000b51901a0490e80"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3bb5ae3053d9521000b51901a0490e80"/>
-    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
-        <access>public</access>
-        <acls/>
-        <active>true</active>
-        <annotation/>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <authored_on_release_version>26000</authored_on_release_version>
-        <callable_by_client_api>false</callable_by_client_api>
-        <category/>
-        <copied_from/>
-        <copied_from_name/>
-        <description/>
-        <flow_priority/>
-        <internal_name>watering_task_subflow</internal_name>
-        <label_cache>[{"name":"fc0907a0-b07a-4adf-a7c6-b917c306286e.precipitation","label":"3 - Check previous days precipitation➛Precipitation","reference_display":"Precipitation","type":"decimal","base_type":"decimal","usedInstances":{"947c94c0-9cb8-4ef0-8122-9777d1a68ca9":["u_last_rain_recorded","u_rain_last_24_hours","rain_in_last_24_hours"],"69da4a64-388a-46bf-8bc7-6ad4117695a0":["condition"]},"attributes":{"uiType":"decimal","uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"753ea62e-2093-4632-b99b-33fdc8982173"}},{"name":"cd51df84-1546-4420-9456-bfebd71d1eb0.item","label":"2 - For Each➛Plants Record","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"reference","base_type":"reference","usedInstances":{"947c94c0-9cb8-4ef0-8122-9777d1a68ca9":["record"],"cbca0c8c-8eff-40a2-b097-908bf0421915":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"b63eb1d4-ffd6-4efe-9a3f-09bd0dfc8033.Records","label":"1 - Look Up Records➛x_snc_plant_mgmt_plants Records","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"records","base_type":"records","usedInstances":{"8467ad29-0163-4f76-be3f-adcb1a62e58e":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cd51df84-1546-4420-9456-bfebd71d1eb0.item.location.latitude","label":"2 - For Each➛Plants Record➛Location➛Latitude","reference":"","reference_display":"Latitude","type":"float","base_type":"float","parent_table_name":"cmn_location","column_name":"latitude","usedInstances":{"a18015bb-e51b-44ae-9f37-273223824497":["lat-0"],"6f6eb2db-f003-4209-8ffe-e73a27c022ad":["latitude"]}},{"name":"cd51df84-1546-4420-9456-bfebd71d1eb0.item.location.longitude","label":"2 - For Each➛Plants Record➛Location➛Longitude","reference":"","reference_display":"Longitude","type":"float","base_type":"float","parent_table_name":"cmn_location","column_name":"longitude","usedInstances":{"a18015bb-e51b-44ae-9f37-273223824497":["lon-1"],"6f6eb2db-f003-4209-8ffe-e73a27c022ad":["longitude"]}}]</label_cache>
-        <master>true</master>
-        <name>Watering Task Subflow</name>
-        <natlang/>
-        <outputs/>
-        <parent_flow display_value="Watering Task Subflow">3bb5ae3053d9521000b51901a0490e80</parent_flow>
-        <remote_trigger_id/>
-        <run_as>system</run_as>
-        <run_with_roles/>
-        <sc_callable>false</sc_callable>
-        <status>published</status>
-        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>88c5a27c531d521000b51901a0490e14</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <type>subflow</type>
-        <version>2</version>
-    </sys_hub_flow_snapshot>
-    <sys_translated_text action="delete_multiple" query="documentkey=88c5a27c531d521000b51901a0490e14"/>
-    <sys_variable_value action="delete_multiple" query="document_key=88c5a27c531d521000b51901a0490e14"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=88c5a27c531d521000b51901a0490e14"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=88c5a27c531d521000b51901a0490e14"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=88c5a27c531d521000b51901a0490e14^sys_idNOT INc8c5a27c531d521000b51901a0490e15"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>88c5a27c531d521000b51901a0490e14</id>
-        <name>Watering Task Subflow</name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>c8c5a27c531d521000b51901a0490e15</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-    </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c8c5a27c531d521000b51901a0490e15"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=88c5a27c531d521000b51901a0490e14"/>
     <sys_hub_flow_input action="delete_multiple" query="model=88c5a27c531d521000b51901a0490e14"/>
     <sys_hub_flow_output action="delete_multiple" query="model=88c5a27c531d521000b51901a0490e14"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=88c5a27c531d521000b51901a0490e14"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=88c5a27c531d521000b51901a0490e14"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=88c5a27c531d521000b51901a0490e14^sys_idNOT INc0c5a27c531d521000b51901a0490e1b,c8c5a27c531d521000b51901a0490e1a,c8c5a27c531d521000b51901a0490e1b,ccc5a27c531d521000b51901a0490e4d"/>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Check previous days precipitation">d411013847c1121081267212d16d43bb</action_type>
-        <action_type_parent display_value="Check previous days precipitation">df8081b447c1121081267212d16d433b</action_type_parent>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <comment/>
-        <compiled_snapshot>d411013847c1121081267212d16d43bb</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">88c5a27c531d521000b51901a0490e14</flow>
-        <generation_source/>
-        <order>3</order>
-        <parent_ui_id>cd51df84-1546-4420-9456-bfebd71d1eb0</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>c0c5a27c531d521000b51901a0490e1b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>fc0907a0-b07a-4adf-a7c6-b917c306286e</ui_id>
-        <values>H4sIAAAAAAAA/+1TTW/bMAz9LzrHhuU4/sitaFBgQLcCa9dLUQS0RCcCZNm15bRZkP8+KrbTrB22Fchp2FGP5NPjI/mwY0qyOeMR5wGfplEiOA95kPIwTkIeSh7LaJoXbMIMlEiZGqyynURCNqA7B+12Qs64LNLI47Mo9qIoDLwsmsVeXmAuEy455oGvLJa+rgQRVMYfefZ7YpKqrTVs789GKNZKywYNmz88TlgNDYm32LD57k3ob7vXkKOm1OvX9t8bYre1Q1rbKLMa3tdD4e0IVo10QviE4YtFI5EUFKBbnLASjARbNVs2t01HQIMgb4zeHjPWylgiYy73pVXf6bs0CAKXWSA1JbCPHp93kGtc9Pb2oWIBFkhNJ2zXDOliXSmBbW+JxAI6bS9PsT7hpnZO9yXWEQ/Vle5K86W3gx0JxmkS0rW4lFi7bp3+oZnidl09fx2VXilzMGYIurnq4wss2Zd31unZsU7dvXG6R955jRpL+nFZQl0TsqybaqMOv5Do0l9peviFrp5JXatWxgdx2CWaAvhXhC8O8D00yrX7mWio2H33zainDj+57cmSGGKB4MWzNPciDBIvTWYzL+RxmFEkTRDZfsLabXupoW1fjaIpLZ8612Zv22DQsvfYlYhG1faCRG1w8GI/GU82+N3SiuhkQyuzOs/NjkTnO9qfGD94tX824Hi1Jw78wpSP3G34/27/kbudZtMsDvLMCwMAL4KcNjWM0AMRQ5blcZyG2Rnv9vEHtW48bGwHAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
-        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <comment/>
-        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">88c5a27c531d521000b51901a0490e14</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>c8c5a27c531d521000b51901a0490e1a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>b63eb1d4-ffd6-4efe-9a3f-09bd0dfc8033</ui_id>
-        <values>H4sIAAAAAAAA/+VXbWvbMBD+K8GfTbDrNO36bTQrFNpmNGEwShGyJCdiiuxJcl4a8t93smzHJG6bQAot+xbdnXTP3T2PrDytPU69K+8y6QUBDs8vL4IgioKg348IDuM46pM4iHux53sSzxhEGhwLBss5FrldL5GWBGUCS4Nmk5lxPzVEUK7h9+rXu4FkygVVTHpXT8++l2EFmQxT3tV6x3UoVIFjJiB0XGLdgW5WWb1Ehc/Z7prbOg/OkSpqoQS+x5aGScoAQ4KFZr43w5Jik6pVbVEM06EUW8OUSwMnejZ4qfkL5L0MbFzCoCrCnK9eFpkHrm/OlQywwSOjcmJyVYaTacoJ064nlCU4F+a6aXMBw8zwVLotrnS3OxX5TD64lnj1AdWYwJJrhijLbLEWfVlKMpqmi8cK6Q2XRV9Kp0gJFvUKG6N4nBuLZ+0xwWbMDh1nGZcTlKl0zovNgGXWnQhYdBORLiCp5hPZxcQC70JvcfcG7IPC/Asrbqu4h2NgMwDiAliC3Bh1mquinXNERK4Lh8JSu7O8je/plb4WWOtt5dB29De3uF0fyoqRa5rdQhTPzHc4Ys7K4jb+QYo5D7a0I6mk3KLQDdnkaIEtSDZnaoUoXunb0cNw/OP+5/j3vnbeiT6lgArklYCum9DbyimltGe7azuglFJ4MilBHV9NTJD882npeHW4FrwjEXLxJtHOt5zSqTLI9bKhkX0dHM31AyBUXB9adnbi1WuoSqonnAna9tW4sY6dr8bZ//vV+JREB0AUuQlyKbgsngEA9KMUELx91X7b4VpBsS3/CxvWZF8HuGPSzsvRajgATqWGEeTujB2eFojVvV9QZvfOr4ylCKKTiSA6O50I1nWpdTNb+l69/uxEq/gXG49344GGjQ3hpk1kR+UMj815ttkXcXSUipuEc57BK7w78RPxFVX6H3kNTGFrmQ85DaMFpxNmttmrKJqaBRZ/2vylMFE1qKK8D3hu9t6Ubj/cyhTUghTTMLzmezOEp9L+PRL6znzcNXIAlqod93jZeazBtCIsrxJQO5sUs2neJbe1tSR574SPx0/9Ra0G1qrDam5f4p/a6cTw/A+VCNCirxAAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">88c5a27c531d521000b51901a0490e14</flow>
-        <generation_source/>
-        <order>4</order>
-        <parent_ui_id>cd51df84-1546-4420-9456-bfebd71d1eb0</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>c8c5a27c531d521000b51901a0490e1b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>dae5c065-8b8c-4d0d-a8bc-9d87ace7fc73</ui_id>
-        <values>H4sIAAAAAAAA/+VV2WrjMBT9laLn2MhLnOWtNBQGOi20Q186xcjSdSKQl5HkthmTf59rW05Dt2mh81AmhBDdRTrn+B7rpiVSkCWJQdBgESQ8CqIopDScx0GWRFkQiogBBGRCSlYAVmrglRa4vmOq6QJty8U0EPk89oJpnHhxHFJvEU8TL8shE7NABJBRX1oodjvsE9LUim2vXTtG+EYqoaEky5vbCamZxpMsaLJsn6TeC1WxDBSWXo5Yn2K327pbi4o3BZQ2lWPwzHWuXObo2woz2NTBCeiEwIOFUgACyZkyMCEFKwWzld6SpdUNBjQwcVGq7b5iI0s7EC3Yg5G/8eSYdnU5IDPuRNgvf7BMwWoQaUjlK2bZFe7ObaP3mlWSgxl0EZCzRtmTw9hQcFFbWZVDi+02dt2VaoryfFCF7Dc4eCaNgVRA3XHt0A/U8qtNdX85Aj2VZS+Lo6kqztR+xazVMmtsB6cloKDXuWB1Lct1WuvqTvbNCKXw1woXfq6qezzTyHXpM97h9lFZ5p9ifNWHr5mWHYnvuA027ybEbM2JYsY8UkEd019Nh2Qg5iikvQq9BGk/DV0z17K2x3jUHTjgu4kzRDZ9a8r44nGoDvZ8NMVDakqe4iPsSK8LO/w1z8f/9cKPueIdeEdX9AP2Cn5njGexs8Peo/Mh4Wwx/TRbzL+aLRyVL++Lv7mBhm++cw+mqTeAOXCCZrJM8YtobBrG6aZqtPnZUBqJts05XdAZo16Gv17MRO6xGcebYxHMeESTcJ6AX+NrW9bSso76S1fIvzjiY+57hz6j+04lKGFeEGy0HhTIzUI6CPjEfi55dO2S+5vp0zwYJLT/fDEn/i8X1BhE0Lvd7R80y0G2vwkAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">88c5a27c531d521000b51901a0490e14</flow>
-        <generation_source/>
-        <order>6</order>
-        <parent_ui_id>182be2b2-b870-4b02-9da0-51a190727ef0</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>ccc5a27c531d521000b51901a0490e4d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>41b36089-11b9-44f5-bb05-2da32c1c2a48</ui_id>
-        <values>H4sIAAAAAAAA/+1WW1PjNhT+Kxo/bdnE2LmVyxOzKW1n6DIDDC+brUaWjhO1suxKciDN5L/3SLZDlgBlZ3YfmJYXOPfvXD6ZT+tIiugkGoFI0uN0wofpcDhIksHRKM0mwywdiCEDSKNepFkB6GmAl0agvGSq9or1motxKvKjUT8djyb90WiQ9I9H40k/yyETP6YihSyJpYNis8E4IW2l2Oq2DUcNX0glDOjo5NPnXlQxg5UcmOhk/cj0WqiKZaDQ9arD+hi7W1VeFiWvC9COyk550UZOWwv5dYoWDPJw0qQXwb0DLQCB5ExZ6EUF04K50qyiE2dqVBhg4lKr1dZjIbVrGi3YvZV/Y+VR4v1ywM54O4SteMMyBdNmSI0pnzLHrjE7d7XZzqyUHGwzFwE5q5X7sKtrHC4rJ0vdhDifuI0uVV3oj81Uom2CnZ3UFqiAyvfq0Tet5deL8u6qA3oudRhL26YqOVNbiTlnZFY7D2cdgYIw54JVldRzWplyKUMwQiniuUIhzlV5hzWtnOuYcY87xsmy+Bz106C+ZUb6Jn7DNBi86UV2ZT8oZu1DKzhH+lftkTSNtS3QMIUwAhquwQdzIyt3hqWW0ALf9FpCZOOXrowfPxzVTs4HUtxTqznFFfqm54Vr/rT75/+849ex4hV4O1aEA3sGf0uMPd3Fbiz52BhaWoy/GS2O3hot2lbePC/+jQ3J4MU3d+eaAgHsDhNqijgcNUxq2ry/IGZ1kgxFLvpNTRC/B7OVOL3GPa+VoncM733Pd59D36PE17HvFfPp2HcuQQn7xMA66kGBvTmgzQAf0a81ktvWuP0yfTMOppMk/LwxJv4HPlBNi43OY37+oL31pdjo8GCmDw7OOC7DEg//8Cz0Q3w/pMakc+IWQHJBg6bM/gDuYnIdEpCito4YwGVrwkg41Jj4jJf+HImuiwx/SUvKPLfgSLYi71MiNfnJmNKQX/AulS9xDc0UA5glkyp8XcpwEpa0LCd1hcAqg1B9zCyKZxFhObbZwfPhcM+QGnCCaAyxi9I43AgnDbU7xxhXPp+DiXlt8EJcHBz9SkNfWPXU52o722bxysOZnmmfuw29wuHflI6pxyXogNK8NBQYX4R/euPn93TaJdVw90WyvSLvH/IPKeUL4H/ijcJSlrVF/cp6ictKOhYm+oUUyrRNdZVO8fYsW4LYUgrv7amH9P9b+h635DML/5C3SXEt5Gf/yOBLCjeygHc/oKf3iJkQU1zwhX+9gqWfetvcxlLn5Tvv4+W2kBef2O1m8/kfr1sE3OsNAAA=</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=88c5a27c531d521000b51901a0490e14"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=88c5a27c531d521000b51901a0490e14^sys_idNOT IN44c5a27c531d521000b51901a0490e1a,c4c5a27c531d521000b51901a0490e19"/>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <block display_value="">04c5627c531d521000b51901a0490e46</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">88c5a27c531d521000b51901a0490e14</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
-        <outputs_assigned/>
-        <parent_ui_id>cd51df84-1546-4420-9456-bfebd71d1eb0</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>44c5a27c531d521000b51901a0490e1a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>182be2b2-b870-4b02-9da0-51a190727ef0</ui_id>
-        <values>H4sIAAAAAAAA/+1VXW/aMBT9K8jPIXISCIW3ClSpUrdKa9WXrYpuHAesOXZmO7QM8d93nYSPbUyjWh/3gvC5n+fYR9kS3bi6cfZRX1srlorMPj8HRCiP4f8tEQWZkZJCGU1ZxJI4TWJK46tRlKdJHsVFAhwSEhAFFcdMplUhnNAqa4GArEE2PnBbDmrDmaiFAx8fLA0Hx83ArUANKGYWwtYSNk8XF7CVkIXh/c41GJyICWS2/SV0KQcJOZeYOt+TGNy1yJ/ZuU3tceuMUMv+fNd3ediD2hR+q4gGhL86rgqO+5QgLQ9IBaoAp83mgCDL4l7JI7ASymE74pNfrfiOA+Px2CeWHCky3gUPx0fIJV90YnahcgEOcJ2Gucb06WylBeO2E6jgJTTSzU+xLuG+9nS7Eucb99VaNpX62KlCDg32d4dIY3lW8Nqz9ev3XMqHlX75tN/0RqhWmT4oNQN5OIFD/fLG+X22hEteYaOsgrpGVbPa6LVoi3GXKlxKPISl1C841L/jEJhfPERxIbxBfNHCT2CEZ/EB22Bxt2YOVrCsffPYDmXiZBcQu7FzCdYeSaLC2bfGr9hR7sllnT6+hBlRu2ucvOY9j13QW2gK43Ic0fH55zdKzzyyE/dstyWjUzoBOszxdziCohzChKXDfBpNWELT+Crl4U+G2e2+NJQm/Iy3/rXd25x3AfXfnHdejrfYLf6L3fw9X+g2Sul/u72L3YTNOpP03Nrh7+i2Z2+ZbuZBayYsrtZe0+3+u+YDG3xggp1CL9p89aSO2O4Hm6FMkSEHAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <block display_value="">84c5627c531d521000b51901a0490e43</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Watering Task Subflow">88c5a27c531d521000b51901a0490e14</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>2</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:56</sys_created_on>
-        <sys_id>c4c5a27c531d521000b51901a0490e19</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:56</sys_updated_on>
-        <ui_id>cd51df84-1546-4420-9456-bfebd71d1eb0</ui_id>
-        <values>H4sIAAAAAAAA/51TwWrjMBD9F50TY8chNLmVhkJh20JaellKGEujRKwseSU5qdf433cUOW7padmTPW9mnt57lntm29C0wb/aW+/VwbDNz/cZUyZi9N4zJdiGFWsh10W+5uViVS7yfHGzLKpVWRULUQKKFZsxAzXSpApYeypPoNtY9z3NYVWI5VxKsZovUeJ8DaWc5+tK5ELym7wssx1y64QfBloVyjcaurf/Z+BHpYXD0UwDjrQFdGzTf2v9qzkNFWoafRjdfTMbuiaWLkkYgR/jzm5C6RFFLPIZw4+ARiAdL0F7nLEajIBgXcc2wbUEOATxbHQ3TRyVCUTH4uyHV3/oxCLP46BEMsQxNafyFSqN25RlasktBHgheh5aN47zo1UcfYpDoIRWh7uvWBp4boKyJq2ESDxuW93W5imlwSaC66cjpPW4F9hEs1H+6EW+HO15d1V6r8wlmLGpLQc9VRCCU1Ubop6eocaaiPY1NI0yh33j7EldlklLnR00FZnU9kyHxuucAY/CM8oWsnvCtxf4DZyKLh6JhpaHGfOdv9Pg/acXCnL/u41KkrPRwz7FEFe4U024pQNOOMod3uPNT9xTplx5knD5HA/X/yo2OrpFin+Fztb9iuI/seEvL2qjJqEDAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_action_instance action="delete_multiple" query="flow=88c5a27c531d521000b51901a0490e14"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=88c5a27c531d521000b51901a0490e14"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=88c5a27c531d521000b51901a0490e14"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=88c5a27c531d521000b51901a0490e14"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=88c5a27c531d521000b51901a0490e14"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_88c5a27c531d521000b51901a0490e14"/>
@@ -435,20 +96,5 @@
         <compiler_build/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3bb5ae3053d9521000b51901a0490e80"/>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3bb5ae3053d9521000b51901a0490e80^sys_idNOT IN14c5a27c531d521000b51901a0490e90"/>
-    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@43eaa73b</plan>
-        <plan_id display_value="Watering Task Subflow">3bb5ae3053d9521000b51901a0490e80</plan_id>
-        <snapshot>88c5a27c531d521000b51901a0490e14</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-14 23:56:57</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>14c5a27c531d521000b51901a0490e90</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-14 23:56:57</sys_updated_on>
-    </sys_flow_subflow_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3bb5ae3053d9521000b51901a0490e80"/>
 </record_update>

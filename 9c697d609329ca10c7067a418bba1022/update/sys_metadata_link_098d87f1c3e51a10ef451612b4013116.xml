@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>29ac0bf1c3e51a10ef451612b401310a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plants">
+    <x_snc_plant_mgmt_plants action="INSERT_OR_UPDATE">
+        <amount_of_water_required_mm/>
+        <date_last_watered>2024-10-31</date_last_watered>
+        <date_planted/>
+        <days_since_last_full_water/>
+        <description>Flowering plant record is created.</description>
+        <growth_method/>
+        <hardiness_zone/>
+        <image/>
+        <issue/>
+        <located_outdoors>false</located_outdoors>
+        <location/>
+        <name>Flowering plant</name>
+        <notes/>
+        <number>PLANT0001005</number>
+        <other_issue/>
+        <patent/>
+        <placement/>
+        <plant_location/>
+        <plant_type display_value="Kumquat">f0c21e4cc3d9d690e908f73ed401314f</plant_type>
+        <planting_method/>
+        <pottery_condition>need_to_replace</pottery_condition>
+        <pottery_notes/>
+        <pottery_type/>
+        <rain_in_last_24_hours/>
+        <rain_since_last_full_water/>
+        <size/>
+        <status/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 15:39:25</sys_created_on>
+        <sys_id>29ac0bf1c3e51a10ef451612b401310a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 15:39:25</sys_updated_on>
+        <tissue_culture/>
+        <u_choice_1/>
+        <u_choice_2/>
+        <u_fertilising_schedule/>
+        <u_last_prune_date/>
+        <u_last_rain_recorded/>
+        <u_next_prune_date/>
+        <u_pruning_interval/>
+        <u_water_every_days/>
+        <u_watering_due/>
+    </x_snc_plant_mgmt_plants>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 15:40:18</sys_created_on>
+        <sys_id>098d87f1c3e51a10ef451612b4013116</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flowering plant</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_098d87f1c3e51a10ef451612b4013116</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 15:40:18</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plants</tablename>
+    </sys_metadata_link>
+</record_update>

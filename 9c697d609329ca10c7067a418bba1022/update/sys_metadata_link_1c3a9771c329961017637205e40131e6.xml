@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3277d775c3e5961017637205e40131d4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_care_instructions">
+    <x_snc_plant_mgmt_care_instructions action="INSERT_OR_UPDATE">
+        <diseases/>
+        <fertilizing_schedule display_value="3rd Saturday Maintenance">245b31e3672322004792adab9485ef9c</fertilizing_schedule>
+        <lightin0/>
+        <lighting/>
+        <number>CARE0001003</number>
+        <pests/>
+        <plant_id display_value="Peace lily">7f4052495359961077b538e0a0490eba</plant_id>
+        <pruning_guidelines>The best time to prune your peace lily is early spring or summer before it blooms. Consider it a golden window for ensuring your plant's maximum potential to grow, bloom and flourish. Still, it would help to stay watchful for some specific tell-tale signs that your plant needs pruning in the rest of the year, too</pruning_guidelines>
+        <special_care_notes>Peace lilies need consistently moist soil, but they definitely don't like to sit in standing water. Whenever the top inch of soil is dry, water the plant until the overflow starts to come out of the bottom of the container. Wait until it stops draining, then set the pot back in its saucer.</special_care_notes>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 16:27:19</sys_created_on>
+        <sys_id>3277d775c3e5961017637205e40131d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 16:27:19</sys_updated_on>
+        <watering_schedule display_value="APAC">e6096f22eb601100fcfb858ad106fe6e</watering_schedule>
+    </x_snc_plant_mgmt_care_instructions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 16:35:40</sys_created_on>
+        <sys_id>1c3a9771c329961017637205e40131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CARE0001003</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_1c3a9771c329961017637205e40131e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 16:35:40</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_care_instructions</tablename>
+    </sys_metadata_link>
+</record_update>

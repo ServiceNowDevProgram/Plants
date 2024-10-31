@@ -27,8 +27,8 @@
         <pottery_condition>good</pottery_condition>
         <pottery_notes/>
         <pottery_type>ceramic</pottery_type>
-        <rain_in_last_24_hours/>
-        <rain_since_last_full_water/>
+        <rain_in_last_24_hours>0.3</rain_in_last_24_hours>
+        <rain_since_last_full_water>4.8</rain_since_last_full_water>
         <size>medium</size>
         <status>good</status>
         <sys_created_by>admin</sys_created_by>

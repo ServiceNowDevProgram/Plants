@@ -30,15 +30,4 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-20 10:23:26</sys_updated_on>
     </sys_script_email>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>d42d5222c3995a10fcd1b3edd40131a5</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-20 10:23:25</sys_created_on>
-        <sys_id>391566e2c3d95a10fcd1b3edd4013158</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-20 10:23:25</sys_updated_on>
-        <table>sys_script_email</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>

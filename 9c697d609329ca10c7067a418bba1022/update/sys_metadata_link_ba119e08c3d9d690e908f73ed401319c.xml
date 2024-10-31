@@ -48,6 +48,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>image</file_name>
         <hash>ae79b5f4c406468b682be3bc6d57a90c0327e3e1e723e1ba1ae5a30beb7edfb2</hash>
         <image_height>819</image_height>
@@ -97,14 +98,14 @@
         <sys_created_by>ivan.betev</sys_created_by>
         <sys_created_on>2024-10-12 14:31:18</sys_created_on>
         <sys_id>ba119e08c3d9d690e908f73ed401319c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Ivansky Kumquatsch</sys_name>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_metadata_link_ba119e08c3d9d690e908f73ed401319c</sys_update_name>
-        <sys_updated_by>ivan.betev</sys_updated_by>
-        <sys_updated_on>2024-10-12 14:56:54</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 11:04:25</sys_updated_on>
         <tablename>x_snc_plant_mgmt_plants</tablename>
     </sys_metadata_link>
 </record_update>

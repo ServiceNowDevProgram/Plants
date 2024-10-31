@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="41f41643975112109790fefce053af1e" label="Plant Diseases" max_length="40" name="x_snc_plant_mgmt_plant_diseases" type="collection">
         <element label="Host" max_length="200" name="host" type="string"/>
-        <element label="Scientific name" max_length="200" name="scientific_name" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Family" max_length="100" name="family" type="string"/>
+        <element label="Scientific name" max_length="200" name="scientific_name" type="string"/>
         <element label="Description" max_length="4000" name="description" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Solution" max_length="4000" name="solution" type="string"/>
         <element label="Common name" max_length="100" name="common_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>
