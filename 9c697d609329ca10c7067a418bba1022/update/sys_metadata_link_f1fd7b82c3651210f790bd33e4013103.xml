@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>572937cac3251210f790bd33e40131fe</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_plant_wiki">
+    <x_snc_plant_mgmt_plant_wiki action="INSERT_OR_UPDATE">
+        <common_name>Monkey Face Orchid</common_name>
+        <is_seasonal>false</is_seasonal>
+        <last_import/>
+        <scientific_name>Dracula simia</scientific_name>
+        <season/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 13:29:47</sys_created_on>
+        <sys_id>572937cac3251210f790bd33e40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 13:29:47</sys_updated_on>
+        <type/>
+    </x_snc_plant_mgmt_plant_wiki>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 13:50:28</sys_created_on>
+        <sys_id>f1fd7b82c3651210f790bd33e4013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Monkey Face Orchid</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_f1fd7b82c3651210f790bd33e4013103</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 13:50:28</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_plant_wiki</tablename>
+    </sys_metadata_link>
+</record_update>
