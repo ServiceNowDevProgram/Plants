@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>400</order>
+        <search_context_config display_value="Plant Management - Workspace Search">de5df8168365921019389578e8915dc2</search_context_config>
+        <source display_value="Plant Management - x_snc_plant_mgmt_plant_trading">d06dfc16c36592102c7bbe13e401312c</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 18:27:31</sys_created_on>
+        <sys_id>dc6dfc16c36592102c7bbe13e4013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_dc6dfc16c36592102c7bbe13e4013158</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 18:27:31</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

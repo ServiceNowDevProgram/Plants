@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 18:27:29</sys_created_on>
+        <sys_id>bb5dbc16c36592102c7bbe13e401311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.plant-management.*.x_snc_plant_mgmt.care_instructions_user</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_security_acl display_value="now.plant-management.*">5a5df816a66592106567b4f4778b7fc2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bb5dbc16c36592102c7bbe13e401311f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 18:27:29</sys_updated_on>
+        <sys_user_role display_value="x_snc_plant_mgmt.care_instructions_user" name="x_snc_plant_mgmt.care_instructions_user">636fc838938d5210f438bd6cebba1084</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
