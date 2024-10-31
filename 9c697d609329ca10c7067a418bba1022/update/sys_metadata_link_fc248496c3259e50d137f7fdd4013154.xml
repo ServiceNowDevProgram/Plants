@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>77538496c3259e50d137f7fdd4013163</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_plant_mgmt_care_instructions">
+    <x_snc_plant_mgmt_care_instructions action="INSERT_OR_UPDATE">
+        <diseases/>
+        <fertilizing_schedule display_value="8-5 weekdays excluding holidays">090eecae0a0a0b260077e1dfa71da828</fertilizing_schedule>
+        <lightin0/>
+        <lighting/>
+        <number>CARE0001002</number>
+        <pests/>
+        <plant_id display_value="Ashwagandha">f6430ce4c3e51650d137f7fdd4013199</plant_id>
+        <pruning_guidelines>Ashwagandha is a hardy perennial known for its medicinal properties. Optimal pruning occurs from early to late spring. Begin by removing dead or damaged branches to maintain plant health. Trim overgrown branches to promote better airflow and light penetration.</pruning_guidelines>
+        <special_care_notes>Ashwagandha grows well in sandy loam or light red soil having pH 7.5 to 8.0 with good drainage. </special_care_notes>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 14:17:13</sys_created_on>
+        <sys_id>77538496c3259e50d137f7fdd4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 14:17:13</sys_updated_on>
+        <watering_schedule display_value="8-5 weekdays excluding holidays">090eecae0a0a0b260077e1dfa71da828</watering_schedule>
+    </x_snc_plant_mgmt_care_instructions>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 14:17:26</sys_created_on>
+        <sys_id>fc248496c3259e50d137f7fdd4013154</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CARE0001002</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_fc248496c3259e50d137f7fdd4013154</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 14:17:26</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_care_instructions</tablename>
+    </sys_metadata_link>
+</record_update>
