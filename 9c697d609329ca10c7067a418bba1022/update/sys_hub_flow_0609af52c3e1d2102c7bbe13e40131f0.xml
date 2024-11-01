@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=7000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>74d70392c321d2102c7bbe13e4013117</copied_from>
+        <copied_from_name>Generate Maintenance tasks for w</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>create_maintenance_tasks_for_watering_plants</internal_name>
+        <label_cache>[{"name":"a3f6e353-1e1b-4f4e-8894-1b777f8da5d3.Records","label":"1 - Look Up Records➛x_snc_plant_mgmt_plants Records","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"records","base_type":"records","usedInstances":{"ac8d18dc-6b64-4431-9a2e-46c57789eaa6":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Monthly_1.run_start_time","label":"Trigger - Run Monthly ➛Run Start Time UTC","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"e4f57064-120a-477d-a388-24f54109609f":["short_description"]},"attributes":{"test_input_hidden":"true"}},{"name":"ac8d18dc-6b64-4431-9a2e-46c57789eaa6.item.name","label":"2 - For Each➛Plants Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_plant_mgmt_plants","column_name":"name","usedInstances":{"e4f57064-120a-477d-a388-24f54109609f":["short_description"]}},{"name":"ac8d18dc-6b64-4431-9a2e-46c57789eaa6.item","label":"2 - For Each➛Plants Record","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"reference","base_type":"reference","usedInstances":{"e4f57064-120a-477d-a388-24f54109609f":["short_description","plant"],"9412a587-7da7-4fa4-98d7-e3afd66bcfc9":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"e4f57064-120a-477d-a388-24f54109609f.Record.closed_at","label":"3 - Create Task➛Maintenance Tasks Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_plant_mgmt_tasks","column_name":"closed_at","usedInstances":{"9412a587-7da7-4fa4-98d7-e3afd66bcfc9":["date_last_watered","u_watering_due"]}}]</label_cache>
+        <master_snapshot>f309ef52c3e1d2102c7bbe13e40131e1</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create Maintenance tasks for watering plants</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>bf09ef52c3e1d2102c7bbe13e40131fa</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0609af52c3e1d2102c7bbe13e40131f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Maintenance tasks for watering plants</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_hub_flow_0609af52c3e1d2102c7bbe13e40131f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 13:10:21</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2024-11-01 06:57:36</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf09ef52c3e1d2102c7bbe13e40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <time>1970-01-01 19:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:bf09ef52c3e1d2102c7bbe13e40131fa^sys_idNOT INf309ef52c3e1d2102c7bbe13e40131fb"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:bf09ef52c3e1d2102c7bbe13e40131fa</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2024-11-01 06:57:36</run_start>
+        <run_time>1970-01-01 19:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('bf09ef52c3e1d2102c7bbe13e40131fa');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_id>f309ef52c3e1d2102c7bbe13e40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">bf09ef52c3e1d2102c7bbe13e40131fa</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0609af52c3e1d2102c7bbe13e40131f0^sys_idNOT INc209af52c3e1d2102c7bbe13e40131f1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0609af52c3e1d2102c7bbe13e40131f0</id>
+        <name>Create Maintenance tasks for watering plants</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:29</sys_created_on>
+        <sys_id>c209af52c3e1d2102c7bbe13e40131f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c209af52c3e1d2102c7bbe13e40131f1"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=0609af52c3e1d2102c7bbe13e40131f0^sys_idNOT IN1209ef52c3e1d2102c7bbe13e4013102"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">0609af52c3e1d2102c7bbe13e40131f0</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:30</sys_created_on>
+        <sys_id>1209ef52c3e1d2102c7bbe13e4013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:30</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/31QW0vDMBT+K5LnWdLVa98EGfigght7GaOcJqdbIE1ims7Vsf/uSduJyrDkpec757utDkxDiZrlbKFqZBOmTEBvQC86hzTdaCWxCANWg5EQrO9YHnyLE2a9RM/ylPMJ24Fucd41T5LOaNlAHQnG0x6l3/T+ll/ylN5Fmuac0yNUqsZp6Jb/LjnwRBmi4IGJrdLSo2H5ak2mo2YG8gql4CKb0sf59O4qLW+yMp3KDBCvieJP1t8Ww5nEPwPiPqCRSFIV6AbP1OER5KvR3ffGltoc2qhh36hPHKk8VkjmBQ6g2Fol8NUFZc0wCVDqE2h1W5uXwWrsCitodTh1RZO2wUKii+ai3Khdzbf24+0kNFOmTzKC2grQ338QgldlG7CJ1aLGmoiKGpxTZlM4b3eqPyYvddL3k1TafpBoozYmARGNJ9QFJDOaP/bjJXgVUzwTDR0f+9TFext1hxyj42IITQuN8MqFB6Lb4WjuuP4CbOhWHaMCAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=0609af52c3e1d2102c7bbe13e40131f0^sys_idNOT IN5209ef52c3e1d2102c7bbe13e4013101,5a09ef52c3e1d2102c7bbe13e4013101,9e09af52c3e1d2102c7bbe13e40131ff"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">0609af52c3e1d2102c7bbe13e40131f0</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>ac8d18dc-6b64-4431-9a2e-46c57789eaa6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:30</sys_created_on>
+        <sys_id>5209ef52c3e1d2102c7bbe13e4013101</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <ui_id>e4f57064-120a-477d-a388-24f54109609f</ui_id>
+        <values>H4sIAAAAAAAA/+1VS2+bQBD+K4iz7YIxYPtWqfItSdVGySFO0LAM9qrLQtkljmv5v3eWhThplMSKGjWHSlyY5zffPPZq5/LMnbsYBxAFQRgGvucF9KW5n818b4YsnMYhcweuhALJUoP6kWhIBZLsFkRjhHeJkiypBEidFKtCJ8ZKkUHGFUm3F6/ZsTUXWY3SnV9dD9wKakqmsXbnuz9UelthIiBFQeHODQzn1AAbHF3HI+dn6jJZWhn9JtLGL+vMAPIGLt5plBlSvhyEwoFbgMxAl/XWneu6IUGNkJ1Jsb23WHOpKaBrbO8U/0XRp56xy5FKY2h1bF1yhmeV5qW0EgvIKkvRFPLUojXUYg6N0D21JGkUJhlWBpvJ1qXOv6/Lzbc+0YLLtoxOKUoG4v4PtK552mhUhvgUKF4PwNBDKVBggaZ5UFVcrpKqLm95G5DwFaOVoJ9RLsoNAVF8JUfATDEjogdGC5J/acUXUHMT+ITCkPO+ZSL52RgstrauisQSQQaK1bzSnyncLXaA94Nuescvdj1KD13OOYosacdWPZjfAqg/KIEIakdy2VCQbAM0gjegDOK26lVdNpXV7Zb9bC/d+dL9akbaOQEJq5Yg5xyhWLqDpU3R2vhR7kcMMhZgmI19L4/jeDZjzAs9P/DHcWuutirh2ZH2+xu1LmttuG7ZIaYtukuDnPrj6DU67bo5hgBn7ux2wKaZP83YMEqjyXAyCfzhDMY4nEQsjOPpDAGiEddYjIzLfn/T+ndVH++93z9d//80vw/Nb7yeWFBOjY5tz+DoXeoDLMwyWW/17Ir1p7RLZhWHc+q/fE47yTH3NAo9771Pqr3ub76o/+Z6PnjZXrmjef5S7+P40OQNcP3gfvpPd91Q9fbRJOdPC4OtH8sjoPXOlxbbY6TdGKZlKRDkYf7Gf23+Jh/9Pf9Yb/f1b/NPCUd7CgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">0609af52c3e1d2102c7bbe13e40131f0</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>ac8d18dc-6b64-4431-9a2e-46c57789eaa6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:30</sys_created_on>
+        <sys_id>5a09ef52c3e1d2102c7bbe13e4013101</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <ui_id>9412a587-7da7-4fa4-98d7-e3afd66bcfc9</ui_id>
+        <values>H4sIAAAAAAAA/+1WQXPTPBD9KxqfSklcO0lDmp46EwocoDO0w4WARpbWiUCWjSSnzdfJf/9Wsh3aBkqBcmCGXGKvdt++t3rS+P11JEU0jUYgkvQoHfNhOhwOkmQwGaXZeJilAzFkAGnUizQrADMN8NIIfF8xVfvA9TXjE5FOBO+Ps/GoPxoN0/4RG0B/NOaHz55NjoCxcSwdFJsN1glpK8XW79pyjPClVMKAjqbvP/Siihns5MBE0+s7S25dAVUsA4WFs5LXBWhHXs0Q46Equuq3nYy7snwPfBctOpU+iEueT5r0IrhyoAVgu5wpC72oYFowV5p1NHWmxoABJs60Wm8zllK7RmnBrqz8D/FHic/LAaXx7RRKyeGscrLUTcSxTHWLpaoL/abh6ocIOauVuzHE2gIVUHluvltDJT9flpdvuz6nUgcZLS1Vcqa2b8w5I7PagfVzBwVBfcGqSuoFrUy5kqEYqRTxQuFLnKvyEntaudAx4553jJNg8SnGZyH8jhnpRbxGGCzeBNH0S+37NjJawjRoDoJp2BFMtdzIyp0g8Apampte69fs8L6d5kdfN/YG5lfPXlGrOUUbeomLwjWPdted30/8NdNeeDbkTcPmoUpuFX9HWWvbW7HWtYeP5trJn3Zt2/ovs+2PzJoM7r2Wbmxp8Ke9YVQk5s1jHb3EJwNiXifJUOSi3zQE8bFulrxcUcPO+q6nHwXzF+0PBTJxQBouvQfPpwM4laCE/cbAOv+3DeiqbbC9uR/tEKTjJPz+XeA/d4E3gpqYZ3jbYz5yX350sD/X+/snnIO1xBM8OAmMiWdMaos4xC2B5IKGSJl9Au5ich4ASFFbRwy42mjCSHBHTDzimTcI0XWR4Z+0pMxzC45ka/I0JVKT58aUhrxEpyjf4hyaOQUyKyZVuNDLsOmWtCeN1BUSqwxS9TXzKJ5HhOWotqPny+GKoVlhimwMscvSOJw5J81p6xJj3NTFAkzMa4MecHFI9JsWdGHXY4/VKtui+ODBXHtkwdb2LigdUJqXhgLjy/BlFre7QWEFZk19zXFTzlVpQcwudiCGlHI8L3jWHLOf4+YDKm7SKXNtOYiuUMMleeFtN8OaC1nAXgf9BHMxMWZCzLDxnu/uY60oEMfoNMtWILbHBd21c439s9CfstBvemAh3MNM0FLA/HgBzqfsPfnG3m82H/4HkLKAVrgMAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">0609af52c3e1d2102c7bbe13e40131f0</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:30</sys_created_on>
+        <sys_id>9e09af52c3e1d2102c7bbe13e40131ff</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <ui_id>a3f6e353-1e1b-4f4e-8894-1b777f8da5d3</ui_id>
+        <values>H4sIAAAAAAAA/9VXUVPbOBD+Kxo/tTRjHAKUS1+OKeXKXIFpkuk9EM4j2+tEPVl2JTkhMPz3W0m2E5JA0xRm2geGSFppv939vpV8deexxOt6R+l+END2wdHbIOh0guDwsBPTdhR1DuMoiPYjr+UJmgFaahpxwOGE8tKMb0Il4rDgVOgwG2Xa/VRokTCFv2dfvmsYjxlPJAive3Xd8goq0ZMG6XXvlpb0rICQ0wg4njcwQMiFQdXaOIgHm1eDMg7qYSjc0blMDJag5cGNBpEAukopV9DyMioSqnM5a2Yk0ORS8PnEmAmNJ3rG+EaxWzz+KDB2KWBYMbi1eJyzGC4LzXLhZhwit5jzMhMXDqnJK6S05LrOK86UCsIECgPOeKtcp/1xPu3Vjk6ZsHFUizyPKW9GVGvJolKDMkkHDhmYKtGiYGIUFjKfMLsZsWT+iOPAT3k+RaeKjYRPYwPcx1xQ/xTnT+z0FyqZieIcj8HNCIhxLGvosqvyUtrwJ2HMS2UXJBXKneXd2xyF30qD0kVdxRe6FKGBiiUr9DFumEAVyn1rI0IfBPPax7lImPGpFlhdhlOKkEz0SQmXF4M8obM/v9IJdU67I+VHMGJCoMllapdfvV4yQLzN0qoeXsLFdkp6v5iBTbO3dvO6lFaaejBXaar9bJpCuC+tKi3LX09U35OJC3i9VupJy455dXD0pLG3uzMUOzvHcQxKEYNs99hCJQYqKRVGR/QYSJqEdiaPvkKsfdK3B5AMxU4k6FIKQokVnE/MiZeGFESUWYT/mCJ5mirQJJqRN23CBPkgZS7JR+QHNy764BJkwUwo4/Y+yG21FanERsoCgRUSoZo9Q88feoSmqIkantkONzQrOHQRjSRqnEuNyY7JsET2J7Whj9UcjUD6cSmx+Nq3hqZaNi70+s6cVUXWnGInzV8PvpUMgZC/TKl7EKMICJIoR/Z/LkHOMCkK0WKuSQ3I7vWoLYRDY1j474rn/uC4N+j/czb4iGzTQ8843R0KE06F9jwXelxHJGDqUJxgBxqwDF699kfgbD4ZDrs5PKWKZojdCimvGWcmj6GKx5CUHD6d/f1h6L1Z9PHOu79vunD89sk+cjBvGcpE5DS50IZXu+bWTe6UAU8ePBc2AFdvdtSMZo/hrXpcanwsvRv2fp93wy/Z4RBQErrEMoHCt+8zBPpTra8haPD0RffHUsFtnef0tHN4G6/SlBKdk9vtb2Rb15qoG4CsN/YRERk4lGuA13dxfXzF0c6zcbSz9whHkSFXdw3MJj1rMlm/t02NavtbY0+X7U0DXHhM3F83HH+/nc/2j/rcMz6XRNj5IRUuUsitnDzCpGd+5D+iqtZLyniMWyt/oVNlOGUJ3jxz77VVkusp5f+tW6+k1ojFhvfTHwz7T4rssD0XFJI9xKsaS7X4xdDGF+hqH2i33PR2beBMaBjZ5G0Ksd55Tm9Ir8G4FnjVC1jjo+L0/jM+yp/1wqozvFYmdaJ/i0/hbbl6/T9g/8MrrxEAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=0609af52c3e1d2102c7bbe13e40131f0^sys_idNOT IN1209af52c3e1d2102c7bbe13e40131ff"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ddd3071ec3ed92102c7bbe13e4013109</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">0609af52c3e1d2102c7bbe13e40131f0</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:29</sys_created_on>
+        <sys_id>1209af52c3e1d2102c7bbe13e40131ff</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <ui_id>ac8d18dc-6b64-4431-9a2e-46c57789eaa6</ui_id>
+        <values>H4sIAAAAAAAA/51Sy27jMAz8F50Tw480r1uBRYEeugXaopeiMGiJToTKklaSk7qG/71UbGcXPe7J4pCcGdLsmWmDbYN/Mbfey4Nm+7f3BZM6YvTumYYG2Z7JgI1nC3YC1ca476Go11jcFMsMs2q5qle43G53q2VWbTabeivgRhTJE3LjhB8GahXSWwXd6/8z8KNUwuFk0oIjbwEd2/c/UqGzWCqoUJHQxED9UlCY7US9y9IdL/J1kadpvl1l1bqoslwUgGJNdXPn/TT0jx1EdgrdlZc+0UWeLhh+BtQCSagG5XHBGtACgnEd2wfXEuAQxKNW3bXiKHUgOhZrP738Iu4sTWNhjTQRxzHJj0ZyfLRBGj0iASo1J41qG/179Bl3jTW0Ksy7JqT1WAq00VyUm7Tr56M5P81Cd1JfBpmSynBQ1whCcLJqA/q4b1TYEFHZgLVSH0rrzElemslLkxwUBUmtzJlE410lwKPxhHYByR3hvy7wKzgZp3ggGmoeLlOXf9qoO84xOS7HoanAcydtuCW6E07mhvd4mCOTHy9AIJeeBF8idj+fc0x09Dcl/xc6G/cRrf7Fhm+zdE8BGAMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0609af52c3e1d2102c7bbe13e40131f0^sys_idNOT IN4209af52c3e1d2102c7bbe13e40131f7"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=22ccfa3d-70a1-4fc8-b055-fa824077f104</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_month</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current Month</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Maintenance tasks for watering plants">0609af52c3e1d2102c7bbe13e40131f0</model>
+        <model_id>0609af52c3e1d2102c7bbe13e40131f0</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_0609af52c3e1d2102c7bbe13e40131f0</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:29</sys_created_on>
+        <sys_id>4209af52c3e1d2102c7bbe13e40131f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0609af52c3e1d2102c7bbe13e40131f0"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4567000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>74d70392c321d2102c7bbe13e4013117</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>create_maintenance_tasks_for_watering_plants</internal_name>
+        <label_cache>[{"name":"a3f6e353-1e1b-4f4e-8894-1b777f8da5d3.Records","label":"1 - Look Up Records➛x_snc_plant_mgmt_plants Records","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"records","base_type":"records","usedInstances":{"ac8d18dc-6b64-4431-9a2e-46c57789eaa6":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Monthly_1.run_start_time","label":"Trigger - Run Monthly ➛Run Start Time UTC","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"e4f57064-120a-477d-a388-24f54109609f":["short_description"]},"attributes":{"test_input_hidden":"true"}},{"name":"ac8d18dc-6b64-4431-9a2e-46c57789eaa6.item.name","label":"2 - For Each➛Plants Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_plant_mgmt_plants","column_name":"name","usedInstances":{"e4f57064-120a-477d-a388-24f54109609f":["short_description"]}},{"name":"ac8d18dc-6b64-4431-9a2e-46c57789eaa6.item","label":"2 - For Each➛Plants Record","reference":"x_snc_plant_mgmt_plants","reference_display":"Plants","type":"reference","base_type":"reference","usedInstances":{"e4f57064-120a-477d-a388-24f54109609f":["short_description","plant"],"9412a587-7da7-4fa4-98d7-e3afd66bcfc9":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"e4f57064-120a-477d-a388-24f54109609f.Record.closed_at","label":"3 - Create Task➛Maintenance Tasks Record➛Closed","reference":"","reference_display":"Closed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_plant_mgmt_tasks","column_name":"closed_at","usedInstances":{"9412a587-7da7-4fa4-98d7-e3afd66bcfc9":["date_last_watered","u_watering_due"]}}]</label_cache>
+        <master>true</master>
+        <name>Create Maintenance tasks for watering plants</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Maintenance tasks for watering plants">0609af52c3e1d2102c7bbe13e40131f0</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f309ef52c3e1d2102c7bbe13e40131e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f309ef52c3e1d2102c7bbe13e40131e1^sys_idNOT INf309ef52c3e1d2102c7bbe13e40131e2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f309ef52c3e1d2102c7bbe13e40131e1</id>
+        <name>Create Maintenance tasks for watering plants</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_id>f309ef52c3e1d2102c7bbe13e40131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f309ef52c3e1d2102c7bbe13e40131e2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f309ef52c3e1d2102c7bbe13e40131e1^sys_idNOT IN7f09ef52c3e1d2102c7bbe13e40131ed"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">f309ef52c3e1d2102c7bbe13e40131e1</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_id>7f09ef52c3e1d2102c7bbe13e40131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/31QW0vDMBT+K5LnWdLVa98EGfigght7GaOcJqdbIE1ims7Vsf/uSduJyrDkpec757utDkxDiZrlbKFqZBOmTEBvQC86hzTdaCWxCANWg5EQrO9YHnyLE2a9RM/ylPMJ24Fucd41T5LOaNlAHQnG0x6l3/T+ll/ylN5Fmuac0yNUqsZp6Jb/LjnwRBmi4IGJrdLSo2H5ak2mo2YG8gql4CKb0sf59O4qLW+yMp3KDBCvieJP1t8Ww5nEPwPiPqCRSFIV6AbP1OER5KvR3ffGltoc2qhh36hPHKk8VkjmBQ6g2Fol8NUFZc0wCVDqE2h1W5uXwWrsCitodTh1RZO2wUKii+ai3Khdzbf24+0kNFOmTzKC2grQ338QgldlG7CJ1aLGmoiKGpxTZlM4b3eqPyYvddL3k1TafpBoozYmARGNJ9QFJDOaP/bjJXgVUzwTDR0f+9TFext1hxyj42IITQuN8MqFB6Lb4WjuuP4CbOhWHaMCAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f309ef52c3e1d2102c7bbe13e40131e1^sys_idNOT INb709ef52c3e1d2102c7bbe13e40131ec,b709ef52c3e1d2102c7bbe13e40131ed,bf09ef52c3e1d2102c7bbe13e40131ec"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">f309ef52c3e1d2102c7bbe13e40131e1</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_id>b709ef52c3e1d2102c7bbe13e40131ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <ui_id>a3f6e353-1e1b-4f4e-8894-1b777f8da5d3</ui_id>
+        <values>H4sIAAAAAAAA/+VY227bOBD9FYJPbWoocpykWfdlg6TZBpsLahvtQ90VKImy2aVIlaTsOIH/fYekJBu2k8aAA6TYB8PmzJBz5nJGlL89YJbiLj7JDsOQtI9O3odhpxOGx8edhLTjuHOcxGF8GOMWFiSnYGlIzCksJ4SXdn0XaZFEBSfCRPkoN/6nBouUafg9+/JLw2TMeKqowN1v31u4IAo8Gapw92FF9VyonMSUg+mgwroC3cyKZhk5nZddLW9DN14hVWqhhC1M7wwVKQUMGeGatnBOREqMVLNGoihJbwVfCMZMGDgRW+M7ze7B70lo7TIKUSXU65ql83zu8+ZV2TkxpG9UmZhSVebJWLKEap+TlGak5OZsWeYNbgvDpPBbfOh+t+RlLm58SnBzQF0mkJSaRiktbLAWfRVK1h/Laa9GesGEy0ul5DIhvFkRYxSLS2PxPGDKaU5t0UlRMDGKCiUnzG0GLHkw4rAIMi6n4FSzkQhIYoEHkFsSXID83Im/EMVsFNdwDGwGQIxDl0S+jFqWyqVzEiW81E6hiND+LDxvYT3TZ5xovYgc0h79LC1un4cq4sgnzW5JFCvMKRwxoVVw89azGHMULtoukSJlFoVeok0ZTQmAtPlIS3p7M5Apmf35g0yId9od6SCmIyYEmNxmTv3m7YoB4G1U64R7CRe7pKrLUU3Vs+UkbUpcRdo12dWmAyrStndGWojjd6MtOH99rN2ehz4Fm8lYC137LeoPqyeN8f7eUOztnSaQeY0s1v1TBx5Z8KjUEC8yY4qyNHISGf+giQlQ3x2AcpgvSFGorEAEOUYHyJ54a9sOiTKP4YtpJLNMU4PiGXrXRkygj0pJhT5BB3Lrok99yhyYCWHcPXekq79GFZtRWQCwQgFUu2eIgyFGJAPS1fDsdnpH8oLTLqBRSI+lMpD+BA1LIF5aGwZQ39GIqiApFbSDCZyhrZ+LC7x+sGdVkTWnOKH99OjPkgEQ9Jctfo8mQDMEbSWBX59LqmaQFA1oIdeoBuT2YuIK4dHYvvxnzXN/cNob9L9eDj5B/5khtk73h8KGU6G9lsKM64gEnXoUwDM6YDl98zYYUW9zZbvay+CUKpohjEMggWGc2TxGOhnTtOT06vLvj0P8btnHBzyfN2M+ef/kCDtaTCttI/IsXZrz62N56yn6DAj1FPUNGM8eQ1UN0YxRnm66+VxYxcrN5+D/e/N5lSMUAKWRryATMEfcVRaA7ni2NgwIn36I/7HSa67FFv3vZHCfWOcBQUai+63Z8Aw4NRv64BsNPJ4NEOsbhWuZ1dtELaxI0NkZCToHuyPBQxNqk8wNea/fYGxFa/t7a09W7e08Xro9zTeRbCuf7W19HszXSdzZisXLDec154/03Y5fcx5hZeslx8AYtlb+Is/haMpSeBAuvNdWqTRTwv/dpK+IGdWFcuG9wCvT4ZPUPW4vaApsieAuAcVbfmdqwyV8fY60W1683Rh5BpY6HdfkDvUaMBsRVqME2E5HrjbLs+SykVZNfrjD15JX/UStC7aRh3Xdfot/G3ZHhu//AWatocpzEwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">f309ef52c3e1d2102c7bbe13e40131e1</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>ac8d18dc-6b64-4431-9a2e-46c57789eaa6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_id>b709ef52c3e1d2102c7bbe13e40131ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <ui_id>9412a587-7da7-4fa4-98d7-e3afd66bcfc9</ui_id>
+        <values>H4sIAAAAAAAA/+1WTXMiNxD9K6o5eR0YM4BZjE+uJU5StVlXrV2+LBuVRuoBJZqPSBpsQvHf0/oAE7PreCvOwZVwAbW6W++13pvh0zqRIpkkQxC97Cwb8UE2GPR7vf54mOWjQZ71xYABZEknqVgJmKmB11rgeslU6wLrNeNjkY0F747y0bA7HA6y7hnrQ3c44qdv347PgLFRKi2Umw3WCWkaxVa3sRwjfCGV0FAlk0+fO0nDNJ5kQSeT9aOt50JVLAeFqR+3WB9jt6vGrUXN2xIqS+U2+D5WTuMO+WmKO1jk4GS9TgL3FioBCKRgykAnKVklmK31KplY3WJAAxNXlVrtMhaysoFoye6N/ANPHvZcXgHIjMch7JY3LFcwDUMKW8WUWXaN3blt9W5mteRgwlwEFKxV9t1+LCRcNVbWVSixrnGsrlVbVh/CVJJdg707aQ1QAY3j6tAHasX1or77uAV6KSs/lkhT1Zyp3YpZq2XeWgdnnYACP+eSNY2s5rTR9VL6YoRSpnOFi7RQ9R2eaeS8Shl3uFOcLEsvMT714VumpSPxM7bB4k0nMSvzTjFjHqjgHOnvrUMSiEUK1E/Bj4B6NbhirmVjL/CoJUTgm040RH76lMr42YOo9no+mOKemopTvEJHel7a8NMcyv/rid/mimfg3brCC+wr+KMxDmLv92vJh7ARbXH6YrYYvzZbRCqv3hd/54Ze/8ln7p6avAHMnhMQKlCEYukd/tIgZm2vNxCF6IYDQfzShi03ANHCwf6haV6k57f56xkT2PrrUoIS5gsj2ZoLSiSDDMKIHhksbpLbuLl797yYy7JRz39emdf+A6+gQDHEHOa/ithFnspPTo5n1fHxBccLMMRBPrnwHIjjQFqDfYhdACkE9ZE6/xW4Tcm1b0DK1liiAS+4Iox4cabEdbxyEiRVW+b4JQ2pi8KAJfmKfJcRWZHvta41+RG1qNwR1xAm58EsmVT+nVF7GRgSrUzaBoE1GqG6mlmSzhLCCmS7hefK4Z6hHWCCaDQxi1pbvAVOgp23iSle83wOOuWtRlXY1Ce6a/S88NRz1ysy23VxwZNZ5ToLtjKPm9I+pUWtKTC+8H9e03gbFJagV9TVnIdyrmoDYnpz0GJAKUdHotUtM7+l4e9nGtIps7EcxLawgjvygxMiug1uZAlH29ZvMBcTUybEFA8+cqe7WCQF4hyVZtgSxM5AqK6D5+T/Evq3JPQPNTAX9nkiiBAwP52DdSlHb75w95vN5z8BKMWNbtsNAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">f309ef52c3e1d2102c7bbe13e40131e1</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>ac8d18dc-6b64-4431-9a2e-46c57789eaa6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_id>bf09ef52c3e1d2102c7bbe13e40131ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <ui_id>e4f57064-120a-477d-a388-24f54109609f</ui_id>
+        <values>H4sIAAAAAAAA/+1W207bQBD9FWufk9TOxU7yVoHyVKAqCB4IWOPdcbLq+lJ7TUij/Htnvc6lQCH0IoFUKS87tz1z9sw41ysmBRszDHrg93qDQc9z3R79otgTI88dIR8MgwFnLZZCghSpofwaaogUku0OVGWM92GZ8jBXkOowmSU6NFElBQhZknV5+VIcn0slCkzZ+PqmxXIo6DKNBRuvHrgORasgQkWhFw3Sp9DrZW5tdAzrAGv7tJ/rnFpHVgiDx20xvNeYCiQgMagSWyyBVIDOiiUb66IiQ4EgzlK13EbMZaqpIDOx96X8TtcOXRMXI3XG0fq2x/riY0uddcXHoOGcqnNdFU04n2eSY2l5ERhDpfTRvs0GnOVaZqlNsZ3b7ExVSXpqaWHbApuXIktVYigwN70a9E0r8fk8W3zZIJ3ItKalcaqMg9qeQOtCRpU2eFYsAqq3AWDega5AhQkaLUCey3QW5kV2J+uChC/pzBQdOrHKFgSklLO0A9w00yG6oTMh+3FtvoRCmsInVIaS1y1WLssjBWW564/IDb9VBp3ttukrtNSYFF7IXH+kC+6waWHdasaj+6zg/GgnsFiiEmE9F+XegCRACsAUiLJa89OKiogFkMZvCSb1UPMwK7Iqt77VdDM8Uzaess9mZpwTSGFWU+ZcICRT1praK+oYz489n4PgPRyIrufGQRCMRpy7A9fred2gDidmQikOjF/flvOs0Ib9mh3i3qK7MsjpxRw9R6eeZ8cQ4Iyd1Qr4UHhDwdt+5Pfb/X7Pa4+gi+2+zwdBMBwhgN+RGpOOSVmvb+v8puvDs9frx/vlP83/hubXrecDpmWznidmXJzLzbg8PUSbPY0JtaDROh7u6sZpa+32tff8vm4shyxsf+C6721n28/Rb6/st7Ke977aLyzqOH5OekGw09gCpN5b0N7jZWLIe7X2DwCw0f6VRfAznkbrUZYphPShyAnRh4lpeCfw7l8TeP+9qftP/5G8FXn/StQ3PwAawNR/ngsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f309ef52c3e1d2102c7bbe13e40131e1^sys_idNOT IN3309ef52c3e1d2102c7bbe13e40131ec"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ddd3071ec3ed92102c7bbe13e4013109</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Maintenance tasks for watering plants">f309ef52c3e1d2102c7bbe13e40131e1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_id>3309ef52c3e1d2102c7bbe13e40131ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <ui_id>ac8d18dc-6b64-4431-9a2e-46c57789eaa6</ui_id>
+        <values>H4sIAAAAAAAA/51TTU/jMBD9Lz6nUdKUft0QFRLSLkgFcVmhamJPWmsdO2s7LSHqf99xnQbEkVM8b2bevDd2emZa37TevZhb5+Res/Wft4RJHTA690xDjWzNpMfasYQdQbUh7nsoqjkWN8Ukx7yczKoZTpbL1WySl4vFoloKuBFFukVurHDnM7UK6RoF3evPGfhBKmFxENmAJW0eLVv331JS0IB8JapVnq14MZ0X0yybLmd5OS/KfCoKQDEnQgUlKip9GNx9M+u7JoQ2ShiAX0PPdkTpE0RMs4Thu0ctkMZXoBwmrAYtwBvbsbW3LQEWQTxp1Y0VB6k90bFQ++7kB03MsywUVkiGOMbkGL5AqXATdxlT1QY8PBM9960dyvnBSI4urkNgBa3yd1+xWPDUeGl0bPGBeOg2qq31Y9wGGwmuV0dI63AnsAlmg/zBS/V8MKftVem91JfFDEllOKgxAu+tLFsf9PQMFdZEtKuhaaTe7xprjvLSTFrqdK8oSCtlTjQ0PNMUeBCe0m4hvSd8c4Ffwcrg4jfRUPM5Ya5zdwqc+/RCi9z9a4OS6GzwsItrCC3cysbf0oAjDnLPb+HlR+5xp1w6knC5jofr/xISHb0iyb9CJ2P/BvGf2Pk/IZQmsHkDAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f309ef52c3e1d2102c7bbe13e40131e1^sys_idNOT IN3309ef52c3e1d2102c7bbe13e40131e7"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=22ccfa3d-70a1-4fc8-b055-fa824077f104</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_month</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current Month</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Maintenance tasks for watering plants">f309ef52c3e1d2102c7bbe13e40131e1</model>
+        <model_id>f309ef52c3e1d2102c7bbe13e40131e1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_f309ef52c3e1d2102c7bbe13e40131e1</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_id>3309ef52c3e1d2102c7bbe13e40131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f309ef52c3e1d2102c7bbe13e40131e1"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>0609af52c3e1d2102c7bbe13e40131f0</sys_id>
+        <latest_snapshot>f309ef52c3e1d2102c7bbe13e40131e1</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0609af52c3e1d2102c7bbe13e40131f0^sys_idNOT IN3b09ef52c3e1d2102c7bbe13e40131fc"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>0609af52c3e1d2102c7bbe13e40131f0</plan_id>
+        <snapshot>f309ef52c3e1d2102c7bbe13e40131e1</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 06:57:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b09ef52c3e1d2102c7bbe13e40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 06:57:36</sys_updated_on>
+        <trigger display_value="">bf09ef52c3e1d2102c7bbe13e40131fa</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0609af52c3e1d2102c7bbe13e40131f0"/>
+</record_update>
