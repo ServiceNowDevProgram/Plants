@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>da58ac1ac32dd610afa6fc84e40131f5</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_snc_plant_mgmt_tasks">
+    <x_snc_plant_mgmt_tasks action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <cmdb_ci_business_app/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description>The *Dancing Lady Orchid* (Oncidium) is a beautiful, low-maintenance orchid variety, but proper fertilization helps keep it blooming and thriving. Here are some fertilization tips for this plant:
+
+1. **Frequency**: Fertilize every 2–3 weeks during the growing season (spring and summer) when the orchid is actively growing. During fall and winter, reduce to once a month or less as the plant's growth slows down.
+
+2. **Type of Fertilizer**: Use a balanced orchid fertilizer (like 20-20-20 or 30-10-10) for general growth, but switch to a bloom-booster formula with higher phosphorus (like 10-30-20) when flower spikes start to appear.
+
+3. **Dilution**: Always dilute the fertilizer to about half of the recommended strength, as orchids are sensitive to concentrated fertilizers and can suffer root burn if overfed.
+
+4. **Application Method**: Apply the diluted fertilizer after watering the plant, as this helps prevent root burn and allows for better nutrient absorption.
+
+5. **Flush the Potting Mix**: Once a month, flush the potting mix thoroughly with plain water to remove any salt and mineral buildup, which can be harmful to the plant’s roots.
+
+6. **Leaf Feeding**: Occasionally, you can mist the leaves lightly with diluted fertilizer. This provides a quick nutrient boost, but avoid spraying directly on the blooms as it can damage them.
+
+Following these tips should help keep your Dancing Lady Orchid healthy and vibrant!</description>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <maintenance_task>fertilize</maintenance_task>
+        <number>TASK0026314</number>
+        <opened_at>2024-10-31 16:55:37</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <parent/>
+        <plant display_value="Dancing lady orchid plant">228d3951c3e59210afa6fc84e401319a</plant>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <route_reason/>
+        <sentiment/>
+        <service_offering/>
+        <short_description>Fertilizing tips for "Dancing lady orchid plant"</short_description>
+        <skills/>
+        <sla_due/>
+        <sn_esign_document/>
+        <sn_esign_esignature_configuration/>
+        <state>1</state>
+        <sys_class_name>x_snc_plant_mgmt_tasks</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 16:57:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da58ac1ac32dd610afa6fc84e40131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 16:57:17</sys_updated_on>
+        <task_effective_number>TASK0026314</task_effective_number>
+        <time_worked/>
+        <u_test_audio/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_snc_plant_mgmt_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 05:23:20</sys_created_on>
+        <sys_id>03731fdec32d1a10afa6fc84e40131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TASK0026314</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_metadata_link_03731fdec32d1a10afa6fc84e40131a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 05:23:20</sys_updated_on>
+        <tablename>x_snc_plant_mgmt_tasks</tablename>
+    </sys_metadata_link>
+</record_update>
