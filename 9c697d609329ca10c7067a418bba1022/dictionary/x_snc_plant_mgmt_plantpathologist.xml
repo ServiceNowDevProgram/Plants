@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e45c5fd5830112109822fdc6feaad332" label="PlantPathologist" max_length="40" name="x_snc_plant_mgmt_plantpathologist" type="collection">
+        <element attributes="is_multi_text=true,preview_first=true,preview_selector=true" label="New Wiki" max_length="65536" name="u_wiki_text_1" type="wiki_text"/>
+        <element label="Ideal temperature" max_length="40" name="ideal_temperature" type="string"/>
+        <element label="Diseases" max_length="40" name="diseases" type="string"/>
+        <element label="New Due Date" max_length="40" name="u_due_date_2" type="due_date"/>
+        <element label="Short description" max_length="40" name="short_description" type="string"/>
+        <element choice="1" display="true" label="Assignment Group" max_length="40" name="assignment_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AUSPlantPathologist" sequence="1" value="ausplantpathologist"/>
+                <element inactive_on_update="false" label="INDPlantPathologist" sequence="0" value="indplantpathologist"/>
+                <element inactive_on_update="false" label="USAPlantPathologist" sequence="4" value="usaplantpathologist"/>
+                <element inactive_on_update="false" label="USAPlantPathologists" sequence="0" value="USAPlantPathologists"/>
+                <element inactive_on_update="false" label="EMEAPlantPathologists" sequence="0" value="EMEAPlantPathologists"/>
+                <element inactive_on_update="false" label="TropicalPlantPathologist" sequence="5" value="tropicalplantpathologist"/>
+                <element inactive_on_update="false" label="EMEAPlantPathologist" sequence="3" value="emeaplantpathologist"/>
+                <element inactive_on_update="false" label="SAPlantPathologist" sequence="2" value="saplantpathologist"/>
+            </choice>
+        </element>
+        <element choice="1" label="Country" mandatory="true" max_length="40" name="country" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="USA" sequence="0" value="usa"/>
+                <element inactive_on_update="false" label="Outdoor" sequence="0" value="Outdoor"/>
+                <element inactive_on_update="false" label="Indoor" sequence="0" value="Indoor"/>
+                <element inactive_on_update="false" label="Australia" sequence="3" value="australia"/>
+                <element inactive="true" inactive_on_update="true" label="Tropical" sequence="1" value="Tropical"/>
+                <element inactive="true" inactive_on_update="true" label="South Africa" sequence="0" value="South Africa"/>
+                <element inactive_on_update="false" label="Indoor/Outdoor" sequence="0" value="Indoor/Outdoor"/>
+                <element inactive_on_update="false" label="Europe" sequence="4" value="europe"/>
+                <element inactive_on_update="false" label="SouthAfrica" sequence="2" value="southafrica"/>
+                <element inactive_on_update="false" label="India" sequence="1" value="india"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_1" type="journal"/>
+        <element label="Fertilizer" max_length="40" name="fertilizer" type="string"/>
+        <element choice="1" label="Plant placed in" mandatory="true" max_length="40" name="plant_placed_in" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Brazil" sequence="0" value="Brazil"/>
+                <element inactive="true" inactive_on_update="true" label="Outdoor (water garden)" sequence="0" value="Outdoor (water garden)"/>
+                <element inactive_on_update="false" label="Indoor/Outdoor" sequence="2" value="indoor/outdoor"/>
+                <element inactive_on_update="false" label="Outdoor" sequence="1" value="outdoor"/>
+                <element inactive_on_update="false" label="Indoor" sequence="0" value="indoor"/>
+            </choice>
+        </element>
+        <element label="Plant Name" mandatory="true" max_length="40" name="plant_name" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <index name="index">
+            <element name="plant_name"/>
+        </index>
+    </element>
+</database>

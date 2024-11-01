@@ -31,6 +31,10 @@
         "table": null,
         "transformScriptSysId": null,
         "view": ""
+    },
+    "1a3364d2439d211017b739603ab8f23e": {
+        "inputData": null,
+        "sortCategoriesArray": null
     }
 }</macroponent_config>
         <screen display_value="Default">92203894c3891a108c3abd33e4013174</screen>
@@ -38,13 +42,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-30 15:50:31</sys_created_on>
         <sys_id>12203894c3891a108c3abd33e4013179</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
         <sys_policy/>
         <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_12203894c3891a108c3abd33e4013179</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-26 06:37:08</sys_updated_on>
+        <sys_updated_on>2024-10-30 16:43:38</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

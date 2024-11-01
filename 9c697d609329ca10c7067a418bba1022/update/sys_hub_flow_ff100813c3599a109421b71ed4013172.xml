@@ -17,7 +17,6 @@
         <internal_name>check_rainfall_everyday</internal_name>
         <label_cache>[{"name":"31c88b22-549d-46a7-b1c2-077d0ce2109b.__dont_treat_as_error__","label":"1 - Check Rainfall data today➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","usedInstances":{"4f1adfa4-e749-4709-bdd0-030262e96b71":["condition"]},"attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"301ef971-52bb-4e92-89d5-012d82c0669f"}}]</label_cache>
         <master_snapshot>a6408053c3599a109421b71ed4013116</master_snapshot>
-        <master_snapshot_digest/>
         <name>Check Rainfall Everyday</name>
         <natlang/>
         <outputs/>
@@ -46,7 +45,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-01 01:34:11</sys_updated_on>
         <type>flow</type>
-        <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=ff100813c3599a109421b71ed4013172"/>
     <sys_variable_value action="delete_multiple" query="document_key=ff100813c3599a109421b71ed4013172"/>
@@ -108,6 +106,7 @@
         <upgrade_safe>true</upgrade_safe>
     </sys_flow_trigger_auto_script>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=ff100813c3599a109421b71ed4013172"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=ff100813c3599a109421b71ed4013172"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=ff100813c3599a109421b71ed4013172^sys_idNOT INbf100813c3599a109421b71ed4013173"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -268,19 +267,7 @@
     <sys_translated_text action="delete_multiple" query="documentkey=a6408053c3599a109421b71ed4013116"/>
     <sys_variable_value action="delete_multiple" query="document_key=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=a6408053c3599a109421b71ed4013116"/>
-    <sys_flow_cat_variable_model action="delete_multiple" query="id=a6408053c3599a109421b71ed4013116^sys_idNOT INa6408053c3599a109421b71ed4013117"/>
-    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
-        <id>a6408053c3599a109421b71ed4013116</id>
-        <name>Check Rainfall Everyday</name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-22 06:18:50</sys_created_on>
-        <sys_id>a6408053c3599a109421b71ed4013117</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 06:18:50</sys_updated_on>
-    </sys_flow_cat_variable_model>
-    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a6408053c3599a109421b71ed4013117"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_flow_input action="delete_multiple" query="model=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_flow_output action="delete_multiple" query="model=a6408053c3599a109421b71ed4013116"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a6408053c3599a109421b71ed4013116"/>
@@ -386,23 +373,6 @@
         <latest_snapshot>a6408053c3599a109421b71ed4013116</latest_snapshot>
         <compiler_build/>
     </sys_hub_flow>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ff100813c3599a109421b71ed4013172^sys_idNOT IN6e408053c3599a109421b71ed4013123"/>
-    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
-        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
-        <plan_id>ff100813c3599a109421b71ed4013172</plan_id>
-        <snapshot>a6408053c3599a109421b71ed4013116</snapshot>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-22 06:18:50</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
-        <sys_id>6e408053c3599a109421b71ed4013123</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_overrides/>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 06:18:50</sys_updated_on>
-        <trigger display_value="">e2408053c3599a109421b71ed4013122</trigger>
-    </sys_flow_trigger_plan>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ff100813c3599a109421b71ed4013172"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ff100813c3599a109421b71ed4013172"/>
 </record_update>

@@ -6,7 +6,6 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
-        <mobile_callable>false</mobile_callable>
         <name>RainUtil</name>
         <script><![CDATA[ var RainUtil = Class.create();
  RainUtil.prototype = {
@@ -81,15 +80,4 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-22 05:52:34</sys_updated_on>
     </sys_script_include>
-    <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>b0a59d03c3995a109421b71ed40131fb</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-21 17:54:06</sys_created_on>
-        <sys_id>51d5d143c3995a109421b71ed401311b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 17:54:06</sys_updated_on>
-        <table>sys_script_include</table>
-        <use_es_latest>true</use_es_latest>
-    </sys_es_latest_script>
 </record_update>

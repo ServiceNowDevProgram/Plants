@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="ReportPlantDisease">709bd4aa830112109822fdc6feaad3d7</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-07 14:16:44</sys_created_on>
+        <sys_id>b8dd146e830112109822fdc6feaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReportPlantDisease.catalog_reportplantdisease</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="">fcdd146e830112109822fdc6feaad382</sys_portal_page>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_b8dd146e830112109822fdc6feaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-07 14:16:44</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

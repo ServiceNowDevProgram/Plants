@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 12:00:00</entered_time>
+        <max_drift/>
+        <name>plant management intimation job</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Ashwin Perumal G">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-10-30 14:33:57</run_start>
+        <run_time>1970-01-01 12:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[/*
+Scheduled job to generate plant watering information which is calculating, Which are the plants are watered more than a day ago, It will collect all the plants info and create that as CSV file.
+That CSV file will get attached to this Scheduled job.
+Then an event is getting triggered which triggers notification to "Plant Management" Group with the CSV file of current plant watered information.
+This scheduled job is scheduled daily, So the "Plant Management" group will get updated sheet every day.
+Note: CSV file will be created with current days plant information with date added to the file name.
+Sample: PlantReport2024-10-29.csv
+*/
+ 
+//Deleting old attachment (Yesterday's report) from the Scheduled job,
+ 
+var scheduledJobId = '155e3e75c32d5610f77799cc0501317e';
+var attachmentGR = new GlideRecord('sys_attachment');
+attachmentGR.addQuery('table_sys_id', scheduledJobId);
+attachmentGR.query();
+ 
+while (attachmentGR.next()) {
+    var gsa = new GlideSysAttachment();
+    gsa.deleteAttachment(attachmentGR.sys_id.toString());
+}
+ 
+//Collecting Plants information which is watered more than a day ago
+ 
+ 
+var allPlants = [];
+var plant = new GlideRecord("x_snc_plant_mgmt_plants");
+plant.addEncodedQuery('date_last_watered!=NULL^ORDERBYDESCnumber');
+//plant.setLimit(10);
+plant.query();
+while (plant.next()) {
+    var waterNeededPlants = {};
+ 
+    //calculating plants which are watered more than a day ago
+ 
+    var currentDate = new GlideDate();
+    var lastWateredDate = new GlideDate();
+    lastWateredDate.setValue(plant.date_last_watered);
+    var duration = GlideDate.subtract(lastWateredDate, currentDate);
+    var time = duration.getDisplayValue();
+    var number = plant.number.getDisplayValue();
+ 
+    // if plants watered more than a day ago then its details is getting added to array
+ 
+    if (time.indexOf('Days') != -1) {
+        gs.info("Found" + plant.number);
+        waterNeededPlants.plantNumber = number;
+        waterNeededPlants.plantName = plant.name.getDisplayValue();
+        waterNeededPlants.plantStatus = plant.status.getDisplayValue();
+        waterNeededPlants.plantLastWatered = time;
+        allPlants.push(waterNeededPlants);
+    }
+}
+ 
+// getting current date to add to CSV file
+ 
+var date = new GlideDate();
+ 
+//Splitting values and storing as CSV in this scheduled job
+ 
+var attachment = new GlideSysAttachment();
+var rec = new GlideRecord('sysauto_script');
+rec.get('155e3e75c32d5610f77799cc0501317e'); // Current scheduled job sys id
+var fileName = 'PlantReport' + date + '.csv';
+var contentType = 'application/csv';
+var csvHeader = ['Plant Number', 'Plant Name', 'Plant Status', 'Last Watered'];
+var csvData = '';
+for (var i = 0; i < csvHeader.length; i++) {
+    csvData += '"' + csvHeader[i] + '"' + ',';
+}
+csvData += '\r\n';
+for (var j = 0; j < allPlants.length; j++) {
+    csvData += '"' + allPlants[j].plantNumber + '"' + "," + '"' + allPlants[j].plantName + '"' + "," + '"' + allPlants[j].plantStatus + '"' + "," + '"' + allPlants[j].plantLastWatered + '"' + "," + '\r\n';
+}
+ 
+ 
+var atc = attachment.write(rec, fileName, contentType, csvData);
+ 
+//gs.info('The attachment sys_id is: ' + agr);
+//if attachment successfully created then it will trigger notification that will send this CSV as attachment to "Plant Management" team.
+ 
+if (atc) {
+    gs.eventQueue('x_snc_plant_mgmt.plant.watering.intimati');
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 14:34:53</sys_created_on>
+        <sys_id>155e3e75c32d5610f77799cc0501317e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>plant management intimation job</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sysauto_script_155e3e75c32d5610f77799cc0501317e</sys_update_name>
+        <sys_updated_by>Ashwin Perumal G</sys_updated_by>
+        <sys_updated_on>2024-10-30 15:43:18</sys_updated_on>
+        <time_zone>floating</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>application/csv</content_type>
+        <file_name>PlantReport2024-10-30.csv</file_name>
+        <hash>07cf49090f0fa72885c9c8cf43c5a9d977d6e7a86e4e69e57451882e9461585b</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>4002</size_bytes>
+        <size_compressed>972</size_compressed>
+        <state>available</state>
+        <sys_created_by>Ashwin Perumal G</sys_created_by>
+        <sys_created_on>2024-10-30 15:35:59</sys_created_on>
+        <sys_id>3d8c837183e1521028007f29feaad3aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-30 15:36:00</sys_updated_on>
+        <table_name>sysauto_script</table_name>
+        <table_sys_id>155e3e75c32d5610f77799cc0501317e</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="PlantReport2024-10-30.csv" sys_id="3d8c837183e1521028007f29feaad3aa">3d8c837183e1521028007f29feaad3aa</sys_attachment>
+        <sys_created_by>Ashwin Perumal G</sys_created_by>
+        <sys_created_on>2024-10-30 15:35:59</sys_created_on>
+        <sys_id>7d8c837183e1521028007f29feaad3aa</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>nVdNbyI5EL2vtP/B4jQjzUimIV9HmEwm2Q1ZFKKNNLei26FrcdusP4J6fv1WGSbpkJXGtMSBBrv6uerVq+fBXIMJ4i42S+UGnwb7R2jUy8MiQIieHm/BB/EIQTlVDT79/ttgfju5e5BSDodjSf8vgkOzEvZJzBU4zVu+WUtLB+fiElovhifi2kbnxehEzNDEoPxBnNEFv1ZBqYRG3dIDfWhb7vYzholPysOzciLhf0UxHGfHOaXlV1hGL25bBwHEFJolGtsr2AmfqUZtK2UqZ42YolujeYF33BGHKVqreXNNAFWz1FhCn2Rz0aagPTTHoii4ThOnShBz0E3/TBfnTByrfUCq+b31qhOlyI7CdZ/4DThYUUqulDO9wIxp+d9KP6tAFA7RIPRCM0zNYI3qlrjI3891maNZi7mzfqMchvYVx1lumCHX6LKOAGJhYK0Oi1TI7EjcDjNrPLU+iEtFfEPr4V3V86FxS8xaLrp4VKBDvctRfoBx6gLQoIzdePTiL1fWWH2Y2VDvv3/ck/o0O2iRuBhDvVV8VOpQh+Vat2JuN5s+JZCcuO9qU7fukJTZbJCM6hobOmsLpB06qkM8w+xKSqYWd5m40nb7PxI5zIwkL5hdO15tetJAXjCaKw0NjQ17iOgYPZLnjGaGDbNyE6s3enhEFBaje0CztFtxjUv0ZfR9knPO9JzGQCR6chF/KkA+EFaQm2cwft2KP2Pzb4Tgy7oDJVfk5flO5A1zZzfPH5xSO0C5wijPODF/QPVOQ7KbS56l0RzLdcuj1NrP3TrnR+GGuqOGCnUbqOv3OdbdZsg/FavQjamsdWJDU6wT4yI7Bld6EVfgSjCqD+lOk0yDKdk7aahaYZN8HbbVKDtgkQLWOk2vo3YyV77VlmzeDsOR+09GPIb/2cJbc5PP+zGXd/IDKnRQ1mS70Lzt5WyijBlKvW9hQWMUPns0yvCo+PClpq9efezMwuzWHif/RVPGdpQhV8xl8rcllOGNrmSfKvnbGThcWV3tBXOX4/wQp0kP/Jo9zmuNsptmVHS9QPXTC/TJBWfy2rbHsjTZ1kU0T53jF9nnT4bzVjVkw8OLEGa/u+Ds3cfl8v3oLLJTmMzLd7V07xxUfgiuwsMWNa5qUvQafdB9nDNZAlr+qPQWecB0/W4+ljTF02XpnkwzTeAp0QOwhz+RMt0r6J6EsTkUwGxNllzih/vJ5dfFF/rtZtJnhMt0pVhpIBvfgHhEX6tOz2Z7HJluf6gVFVuRl7cNWqy6oX4xsP4DbqRqPKIPAAA=</data>
+        <length>1284</length>
+        <position>1</position>
+        <sys_attachment display_value="PlantReport2024-10-30.csv" sys_id="3d8c837183e1521028007f29feaad3aa">3d8c837183e1521028007f29feaad3aa</sys_attachment>
+        <sys_created_by>Ashwin Perumal G</sys_created_by>
+        <sys_created_on>2024-10-30 15:35:59</sys_created_on>
+        <sys_id>fd8c837183e1521028007f29feaad3aa</sys_id>
+    </sys_attachment_doc>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>155e3e75c32d5610f77799cc0501317e</id>
+        <sys_created_by>Ashwin Perumal G</sys_created_by>
+        <sys_created_on>2024-10-30 15:35:57</sys_created_on>
+        <sys_id>dd8ccb3183e1521028007f29feaad3aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Ashwin Perumal G</sys_updated_by>
+        <sys_updated_on>2024-10-30 15:35:57</sys_updated_on>
+        <table>sysauto_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

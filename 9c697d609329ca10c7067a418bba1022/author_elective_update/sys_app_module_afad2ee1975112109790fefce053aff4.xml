@@ -108,7 +108,7 @@
         <update_guid_history>78c86088d72112107b874f94bcbe3ff6:-635924671</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Plant Diseases">c89b288883211210fd50f8f6feaad3c2</sys_audit_delete>
+        <sys_audit_delete display_value="">c89b288883211210fd50f8f6feaad3c2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-24 17:23:20</sys_created_on>
