@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_snc_plant_mgmt_plant_trading,x_snc_plant_mgmt_plants,x_snc_plant_mgmt_tasks,x_snc_plant_mgmt_plant_wiki,x_snc_plant_mgmt_plant_diseases,x_snc_plant_mgmt_plantpathologist</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>plant-management-workspace Search Profile Default Spell Check Dictionary</label>
+        <last_derived/>
+        <locale>en</locale>
+        <name>x_snc_plant_mgmt_plant_management_workspace_search_profile_default_spell_check_dictionary</name>
+        <publish_id/>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>DRAFT</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 05:50:37</sys_created_on>
+        <sys_id>a2b9535ac361d2102c7bbe13e401310c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_snc_plant_mgmt_plant_management_workspace_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>ais_dictionary_a2b9535ac361d2102c7bbe13e401310c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 05:50:37</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>
