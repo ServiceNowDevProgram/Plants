@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="97b9935ac361d2102c7bbe13e40131a0" sys_domain="global" table="x_snc_plant_mgmt_plants" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-01 05:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7b9935ac361d2102c7bbe13e40131a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plant_mgmt_plants" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">97b9935ac361d2102c7bbe13e40131a0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">27b9935ac361d2102c7bbe13e40131a4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-01 05:50:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-01 05:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23b9935ac361d2102c7bbe13e40131d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plant_mgmt_plants" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">97b9935ac361d2102c7bbe13e40131a0</sys_ui_form>
+            <sys_ui_section caption="Watering schedule" display_value="Watering schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">6bb9935ac361d2102c7bbe13e40131d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-01 05:50:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-01 05:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67b9935ac361d2102c7bbe13e40131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plant_mgmt_plants" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">97b9935ac361d2102c7bbe13e40131a0</sys_ui_form>
+            <sys_ui_section caption="Fertilising schedule" display_value="Fertilising schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">efb9935ac361d2102c7bbe13e40131d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-01 05:50:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-01 05:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7b9935ac361d2102c7bbe13e40131ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plant_mgmt_plants" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">97b9935ac361d2102c7bbe13e40131a0</sys_ui_form>
+            <sys_ui_section caption="Pruning schedule" display_value="Pruning schedule" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">abb9935ac361d2102c7bbe13e40131dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-01 05:50:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-01 05:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afb9935ac361d2102c7bbe13e40131ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plant_mgmt_plants" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">97b9935ac361d2102c7bbe13e40131a0</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">2bb9935ac361d2102c7bbe13e40131ed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-01 05:50:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-01 05:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bb9935ac361d2102c7bbe13e40131f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plant_mgmt_plants" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">97b9935ac361d2102c7bbe13e40131a0</sys_ui_form>
+            <sys_ui_section caption="Static Plant Data" display_value="Static Plant Data" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">e3b9935ac361d2102c7bbe13e40131f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-01 05:50:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-01 08:50:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b803cce2c329d2102c7bbe13e4013123</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_plant_mgmt_plants" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">97b9935ac361d2102c7bbe13e40131a0</sys_ui_form>
+            <sys_ui_section caption="Pottery Details" display_value="Pottery Details" name="x_snc_plant_mgmt_plants" sys_domain="global" view="74b99f1a9d61d210c4249ce6a0d6a336">e3b9d35ac361d2102c7bbe13e4013103</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-01 08:50:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_plant_mgmt_plants</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-01 05:50:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97b9935ac361d2102c7bbe13e40131a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_plant_mgmt_plants</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+            <sys_update_name>sys_ui_form_sections_97b9935ac361d2102c7bbe13e40131a0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-01 05:50:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Plant Management 1" name="workspace-plant-management-1">74b99f1a9d61d210c4249ce6a0d6a336</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

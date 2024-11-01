@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_plant_mgmt.Audience for app plant-management-workspace</api_name>
+        <description/>
+        <name>Audience for app plant-management-workspace</name>
+        <role_names/>
+        <roles>2fd9b5a09329ca10c7067a418bba1075,6fd9bda09329ca10c7067a418bba1022,636fc838938d5210f438bd6cebba1084,6bd9b9209329ca10c7067a418bba104d,209c531d830112109822fdc6feaad359,17ad2ee1975112109790fefce053afed,8e4084d1c321d21017637205e401314e,77e3e751838112109822fdc6feaad335,0c54920f834152100354f2d6feaad3d2</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 05:50:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>35b9df1ac361d2102c7bbe13e401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app plant-management-workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sys_ux_applicability_35b9df1ac361d2102c7bbe13e401316d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 05:50:34</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

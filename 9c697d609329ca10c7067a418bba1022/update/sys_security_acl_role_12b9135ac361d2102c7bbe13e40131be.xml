@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 05:50:36</sys_created_on>
+        <sys_id>12b9135ac361d2102c7bbe13e40131be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.plant-management-workspace.*.x_snc_plant_mgmt.plant_diseases_user</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_security_acl display_value="now.plant-management-workspace.*">f8b99f1a9161d210d7f82b9f7d70db36</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_12b9135ac361d2102c7bbe13e40131be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 05:50:36</sys_updated_on>
+        <sys_user_role display_value="x_snc_plant_mgmt.plant_diseases_user" name="x_snc_plant_mgmt.plant_diseases_user">17ad2ee1975112109790fefce053afed</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
