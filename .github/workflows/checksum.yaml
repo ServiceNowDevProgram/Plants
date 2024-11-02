@@ -1,0 +1,39 @@
+name: Delete Checksum Files
+on:
+  push:
+    paths:
+      - '**/checksum.txt'
+  workflow_dispatch:
+
+jobs:
+  delete_files:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+
+    - name: Delete checksum files
+      run: |
+        npm install @actions/glob @actions/io
+        node -e "
+          const glob = require('@actions/glob');
+          const io = require('@actions/io');
+          const { execSync } = require('child_process');
+          (async () => {
+            const pattern = '**/checksum.txt';
+            const globber = await glob.create(pattern);
+            for await (const file of globber.globGenerator()) {
+              await io.rmRF(file);
+              console.log('Deleted: ' + file);
+            }
+            execSync('git config --global user.name \"github-actions[bot]\"');
+            execSync('git config --global user.email \"github-actions[bot]@users.noreply.github.com\"');
+            execSync('git add \"*checksum.txt\"');
+            execSync('git commit -m \"Delete checksum files\"');
+            execSync('git push');
+          })();
+        "
