@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <activity_stages>{"stages":{},"ends":["c544bde7c39d12103ac9f0477d0131fc"],"activities":{},"subflows":[]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
@@ -31,9 +31,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-23 09:24:01</sys_created_on>
         <sys_id>ea34b12bc39d12103ac9f0477d01312a</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-23 09:37:57</sys_updated_on>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_updated_by>asteroid</sys_updated_by>
+        <sys_updated_on>2024-11-03 01:24:07</sys_updated_on>
         <table>sc_req_item</table>
         <timezone/>
         <validated>true</validated>
